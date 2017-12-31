@@ -478,17 +478,8 @@
 				<aligny>center</aligny>
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsDuration</textcolor>
-				<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-				<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
-			</control>
-			<control type="label">
-				<width min="25" max="220">auto</width>
-				<height>30</height>
-				<aligny>center</aligny>
-				<font>METF_MediaDetailsSmall</font>
-				<textcolor>MediaDetailsDuration</textcolor>
 				<label>$INFO[ListItem.Duration]</label>
-				<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
+				<visible>!IsEmpty(ListItem.Duration) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 		</control>
 

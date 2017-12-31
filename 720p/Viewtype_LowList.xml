@@ -467,33 +467,7 @@
 					<align>left</align>
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsDuration</textcolor>
-					<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-					<visible>String.Contains(listitem.Duration,hrs)</visible>
-					<visible>Container.Content(episodes) + !IsEmpty(listitem.Duration)</visible>
-				</control>
-				<control type="label">
-					<posx>365</posx>
-					<posy>380</posy>
-					<width>225</width>
-					<height>27</height>
-					<align>left</align>
-					<font>METF_MediaDetails</font>
-					<textcolor>MediaDetailsDuration</textcolor>
 					<label>$INFO[ListItem.Duration]</label>
-					<visible>String.Contains(listitem.Duration,min)</visible>
-					<visible>!String.Contains(listitem.Duration,hrs)</visible>
-					<visible>Container.Content(episodes) + !IsEmpty(listitem.Duration)</visible>
-				</control>
-				<control type="label">
-					<posx>365</posx>
-					<posy>380</posy>
-					<width>225</width>
-					<height>27</height>
-					<align>left</align>
-					<font>METF_MediaDetails</font>
-					<textcolor>MediaDetailsDuration</textcolor>
-					<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-					<visible>!String.Contains(listitem.Duration,min)</visible>
 					<visible>Container.Content(episodes) + !IsEmpty(listitem.Duration)</visible>
 				</control>
 				<!-- Tagline -->
