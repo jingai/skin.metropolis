@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<defaultcontrol always="true">9</defaultcontrol>
+	<defaultcontrol always="true">3</defaultcontrol>
 	<include>Animation_OpenCloseFade</include>
 	<coordinates>
 		<system>1</system>
@@ -34,10 +34,10 @@
 				<width>840</width>
 				<height>380</height>
 				<itemgap>0</itemgap>
-				<onleft>10</onleft>
-				<onright>10</onright>
-				<onup>10</onup>
-				<ondown>10</ondown>
+				<onleft>28</onleft>
+				<onright>28</onright>
+				<onup>28</onup>
+				<ondown>28</ondown>
 			</control>
 			<control type="button" id="7">
 				<description>Default Button</description>
@@ -80,10 +80,10 @@
 				<height>230</height>
 				<itemgap>0</itemgap>
 				<scrolltime>0</scrolltime>
-				<onleft>2</onleft>
-				<onright>2</onright>
-				<onup>10</onup>
-				<ondown>12</ondown>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>28</onup>
+				<ondown>30</ondown>
 				<orientation>vertical</orientation>
 			</control>
 			<control type="button" id="10">
@@ -97,10 +97,10 @@
 					<posy>240</posy>
 					<include>SettingsLabelLeft</include>
 					<label>$LOCALIZE[409]</label>
-					<onleft>2</onleft>
-					<onright>2</onright>
-					<onup>9</onup>
-					<ondown>11</ondown>
+					<onleft>5</onleft>
+					<onright>5</onright>
+					<onup>3</onup>
+					<ondown>29</ondown>
 				</control>
 				<control type="button" id="29">
 					<description>Cancel</description>
@@ -108,10 +108,10 @@
 					<posy>278</posy>
 					<include>SettingsLabelLeft</include>
 					<label>$LOCALIZE[222]</label>
-					<onleft>2</onleft>
-					<onright>2</onright>
-					<onup>12</onup>
-					<ondown>10</ondown>
+					<onleft>5</onleft>
+					<onright>5</onright>
+					<onup>30</onup>
+					<ondown>28</ondown>
 				</control>
 				<control type="button" id="28">
 					<description>Ok</description>
@@ -119,10 +119,10 @@
 					<posy>316</posy>
 					<include>SettingsLabelLeft</include>
 					<label>$LOCALIZE[186]</label>
-					<onleft>2</onleft>
-					<onright>2</onright>
-					<onup>11</onup>
-					<ondown>9</ondown>
+					<onleft>5</onleft>
+					<onright>5</onright>
+					<onup>29</onup>
+					<ondown>3</ondown>
 				</control>
 			</control>
 			<control type="image">
