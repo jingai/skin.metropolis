@@ -369,9 +369,9 @@
 					<width>60</width>
 					<texturefocus>osd/osd_button_record_off_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_record_off_nf.png</texturenofocus>
-					<onclick>PlayerControl(record)</onclick>
-					<enable>Player.CanRecord</enable>
-					<visible>Player.CanRecord + !Player.Recording</visible>
+					<onclick>PVR.ToggleRecordPlayingChannel</onclick>
+					<enable>PVR.CanRecordPlayingChannel</enable>
+					<visible>PVR.CanRecordPlayingChannel + !PVR.IsRecordingPlayingChannel</visible>
 				</control>
 				<control type="button" id="113">
 					<description>Record</description>
@@ -380,9 +380,9 @@
 					<width>60</width>
 					<texturefocus>osd/osd_button_record_on_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_record_on_nf.png</texturenofocus>
-					<onclick>PlayerControl(record)</onclick>
-					<enable>Player.CanRecord</enable>
-					<visible>Player.CanRecord + Player.Recording</visible>
+					<onclick>PVR.ToggleRecordPlayingChannel</onclick>
+					<enable>PVR.CanRecordPlayingChannel</enable>
+					<visible>PVR.CanRecordPlayingChannel + PVR.IsRecordingPlayingChannel</visible>
 				</control>
 				<control type="button" id="120">
 					<description>Video Settings</description>
