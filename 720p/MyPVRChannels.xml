@@ -32,7 +32,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<font>METF_PVRChannelList</font>
-							<info>ListItem.ChannelNumber</info>
+							<info>ListItem.ChannelNumberLabel</info>
 						</control>
 						<control type="label">
 							<description>Channel name label</description>
@@ -93,7 +93,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<font>METF_PVRChannelList</font>
-							<info>ListItem.ChannelNumber</info>
+							<info>ListItem.ChannelNumberLabel</info>
 						</control>
 						<control type="label">
 							<description>Channel name label</description>
