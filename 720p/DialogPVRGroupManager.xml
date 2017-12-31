@@ -6,7 +6,7 @@
 
 		<!-- TV Channels Groups list -->
 		<control type="group">
-			<posx>290</posx>
+			<posx>310</posx>
 			<posy>70</posy>
 			<control type="label">
 				<description>Group Name</description>
@@ -155,7 +155,7 @@
 		<!-- TV Channels list for current group-->
  		<control type="group">
 			<description>TV Channels list for current group</description>
-			<posx>925</posx>
+			<posx>825</posx>
 			<posy>70</posy>
 			<control type="label" id="20">
 				<description>Hidden Label used to store current group name</description>
@@ -165,7 +165,7 @@
 				<description>TV Channel Name</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>300</width>
+				<width>400</width>
 				<height>38</height>
 				<include>SettingsLabel</include>
 				<label>$INFO[Control.GetLabel(20),, :]</label>
@@ -173,7 +173,7 @@
 			<control type="list" id="12">
 				<posx>5</posx>
 				<posy>50</posy>
-				<width>300</width>
+				<width>400</width>
 				<height>400</height>
 				<onleft>71</onleft>
 				<onright>72</onright>
@@ -189,7 +189,7 @@
 					<control type="label">
 						<posx>45</posx>
 						<posy>0</posy>
-						<width>250</width>
+						<width>350</width>
 						<height>35</height>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -216,7 +216,7 @@
 					<control type="label">
 						<posx>45</posx>
 						<posy>0</posy>
-						<width>250</width>
+						<width>350</width>
 						<height>35</height>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -241,7 +241,7 @@
 
 		<!-- Menu group -->
 		<control type="grouplist">
-			<posx>-110</posx>
+			<posx>-70</posx>
 			<posy>186</posy>
 			<itemgap>12</itemgap>
 			<orientation>vertical</orientation>
@@ -269,17 +269,38 @@
 			</control>
 			<control type="radiobutton" id="25">
 				<description>Hide Group</description>
-				<width>340</width>
-				<align>left</align>
+				<width>380</width>
+				<height>38</height>
+				<align>right</align>
 				<aligny>center</aligny>
-				<font>METF_DialogLarge</font>
-				<textoffsetx>20</textoffsetx>
-				<textcolor>TextNF</textcolor>
-				<focusedcolor>DialogTextFO</focusedcolor>
-				<disabledcolor>TextDisabled</disabledcolor>
-				<texturefocus>ButtonFO2Wide.png</texturefocus>
+				<radiowidth>55</radiowidth>
+				<radioheight>55</radioheight>
+				<texturefocus>ButtonFO.png</texturefocus>
 				<texturenofocus></texturenofocus>
+				<textureradioonfocus>buttons/button_radio_on.png</textureradioonfocus>
+				<textureradioonnofocus>buttons/button_radio_on.png</textureradioonnofocus>
+				<textureradioofffocus>buttons/button_radio_off.png</textureradioofffocus>
+				<textureradiooffnofocus>buttons/button_radio_off.png</textureradiooffnofocus>
+				<textureradioondisabled colordiffuse="40FFFFFF">buttons/button_radio_on.png</textureradioondisabled>
+				<textureradiooffdisabled colordiffuse="40FFFFFF">buttons/button_radio_off.png</textureradiooffdisabled>
+				<textureup>ArrowUpNF.png</textureup>
+				<texturedown>ArrowDownNF.png</texturedown>
+				<textureupfocus>ArrowUpFO.png</textureupfocus>
+				<texturedownfocus>ArrowDownFO.png</texturedownfocus>
+				<font>METF_TitleTextMedium</font>
+				<textcolor>SettingsDetail</textcolor>
+				<focusedcolor>DialogTextFO</focusedcolor>
+				<selectedcolor>TextFO</selectedcolor>
+				<disabledcolor>TextDisabled</disabledcolor>
+				<textoffsetx>60</textoffsetx>
 				<label>19289</label>
+			</control>
+			<control type="togglebutton" id="34">
+				<description>TV/Radio toggle</description>
+				<include>SettingsLabelLeft</include>
+				<label>$LOCALIZE[19174]</label>
+				<altlabel>$LOCALIZE[19173]</altlabel>
+				<usealttexture>!String.IsEmpty(Window.Property(IsRadio))</usealttexture>
 			</control>
 		</control>
 
