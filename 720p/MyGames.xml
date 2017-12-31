@@ -34,13 +34,13 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>METF_DialogLarge</font>
-					<label>-</label>
+					<label></label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>TextNF</textcolor>
 					<focusedcolor>DialogTextFO</focusedcolor>
 					<disabledcolor>TextDisabled</disabledcolor>
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<pulseonselect>false</pulseonselect>
 				</control>
 				<control type="button" id="3">
@@ -50,13 +50,13 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>METF_DialogLarge</font>
-					<label>-</label>
+					<label></label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>TextNF</textcolor>
 					<focusedcolor>DialogTextFO</focusedcolor>
 					<disabledcolor>TextDisabled</disabledcolor>
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<pulseonselect>false</pulseonselect>
 				</control>
 				<control type="togglebutton" id="4">
@@ -72,8 +72,8 @@
 					<focusedcolor>DialogTextFO</focusedcolor>
 					<disabledcolor>TextDisabled</disabledcolor>
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
-					<alttexturenofocus border="2">-</alttexturenofocus>
+					<texturenofocus></texturenofocus>
+					<alttexturenofocus border="2"></alttexturenofocus>
 					<alttexturefocus border="5">ButtonFO2.png</alttexturefocus>
 					<aligny>center</aligny>
 					<pulseonselect>false</pulseonselect>
@@ -91,7 +91,7 @@
 					<focusedcolor>DialogTextFO</focusedcolor>
 					<disabledcolor>TextDisabled</disabledcolor>
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<visible>[Container.CanFilterAdvanced + Skin.HasSetting(SimpleMediaFilter)] | Container.CanFilter</visible>
 				</control>
 				<control type="radiobutton" id="20">
@@ -106,7 +106,7 @@
 					<focusedcolor>DialogTextFO</focusedcolor>
 					<disabledcolor>TextDisabled</disabledcolor>
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<selected>Container.Filtered</selected>
 					<onclick>right</onclick>
 					<onclick>Filter</onclick>
