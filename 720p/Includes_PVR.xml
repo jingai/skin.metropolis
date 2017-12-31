@@ -250,7 +250,7 @@
 			<texturefocus>ButtonFO2Wide.png</texturefocus>
 			<texturenofocus></texturenofocus>
 			<label>$LOCALIZE[20367]</label>
-			<label2>[B]$INFO[Container.NonFolderItems][/B]</label2>
+			<label2>[B]$INFO[Container.NumNonFolderItems][/B]</label2>
 			<visible>Window.IsActive(MyPVRRecordings.xml)</visible>
 		</control>
 	</include>		
