@@ -307,7 +307,6 @@
 				<content>
 					<item>
 						<label>$LOCALIZE[31471]</label>
-						<onclick>noop</onclick>
 						<visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)</visible>
 					</item>
 					<item>

@@ -63,52 +63,42 @@
 					<item id="1">
 						<description>General</description>
 						<label>$LOCALIZE[128]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="4">
 						<description>Image Resources</description>
 						<label>$LOCALIZE[31325]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="2">
 						<description>Home Options</description>
 						<label>$LOCALIZE[31324]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="3">
 						<description>View Options</description>
 						<label>$LOCALIZE[31001]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="5">
 						<description>View Types</description>
 						<label>$LOCALIZE[31440]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="6">
 						<description>Scripts and Extra Images</description>
 						<label>$LOCALIZE[31330]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="7">
 						<description>Video Settings</description>
 						<label>$LOCALIZE[31420]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="8">
 						<description>Music Settings</description>
 						<label>$LOCALIZE[31419]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="11">
 						<description>Picture Settings</description>
 						<label>$LOCALIZE[31445]</label>
-						<onclick>noop</onclick>
 					</item>
 					<item id="9">
 						<description>Debug</description>
 						<label>$LOCALIZE[31004]</label>
-						<onclick>noop</onclick>
 					</item>
 				</content>
 			</control>

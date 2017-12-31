@@ -4142,7 +4142,6 @@
 							<label2>$INFO[Window.Property(Map.1.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.1.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.1.Layer)]</property>
-							<onclick>noop</onclick>
 							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.1.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
@@ -4150,7 +4149,6 @@
 							<label2>$INFO[Window.Property(Map.2.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.2.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.2.Layer)]</property>
-							<onclick>noop</onclick>
 							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.2.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
@@ -4158,7 +4156,6 @@
 							<label2>$INFO[Window.Property(Map.3.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.3.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.3.Layer)]</property>
-							<onclick>noop</onclick>
 							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.3.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
@@ -4166,7 +4163,6 @@
 							<label2>$INFO[Window.Property(Map.4.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.4.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.4.Layer)]</property>
-							<onclick>noop</onclick>
 							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.4.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
@@ -4174,7 +4170,6 @@
 							<label2>$INFO[Window.Property(Map.5.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.5.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.5.Layer)]</property>
-							<onclick>noop</onclick>
 							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.5.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 					</content>
