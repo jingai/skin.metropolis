@@ -170,14 +170,14 @@
 			<control type="label">
 				<label>$INFO[Container.CurrentItem,$LOCALIZE[31277] ]$INFO[Container.NumItems, $LOCALIZE[20163] ]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>IntegerGreaterThan(Container.NumItems, 1) + [!Window.IsActive(systeminfo) | Control.HasFocus(998) | Container.Scrolling]</visible>
+				<visible>Integer.IsGreater(Container.NumItems, 1) + [!Window.IsActive(systeminfo) | Control.HasFocus(998) | Container.Scrolling]</visible>
 			</control>
 		</control>
 	</include>
 	<!-- SortLetter popup when scrolling through lists quickly -->
 	<include name="Global_ScrollOffsetLabel">
 		<control type="group" id="9906">
-			<visible>[Container(28).Scrolling | Container.Scrolling] + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[556]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[558])]</visible>
+			<visible>[Container(28).Scrolling | Container.Scrolling] + [String.IsEqual(Container.SortMethod,$LOCALIZE[551]) | String.IsEqual(Container.SortMethod,$LOCALIZE[561]) | String.IsEqual(Container.SortMethod,$LOCALIZE[556]) | String.IsEqual(Container.SortMethod,$LOCALIZE[557]) | String.IsEqual(Container.SortMethod,$LOCALIZE[558])]</visible>
 			<animation effect="slide" start="0,0" end="0,-69" time="100">Visible</animation>
 			<animation effect="slide" start="0,-69" end="0,0" delay="800" time="100">Hidden</animation>
 			<posx>290r</posx>
@@ -378,7 +378,7 @@
 	<!-- Plot to show in all video viewtypes but NOT Video Info screen -->
 	<include name="Global_VideoPlot">
 		<control type="group" id="9900">
-			<visible>!Skin.HasSetting(Hide_Plot) + [Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes) | Container.Content(MusicVideos) | SubString(Container.FolderPath,plugin)]</visible>
+			<visible>!Skin.HasSetting(Hide_Plot) + [Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes) | Container.Content(MusicVideos) | String.Contains(Container.FolderPath,plugin)]</visible>
 			<include>PlotBox</include>
 		</control>
 	</include>
@@ -394,7 +394,7 @@
 	<!-- Addon Description -->
 	<include name="Global_AddonInfo">
 		<control type="group">
-			<visible>Container.Content(Addons) | SubString(Container.FolderPath,advanced.launcher)</visible>
+			<visible>Container.Content(Addons) | String.Contains(Container.FolderPath,advanced.launcher)</visible>
 			<include>PlotBox</include>
 		</control>
 	</include>
@@ -630,7 +630,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-			<visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<control type="label">
 			<width min="25" max="1200">auto</width>
@@ -639,7 +639,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration]</label>
-			<visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<!-- Bullet -->
 		<control type="image">
@@ -696,7 +696,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-			<visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<control type="label">
 			<width min="25" max="1200">auto</width>
@@ -705,7 +705,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration]</label>
-			<visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<!-- Bullet -->
 		<control type="image">
@@ -760,7 +760,7 @@
 			<font>METF_MediaDetails</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-			<visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(albums) | Container.Content(songs)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(albums) | Container.Content(songs)]</visible>
 		</control>
 		<control type="label">
 			<width min="25" max="300">auto</width>
@@ -768,7 +768,7 @@
 			<font>METF_MediaDetails</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration]</label>
-			<visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(albums) | Container.Content(songs)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(albums) | Container.Content(songs)]</visible>
 		</control>
 		<!-- Bullet -->
 		<control type="image">
@@ -809,7 +809,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-			<visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<control type="label">
 			<width min="25" max="260">auto</width>
@@ -818,7 +818,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration]</label>
-			<visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<!-- Bullet -->
 		<control type="image">
@@ -860,7 +860,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-			<visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<control type="label">
 			<width min="25" max="1200">auto</width>
@@ -869,7 +869,7 @@
 			<font>METF_MediaDetailsSmall</font>
 			<textcolor>MediaDetailsDuration</textcolor>
 			<label>$INFO[ListItem.Duration]</label>
-			<visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 		<!-- Bullet -->
 		<control type="image">
@@ -1409,7 +1409,7 @@
 		       <pulseonselect>false</pulseonselect>
 		       <onclick>right</onclick>
 		       <onclick>$VAR[GoPlaylist]</onclick>
-		       <visible>[Window.IsActive(videos) + !StringCompare(Playlist.Length(video),0)] | [Window.IsActive(music) + !StringCompare(Playlist.Length(music),0)]</visible>
+		       <visible>[Window.IsActive(videos) + !String.IsEqual(Playlist.Length(video),0)] | [Window.IsActive(music) + !String.IsEqual(Playlist.Length(music),0)]</visible>
 		       <visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist)</visible>
 	       </control>
 	       <control type="button" id="611">
@@ -1561,7 +1561,7 @@
 				<scrollspeed>40</scrollspeed>
 				<scroll>true</scroll>
 				<label>$VAR[VideoPlayerTitle]</label>
-				<animation effect="slide" end="0,25" condition="[!VideoPlayer.Content(MusicVideos) + IsEmpty(VideoPlayer.Tagline) + !IntegerGreaterThan(Player.ChapterCount,1)] | [VideoPlayer.Content(MusicVideos) + IsEmpty(VideoPlayer.Artist) + IsEmpty(VideoPlayer.Album)]">Conditional</animation>
+				<animation effect="slide" end="0,25" condition="[!VideoPlayer.Content(MusicVideos) + IsEmpty(VideoPlayer.Tagline) + !Integer.IsGreater(Player.ChapterCount,1)] | [VideoPlayer.Content(MusicVideos) + IsEmpty(VideoPlayer.Artist) + IsEmpty(VideoPlayer.Album)]">Conditional</animation>
 			</control>
 			<!-- Chapter Info, Movie Tagline, or Music Video Artist/Album -->
 			<control type="fadelabel">
@@ -1580,7 +1580,7 @@
 				<label>$VAR[VideoPlayerTitle2]</label>
 			</control>
 			<control type="group">
-				<visible>!SubString(Player.FolderPath,http,Left)</visible>
+				<visible>!String.StartsWith(Player.FolderPath,http)</visible>
 				<!-- TV Show Poster / Logo / Clearart -->
 				<control type="image">
 					<description>TV Show Thumbnail</description>
@@ -1590,7 +1590,7 @@
 					<height>318</height>
 					<texture background="true">$INFO[Player.Art(tvshow.poster)]</texture>
 					<aspectratio scalediffuse="false">scale</aspectratio>
-					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default,Left) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
+					<visible>VideoPlayer.Content(Episodes) + !String.StartsWith(VideoPlayer.Cover,default) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
 				</control>
 				<control type="image">
 					<description>TV Show Thumbnail Frame</description>
@@ -1600,7 +1600,7 @@
 					<height>358</height>
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<aspectratio>stretch</aspectratio>
-					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default,Left) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
+					<visible>VideoPlayer.Content(Episodes) + !String.StartsWith(VideoPlayer.Cover,default) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
 				</control>
 				<control type="image">
 					<description>TV Show Clear Art/Logo</description>
@@ -1621,7 +1621,7 @@
 					<height>318</height>
 					<texture background="true">$INFO[VideoPlayer.Cover]</texture>
 					<aspectratio scalediffuse="false">scale</aspectratio>
-					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default,Left)</visible>
+					<visible>VideoPlayer.Content(Movies) + !String.StartsWith(VideoPlayer.Cover,default)</visible>
 				</control>
 				<control type="image">
 					<description>Movie Poster Frame</description>
@@ -1631,7 +1631,7 @@
 					<height>358</height>
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<aspectratio>stretch</aspectratio>
-					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default,Left)</visible>
+					<visible>VideoPlayer.Content(Movies) + !String.StartsWith(VideoPlayer.Cover,default)</visible>
 				</control>
 				<!-- Music Video Thumbnail -->
 				<control type="image">
@@ -1644,7 +1644,7 @@
 					<bordertexture border="6">frames/thumb_border_round.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
-					<visible>VideoPlayer.Content(MusicVideos) + !SubString(VideoPlayer.Cover,default,Left)</visible>
+					<visible>VideoPlayer.Content(MusicVideos) + !String.StartsWith(VideoPlayer.Cover,default)</visible>
 				</control>
 				<!-- LiveTV Channel Icon -->
 				<control type="image">
@@ -1659,7 +1659,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>SubString(Player.FolderPath,http,Left)</visible>
+				<visible>String.StartsWith(Player.FolderPath,http)</visible>
 				<!-- Default Thumbnail -->
 				<control type="image">
 					<description>Default Thumbnail</description>
@@ -1671,7 +1671,7 @@
 					<bordertexture border="6">frames/thumb_border_round.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
-					<visible>!SubString(VideoPlayer.Cover,default,Left)</visible>
+					<visible>!String.StartsWith(VideoPlayer.Cover,default)</visible>
 				</control>
 			</control>
 		</control>
@@ -1727,7 +1727,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$INFO[Player.Chapter,$LOCALIZE[21396]: ]$INFO[Player.ChapterCount, / ]</label>
-				<visible>IntegerGreaterThan(Player.ChapterCount,1) + !VideoPlayer.Content(LiveTV)</visible>
+				<visible>Integer.IsGreater(Player.ChapterCount,1) + !VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<!-- Finish Time -->
 			<control type="label">
@@ -1775,24 +1775,24 @@
 			<label>$INFO[System.Time]</label>
 			<include>Animation_CommonFade</include>
 			<include>Animation_FadedByOSDSettings</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),5)">Animation_FadeOSD5</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),10)">Animation_FadeOSD10</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),15)">Animation_FadeOSD15</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),20)">Animation_FadeOSD20</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),25)">Animation_FadeOSD25</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),5)">Animation_FadeOSD5</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),10)">Animation_FadeOSD10</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),15)">Animation_FadeOSD15</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),20)">Animation_FadeOSD20</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),25)">Animation_FadeOSD25</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
 		</control>
 	</include>
 	<include name="OSD_Player_Details">
 		<control type="group">
 			<include>Animation_CommonFade</include>
 			<include>Animation_FadedByOSDSettings</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),5)">Animation_FadeOSD5</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),10)">Animation_FadeOSD10</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),15)">Animation_FadeOSD15</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),20)">Animation_FadeOSD20</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),25)">Animation_FadeOSD25</include>
-			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),5)">Animation_FadeOSD5</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),10)">Animation_FadeOSD10</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),15)">Animation_FadeOSD15</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),20)">Animation_FadeOSD20</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),25)">Animation_FadeOSD25</include>
+			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
@@ -1870,12 +1870,12 @@
 			<posy>0</posy>
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByOSDSettings</include>
-			<include condition="!StringCompare(Skin.String(OSDFade),Disabled) + StringCompare(Skin.String(OSDFadeTime),5)">Animation_FadeOSD5</include>
-			<include condition="!StringCompare(Skin.String(OSDFade),Disabled) + StringCompare(Skin.String(OSDFadeTime),10)">Animation_FadeOSD10</include>
-			<include condition="!StringCompare(Skin.String(OSDFade),Disabled) + StringCompare(Skin.String(OSDFadeTime),15)">Animation_FadeOSD15</include>
-			<include condition="!StringCompare(Skin.String(OSDFade),Disabled) + StringCompare(Skin.String(OSDFadeTime),20)">Animation_FadeOSD20</include>
-			<include condition="!StringCompare(Skin.String(OSDFade),Disabled) + StringCompare(Skin.String(OSDFadeTime),25)">Animation_FadeOSD25</include>
-			<include condition="!StringCompare(Skin.String(OSDFade),Disabled) + StringCompare(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
+			<include condition="!String.IsEqual(Skin.String(OSDFade),Disabled) + String.IsEqual(Skin.String(OSDFadeTime),5)">Animation_FadeOSD5</include>
+			<include condition="!String.IsEqual(Skin.String(OSDFade),Disabled) + String.IsEqual(Skin.String(OSDFadeTime),10)">Animation_FadeOSD10</include>
+			<include condition="!String.IsEqual(Skin.String(OSDFade),Disabled) + String.IsEqual(Skin.String(OSDFadeTime),15)">Animation_FadeOSD15</include>
+			<include condition="!String.IsEqual(Skin.String(OSDFade),Disabled) + String.IsEqual(Skin.String(OSDFadeTime),20)">Animation_FadeOSD20</include>
+			<include condition="!String.IsEqual(Skin.String(OSDFade),Disabled) + String.IsEqual(Skin.String(OSDFadeTime),25)">Animation_FadeOSD25</include>
+			<include condition="!String.IsEqual(Skin.String(OSDFade),Disabled) + String.IsEqual(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
 			<!-- Background Image -->
 			<control type="image">
 				<width>1280</width>

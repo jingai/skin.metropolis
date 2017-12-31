@@ -183,13 +183,6 @@
 						<onclick>Skin.ToggleSetting(SimpleMediaFilter)</onclick>
 						<selected>Skin.HasSetting(SimpleMediaFilter)</selected>
 					</control>
-					<control type="radiobutton" id="110">
-						<include>SettingsLabel</include>
-						<label>$LOCALIZE[15016]</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoGamesButton)</onclick>
-						<selected>!Skin.HasSetting(HomeMenuNoGamesButton)</selected>
-						<visible>System.GetBool(gamesgeneral.enable)</visible>
-					</control>
 				</control>
 
 				<!-- Image Resources -->
@@ -410,9 +403,9 @@
 						<onfocus condition="IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,2)</onfocus>
 						<label2>$INFO[Skin.String(BannerViewHeight)]</label2>
 						<label>$LOCALIZE[31483]</label>
-						<onclick condition="StringCompare(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,3)</onclick>
-						<onclick condition="StringCompare(Skin.String(BannerViewHeight),3)">Skin.SetString(BannerViewHeight,4)</onclick>
-						<onclick condition="StringCompare(Skin.String(BannerViewHeight),4)">Skin.SetString(BannerViewHeight,2)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,3)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),3)">Skin.SetString(BannerViewHeight,4)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),4)">Skin.SetString(BannerViewHeight,2)</onclick>
 					</control>
 					<control type="radiobutton" id="516">
 						<include>SettingsLabel</include>
@@ -669,22 +662,22 @@
 						<onfocus condition="IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Disabled)</onfocus>
 						<label2>$INFO[Skin.String(OSDFade)]</label2>
 						<label>$LOCALIZE[31476]</label>
-						<onclick condition="StringCompare(Skin.String(OSDFade),Disabled) | IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Partial)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFade),Partial)">Skin.SetString(OSDFade,Complete)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFade),Complete)">Skin.SetString(OSDFade,Disabled)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFade),Disabled) | IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Partial)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFade),Partial)">Skin.SetString(OSDFade,Complete)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFade),Complete)">Skin.SetString(OSDFade,Disabled)</onclick>
 					</control>
 					<control type="button" id="711">
 						<include>SettingsLabel</include>
 						<onfocus condition="IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,15)</onfocus>
 						<label2>$INFO[Skin.String(OSDFadeTime),, s]</label2>
 						<label>$LOCALIZE[31477]</label>
-						<onclick condition="StringCompare(Skin.String(OSDFadeTime),30) | IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,5)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFadeTime),5)">Skin.SetString(OSDFadeTime,10)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFadeTime),10)">Skin.SetString(OSDFadeTime,15)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFadeTime),15)">Skin.SetString(OSDFadeTime,20)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFadeTime),20)">Skin.SetString(OSDFadeTime,25)</onclick>
-						<onclick condition="StringCompare(Skin.String(OSDFadeTime),25)">Skin.SetString(OSDFadeTime,30)</onclick>
-						<visible>![StringCompare(Skin.String(OSDFade),Disabled) | IsEmpty(Skin.String(OSDFade))]</visible>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),30) | IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,5)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),5)">Skin.SetString(OSDFadeTime,10)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),10)">Skin.SetString(OSDFadeTime,15)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),15)">Skin.SetString(OSDFadeTime,20)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),20)">Skin.SetString(OSDFadeTime,25)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),25)">Skin.SetString(OSDFadeTime,30)</onclick>
+						<visible>![String.IsEqual(Skin.String(OSDFade),Disabled) | IsEmpty(Skin.String(OSDFade))]</visible>
 					</control>
 					<control type="image" id="712">
 						<include>Settings_Line</include>
@@ -781,7 +774,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_playlist_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_playlist_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),711)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),711)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,711)</onclick>
 						</control>
 						<control type="button" id="810">
@@ -791,7 +784,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_book_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_book_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),712)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),712)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,712)</onclick>
 						</control>
 						<control type="button" id="811">
@@ -801,7 +794,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_sub_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_sub_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),714)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),714)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,714)</onclick>
 						</control>
 						<control type="button" id="812">
@@ -811,7 +804,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_prev_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_prev_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),79)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),79)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,79)</onclick>
 						</control>
 						<control type="button" id="813">
@@ -821,7 +814,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_rew_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_rew_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),73)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),73)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,73)</onclick>
 						</control>
 						<control type="button" id="814">
@@ -831,7 +824,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_stop_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_stop_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),75)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),75)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,75)</onclick>
 						</control>
 						<control type="button" id="815">
@@ -841,7 +834,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_pause_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_pause_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),74)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),74)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,74)</onclick>
 						</control>
 						<control type="button" id="816">
@@ -851,7 +844,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_ff_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_ff_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),76)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),76)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,76)</onclick>
 						</control>
 						<control type="button" id="817">
@@ -861,7 +854,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_next_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_next_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),710)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),710)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,710)</onclick>
 						</control>
 						<control type="button" id="818">
@@ -871,7 +864,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_repeat_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_repeat_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),801)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),801)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,801)</onclick>
 						</control>
 						<control type="button" id="819">
@@ -881,7 +874,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_settings_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_settings_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),713)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),713)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,713)</onclick>
 						</control>
 						<control type="button" id="820">
@@ -891,7 +884,7 @@
 							<width>60</width>
 							<texturefocus>osd/osd_button_audio_fo.png</texturefocus>
 							<texturenofocus>osd/osd_button_audio_nf.png</texturenofocus>
-							<include condition="SubString(Skin.String(DefaultOSD),800)">OSDdiffuse</include>
+							<include condition="String.Contains(Skin.String(DefaultOSD),800)">OSDdiffuse</include>
 							<onclick>Skin.SetString(DefaultOSD,800)</onclick>
 						</control>
 					</control>

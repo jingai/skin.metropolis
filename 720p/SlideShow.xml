@@ -85,7 +85,7 @@
 				</control>
 				<control type="image">
 					<include>ViewDetailsBullet</include>
-					<visible>!IsEmpty(slideshow.resolution) + !StringCompare(slideshow.resolution, 0 x 0)</visible>
+					<visible>!IsEmpty(slideshow.resolution) + !String.IsEqual(slideshow.resolution, 0 x 0)</visible>
 				</control>
 				<control type="label">
 					<width min="25" max="120">auto</width>

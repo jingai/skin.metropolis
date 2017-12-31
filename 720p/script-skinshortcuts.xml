@@ -172,7 +172,7 @@
 					<height>156</height>
 					<texture background="true" >list/listfocus.png</texture>
 					<colordiffuse>BackgroundColor</colordiffuse>
-					<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+					<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 				</control>
 				<!-- Icon backdrop (submenu) -->
 				<control type="image" id="912">
@@ -182,7 +182,7 @@
 					<height>156</height>
 					<texture background="true" >list/listfocus.png</texture>
 					<colordiffuse>BackgroundColor</colordiffuse>
-					<visible>!StringCompare(Window.Property(groupname),mainmenu)</visible>
+					<visible>!String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 				</control>
 
 				<!-- Right grouplist -->
@@ -239,7 +239,7 @@
 						<aligny>top</aligny>
 						<label>$ADDON[script.skinshortcuts 32045]</label>
 						<label2>$VAR[HomeBackgroundSkinShortcuts]</label2>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Thumbnail (Home2 icon) -->
 					<control type="image" id="901">
@@ -248,7 +248,7 @@
 						<width>80</width>
 						<height>120</height>
 						<texture background="true" fallback="DefaultShortcut.png">$INFO[Container(211).ListItem.Icon]</texture>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Thumbnail (Submenu icon) -->
 					<control type="image" id="902">
@@ -257,7 +257,7 @@
 						<width>120</width>
 						<height>120</height>
 						<texture background="true" fallback="DefaultShortcut.png">$INFO[Container(211).ListItem.Icon]</texture>
-						<visible>!StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>!String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Background -->
 					<control type="multiimage" id="903">
@@ -270,7 +270,7 @@
 						<fadetime>500</fadetime>
 						<imagepath background="true">$VAR[HomeBackgroundSkinShortcuts]</imagepath>
 						<aspectratio>stretch</aspectratio>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Thumbnail Label (Home2) -->
 					<control type="label" id="904">
@@ -283,7 +283,7 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$LOCALIZE[21371]</label>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Thumbnail Label (Submenu) -->
 					<control type="label" id="905">
@@ -296,7 +296,7 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$LOCALIZE[21371]</label>
-						<visible>!StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>!String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Background Label -->
 					<control type="label" id="906">
@@ -309,7 +309,7 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$LOCALIZE[19190]</label>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Set label -->
 					<control type="button" id="305">
@@ -336,7 +336,7 @@
 						<aligny>center</aligny>
 						<label>$ADDON[script.skinshortcuts 32044]</label>
 						<label2>$INFO[Container(211).ListItem.Property(widgetName)]</label2>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<!-- Custom action -->
 					<control type="button" id="307">
@@ -362,7 +362,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$ADDON[script.skinshortcuts 32072]</label>
-						<visible>StringCompare(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 					</control>
 					<control type="image" id="910">
 						<height>8</height>

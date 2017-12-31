@@ -132,7 +132,7 @@
 					<!-- Bullet -->
 					<control type="image">
 						<include>ViewDetailsBulletSmall</include>
-						<visible>!IsEmpty(ListItem.PictureDateTime) + [!IsEmpty(ListItem.PictureResolution) + !StringCompare(ListItem.PictureResolution, 0 x 0)]</visible>
+						<visible>!IsEmpty(ListItem.PictureDateTime) + [!IsEmpty(ListItem.PictureResolution) + !String.IsEqual(ListItem.PictureResolution, 0 x 0)]</visible>
 					</control>
 					<!-- Picture Resolution -->
 					<control type="label">
@@ -141,7 +141,7 @@
 						<font>METF_MediaDetailsSmall</font>
 						<textcolor>MediaDetailsInfo</textcolor>
 						<label>$INFO[ListItem.PictureResolution]</label>
-						<visible>!IsEmpty(ListItem.PictureResolution) + !StringCompare(ListItem.PictureResolution, 0 x 0)</visible>
+						<visible>!IsEmpty(ListItem.PictureResolution) + !String.IsEqual(ListItem.PictureResolution, 0 x 0)</visible>
 					</control>
 				</control>
 			</control>

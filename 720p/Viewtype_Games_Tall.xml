@@ -7,7 +7,7 @@
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
 				<include>Animation_OpenCloseFade</include>
-				<visible>SubString(Container.FolderPath,plugin)</visible>
+				<visible>String.Contains(Container.FolderPath,plugin)</visible>
 				<!-- Browser label and flags -->
 				<control type="group">
 					<posx>490</posx>
@@ -38,7 +38,7 @@
 							<font>METF_MediaDetailsSmall</font>
 							<textcolor>MediaDetailsYear</textcolor>
 							<label>$INFO[ListItem.premiered]</label>
-							<visible>!IsEmpty(ListItem.premiered) + SubString(Container.FolderPath,plugin)</visible>
+							<visible>!IsEmpty(ListItem.premiered) + String.Contains(Container.FolderPath,plugin)</visible>
 						</control>
 						<!-- Bullet -->
 						<control type="image">
@@ -53,7 +53,7 @@
 							<font>METF_MediaDetailsSmall</font>
 							<textcolor>MediaDetailsDuration</textcolor>
 							<label>$INFO[ListItem.studio]</label>
-							<visible>!IsEmpty(ListItem.studio) + SubString(Container.FolderPath,plugin)</visible>
+							<visible>!IsEmpty(ListItem.studio) + String.Contains(Container.FolderPath,plugin)</visible>
 						</control>
 						<!-- Bullet -->
 						<control type="image">
@@ -93,7 +93,7 @@
 				<include>Animation_OpenCloseFade</include>
 				<include>Animation_HiddenByInfo</include>
 				<visible>!Skin.HasSetting(NoViewGames)</visible>
-				<visible>SubString(Container.FolderPath,advanced.launcher)</visible>
+				<visible>String.Contains(Container.FolderPath,advanced.launcher)</visible>
 				<itemlayout width="260" height="420">
 					<control type="group">
 						<posx>-30</posx>

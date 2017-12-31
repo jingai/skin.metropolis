@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<onload condition="System.HasAddon(script.videoextras)">RunScript(script.videoextras,check,"$INFO[ListItem.FilenameAndPath]")</onload>
-	<onload condition="System.HasAddon(script.tv.show.next.aired) + Skin.HasSetting(NextAired) + [StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode)]">RunScript(script.tv.show.next.aired,backend=True)</onload>
+	<onload condition="System.HasAddon(script.tv.show.next.aired) + Skin.HasSetting(NextAired) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode)]">RunScript(script.tv.show.next.aired,backend=True)</onload>
 	<defaultcontrol always="true">7003</defaultcontrol>
 	<controls>
 		<control type="button" id="7050">
@@ -41,7 +41,7 @@
 				<textcolor>TextNF</textcolor>
 				<info>ListItem.Label</info>
 				<!-- Title was overlapping progress dialog.  this is probably not the best way to fix this, but it works. -->
-				<visible>!StringCompare(ListItem.DBType,episode) + !Window.IsActive(extendedprogressdialog)</visible>
+				<visible>!String.IsEqual(ListItem.DBType,episode) + !Window.IsActive(extendedprogressdialog)</visible>
 			</control>
 			<control type="fadelabel">
 				<posx>-325</posx>
@@ -56,7 +56,7 @@
 				<textcolor>TextNF</textcolor>
 				<label>$INFO[ListItem.Season]$INFO[ListItem.Episode,x]$INFO[ListItem.Title,. ]</label>
 				<!-- Title was overlapping progress dialog.  this is probably not the best way to fix this, but it works. -->
-				<visible>StringCompare(ListItem.DBType,episode) + !Window.IsActive(extendedprogressdialog)</visible>
+				<visible>String.IsEqual(ListItem.DBType,episode) + !Window.IsActive(extendedprogressdialog)</visible>
 			</control>
 			<!-- Tagline -->
 			<control type="label">
@@ -69,7 +69,7 @@
 				<font>METF_PlotText</font>
 				<textcolor>TextNF</textcolor>
 				<label>$INFO[ListItem.Tagline]</label>
-				<visible>!IsEmpty(ListItem.Tagline) + !StringCompare(ListItem.DBType,episode)</visible>
+				<visible>!IsEmpty(ListItem.Tagline) + !String.IsEqual(ListItem.DBType,episode)</visible>
 			</control>
 			<!-- TVShows Number of Episodes -->
 			<control type="label">
@@ -82,7 +82,7 @@
 				<font>METF_InfoTextLarger</font>
 				<textcolor>MediaDetailsEpisodes</textcolor>
 				<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[20161] $LOCALIZE[20360]</label>
-				<visible>StringCompare(ListItem.DBType,tvshow)</visible>
+				<visible>String.IsEqual(ListItem.DBType,tvshow)</visible>
 			</control>
 			<!-- Episode Watched Status -->
 			<control type="label">
@@ -95,7 +95,7 @@
 				<font>METF_InfoTextLarger</font>
 				<textcolor>MediaDetailsEpisodes</textcolor>
 				<label>$LOCALIZE[16102]</label>
-				<visible>StringCompare(ListItem.DBType,episode) + StringCompare(ListItem.Overlay,OverlayWatched.png)</visible>
+				<visible>String.IsEqual(ListItem.DBType,episode) + String.IsEqual(ListItem.Overlay,OverlayWatched.png)</visible>
 			</control>
 			<!-- Genre -->
 			<control type="label">
@@ -108,7 +108,7 @@
 				<font>METF_InfoText</font>
 				<textcolor>MediaDetailsGenre</textcolor>
 				<label>$INFO[ListItem.Genre]</label>
-				<visible>!IsEmpty(ListItem.Genre) + !StringCompare(ListItem.DBType,episode)</visible>
+				<visible>!IsEmpty(ListItem.Genre) + !String.IsEqual(ListItem.DBType,episode)</visible>
 			</control>
 			<!-- Episode Air Date -->
 			<control type="label">
@@ -121,7 +121,7 @@
 				<font>METF_InfoTextLarger</font>
 				<textcolor>MediaDetailsInfo</textcolor>
 				<label>$LOCALIZE[20416] $INFO[ListItem.Premiered]</label>
-				<visible>!IsEmpty(ListItem.Premiered) + StringCompare(ListItem.DBType,episode)</visible>
+				<visible>!IsEmpty(ListItem.Premiered) + String.IsEqual(ListItem.DBType,episode)</visible>
 			</control>
 			<!-- User Rating -->
 			<control type="image">
@@ -159,7 +159,7 @@
 				<font>METF_MPAA</font>
 				<textcolor>MPAADescription</textcolor>
 				<label>$INFO[ListItem.FilenameAndPath]</label>
-				<visible>!SubString(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowVideoPath)</visible>
+				<visible>!String.Contains(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowVideoPath)</visible>
 			</control>
 			<control type="textbox">
 				<posx>-8</posx>
@@ -170,7 +170,7 @@
 				<font>METF_MPAA</font>
 				<textcolor>MPAADescription</textcolor>
 				<label>$INFO[ListItem.FilenameAndPath]</label>
-				<visible>SubString(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowVideoPath)</visible>
+				<visible>String.Contains(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowVideoPath)</visible>
 			</control>
 			<!-- TV Show Next Aired info -->
 			<control type="label">
@@ -182,12 +182,12 @@
 				<font>METF_InfoText</font>
 				<textcolor>TextNF</textcolor>
 				<label>[COLOR=MediaDetailsInfo]$LOCALIZE[31427]:[/COLOR] $INFO[Window(Home).Property(NextAired.NextTitle),,[CR]]$INFO[Window(Home).Property(NextAired.AirTime),, - ]$INFO[Window(Home).Property(NextAired.NextDate)]</label>
-				<visible>StringCompare(ListItem.DBType,tvshow) + Skin.HasSetting(NextAired) + !IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
+				<visible>String.IsEqual(ListItem.DBType,tvshow) + Skin.HasSetting(NextAired) + !IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 			</control>
 			<control type="group">
 				<posx>550</posx>
 				<posy>225</posy>
-				<visible>!Control.IsVisible(50) + [![StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season)] | !Skin.HasSetting(NextAired)]</visible>
+				<visible>!Control.IsVisible(50) + [![String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)] | !Skin.HasSetting(NextAired)]</visible>
 				<!-- Director -->
 				<control type="label">
 					<posx>0</posx>
@@ -204,7 +204,7 @@
 			<control type="group">
 				<posx>550</posx>
 				<posy>225</posy>
-				<visible>!Control.IsVisible(50) + [StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season)] + Skin.HasSetting(NextAired)</visible>
+				<visible>!Control.IsVisible(50) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)] + Skin.HasSetting(NextAired)</visible>
 				<!-- TV Show Status -->
 				<control type="label">
 					<posx>0</posx>
@@ -308,12 +308,12 @@
 					<item>
 						<label>$LOCALIZE[31471]</label>
 						<onclick>noop</onclick>
-						<visible>StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season)</visible>
+						<visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)</visible>
 					</item>
 					<item>
 						<label>$LOCALIZE[20339]</label>
 						<onclick>SendClick(2003,13)</onclick>
-						<visible>![StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season)]</visible>
+						<visible>![String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)]</visible>
 					</item>
 					<item>
 						<label>$LOCALIZE[344]</label>
@@ -406,7 +406,7 @@
 				<height>194</height>
 				<texture>$INFO[Container(50).Listitem.Icon]</texture>
 				<aspectratio align="center" aligny="center">scale</aspectratio>
-				<visible>Control.IsVisible(50) + !substring(Container(50).Listitem.Icon,default,Left)</visible>
+				<visible>Control.IsVisible(50) + !String.StartsWith(Container(50).Listitem.Icon,default)</visible>
 			</control>
 			<control type="image">
 				<description>Actor image</description>
@@ -416,7 +416,7 @@
 				<height>194</height>
 				<texture>$INFO[Container(50).Listitem.Icon]</texture>
 				<aspectratio align="center" aligny="center">scale</aspectratio>
-				<visible>Control.IsVisible(50) + substring(Container(50).Listitem.Icon,default,Left)</visible>
+				<visible>Control.IsVisible(50) + String.StartsWith(Container(50).Listitem.Icon,default)</visible>
 			</control>
 			<control type="image">
 				<posx>628</posx>
@@ -449,12 +449,12 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsYear</textcolor>
 				<label>$INFO[ListItem.Country]</label>
-				<visible>!IsEmpty(ListItem.Country) + [StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>!IsEmpty(ListItem.Country) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Bullet -->
 			<control type="image">
 				<include>ViewDetailsBullet</include>
-				<visible>!IsEmpty(ListItem.Country) + [StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>!IsEmpty(ListItem.Country) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Year -->
 			<control type="label">
@@ -464,12 +464,12 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsYear</textcolor>
 				<label>$INFO[ListItem.Year]</label>
-				<visible>!IsEmpty(ListItem.Year) + [StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>!IsEmpty(ListItem.Year) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Bullet -->
 			<control type="image">
 				<include>ViewDetailsBullet</include>
-				<visible>![IsEmpty(ListItem.Year) | IsEmpty(ListItem.Duration)] + [StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>![IsEmpty(ListItem.Year) | IsEmpty(ListItem.Duration)] + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Duration -->
 			<control type="label">
@@ -479,7 +479,7 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsDuration</textcolor>
 				<label>$INFO[ListItem.Duration,, [LOWERCASE]$LOCALIZE[31299][/LOWERCASE]]</label>
-				<visible>!IsEmpty(ListItem.Duration) + !SubString(ListItem.Duration,min) + [StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>!IsEmpty(ListItem.Duration) + !String.Contains(ListItem.Duration,min) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<control type="label">
 				<width min="25" max="220">auto</width>
@@ -488,7 +488,7 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsDuration</textcolor>
 				<label>$INFO[ListItem.Duration]</label>
-				<visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,min) + [StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>!IsEmpty(ListItem.Duration) + String.Contains(ListItem.Duration,min) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 		</control>
 
@@ -515,7 +515,7 @@
 				<texturenofocus>buttons/button_play.png</texturenofocus>
 				<texturefocus>buttons/button_playFO.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
-				<visible>StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,musicvideo)</visible>
+				<visible>String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)</visible>
 			</control>
 			<!-- Trailer -->
 			<control type="button" id="11">
@@ -537,10 +537,10 @@
 				<include>VideoInfoButton</include>
 				<texturenofocus>osd/osd_button_channel_previous_nf.png</texturenofocus>
 				<texturefocus>osd/osd_button_channel_previous_fo.png</texturefocus>
-				<onclick condition="StringCompare(ListItem.DBType,tvshow)">RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-				<onclick condition="StringCompare(ListItem.DBType,movie)">RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBType,tvshow)">RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
 				<include>Animation_ButtonFocus</include>
-				<visible>System.HasAddon(script.artwork.downloader) + [StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow)]</visible>
+				<visible>System.HasAddon(script.artwork.downloader) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow)]</visible>
 			</control>
 			<!-- Video Extras -->
 			<control type="button" id="21">
@@ -552,7 +552,7 @@
 				<onclick>RunScript(script.videoextras,display,"$INFO[ListItem.FilenameAndPath]")</onclick>
 				<label>$INFO[System.AddonTitle(script.videoextras)]</label>
 				<visible>System.HasAddon(script.videoextras)</visible>
-				<visible>StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)</visible>
+				<visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)</visible>
 			</control>
 			<!-- Refresh -->
 			<control type="button" id="6">
@@ -630,7 +630,7 @@
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_CommonFade</include>
 				<include>Animation_OpenCloseFade</include>
-				<visible>StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)</visible>
+				<visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)</visible>
 				<!-- Default Poster Image -->
 				<control type="image">
 					<posx>44</posx>
@@ -641,7 +641,7 @@
 					<aspectratio scalediffuse="false">scale</aspectratio>
 					<animation effect="zoom" center="auto" start="40" end="100" time="400" tween="cubic" easing="inout">WindowOpen</animation>
 					<animation effect="fade" start="0" end="0" time="0">WindowClose</animation>
-					<visible>!StringCompare(ListItem.DBType,season) + !StringCompare(ListItem.DBType,episode) + !StringCompare(ListItem.DBType,musicvideo)</visible>
+					<visible>!String.IsEqual(ListItem.DBType,season) + !String.IsEqual(ListItem.DBType,episode) + !String.IsEqual(ListItem.DBType,musicvideo)</visible>
 				</control>
 				<!-- Poster Image for TV Show Seasons and Episodes -->
 				<control type="image">
@@ -653,7 +653,7 @@
 					<aspectratio scalediffuse="false">scale</aspectratio>
 					<animation effect="zoom" center="auto" start="40" end="100" time="400" tween="cubic" easing="inout">WindowOpen</animation>
 					<animation effect="fade" start="0" end="0" time="0">WindowClose</animation>
-					<visible>StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode)</visible>
+					<visible>String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode)</visible>
 				</control>
 				<!-- Thumbnail for Music Videos -->
 				<control type="image">
@@ -665,7 +665,7 @@
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="zoom" center="auto" start="40" end="100" time="400" tween="cubic" easing="inout">WindowOpen</animation>
 					<animation effect="fade" start="0" end="0" time="0">WindowClose</animation>
-					<visible>StringCompare(ListItem.DBType,musicvideo)</visible>
+					<visible>String.IsEqual(ListItem.DBType,musicvideo)</visible>
 				</control>
 				<!-- Poster Frame -->
 				<control type="image">
@@ -677,7 +677,7 @@
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="zoom" center="auto" start="40" end="100" time="400" tween="cubic" easing="inout">WindowOpen</animation>
 					<animation effect="fade" start="0" end="0" time="0">WindowClose</animation>
-					<visible>!StringCompare(ListItem.DBType,musicvideo)</visible>
+					<visible>!String.IsEqual(ListItem.DBType,musicvideo)</visible>
 				</control>
 				<!-- Square Frame (for Music Videos) -->
 				<control type="image">
@@ -689,7 +689,7 @@
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<animation effect="zoom" center="auto" start="40" end="100" time="400" tween="cubic" easing="inout">WindowOpen</animation>
 					<animation effect="fade" start="0" end="0" time="0">WindowClose</animation>
-					<visible>StringCompare(ListItem.DBType,musicvideo)</visible>
+					<visible>String.IsEqual(ListItem.DBType,musicvideo)</visible>
 				</control>
 
 				<!-- Default Fanart Image -->
@@ -700,7 +700,7 @@
 					<height>180</height>
 					<texture fallback="home_art/movies.jpg">$INFO[ListItem.Art(fanart)]</texture>
 					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
-					<visible>!StringCompare(ListItem.DBType,episode)</visible>
+					<visible>!String.IsEqual(ListItem.DBType,episode)</visible>
 				</control>
 				<!-- TV Show Episode Fanart Image -->
 				<control type="image">
@@ -710,7 +710,7 @@
 					<height>180</height>
 					<texture>$INFO[ListItem.Thumb]</texture>
 					<aspectratio aligny="center" scalediffuse="false">scale</aspectratio>
-					<visible>StringCompare(ListItem.DBType,episode)</visible>
+					<visible>String.IsEqual(ListItem.DBType,episode)</visible>
 				</control>
 				<!-- Frame for fanart -->
 				<control type="image">
@@ -720,14 +720,14 @@
 					<height>218</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>frames/ClassicFrame_FanartSmall.png</texture>
-					<visible>StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)</visible>
+					<visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)</visible>
 				</control>
 			</control>
 			<control type="group">
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_CommonFade</include>
 				<include>Animation_OpenCloseFade</include>
-				<visible>![StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>![String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 				<!-- Icon Image for items NOT in Video Library -->
 				<control type="image">
 					<posx>35</posx>

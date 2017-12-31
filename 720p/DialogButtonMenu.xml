@@ -100,7 +100,7 @@
 					<label>$LOCALIZE[20126]</label>
 					<onclick>Dialog.Close(all,true)</onclick>
 					<onclick>System.LogOff</onclick>
-					<visible>System.HasLoginScreen | IntegerGreaterThan(System.ProfileCount,1)</visible>
+					<visible>System.HasLoginScreen | Integer.IsGreater(System.ProfileCount,1)</visible>
 					<visible>System.Loggedon</visible>
 				</control>
 				<control type="button" id="3119">

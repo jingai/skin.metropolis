@@ -12,7 +12,7 @@
 			<orientation>horizontal</orientation>
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_CommonFade</include>
-			<visible>!SubString(Container.FolderPath,plugin)</visible>
+			<visible>!String.Contains(Container.FolderPath,plugin)</visible>
 			<visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(MusicVideos) | Window.IsActive(fullscreeninfo) | Window.IsActive(115)</visible>
 			<include>VisibleIfNotMovieSet</include>
 
@@ -25,55 +25,55 @@
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/sdtv.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>substring(listitem.filename,sdtv) | substring(listitem.filename,tvrip) | [[!substring(listitem.filename,hdtv) + !substring(listitem.filename,bluray) + !substring(listitem.filename,hddvd) + !substring(listitem.filename,sddvd) + !substring(listitem.filename,blu-ray) + !substring(listitem.filename,brrip) + !substring(listitem.filename,bdrip) + !substring(listitem.filename,pdtv) + !substring(listitem.filename,.evo,Right) + !substring(listitem.filename,.mt2s,Right) + !substring(listitem.filename,.ifo,Right) + !substring(listitem.filename,.vob,Right) + !substring(listitem.filename,r5) + !substring(listitem.filename,dvdscr) + !substring(listitem.filename,screener) + !substring(listitem.filename,web-dl) + !substring(listitem.filename,webrip) + !substring(listitem.filename,dvd)] + Container.Content(episodes) + [substring(listitem.VideoResolution,SD) | substring(listitem.VideoResolution,480) | substring(listitem.VideoResolution,540) | substring(listitem.VideoResolution,576)]]</visible>
+					<visible>String.Contains(listitem.filename,sdtv) | String.Contains(listitem.filename,tvrip) | [[!String.Contains(listitem.filename,hdtv) + !String.Contains(listitem.filename,bluray) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,pdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.mt2s) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip) + !String.Contains(listitem.filename,dvd)] + Container.Content(episodes) + [String.Contains(listitem.VideoResolution,SD) | String.Contains(listitem.VideoResolution,480) | String.Contains(listitem.VideoResolution,540) | String.Contains(listitem.VideoResolution,576)]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/hdtv.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>substring(listitem.filename,hdtv) | substring(listitem.filename,pdtv) | [[!substring(listitem.filename,sdtv) + !substring(listitem.filename,bluray) + !substring(listitem.filename,hddvd) + !substring(listitem.filename,sddvd) + !substring(listitem.filename,blu-ray) + !substring(listitem.filename,brrip) + !substring(listitem.filename,bdrip) + !substring(listitem.filename,tvrip) + !substring(listitem.filename,.evo,Right) + !substring(listitem.filename,.mt2s,Right) + !substring(listitem.filename,.ifo,Right) + !substring(listitem.filename,.vob,Right) + !substring(listitem.filename,r5) + !substring(listitem.filename,dvdscr) + !substring(listitem.filename,screener) + !substring(listitem.filename,web-dl) + !substring(listitem.filename,webrip) + !substring(listitem.filename,dvd)] + Container.Content(episodes) + [substring(listitem.VideoResolution,720) | substring(listitem.VideoResolution,1080) | substring(ListItem.VideoResolution,4K)]]</visible>
+					<visible>String.Contains(listitem.filename,hdtv) | String.Contains(listitem.filename,pdtv) | [[!String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,bluray) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.mt2s) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip) + !String.Contains(listitem.filename,dvd)] + Container.Content(episodes) + [String.Contains(listitem.VideoResolution,720) | String.Contains(listitem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K)]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/webtv.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>substring(listitem.filename,web-dl) | substring(listitem.filename,webrip)</visible>
+					<visible>String.Contains(listitem.filename,web-dl) | String.Contains(listitem.filename,webrip)</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/hddvd.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>substring(listitem.filename,hddvd) | substring(listitem.filename,hd-dvd) | substring(listitem.filename,.evo,Right)</visible>
+					<visible>String.Contains(listitem.filename,hddvd) | String.Contains(listitem.filename,hd-dvd) | String.EndsWith(listitem.filename,.evo)</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/bluray.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>!ListItem.IsStereoscopic + [substring(listitem.filename,bluray) | substring(listitem.filename,blu-ray) | substring(listitem.filename,brrip) | substring(listitem.filename,bdrip) | substring(listitem.filename,.mt2s,Right) | [[!substring(listitem.filename,sddvd) + !substring(listitem.filename,blu-ray) + !substring(listitem.filename,brrip) + !substring(listitem.filename,bdrip) + !substring(listitem.filename,tvrip) + !substring(listitem.filename,pdtv) + !substring(listitem.filename,hddvd) + !substring(listitem.filename,sdtv) + !substring(listitem.filename,hdtv) + !substring(listitem.filename,.evo,Right) + !substring(listitem.filename,.ifo,Right) + !substring(listitem.filename,.vob,Right) + !substring(listitem.filename,r5) + !substring(listitem.filename,dvdscr) + !substring(listitem.filename,screener) + !substring(listitem.filename,web-dl) + !substring(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [substring(ListItem.VideoResolution,720) | substring(ListItem.VideoResolution,1080) | substring(ListItem.VideoResolution,4K)]]]</visible>
+					<visible>!ListItem.IsStereoscopic + [String.Contains(listitem.filename,bluray) | String.Contains(listitem.filename,blu-ray) | String.Contains(listitem.filename,brrip) | String.Contains(listitem.filename,bdrip) | String.EndsWith(listitem.filename,.mt2s) | [[!String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.Contains(listitem.filename,pdtv) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(ListItem.VideoResolution,720) | String.Contains(ListItem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K)]]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/bd3d.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>ListItem.IsStereoscopic + [substring(listitem.filename,bluray) | substring(listitem.filename,blu-ray) | substring(listitem.filename,brrip) | substring(listitem.filename,bdrip) | substring(listitem.filename,.mt2s,Right) | [[!substring(listitem.filename,sddvd) + !substring(listitem.filename,blu-ray) + !substring(listitem.filename,brrip) + !substring(listitem.filename,bdrip) + !substring(listitem.filename,tvrip) + !substring(listitem.filename,pdtv) + !substring(listitem.filename,hddvd) + !substring(listitem.filename,sdtv) + !substring(listitem.filename,hdtv) + !substring(listitem.filename,.evo,Right) + !substring(listitem.filename,.ifo,Right) + !substring(listitem.filename,.vob,Right) + !substring(listitem.filename,r5) + !substring(listitem.filename,dvdscr) + !substring(listitem.filename,screener) + !substring(listitem.filename,web-dl) + !substring(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [substring(ListItem.VideoResolution,720) | substring(ListItem.VideoResolution,1080) | substring(ListItem.VideoResolution,4K)]]]</visible>
+					<visible>ListItem.IsStereoscopic + [String.Contains(listitem.filename,bluray) | String.Contains(listitem.filename,blu-ray) | String.Contains(listitem.filename,brrip) | String.Contains(listitem.filename,bdrip) | String.EndsWith(listitem.filename,.mt2s) | [[!String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.Contains(listitem.filename,pdtv) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(ListItem.VideoResolution,720) | String.Contains(ListItem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K)]]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/dvd.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>[substring(listitem.filename,dvd) + !substring(listitem.filename,hddvd) + !substring(listitem.filename,hd-dvd) + !substring(listitem.filename,bluray) + !substring(listitem.filename,blu-ray) + !substring(listitem.filename,brrip) + !substring(listitem.filename,bdrip) + !substring(listitem.filename,r5) + !substring(listitem.filename,dvdscr) + !substring(listitem.filename,screener) + !substring(listitem.filename,web-dl) + !substring(listitem.filename,webrip)] | substring(listitem.filename,.ifo,Right) | substring(listitem.filename,.vob,Right) | [[!substring(listitem.filename,hddvd) + !substring(listitem.filename,bluray) + !substring(listitem.filename,blu-ray) + !substring(listitem.filename,brrip) + !substring(listitem.filename,bdrip) + !substring(listitem.filename,sdtv) + !substring(listitem.filename,hdtv) + !substring(listitem.filename,.evo,Right) + !substring(listitem.filename,.m2ts,Right) + !substring(listitem.filename,r5) + !substring(listitem.filename,dvdscr) + !substring(listitem.filename,screener) + !substring(listitem.filename,web-dl) + !substring(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [substring(listitem.VideoResolution,SD) | substring(listitem.VideoResolution,480) | substring(listitem.VideoResolution,540) | substring(listitem.VideoResolution,576)]]</visible>
+					<visible>[String.Contains(listitem.filename,dvd) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,hd-dvd) + !String.Contains(listitem.filename,bluray) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] | String.EndsWith(listitem.filename,.ifo) | String.EndsWith(listitem.filename,.vob) | [[!String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,bluray) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.m2ts) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(listitem.VideoResolution,SD) | String.Contains(listitem.VideoResolution,480) | String.Contains(listitem.VideoResolution,540) | String.Contains(listitem.VideoResolution,576)]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/r5.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>substring(listitem.filename,r5)</visible>
+					<visible>String.Contains(listitem.filename,r5)</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/screener.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>substring(listitem.filename,dvdscr) | substring(listitem.filename,screener)</visible>
+					<visible>String.Contains(listitem.filename,dvdscr) | String.Contains(listitem.filename,screener)</visible>
 				</control>
 				<control type="image">
 					<width>104</width>
@@ -172,7 +172,7 @@
 			<control type="group">
 				<width>58</width>
 				<height>62</height>
-				<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] | [!IsEmpty(ListItem.AudioLanguage) + ![Substring(ListItem.AudioLanguage,und) | Substring(ListItem.AudioLanguage,unk)]]</visible>
+				<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] | [!IsEmpty(ListItem.AudioLanguage) + ![String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
 				<control type="image">
 					<posx>2</posx>
 					<width>66</width>
@@ -187,7 +187,7 @@
 					<height>55</height>
 					<texture background="true" diffuse="flags/nocc.png">$VAR[Language_Icons]</texture>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
-					<visible>[IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] + !IsEmpty(ListItem.AudioLanguage) + !Substring(ListItem.AudioLanguage,und)</visible>
+					<visible>[IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] + !IsEmpty(ListItem.AudioLanguage) + !String.Contains(ListItem.AudioLanguage,und)</visible>
 				</control>
 				<control type="image">
 					<top>-2</top>
@@ -195,7 +195,7 @@
 					<width>60</width>
 					<height>55</height>
 					<texture background="true" diffuse="flags/cc.png">$VAR[Language_Icons]</texture>
-					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [!IsEmpty(ListItem.AudioLanguage) + ![Substring(ListItem.AudioLanguage,und) | Substring(ListItem.AudioLanguage,unk)]]</visible>
+					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [!IsEmpty(ListItem.AudioLanguage) + ![String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
 				</control>
 				<control type="image">
@@ -204,7 +204,7 @@
 					<width>60</width>
 					<height>55</height>
 					<texture background="true">flags/cc.png</texture>
-					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [IsEmpty(ListItem.AudioLanguage) | [Substring(ListItem.AudioLanguage,und) | Substring(ListItem.AudioLanguage,unk)]]</visible>
+					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [IsEmpty(ListItem.AudioLanguage) | [String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
 				</control>
 			</control>

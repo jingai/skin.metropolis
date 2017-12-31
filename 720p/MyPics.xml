@@ -60,7 +60,7 @@
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
 					<texturenofocus></texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<visible>!ListItem.IsFolder + !SubString(Container.FolderPath,plugin)</visible>
+					<visible>!ListItem.IsFolder + !String.Contains(Container.FolderPath,plugin)</visible>
 				</control>
 				<control type="button" id="7">
 					<description>Recursive Slideshow</description>
@@ -77,7 +77,7 @@
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
 					<texturenofocus></texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<visible>ListItem.IsFolder + !SubString(Container.FolderPath,plugin)</visible>
+					<visible>ListItem.IsFolder + !String.Contains(Container.FolderPath,plugin)</visible>
 				</control>
 				<control type="radiobutton" id="9">
 					<description>Randomise</description>
@@ -92,7 +92,7 @@
 					<disabledcolor>TextDisabled</disabledcolor>
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
 					<texturenofocus></texturenofocus>
-					<visible>!SubString(Container.FolderPath,plugin)</visible>
+					<visible>!String.Contains(Container.FolderPath,plugin)</visible>
 				</control>
 				<include>NavMenuListPlaying</include>
 			</control>

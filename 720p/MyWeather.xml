@@ -39,7 +39,7 @@
 			</control>
 			<!-- Current Conditions -->
 			<control type="group" id="1000">
-				<visible>!SubString(Skin.String(WeatherDisplay),36Hour)</visible>
+				<visible>!String.Contains(Skin.String(WeatherDisplay),36Hour)</visible>
 				<posx>15</posx>
 				<posy>50</posy>
 				<width>190</width>
@@ -140,7 +140,7 @@
 			</control>
 			<!-- 36 Hour Conditions -->
 			<control type="group" id="1000">
-				<visible>SubString(Skin.String(WeatherDisplay),36Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),36Hour)</visible>
 				<posx>15</posx>
 				<posy>50</posy>
 				<width>280</width>
@@ -346,7 +346,7 @@
 			<!-- 7 Day Forecast -->
 			<control type="grouplist">
 				<description>7 Day Forecast</description>
-				<visible>SubString(Skin.String(WeatherDisplay),7Day) | !Skin.String(WeatherDisplay)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),7Day) | !Skin.String(WeatherDisplay)</visible>
 				<top>50</top>
 				<left>WeatherPanelLeft</left>
 				<height>Weather7DayHeight</height>
@@ -380,7 +380,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.1.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.1.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.1.Outlook)] $INFO[Window.Property(Daily.1.ChancePrecipitation)]</label>
@@ -389,7 +389,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.1.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.1.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day0.HighTemp)]</label>
@@ -484,7 +484,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.2.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.2.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.2.Outlook)] $INFO[Window.Property(Daily.2.ChancePrecipitation)]</label>
@@ -493,7 +493,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.2.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.2.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day1.HighTemp)]</label>
@@ -588,7 +588,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.3.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.3.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.3.Outlook)] $INFO[Window.Property(Daily.3.ChancePrecipitation)]</label>
@@ -597,7 +597,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.3.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.3.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day2.HighTemp)]</label>
@@ -692,7 +692,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.4.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.4.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.4.Outlook)] $INFO[Window.Property(Daily.4.ChancePrecipitation)]</label>
@@ -701,7 +701,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.4.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.4.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day3.HighTemp)]</label>
@@ -796,7 +796,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.5.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.5.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.5.Outlook)] $INFO[Window.Property(Daily.5.ChancePrecipitation)]</label>
@@ -805,7 +805,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.5.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.5.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day4.HighTemp)]</label>
@@ -900,7 +900,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.6.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.6.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.6.Outlook)] $INFO[Window.Property(Daily.6.ChancePrecipitation)]</label>
@@ -909,7 +909,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.6.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.6.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day5.HighTemp)]</label>
@@ -1004,7 +1004,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Daily.7.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Daily.7.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Daily.7.Outlook)] $INFO[Window.Property(Daily.7.ChancePrecipitation)]</label>
@@ -1013,7 +1013,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Daily.7.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Daily.7.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day6.HighTemp)]</label>
@@ -1084,7 +1084,7 @@
 			<!-- 12 Hour first row -->
 			<control type="grouplist">
 				<description>12 Hour Forecast, Hours 1-6</description>
-				<visible>SubString(Skin.String(WeatherDisplay),12Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),12Hour)</visible>
 				<top>50</top>
 				<left>WeatherPanelLeft</left>
 				<height>Weather12HourHeight</height>
@@ -1118,7 +1118,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.1.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.1.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.1.Outlook)] $INFO[Window.Property(Hourly.1.ChancePrecipitation)]</label>
@@ -1127,7 +1127,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.1.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.1.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.1.Temperature)]</label>
@@ -1191,7 +1191,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.2.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.2.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.2.Outlook)] $INFO[Window.Property(Hourly.2.ChancePrecipitation)]</label>
@@ -1200,7 +1200,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.2.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.2.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.2.Temperature)]</label>
@@ -1266,7 +1266,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.3.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.3.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.3.Outlook)] $INFO[Window.Property(Hourly.3.ChancePrecipitation)]</label>
@@ -1275,7 +1275,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.3.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.3.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.3.Temperature)]</label>
@@ -1341,7 +1341,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.4.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.4.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.4.Outlook)] $INFO[Window.Property(Hourly.4.ChancePrecipitation)]</label>
@@ -1350,7 +1350,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.4.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.4.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.4.Temperature)]</label>
@@ -1416,7 +1416,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.5.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.5.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.5.Outlook)] $INFO[Window.Property(Hourly.5.ChancePrecipitation)]</label>
@@ -1425,7 +1425,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.5.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.5.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.5.Temperature)]</label>
@@ -1491,7 +1491,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.6.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.6.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.6.Outlook)] $INFO[Window.Property(Hourly.6.ChancePrecipitation)]</label>
@@ -1500,7 +1500,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.6.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.6.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.6.Temperature)]</label>
@@ -1540,7 +1540,7 @@
 			<!-- 12 Hour 2nd row-->
 			<control type="grouplist">
 				<description>12 Hour forecast, hours 7-12</description>
-				<visible>SubString(Skin.String(WeatherDisplay),12Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),12Hour)</visible>
 				<top>295</top>
 				<left>WeatherPanelLeft</left>
 				<height>Weather12HourHeight</height>
@@ -1576,7 +1576,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.7.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.7.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.7.Outlook)] $INFO[Window.Property(Hourly.7.ChancePrecipitation)]</label>
@@ -1585,7 +1585,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.7.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.7.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.7.Temperature)]</label>
@@ -1651,7 +1651,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.8.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.8.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.8.Outlook)] $INFO[Window.Property(Hourly.8.ChancePrecipitation)]</label>
@@ -1660,7 +1660,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.8.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.8.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.8.Temperature)]</label>
@@ -1726,7 +1726,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.9.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.9.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.9.Outlook)] $INFO[Window.Property(Hourly.9.ChancePrecipitation)]</label>
@@ -1735,7 +1735,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.9.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.9.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.9.Temperature)]</label>
@@ -1801,7 +1801,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.10.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.10.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.10.Outlook)] $INFO[Window.Property(Hourly.10.ChancePrecipitation)]</label>
@@ -1810,7 +1810,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.10.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.10.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.10.Temperature)]</label>
@@ -1876,7 +1876,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.11.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.11.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.11.Outlook)] $INFO[Window.Property(Hourly.11.ChancePrecipitation)]</label>
@@ -1885,7 +1885,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.11.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.11.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.11.Temperature)]</label>
@@ -1951,7 +1951,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Hourly.12.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Hourly.12.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.12.Outlook)] $INFO[Window.Property(Hourly.12.ChancePrecipitation)]</label>
@@ -1960,7 +1960,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Hourly.12.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Hourly.12.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Hourly.12.Temperature)]</label>
@@ -2000,7 +2000,7 @@
 			<!-- 36 Hour 1st row -->
 			<control type="grouplist">
 				<description>36 Hour Forecast, Hours 1-9</description>
-				<visible>SubString(Skin.String(WeatherDisplay),36Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),36Hour)</visible>
 				<top>50</top>
 				<left>Weather36HourPanelLeft</left>
 				<height>Weather36HourHeight</height>
@@ -2424,7 +2424,7 @@
 			<!-- 36 Hour 2nd row -->
 			<control type="grouplist">
 				<description>36 Hour Forecast, Hours 10-18</description>
-				<visible>SubString(Skin.String(WeatherDisplay),36Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),36Hour)</visible>
 				<top>175</top>
 				<left>Weather36HourPanelLeft</left>
 				<height>Weather36HourHeight</height>
@@ -2848,7 +2848,7 @@
 			<!-- 36 Hour 3rd row -->
 			<control type="grouplist">
 				<description>36 Hour Forecast, Hours 19-27</description>
-				<visible>SubString(Skin.String(WeatherDisplay),36Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),36Hour)</visible>
 				<top>300</top>
 				<left>Weather36HourPanelLeft</left>
 				<height>Weather36HourHeight</height>
@@ -3272,7 +3272,7 @@
 			<!-- 36 Hour 4th row -->
 			<control type="grouplist">
 				<description>36 Hour Forecast, Hours 28-36</description>
-				<visible>SubString(Skin.String(WeatherDisplay),36Hour)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),36Hour)</visible>
 				<top>425</top>
 				<left>Weather36HourPanelLeft</left>
 				<height>Weather36HourHeight</height>
@@ -3696,7 +3696,7 @@
 			<!-- Weekend Forecast -->
 			<control type="grouplist">
 				<description>Weekend Forecast</description>
-				<visible>SubString(Skin.String(WeatherDisplay),Weekend)</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),Weekend)</visible>
 				<top>50</top>
 				<left>WeatherPanelLeft</left>
 				<height>WeatherWeekendHeight</height>
@@ -3730,7 +3730,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Weekend.1.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Weekend.1.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Weekend.1.Outlook)] $INFO[Window.Property(Weekend.1.ChancePrecipitation)]</label>
@@ -3739,7 +3739,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Weekend.1.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Weekend.1.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Weekend.1.HighTemperature)]</label>
@@ -3908,7 +3908,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>!SubString(Window.Property(Weekend.2.Outlook),Chance)</visible>
+						<visible>!String.Contains(Window.Property(Weekend.2.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Weekend.2.Outlook)] $INFO[Window.Property(Weekend.2.ChancePrecipitation)]</label>
@@ -3917,7 +3917,7 @@
 						<align>center</align>
 						<textcolor>WeatherDetails</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>SubString(Window.Property(Weekend.2.Outlook),Chance)</visible>
+						<visible>String.Contains(Window.Property(Weekend.2.Outlook),Chance)</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Weekend.2.HighTemperature)]</label>
@@ -4062,7 +4062,7 @@
 
 			<!-- Weather Map -->
 			<control type="group">
-				<visible>SubString(Skin.String(WeatherDisplay),WeatherMap) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),WeatherMap) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 				<top>-10</top>
 				<left>350</left>
 				<control type="image">

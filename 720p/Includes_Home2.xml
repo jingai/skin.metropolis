@@ -130,7 +130,7 @@
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_HiddenByInfo</include>
-			<visible>!Control.HasFocus(9001) + ![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)] + SubString(Container(9000).ListItem.Property(hasSubmenu),True)</visible>
+			<visible>!Control.HasFocus(9001) + ![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)] + String.Contains(Container(9000).ListItem.Property(hasSubmenu),True)</visible>
 			<control type="image">
 				<posx>625</posx>
 				<posy>505</posy>

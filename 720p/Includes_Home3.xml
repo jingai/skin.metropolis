@@ -68,7 +68,7 @@
 			<fadetime>500</fadetime>
 			<imagepath background="true" diffuse="FanartDiffuse.png">$VAR[HomeBackground]</imagepath>
 			<aspectratio>scale</aspectratio>
-			<visible>!StringCompare(Container(9000).ListItem.Property(background),home\weather\)</visible>
+			<visible>!String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
 			<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
 		</control>
 		<control type="multiimage">
@@ -81,7 +81,7 @@
 			<fadetime>500</fadetime>
 			<imagepath background="true">$VAR[HomeBackground]</imagepath>
 			<aspectratio>stretch</aspectratio>
-			<visible>!StringCompare(Container(9000).ListItem.Property(background),home\weather\)</visible>
+			<visible>!String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
 			<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds)</visible>
 		</control>
 		<control type="multiimage">
@@ -91,7 +91,7 @@
 			<fadetime>500</fadetime>
 			<imagepath background="true" diffuse="FanartDiffuse.png">$VAR[Weather_Fanart]</imagepath>
 			<aspectratio>scale</aspectratio>
-			<visible>StringCompare(Container(9000).ListItem.Property(background),home\weather\)</visible>
+			<visible>String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
 			<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
 		</control>
 		<control type="multiimage">
@@ -104,7 +104,7 @@
 			<fadetime>500</fadetime>
 			<imagepath background="true">$VAR[Weather_Fanart]</imagepath>
 			<aspectratio>stretch</aspectratio>
-			<visible>StringCompare(Container(9000).ListItem.Property(background),home\weather\)</visible>
+			<visible>String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
 			<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds)</visible>
 		</control>
 
@@ -216,7 +216,7 @@
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_HiddenByInfo</include>
-			<visible>!Control.HasFocus(9001) + ![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)] + SubString(Container(9000).ListItem.Property(hasSubmenu),True)</visible>
+			<visible>!Control.HasFocus(9001) + ![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)] + String.Contains(Container(9000).ListItem.Property(hasSubmenu),True)</visible>
 			<control type="image">
 				<posx>625</posx>
 				<posy>508</posy>

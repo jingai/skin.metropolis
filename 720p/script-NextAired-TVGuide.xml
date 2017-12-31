@@ -80,12 +80,12 @@
 				<width>1280</width>
 				<height>720</height>
 				<texture>TVGuide-Grid-Highlight.png</texture>
-				<animation effect="slide" end="0,79" time="0" condition="StringCompare(System.Date(ddd),$LOCALIZE[42])">Conditional</animation>
-				<animation effect="slide" end="0,158" time="0" condition="StringCompare(System.Date(ddd),$LOCALIZE[43])">Conditional</animation>
-				<animation effect="slide" end="0,237" time="0" condition="StringCompare(System.Date(ddd),$LOCALIZE[44])">Conditional</animation>
-				<animation effect="slide" end="0,316" time="0" condition="StringCompare(System.Date(ddd),$LOCALIZE[45])">Conditional</animation>
-				<animation effect="slide" end="0,395" time="0" condition="StringCompare(System.Date(ddd),$LOCALIZE[46])">Conditional</animation>
-				<animation effect="slide" end="0,474" time="0" condition="StringCompare(System.Date(ddd),$LOCALIZE[47])">Conditional</animation>
+				<animation effect="slide" end="0,79" time="0" condition="String.IsEqual(System.Date(ddd),$LOCALIZE[42])">Conditional</animation>
+				<animation effect="slide" end="0,158" time="0" condition="String.IsEqual(System.Date(ddd),$LOCALIZE[43])">Conditional</animation>
+				<animation effect="slide" end="0,237" time="0" condition="String.IsEqual(System.Date(ddd),$LOCALIZE[44])">Conditional</animation>
+				<animation effect="slide" end="0,316" time="0" condition="String.IsEqual(System.Date(ddd),$LOCALIZE[45])">Conditional</animation>
+				<animation effect="slide" end="0,395" time="0" condition="String.IsEqual(System.Date(ddd),$LOCALIZE[46])">Conditional</animation>
+				<animation effect="slide" end="0,474" time="0" condition="String.IsEqual(System.Date(ddd),$LOCALIZE[47])">Conditional</animation>
 			</control>
 			<control type="group">
 				<description>Day labels</description>
@@ -102,7 +102,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="65" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[41])">Conditional</animation>
+					<animation effect="fade" start="100" end="65" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[41])">Conditional</animation>
 				</control>
 				<control type="label">
 					<description>Tuesday</description>
@@ -115,7 +115,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="50" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[42])">Conditional</animation>
+					<animation effect="fade" start="100" end="50" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[42])">Conditional</animation>
 				</control>
 				<control type="label">
 					<description>Wednesday</description>
@@ -128,7 +128,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="50" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[43])">Conditional</animation>
+					<animation effect="fade" start="100" end="50" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[43])">Conditional</animation>
 				</control>
 				<control type="label">
 					<description>Thursday</description>
@@ -141,7 +141,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="50" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[44])">Conditional</animation>
+					<animation effect="fade" start="100" end="50" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[44])">Conditional</animation>
 				</control>
 				<control type="label">
 					<description>Friday</description>
@@ -154,7 +154,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="50" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[45])">Conditional</animation>
+					<animation effect="fade" start="100" end="50" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[45])">Conditional</animation>
 				</control>
 				<control type="label">
 					<description>Saturday</description>
@@ -167,7 +167,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="50" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[46])">Conditional</animation>
+					<animation effect="fade" start="100" end="50" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[46])">Conditional</animation>
 				</control>
 				<control type="label">
 					<description>Sunday</description>
@@ -180,7 +180,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>FFFFFFFF</textcolor>
-					<animation effect="fade" start="100" end="50" time="0" condition="!StringCompare(System.Date(ddd),$LOCALIZE[47])">Conditional</animation>
+					<animation effect="fade" start="100" end="50" time="0" condition="!String.IsEqual(System.Date(ddd),$LOCALIZE[47])">Conditional</animation>
 				</control>
 			</control>
 			<control type="group" id="9002">
@@ -229,7 +229,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -239,7 +239,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -249,7 +249,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -319,7 +319,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Art(poster)]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -329,7 +329,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -339,7 +339,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -388,7 +388,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -398,7 +398,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -408,7 +408,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -478,7 +478,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -488,7 +488,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -498,7 +498,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -547,7 +547,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -557,7 +557,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -567,7 +567,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -637,7 +637,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -647,7 +647,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -657,7 +657,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -706,7 +706,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -716,7 +716,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -726,7 +726,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -796,7 +796,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -806,7 +806,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -816,7 +816,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -865,7 +865,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -875,7 +875,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -885,7 +885,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -955,7 +955,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -965,7 +965,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -975,7 +975,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -1024,7 +1024,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -1034,7 +1034,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -1044,7 +1044,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -1114,7 +1114,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -1124,7 +1124,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -1134,7 +1134,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -1183,7 +1183,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -1193,7 +1193,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -1203,7 +1203,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
@@ -1273,7 +1273,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),0)</visible>
 						</control>
 						<control type="image">
 							<description>Banner</description>
@@ -1283,7 +1283,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),1)</visible>
 						</control>
 						<control type="image">
 							<description>Logo</description>
@@ -1293,7 +1293,7 @@
 							<height>30</height>
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
-							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
+							<visible>String.IsEqual(Window(Home).Property(TVGuide.ThumbType),2)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -1335,7 +1335,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(200).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2001) + !stringcompare(Control.GetLabel(2001),empty.png)]</visible>
+					<visible>![Control.IsVisible(2001) + !String.IsEqual(Control.GetLabel(2001),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1468,7 +1468,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(201).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2011) + !stringcompare(Control.GetLabel(2011),empty.png)]</visible>
+					<visible>![Control.IsVisible(2011) + !String.IsEqual(Control.GetLabel(2011),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1601,7 +1601,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(202).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2021) + !stringcompare(Control.GetLabel(2021),empty.png)]</visible>
+					<visible>![Control.IsVisible(2021) + !String.IsEqual(Control.GetLabel(2021),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1734,7 +1734,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(203).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2031) + !stringcompare(Control.GetLabel(2031),empty.png)]</visible>
+					<visible>![Control.IsVisible(2031) + !String.IsEqual(Control.GetLabel(2031),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1867,7 +1867,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(204).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2041) + !stringcompare(Control.GetLabel(2041),empty.png)]</visible>
+					<visible>![Control.IsVisible(2041) + !String.IsEqual(Control.GetLabel(2041),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -2000,7 +2000,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(205).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2051) + !stringcompare(Control.GetLabel(2051),empty.png)]</visible>
+					<visible>![Control.IsVisible(2051) + !String.IsEqual(Control.GetLabel(2051),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -2133,7 +2133,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(206).ListItem.Property(Fanart)]</texture>
-					<visible>![Control.IsVisible(2061) + !stringcompare(Control.GetLabel(2021),empty.png)]</visible>
+					<visible>![Control.IsVisible(2061) + !String.IsEqual(Control.GetLabel(2021),empty.png)]</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>

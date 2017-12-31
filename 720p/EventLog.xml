@@ -168,12 +168,12 @@
 			<control type="label">
                                 <label>$INFO[Container(570).NumItems,, $LOCALIZE[31277]]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>!IntegerGreaterThan(Container(570).NumItems,1)</visible>
+				<visible>!Integer.IsGreater(Container(570).NumItems,1)</visible>
 			</control>
 			<control type="label">
                                 <label>$INFO[Container(570).NumItems,, $LOCALIZE[31281]]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>IntegerGreaterThan(Container(570).NumItems,1)</visible>
+				<visible>Integer.IsGreater(Container(570).NumItems,1)</visible>
 			</control>
 		</control>
 		<!-- Navigation Menu -->

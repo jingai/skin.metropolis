@@ -35,9 +35,9 @@
 				<include>Animation_OpenCloseFade</include>
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
-				<include condition="StringCompare(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Banner3x2_ImagePos</include>
-				<include condition="StringCompare(Skin.String(BannerViewHeight),3)">Banner3x3_ImagePos</include>
-				<include condition="StringCompare(Skin.String(BannerViewHeight),4)">Banner3x4_ImagePos</include>
+				<include condition="String.IsEqual(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Banner3x2_ImagePos</include>
+				<include condition="String.IsEqual(Skin.String(BannerViewHeight),3)">Banner3x3_ImagePos</include>
+				<include condition="String.IsEqual(Skin.String(BannerViewHeight),4)">Banner3x4_ImagePos</include>
 				<viewtype label="$LOCALIZE[31286]">wide</viewtype>
 				<include condition="!Skin.HasSetting(ViewLockdown)">OnLeft7000</include>
 				<ondown>511</ondown>
@@ -54,9 +54,9 @@
 				<include>Animation_OpenCloseFade</include>
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
-				<include condition="StringCompare(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Banner3x2_TitleYPos</include>
-				<include condition="StringCompare(Skin.String(BannerViewHeight),3)">Banner3x3_TitleYPos</include>
-				<include condition="StringCompare(Skin.String(BannerViewHeight),4)">Banner3x4_TitleYPos</include>
+				<include condition="String.IsEqual(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Banner3x2_TitleYPos</include>
+				<include condition="String.IsEqual(Skin.String(BannerViewHeight),3)">Banner3x3_TitleYPos</include>
+				<include condition="String.IsEqual(Skin.String(BannerViewHeight),4)">Banner3x4_TitleYPos</include>
 				<!-- Title -->
 				<control type="label">
 					<posx>40</posx>

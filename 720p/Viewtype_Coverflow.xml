@@ -2,77 +2,77 @@
 <includes>
 	<variable name="CoverflowItem-7Image">
 		<value condition="!IsEmpty(ListItem(-7).Art(poster))">$INFO[ListItem(-7).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-7).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-7).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem-6Image">
 		<value condition="!IsEmpty(ListItem(-6).Art(poster))">$INFO[ListItem(-6).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-6).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-6).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem-5Image">
 		<value condition="!IsEmpty(ListItem(-5).Art(poster))">$INFO[ListItem(-5).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-5).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-5).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem-4Image">
 		<value condition="!IsEmpty(ListItem(-4).Art(poster))">$INFO[ListItem(-4).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-4).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-4).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem-3Image">
 		<value condition="!IsEmpty(ListItem(-3).Art(poster))">$INFO[ListItem(-3).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-3).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-3).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem-2Image">
 		<value condition="!IsEmpty(ListItem(-2).Art(poster))">$INFO[ListItem(-2).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-2).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-2).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem-1Image">
 		<value condition="!IsEmpty(ListItem(-1).Art(poster))">$INFO[ListItem(-1).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(-1).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(-1).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem0Image">
 		<value condition="!IsEmpty(ListItem(0).Art(poster))">$INFO[ListItem(0).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(0).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(0).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem1Image">
 		<value condition="!IsEmpty(ListItem(1).Art(poster))">$INFO[ListItem(1).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(1).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(1).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem2Image">
 		<value condition="!IsEmpty(ListItem(2).Art(poster))">$INFO[ListItem(2).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(2).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(2).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem3Image">
 		<value condition="!IsEmpty(ListItem(3).Art(poster))">$INFO[ListItem(3).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(3).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(3).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem4Image">
 		<value condition="!IsEmpty(ListItem(4).Art(poster))">$INFO[ListItem(4).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(4).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(4).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem5Image">
 		<value condition="!IsEmpty(ListItem(5).Art(poster))">$INFO[ListItem(5).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(5).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(5).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem6Image">
 		<value condition="!IsEmpty(ListItem(6).Art(poster))">$INFO[ListItem(6).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(6).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(6).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<variable name="CoverflowItem7Image">
 		<value condition="!IsEmpty(ListItem(7).Art(poster))">$INFO[ListItem(7).Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(7).Icon]</value>
+		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem(7).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
 	<include name="Viewtype_Coverflow">
@@ -82,7 +82,7 @@
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_HiddenByInfo</include>
 			<control type="group">
-				<visible>[!IntegerGreaterThan(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [!IntegerGreaterThan(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
+				<visible>[!Integer.IsGreater(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [!Integer.IsGreater(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
 				<control type="group" id="6001">
 					<posy>200</posy>
 					<camera x="640" y="400" />
@@ -90,7 +90,7 @@
 					<animation effect="slide" end="-90,0" time="250" reversible="false">Hidden</animation>
 					<control type="group">
 						<posx>10</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,14) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,13) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,14) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,13) + system.getbool(filelists.showparentdiritems)]</visible>
 						<visible>Container.OnNext</visible>
 						<animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
@@ -124,7 +124,7 @@
 					</control>
 					<control type="group">
 						<posx>100</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -157,7 +157,7 @@
 					</control>
 					<control type="group">
 						<posx>190</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -190,7 +190,7 @@
 					</control>
 					<control type="group">
 						<posx>280</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -223,7 +223,7 @@
 					</control>
 					<control type="group">
 						<posx>370</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -256,7 +256,7 @@
 					</control>
 					<control type="group">
 						<posx>460</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -289,7 +289,7 @@
 					</control>
 					<control type="group">
 						<posx>1090</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
 						<visible>!Container.OnNext</visible>
 						<animation effect="rotatey" center="1470" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
@@ -323,7 +323,7 @@
 					</control>
 					<control type="group">
 						<posx>1000</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -356,7 +356,7 @@
 					</control>
 					<control type="group">
 						<posx>910</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -389,7 +389,7 @@
 					</control>
 					<control type="group">
 						<posx>820</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -422,7 +422,7 @@
 					</control>
 					<control type="group">
 						<posx>730</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -455,7 +455,7 @@
 					</control>
 					<control type="group">
 						<posx>640</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -525,7 +525,7 @@
 						</control>
 						<control type="group">
 							<posx>505</posx>
-							<visible>[IntegerGreaterThan(Container(512).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
+							<visible>[Integer.IsGreater(Container(512).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
 							<visible>Container.OnNext</visible>
 							<animation effect="rotatey" center="405" start="0" end="-55" time="250" reversible="false" tween="quadratic" easing="out">Hidden</animation>
 							<control type="group">
@@ -566,7 +566,7 @@
 					<animation effect="slide" end="90,0" time="250" reversible="false">Hidden</animation>
 					<control type="group">
 						<posx>1000</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,13) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,12) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,13) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,12) + system.getbool(filelists.showparentdiritems)]</visible>
 						<visible>Container.OnPrevious</visible>
 						<animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
@@ -600,7 +600,7 @@
 					</control>
 					<control type="group">
 						<posx>910</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -633,7 +633,7 @@
 					</control>
 					<control type="group">
 						<posx>820</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -666,7 +666,7 @@
 					</control>
 					<control type="group">
 						<posx>730</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -699,7 +699,7 @@
 					</control>
 					<control type="group">
 						<posx>640</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -732,7 +732,7 @@
 					</control>
 					<control type="group">
 						<posx>550</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -765,7 +765,7 @@
 					</control>
 					<control type="group">
 						<posx>-80</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
 						<visible>!Container.OnPrevious</visible>
 						<animation effect="rotatey" center="-180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
@@ -799,7 +799,7 @@
 					</control>
 					<control type="group">
 						<posx>10</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -832,7 +832,7 @@
 					</control>
 					<control type="group">
 						<posx>100</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -865,7 +865,7 @@
 					</control>
 					<control type="group">
 						<posx>190</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -898,7 +898,7 @@
 					</control>
 					<control type="group">
 						<posx>280</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -931,7 +931,7 @@
 					</control>
 					<control type="group">
 						<posx>370</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1001,7 +1001,7 @@
 						</control>
 						<control type="group">
 							<posx>505</posx>
-							<visible>[IntegerGreaterThan(Container(512).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
+							<visible>[Integer.IsGreater(Container(512).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
 							<visible>Container.OnPrevious</visible>
 							<animation effect="rotatey" center="885" start="0" end="55" time="250" reversible="false" tween="quadratic" easing="out">Hidden</animation>
 							<control type="group">
@@ -1043,7 +1043,7 @@
 					<camera x="640" y="400" />
 					<control type="group">
 						<posx>10</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1076,7 +1076,7 @@
 					</control>
 					<control type="group">
 						<posx>100</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1109,7 +1109,7 @@
 					</control>
 					<control type="group">
 						<posx>190</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1142,7 +1142,7 @@
 					</control>
 					<control type="group">
 						<posx>280</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1175,7 +1175,7 @@
 					</control>
 					<control type="group">
 						<posx>370</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1208,7 +1208,7 @@
 					</control>
 					<control type="group">
 						<posx>460</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1241,7 +1241,7 @@
 					</control>
 					<control type="group">
 						<posx>1000</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1274,7 +1274,7 @@
 					</control>
 					<control type="group">
 						<posx>910</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1307,7 +1307,7 @@
 					</control>
 					<control type="group">
 						<posx>820</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1340,7 +1340,7 @@
 					</control>
 					<control type="group">
 						<posx>730</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1373,7 +1373,7 @@
 					</control>
 					<control type="group">
 						<posx>640</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1406,7 +1406,7 @@
 					</control>
 					<control type="group">
 						<posx>550</posx>
-						<visible>[IntegerGreaterThan(Container(512).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
+						<visible>[Integer.IsGreater(Container(512).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
 						<animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
 						<control type="group">
 							<control type="image">
@@ -1471,7 +1471,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>[IntegerGreaterThan(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
+				<visible>[Integer.IsGreater(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [Integer.IsGreater(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
 				<control type="group" id="6001">
 					<posy>200</posy>
 					<camera x="640" y="400" />

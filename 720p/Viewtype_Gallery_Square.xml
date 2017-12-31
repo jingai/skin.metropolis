@@ -22,7 +22,7 @@
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
 				<visible>!Skin.HasSetting(NoViewGallerySquare)</visible>
-				<visible>Window.IsActive(pictures) | Window.IsActive(programs) | Window.IsActive(videos) | Container.Content(Addons) | Container.Content(Albums) | Container.Content(Artists) | Container.Content(musicvideos) | SubString(Container.FolderPath,plugin)</visible>
+				<visible>Window.IsActive(pictures) | Window.IsActive(programs) | Window.IsActive(videos) | Container.Content(Addons) | Container.Content(Albums) | Container.Content(Artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin)</visible>
 				<itemlayout width="205" height="205">
 					<control type="image">
 						<posx>25</posx>
@@ -31,7 +31,7 @@
 						<height>155</height>
 						<texture>frames/ClassicFrame_Background.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!StringCompare(ListItem.Icon,-) + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+						<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
 						<posx>25</posx>
@@ -57,7 +57,7 @@
 						<width>192</width>
 						<height>195</height>
 						<texture>frames/ClassicFrame_SquareSmall.png</texture>
-						<visible>!StringCompare(ListItem.Icon,-) + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+						<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout width="205" height="205">
@@ -71,7 +71,7 @@
 							<height>155</height>
 							<texture>frames/ClassicFrame_Background.png</texture>
 							<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-							<visible>!StringCompare(ListItem.Icon,-) + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+							<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
 						</control>
 						<control type="image">
 							<posx>25</posx>
@@ -97,7 +97,7 @@
 							<width>192</width>
 							<height>195</height>
 							<texture>frames/ClassicFrame_SquareSmall.png</texture>
-							<visible>!StringCompare(ListItem.Icon,-) + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+							<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
 						</control>
 					</control>
 				</focusedlayout>

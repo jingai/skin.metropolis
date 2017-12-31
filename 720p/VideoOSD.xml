@@ -4,22 +4,22 @@
 	<controls>
 		<control type="button" id="410">
 			<onfocus>Dialog.Close(FullscreenInfo)</onfocus>
-			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + IsEmpty(Skin.String(SubtitlesPath)) + SubString(Skin.String(DefaultOSD),714)">SetFocus(14)</onfocus>
-			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + !IsEmpty(Skin.String(SubtitlesPath)) + SubString(Skin.String(DefaultOSD),714)">SetFocus(17)</onfocus>
-			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + !VideoPlayer.HasSubtitles + SubString(Skin.String(DefaultOSD),714)">SetFocus(15)</onfocus>
-			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + VideoPlayer.HasSubtitles + SubString(Skin.String(DefaultOSD),714)">SetFocus(16)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),711)">SetFocus(11)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),712)">SetFocus(12)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),79)">SetFocus(9)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),73)">SetFocus(3)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),75)">SetFocus(5)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),74)">SetFocus(4)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),76)">SetFocus(6)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),710)">SetFocus(10)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),713)">SetFocus(13)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),800)">SetFocus(800)</onfocus>
-			<onfocus condition="SubString(Skin.String(DefaultOSD),801)">SetFocus(801)</onfocus>
-			<onfocus condition="!SubString(Skin.String(DefaultOSD),714) + !SubString(Skin.String(DefaultOSD),713) + !SubString(Skin.String(DefaultOSD),710) + !SubString(Skin.String(DefaultOSD),76) + !SubString(Skin.String(DefaultOSD),74) + !SubString(Skin.String(DefaultOSD),75) + !SubString(Skin.String(DefaultOSD),73) + !SubString(Skin.String(DefaultOSD),79) + !SubString(Skin.String(DefaultOSD),712) + !SubString(Skin.String(DefaultOSD),711) + !SubString(Skin.String(DefaultOSD),800) + !SubString(Skin.String(DefaultOSD),801)">SetFocus(4)</onfocus>
+			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(14)</onfocus>
+			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + !IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(17)</onfocus>
+			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + !VideoPlayer.HasSubtitles + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(15)</onfocus>
+			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + VideoPlayer.HasSubtitles + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(16)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),711)">SetFocus(11)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),712)">SetFocus(12)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),79)">SetFocus(9)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),73)">SetFocus(3)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),75)">SetFocus(5)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),74)">SetFocus(4)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),76)">SetFocus(6)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),710)">SetFocus(10)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),713)">SetFocus(13)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),800)">SetFocus(800)</onfocus>
+			<onfocus condition="String.Contains(Skin.String(DefaultOSD),801)">SetFocus(801)</onfocus>
+			<onfocus condition="!String.Contains(Skin.String(DefaultOSD),714) + !String.Contains(Skin.String(DefaultOSD),713) + !String.Contains(Skin.String(DefaultOSD),710) + !String.Contains(Skin.String(DefaultOSD),76) + !String.Contains(Skin.String(DefaultOSD),74) + !String.Contains(Skin.String(DefaultOSD),75) + !String.Contains(Skin.String(DefaultOSD),73) + !String.Contains(Skin.String(DefaultOSD),79) + !String.Contains(Skin.String(DefaultOSD),712) + !String.Contains(Skin.String(DefaultOSD),711) + !String.Contains(Skin.String(DefaultOSD),800) + !String.Contains(Skin.String(DefaultOSD),801)">SetFocus(4)</onfocus>
 		</control>
 
 		<control type="group">

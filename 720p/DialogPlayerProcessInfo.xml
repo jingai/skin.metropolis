@@ -229,7 +229,7 @@
 				<aligny>center</aligny>
 				<font>METF_HomeStatsText</font>
 				<textcolor>HomeStatsNumber</textcolor>
-				<visible>SubString(System.CpuUsage,CPU,Left)</visible>
+				<visible>String.StartsWith(System.CpuUsage,CPU)</visible>
 			</control>
 			<control type="progress">
 				<description>Progress Bar</description>
@@ -244,7 +244,7 @@
 				<righttexture>osd/osd_progress_right2.png</righttexture>
 				<colordiffuse>DialogProgressBar</colordiffuse>
 				<info>System.CpuUsage</info>
-				<visible>!SubString(System.CpuUsage,CPU,Left)</visible>
+				<visible>!String.StartsWith(System.CpuUsage,CPU)</visible>
 			</control>
 			<control type="label">
 				<description>CPU value</description>
@@ -257,7 +257,7 @@
 				<aligny>center</aligny>
 				<font>METF_HomeStatsText</font>
 				<textcolor>HomeStatsNumber</textcolor>
-				<visible>!SubString(System.CpuUsage,CPU,Left)</visible>
+				<visible>!String.StartsWith(System.CpuUsage,CPU)</visible>
 			</control>
 			<control type="label">
 				<description>Memory</description>

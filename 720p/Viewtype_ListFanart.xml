@@ -125,7 +125,7 @@
 				<include>Animation_OpenCloseFade</include>
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
-				<visible>[Window.IsActive(pictures) | Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + [!StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left)]</visible>
+				<visible>[Window.IsActive(pictures) | Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + [!String.IsEqual(ListItem.Icon,-) + !String.StartsWith(ListItem.Icon,default)]</visible>
 				<!-- Background Frame Matte -->
 				<control type="image">
 					<posx>35</posx>
@@ -290,7 +290,7 @@
 					<font>METF_MediaDetailsSmall</font>
 					<textcolor>MediaDetailsDuration</textcolor>
 					<label>$INFO[ListItem.PictureResolution]</label>
-					<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.PictureResolution) + !StringCompare(ListItem.PictureResolution, 0 x 0)</visible>
+					<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.PictureResolution) + !String.IsEqual(ListItem.PictureResolution, 0 x 0)</visible>
 				</control>
                 <!-- Extra details -->
 				<control type="grouplist">

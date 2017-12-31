@@ -22,7 +22,7 @@
 				<font>METF_MPAA</font>
 				<textcolor>MPAADescription</textcolor>
 				<label>$INFO[ListItem.FilenameAndPath]</label>
-				<visible>!SubString(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowAudioPath)</visible>
+				<visible>!String.Contains(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowAudioPath)</visible>
 			</control>
 			<control type="textbox">
 				<posx>-8</posx>
@@ -33,11 +33,11 @@
 				<font>METF_MPAA</font>
 				<textcolor>MPAADescription</textcolor>
 				<label>$INFO[ListItem.FilenameAndPath]</label>
-				<visible>SubString(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowAudioPath)</visible>
+				<visible>String.Contains(ListItem.FilenameAndPath," ") + Skin.HasSetting(ShowAudioPath)</visible>
 			</control>
 			<!-- Album Info -->
 			<control type="group">
-				<visible>![StringCompare(ListItem.DBtype,song) | StringCompare(ListItem.DBtype,artist)]</visible>
+				<visible>![String.IsEqual(ListItem.DBtype,song) | String.IsEqual(ListItem.DBtype,artist)]</visible>
 				<!-- Album Title -->
 				<control type="fadelabel">
 					<posx>-325</posx>
@@ -196,7 +196,7 @@
 
 			<!-- Song info -->
 			<control type="group">
-				<visible>StringCompare(ListItem.DBtype,song)</visible>
+				<visible>String.IsEqual(ListItem.DBtype,song)</visible>
 				<!-- Song Title -->
 				<control type="fadelabel">
 					<posx>-325</posx>
@@ -357,7 +357,7 @@
 
 			<!-- Artist Info -->
 			<control type="group">
-				<visible>StringCompare(ListItem.DBtype,artist)</visible>
+				<visible>String.IsEqual(ListItem.DBtype,artist)</visible>
 				<!-- Artist Title -->
 				<control type="fadelabel">
 					<posx>-325</posx>
@@ -641,7 +641,7 @@
 				<texturefocus>osd/osd_button_play_fo.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
 				<onclick>PlayMedia($INFO[ListItem.FileNameAndPath])</onclick>
-				<visible>StringCompare(ListItem.DBtype,song)</visible>
+				<visible>String.IsEqual(ListItem.DBtype,song)</visible>
 			</control>
 			<!-- Thumbs -->
 			<control type="button" id="10">
@@ -656,7 +656,7 @@
 				<texturenofocus>buttons/button_fanart.png</texturenofocus>
 				<texturefocus>buttons/button_fanartFO.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
-				<visible>!StringCompare(ListItem.DBtype,album) + !StringCompare(ListItem.DBtype,song)</visible>
+				<visible>!String.IsEqual(ListItem.DBtype,album) + !String.IsEqual(ListItem.DBtype,song)</visible>
 			</control>
 			<!-- Refresh -->
 			<control type="button" id="6">
@@ -683,7 +683,7 @@
 				<include>VideoInfoButtonLabel</include>
 				<label>Play</label>
 				<visible>ControlGroup(7001).HasFocus(18)</visible>
-				<visible>StringCompare(ListItem.DBtype,song)</visible>
+				<visible>String.IsEqual(ListItem.DBtype,song)</visible>
 			</control>
 			<control type="label">
 				<description>Thumbs</description>

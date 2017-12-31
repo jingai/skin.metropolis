@@ -79,7 +79,7 @@
 			<texture>$INFO[ListItem.Icon]</texture>
 			<bordertexture border="8">frames/thumb_border_round2.png</bordertexture>
 			<bordersize>4</bordersize>
-			<visible>!substring(ListItem.Icon,default,Left)</visible>
+			<visible>!String.StartsWith(ListItem.Icon,default)</visible>
 		</control>
 		<control type="image">
 			<posx>300</posx>
@@ -89,7 +89,7 @@
 			<fadetime>100</fadetime>
 			<aspectratio align="right" aligny="center">keep</aspectratio>
 			<texture>$INFO[ListItem.Icon]</texture>
-			<visible>substring(ListItem.Icon,default,Left)</visible>
+			<visible>String.StartsWith(ListItem.Icon,default)</visible>
 		</control>
 		<!-- Buttons -->
 		<control type="grouplist" id="7001">

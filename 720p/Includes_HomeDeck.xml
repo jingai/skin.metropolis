@@ -94,7 +94,7 @@
 					<height>74</height>
 					<orientation>vertical</orientation>
 					<itemgap>0</itemgap>
-					<visible>IntegerGreaterThan(Window.Property(Movies.Count),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [StringCompare(Container(9000).ListItem.Property(labelID),movies)]]</visible>
+					<visible>Integer.IsGreater(Window.Property(Movies.Count),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [String.IsEqual(Container(9000).ListItem.Property(labelID),movies)]]</visible>
 					<control type="grouplist">
 						<height>24</height>
 						<orientation>horizontal</orientation>
@@ -152,7 +152,7 @@
 					<height>74</height>
 					<orientation>vertical</orientation>
 					<itemgap>0</itemgap>
-					<visible>IntegerGreaterThan(Window.Property(Episodes.Count),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [StringCompare(Container(9000).ListItem.Property(labelID),tvshows)]]</visible>
+					<visible>Integer.IsGreater(Window.Property(Episodes.Count),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [String.IsEqual(Container(9000).ListItem.Property(labelID),tvshows)]]</visible>
 					<control type="grouplist">
 						<height>24</height>
 						<orientation>horizontal</orientation>
@@ -211,7 +211,7 @@
 					<height>74</height>
 					<orientation>vertical</orientation>
 					<itemgap>0</itemgap>
-					<visible>IntegerGreaterThan(Window.Property(Music.SongsCount),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [StringCompare(Container(9000).ListItem.Property(labelID),music)]]</visible>
+					<visible>Integer.IsGreater(Window.Property(Music.SongsCount),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [String.IsEqual(Container(9000).ListItem.Property(labelID),music)]]</visible>
 					<control type="grouplist">
 						<height>24</height>
 						<orientation>horizontal</orientation>
@@ -270,7 +270,7 @@
 					<height>26</height>
 					<orientation>vertical</orientation>
 					<itemgap>0</itemgap>
-					<visible>IntegerGreaterThan(Window.Property(MusicVideos.Count),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [StringCompare(Container(9000).ListItem.Property(labelID),musicvideos)]]</visible>
+					<visible>Integer.IsGreater(Window.Property(MusicVideos.Count),0) + [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] | [String.IsEqual(Container(9000).ListItem.Property(labelID),musicvideos)]]</visible>
 					<control type="grouplist">
 						<height>24</height>
 						<orientation>horizontal</orientation>
@@ -332,7 +332,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onclick condition="IsEmpty(Container(8000).ListItem.PicturePath)">ShowPicture($INFO[Container(8000).ListItem.Thumb])</onclick>
-					<visible>StringCompare(Container(9000).ListItem.Property(widgetType),pictures)</visible>
+					<visible>String.IsEqual(Container(9000).ListItem.Property(widgetType),pictures)</visible>
 				</control>
 
 				<include>skinshortcuts-template-widget</include>
@@ -576,7 +576,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>!SubString(Window(2600).Property(Daily.1.Outlook),Chance)</visible>
+				<visible>!String.Contains(Window(2600).Property(Daily.1.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Daily.1.Outlook)] $INFO[Window(2600).Property(Daily.1.ChancePrecipitation)]</label>
@@ -585,7 +585,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>SubString(Window(2600).Property(Daily.1.Outlook),Chance)</visible>
+				<visible>String.Contains(Window(2600).Property(Daily.1.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day0.HighTemp)]</label>
@@ -648,7 +648,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>!SubString(Window(2600).Property(Daily.2.Outlook),Chance)</visible>
+				<visible>!String.Contains(Window(2600).Property(Daily.2.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Daily.2.Outlook)] $INFO[Window(2600).Property(Daily.2.ChancePrecipitation)]</label>
@@ -657,7 +657,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>SubString(Window(2600).Property(Daily.2.Outlook),Chance)</visible>
+				<visible>String.Contains(Window(2600).Property(Daily.2.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day1.HighTemp)]</label>
@@ -720,7 +720,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>!SubString(Window(2600).Property(Daily.3.Outlook),Chance)</visible>
+				<visible>!String.Contains(Window(2600).Property(Daily.3.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Daily.3.Outlook)] $INFO[Window(2600).Property(Daily.3.ChancePrecipitation)]</label>
@@ -729,7 +729,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>SubString(Window(2600).Property(Daily.3.Outlook),Chance)</visible>
+				<visible>String.Contains(Window(2600).Property(Daily.3.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day2.HighTemp)]</label>
@@ -792,7 +792,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>!SubString(Window(2600).Property(Daily.4.Outlook),Chance)</visible>
+				<visible>!String.Contains(Window(2600).Property(Daily.4.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Daily.4.Outlook)] $INFO[Window(2600).Property(Daily.4.ChancePrecipitation)]</label>
@@ -801,7 +801,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>SubString(Window(2600).Property(Daily.4.Outlook),Chance)</visible>
+				<visible>String.Contains(Window(2600).Property(Daily.4.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day3.HighTemp)]</label>
@@ -864,7 +864,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>!SubString(Window(2600).Property(Daily.5.Outlook),Chance)</visible>
+				<visible>!String.Contains(Window(2600).Property(Daily.5.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Daily.5.Outlook)] $INFO[Window(2600).Property(Daily.5.ChancePrecipitation)]</label>
@@ -873,7 +873,7 @@
 				<align>center</align>
 				<textcolor>WeatherDetails</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<visible>SubString(Window(2600).Property(Daily.5.Outlook),Chance)</visible>
+				<visible>String.Contains(Window(2600).Property(Daily.5.Outlook),Chance)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day4.HighTemp)]</label>
