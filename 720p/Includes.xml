@@ -95,7 +95,7 @@
 			<posx>440</posx>
 			<posy>65</posy>
 			<width>400</width>
-			<height>580</height>
+			<height>590</height>
 			<texture>frames/Menu_Glass2b.png</texture>
 			<colordiffuse>DialogBackgroundColor</colordiffuse>
 			<visible>ControlGroup(7000).HasFocus</visible>

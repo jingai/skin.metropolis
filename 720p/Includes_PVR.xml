@@ -236,6 +236,23 @@
 			<label>19184</label>
 			<visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
 		</control>
+		<control type="button" id="10">
+			<description>Watched Toggle</description>
+			<width>340</width>
+			<height>38</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>METF_DialogLarge</font>
+			<textoffsetx>20</textoffsetx>
+			<textcolor>TextNF</textcolor>
+			<focusedcolor>DialogTextFO</focusedcolor>
+			<disabledcolor>TextDisabled</disabledcolor>
+			<texturefocus>ButtonFO2Wide.png</texturefocus>
+			<texturenofocus></texturenofocus>
+			<label>$LOCALIZE[20367]</label>
+			<label2>[B]$INFO[Container.NonFolderItems][/B]</label2>
+			<visible>Window.IsActive(MyPVRRecordings.xml)</visible>
+		</control>
 	</include>		
 
 	<include name="PVR_Headers">
