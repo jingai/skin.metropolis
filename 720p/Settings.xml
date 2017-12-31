@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window>
+<window> 
 	<defaultcontrol always="true">60</defaultcontrol>
 	<controls>
 		<include>Global_Background</include>
@@ -128,6 +128,12 @@
 						<icon>settings/settings_network.png</icon>
 						<onclick>ActivateWindow(ServiceSettings)</onclick>
 					</item>
+					<item id="10">
+						<description>Games</description>
+						<label>Game Settings</label>
+						<icon>settings/settings_games.png</icon>
+						<onclick>ActivateWindow(GameSettings)</onclick>
+					</item>
 				</content>
 			</control>
 
@@ -255,6 +261,20 @@
 				<control type="label">
 					<include>SettingsDetailVars</include>
 					<label>$LOCALIZE[31218]</label>
+				</control>
+			</control>
+			<control type="group">
+				<posx>40</posx>
+				<posy>498</posy>
+				<visible>Container(60).HasFocus(10)</visible>
+				<include>Animation_CommonFadeNoHide</include>
+				<control type="label">
+					<include>SettingsHeadingVars</include>
+					<label>Game Settings</label>
+				</control>
+				<control type="label">
+					<include>SettingsDetailVars</include>
+					<label>Setup rewind functions and controller settings</label>
 				</control>
 			</control>
 		</control>

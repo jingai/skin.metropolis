@@ -30,6 +30,14 @@
 	</shortcut>
 	<!-- non-standard mainmenu shortcut -->
 	<shortcut>
+		<label>15016</label>
+		<label2>32034</label2>
+		<icon>home_icons/games.png</icon>
+		<action>ActivateWindow(Games,files,return)</action>
+		<visible>System.GetBool(gamesgeneral.enable)</visible>
+		<defaultID>games</defaultID>
+	</shortcut>
+	<shortcut>
 		<label>31334</label>
 		<label2>32034</label2>
 		<icon>home_icons/trailers.png</icon>
