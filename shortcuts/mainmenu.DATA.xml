@@ -22,7 +22,7 @@
 		<defaultID>tvshows</defaultID>
 	</shortcut>
 	<shortcut>
-		<label>10006</label>
+		<label>3</label>
 		<label2>32034</label2>
 		<icon>home_icons/videos.png</icon>
 		<action>ActivateWindow(Videos)</action>
@@ -53,7 +53,7 @@
 		<defaultID>livetv</defaultID>
 	</shortcut>
 	<shortcut>
-		<label>10005</label>
+		<label>2</label>
 		<label2>32034</label2>
 		<icon>home_icons/music.png</icon>
 		<action>ActivateWindow(Music)</action>
