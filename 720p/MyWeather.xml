@@ -92,49 +92,49 @@
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[406]: [/COLOR] $INFO[Window.Property(Current.Humidity)]</label>
-						<visible>!IsEmpty(Window.Property(Current.Humidity))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.Humidity))</visible>
 					</control>
 					<control type="label">
 						<textcolor>WeatherDetails</textcolor>
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[405]: [/COLOR] $INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
-						<visible>!IsEmpty(Window.Property(Current.DewPoint))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.DewPoint))</visible>
 					</control>
 					<control type="label">
 						<textcolor>WeatherDetails</textcolor>
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[403]: [/COLOR] $INFO[Window.Property(Current.UVIndex)]</label>
-						<visible>!IsEmpty(Window.Property(Current.UVIndex))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.UVIndex))</visible>
 					</control>
 					<control type="label">
 						<textcolor>WeatherDetails</textcolor>
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[31703]: [/COLOR] $INFO[Window.Property(Current.Pressure)]</label>
-						<visible>!IsEmpty(Window.Property(Current.Pressure))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.Pressure))</visible>
 					</control>
 					<control type="label">
 						<textcolor>WeatherDetails</textcolor>
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[31709]: [/COLOR] $INFO[Window.Property(Current.Precipitation)]</label>
-						<visible>!IsEmpty(Window.Property(Current.Precipitation))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.Precipitation))</visible>
 					</control>
 					<control type="label">
 						<textcolor>WeatherDetails</textcolor>
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Current.Cloudiness)]</label>
-						<visible>!IsEmpty(Window.Property(Current.Cloudiness))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.Cloudiness))</visible>
 					</control>
 					<control type="label">
 						<textcolor>WeatherDetails</textcolor>
 						<font>METF_WeatherDetailsCurrent</font>
 						<align>center</align>
 						<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR] $INFO[Window.Property(Current.WindSpeed)] $INFO[Window.Property(Current.WindDirection)]</label>
-						<visible>!IsEmpty(Window.Property(Current.WindSpeed))</visible>
+						<visible>!String.IsEmpty(Window.Property(Current.WindSpeed))</visible>
 					</control>
 				</control>
 			</control>
@@ -232,7 +232,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.AvgHighTemperature)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.AvgHighTemperature))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.AvgHighTemperature))</visible>
 				</control>
 				<control type="group">
 					<control type="label">
@@ -250,7 +250,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.RecordHighTemperature)] $LOCALIZE[1405] $INFO[Window.Property(Today.RecordHighYear)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.RecordHighTemperature))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.RecordHighTemperature))</visible>
 				</control>
 				<control type="group">
 					<control type="label">
@@ -268,7 +268,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.AvgLowTemperature)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.AvgLowTemperature))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.AvgLowTemperature))</visible>
 				</control>
 				<control type="group">
 					<control type="label">
@@ -286,7 +286,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.RecordLowTemperature)] $LOCALIZE[1405] $INFO[Window.Property(Today.RecordLowYear)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.RecordLowTemperature))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.RecordLowTemperature))</visible>
 				</control>
 				<control type="group">
 					<control type="label">
@@ -304,7 +304,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.Sunrise)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.Sunrise))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.Sunrise))</visible>
 				</control>
 				<control type="group">
 					<control type="label">
@@ -322,7 +322,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.Sunset)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.Sunset))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.Sunset))</visible>
 				</control>
 				<control type="group">
 					<control type="label">
@@ -340,7 +340,7 @@
 						<textcolor>WeatherLowTemp</textcolor>
 						<label>[B]$INFO[Window.Property(Today.MoonPhase)][/B]</label>
 					</control>
-					<visible>!IsEmpty(Window.Property(Today.MoonPhase))</visible>
+					<visible>!String.IsEmpty(Window.Property(Today.MoonPhase))</visible>
 				</control>
 			</control>
 			<!-- 7 Day Forecast -->
@@ -397,7 +397,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day0.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day0.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -405,7 +405,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day0.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day0.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day0.LowTemp)]</label>
@@ -413,7 +413,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day0.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day0.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -421,7 +421,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day0.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day0.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -431,28 +431,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.1.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.1.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.1.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.1.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.1.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.1.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.1.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.1.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.1.WindSpeed)] $INFO[Window.Property(Daily.1.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.1.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.1.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -501,7 +501,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day1.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day1.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -509,7 +509,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day1.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day1.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day1.LowTemp)]</label>
@@ -517,7 +517,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day1.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day1.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -525,7 +525,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day1.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day1.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -535,28 +535,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.2.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.2.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.2.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.2.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.2.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.2.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.2.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.2.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.2.WindSpeed)] $INFO[Window.Property(Daily.2.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.2.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.2.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -605,7 +605,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day2.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day2.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -613,7 +613,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day2.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day2.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day2.LowTemp)]</label>
@@ -621,7 +621,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day2.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day2.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -629,7 +629,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day2.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day2.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -639,28 +639,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.3.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.3.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.3.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.3.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.3.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.3.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.3.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.3.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.3.WindSpeed)] $INFO[Window.Property(Daily.3.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.3.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.3.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -709,7 +709,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day3.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day3.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -717,7 +717,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day3.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day3.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day3.LowTemp)]</label>
@@ -725,7 +725,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day3.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day3.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -733,7 +733,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day3.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day3.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -743,28 +743,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.4.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.4.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.4.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.4.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.4.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.4.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.4.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.4.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.4.WindSpeed)] $INFO[Window.Property(Daily.4.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.4.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.4.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -813,7 +813,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day4.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day4.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -821,7 +821,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day4.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day4.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day4.LowTemp)]</label>
@@ -829,7 +829,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day4.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day4.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -837,7 +837,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day4.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day4.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -847,28 +847,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.5.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.5.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.5.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.5.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.5.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.5.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.5.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.5.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.5.WindSpeed)] $INFO[Window.Property(Daily.5.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.5.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.5.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -917,7 +917,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day5.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day5.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -925,7 +925,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day5.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day5.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day5.LowTemp)]</label>
@@ -933,7 +933,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day5.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day5.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -941,7 +941,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day5.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day5.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -951,28 +951,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.6.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.6.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.6.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.6.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.6.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.6.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.6.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.6.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.6.WindSpeed)] $INFO[Window.Property(Daily.6.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.6.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.6.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -1021,7 +1021,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day6.HighTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day6.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1029,7 +1029,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day6.HighTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day6.HighTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Day6.LowTemp)]</label>
@@ -1037,7 +1037,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Day6.LowTemp))</visible>
+						<visible>!String.IsEmpty(Window.Property(Day6.LowTemp))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1045,7 +1045,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Day6.LowTemp))</visible>
+						<visible>String.IsEmpty(Window.Property(Day6.LowTemp))</visible>
 					</control>
 					<control type="grouplist">
 						<top>370</top>
@@ -1055,28 +1055,28 @@
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.7.Humidity))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.7.Humidity))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31717]: [/COLOR] $INFO[Window.Property(Daily.7.Precipitation)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.7.Precipitation))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.7.Precipitation))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[31704]: [/COLOR] $INFO[Window.Property(Daily.7.Cloudiness)]</label>
 							<font>METF_WeatherDetails7Day</font>
 							<align>center</align>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.7.Cloudiness))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.7.Cloudiness))</visible>
 						</control>
 						<control type="label">
 							<label>[COLOR WeatherHeading]$LOCALIZE[404]: [/COLOR]$INFO[Window.Property(Daily.7.WindSpeed)] $INFO[Window.Property(Daily.7.WindDirection)]</label>
 							<align>center</align>
 							<font>METF_WeatherDetails7Day</font>
 							<textcolor>WeatherDetails</textcolor>
-							<visible>!IsEmpty(Window.Property(Daily.7.WindSpeed))</visible>
+							<visible>!String.IsEmpty(Window.Property(Daily.7.WindSpeed))</visible>
 						</control>
 					</control>
 				</control>
@@ -1135,7 +1135,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1143,7 +1143,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1209,7 +1209,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1218,7 +1218,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1284,7 +1284,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1293,7 +1293,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1359,7 +1359,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1368,7 +1368,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1434,7 +1434,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1443,7 +1443,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1509,7 +1509,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1518,7 +1518,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1594,7 +1594,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1603,7 +1603,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1669,7 +1669,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1678,7 +1678,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1744,7 +1744,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1753,7 +1753,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1819,7 +1819,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1828,7 +1828,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1894,7 +1894,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1903,7 +1903,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -1969,7 +1969,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -1978,7 +1978,7 @@
 						<align>center</align>
 						<font>METF_WeatherHourlyHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
 					</control>
 					<control type="label">
 						<top>190</top>
@@ -2041,7 +2041,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2049,7 +2049,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.1.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 2 -->
@@ -2087,7 +2087,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2095,7 +2095,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.2.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 3 -->
@@ -2133,7 +2133,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2141,7 +2141,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.3.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 4 -->
@@ -2179,7 +2179,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2187,7 +2187,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.4.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 5 -->
@@ -2225,7 +2225,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2233,7 +2233,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.5.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 6 -->
@@ -2271,7 +2271,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2279,7 +2279,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.6.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 7 -->
@@ -2317,7 +2317,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2325,7 +2325,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.7.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 8 -->
@@ -2363,7 +2363,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2371,7 +2371,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.8.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 9 -->
@@ -2409,7 +2409,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2417,7 +2417,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.9.Temperature))</visible>
 					</control>
 				</control>
 			</control>
@@ -2465,7 +2465,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2473,7 +2473,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.10.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 11 -->
@@ -2511,7 +2511,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2519,7 +2519,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.11.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 12 -->
@@ -2557,7 +2557,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2565,7 +2565,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.12.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 13 -->
@@ -2603,7 +2603,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.13.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.13.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2611,7 +2611,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.13.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.13.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 14 -->
@@ -2649,7 +2649,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.14.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.14.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2657,7 +2657,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.14.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.14.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 15 -->
@@ -2695,7 +2695,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.15.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.15.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2703,7 +2703,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.15.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.15.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 16 -->
@@ -2741,7 +2741,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.16.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.16.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2749,7 +2749,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.16.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.16.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 17 -->
@@ -2787,7 +2787,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.17.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.17.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2795,7 +2795,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.17.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.17.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 18 -->
@@ -2833,7 +2833,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.18.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.18.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2841,7 +2841,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.18.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.18.Temperature))</visible>
 					</control>
 				</control>
 			</control>
@@ -2889,7 +2889,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.19.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.19.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2897,7 +2897,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.19.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.19.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 20 -->
@@ -2935,7 +2935,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.20.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.20.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2943,7 +2943,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.20.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.20.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 21 -->
@@ -2981,7 +2981,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.21.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.21.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -2989,7 +2989,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.21.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.21.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 22 -->
@@ -3027,7 +3027,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.22.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.22.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3035,7 +3035,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.22.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.22.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 23 -->
@@ -3073,7 +3073,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.23.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.23.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3081,7 +3081,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.23.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.23.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 24 -->
@@ -3119,7 +3119,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.24.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.24.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3127,7 +3127,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.24.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.24.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 25 -->
@@ -3165,7 +3165,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.25.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.25.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3173,7 +3173,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.25.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.25.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 26 -->
@@ -3211,7 +3211,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.26.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.26.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3219,7 +3219,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.26.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.26.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 27 -->
@@ -3257,7 +3257,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.27.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.27.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3265,7 +3265,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.27.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.27.Temperature))</visible>
 					</control>
 				</control>
 			</control>
@@ -3313,7 +3313,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.28.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.28.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3321,7 +3321,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.28.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.28.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 29 -->
@@ -3359,7 +3359,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.29.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.29.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3367,7 +3367,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.29.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.29.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 30 -->
@@ -3405,7 +3405,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.30.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.30.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3413,7 +3413,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.30.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.30.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 31 -->
@@ -3451,7 +3451,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.31.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.31.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3459,7 +3459,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.31.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.31.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 32 -->
@@ -3497,7 +3497,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.32.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.32.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3505,7 +3505,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.32.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.32.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 33 -->
@@ -3543,7 +3543,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.33.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.33.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3551,7 +3551,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.33.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.33.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 34 -->
@@ -3589,7 +3589,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.34.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.34.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3597,7 +3597,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.34.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.34.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 35 -->
@@ -3635,7 +3635,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.35.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.35.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3643,7 +3643,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.35.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.35.Temperature))</visible>
 					</control>
 				</control>
 				<!-- Hour 36 -->
@@ -3681,7 +3681,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Hourly.36.Temperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Hourly.36.Temperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3689,7 +3689,7 @@
 						<align>center</align>
 						<font>METF_Weather24HrTemp</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Hourly.36.Temperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Hourly.36.Temperature))</visible>
 					</control>
 				</control>
 			</control>
@@ -3747,7 +3747,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Weekend.1.HighTemperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Weekend.1.HighTemperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3755,7 +3755,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Weekend.1.HighTemperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Weekend.1.HighTemperature))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Weekend.1.LowTemperature)]</label>
@@ -3763,7 +3763,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Weekend.1.LowTemperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Weekend.1.LowTemperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3771,7 +3771,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Weekend.1.LowTemperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Weekend.1.LowTemperature))</visible>
 					</control>
 					<control type="grouplist">
 						<top>375</top>
@@ -3786,7 +3786,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[406]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.Humidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.Humidity))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3794,7 +3794,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherDetails</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.1.Humidity)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.Humidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.Humidity))</visible>
 							</control>
 						</control>
 						<control type="group">
@@ -3804,7 +3804,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[31706] $LOCALIZE[406]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.MaxHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.MaxHumidity))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3812,7 +3812,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHighTemp</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.1.MaxHumidity)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.MaxHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.MaxHumidity))</visible>
 							</control>
 						</control>
 						<control type="group">
@@ -3822,7 +3822,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[31707] $LOCALIZE[406]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.MinHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.MinHumidity))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3830,7 +3830,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherLowTemp</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.1.MinHumidity)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.MinHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.MinHumidity))</visible>
 							</control>
 						</control>
 					</control>
@@ -3848,7 +3848,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[404]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.WindSpeed))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.WindSpeed))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3856,7 +3856,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherDetails</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.1.WindSpeed)] $INFO[Window.Property(Weekend.1.WindDirection)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.WindSpeed))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.WindSpeed))</visible>
 							</control>
 						</control>
 						<control type="group">
@@ -3867,7 +3867,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[31706] $LOCALIZE[404]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.MaxWind))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.MaxWind))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3875,7 +3875,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHighTemp</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.1.MaxWind)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.1.MaxWind))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.1.MaxWind))</visible>
 							</control>
 						</control>
 					</control>
@@ -3925,7 +3925,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Weekend.2.HighTemperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Weekend.2.HighTemperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3933,7 +3933,7 @@
 						<align>center</align>
 						<font>METF_WeatherHigh</font>
 						<textcolor>WeatherHighTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Weekend.2.HighTemperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Weekend.2.HighTemperature))</visible>
 					</control>
 					<control type="label">
 						<label>$INFO[Window.Property(Weekend.2.LowTemperature)]</label>
@@ -3941,7 +3941,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>!IsEmpty(Window.Property(Weekend.2.LowTemperature))</visible>
+						<visible>!String.IsEmpty(Window.Property(Weekend.2.LowTemperature))</visible>
 					</control>
 					<control type="label">
 						<label>$LOCALIZE[31010]</label>
@@ -3949,7 +3949,7 @@
 						<align>center</align>
 						<font>METF_WeatherLow</font>
 						<textcolor>WeatherLowTemp</textcolor>
-						<visible>IsEmpty(Window.Property(Weekend.2.LowTemperature))</visible>
+						<visible>String.IsEmpty(Window.Property(Weekend.2.LowTemperature))</visible>
 					</control>
 					<control type="grouplist">
 						<top>375</top>
@@ -3964,7 +3964,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[406]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.Humidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.Humidity))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3972,7 +3972,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherDetails</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.2.Humidity)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.Humidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.Humidity))</visible>
 							</control>
 						</control>
 						<control  type="group">
@@ -3982,7 +3982,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[31706] $LOCALIZE[406]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.MaxHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.MaxHumidity))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -3990,7 +3990,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHighTemp</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.2.MaxHumidity)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.MaxHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.MaxHumidity))</visible>
 							</control>
 						</control>
 						<control type="group">
@@ -4000,7 +4000,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[31707] $LOCALIZE[406]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.MinHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.MinHumidity))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -4008,7 +4008,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherLowTemp</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.2.MinHumidity)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.MinHumidity))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.MinHumidity))</visible>
 							</control>
 						</control>
 					</control>
@@ -4026,7 +4026,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[404]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.WindSpeed))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.WindSpeed))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -4034,7 +4034,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherDetails</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.2.WindSpeed)] $INFO[Window.Property(Weekend.2.WindDirection)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.WindSpeed))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.WindSpeed))</visible>
 							</control>
 						</control>
 						<control type="group">
@@ -4045,7 +4045,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHeading</textcolor>
 								<label>$LOCALIZE[31706] $LOCALIZE[404]:</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.MaxWind))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.MaxWind))</visible>
 							</control>
 							<control type="label">
 								<width min="25" max="235">auto</width>
@@ -4053,7 +4053,7 @@
 								<font>METF_WeatherDetailsWeekend</font>
 								<textcolor>WeatherHighTemp</textcolor>
 								<label>[B]$INFO[Window.Property(Weekend.2.MaxWind)][/B]</label>
-								<visible>!IsEmpty(Window.Property(Weekend.2.MaxWind))</visible>
+								<visible>!String.IsEmpty(Window.Property(Weekend.2.MaxWind))</visible>
 							</control>
 						</control>
 					</control>
@@ -4062,7 +4062,7 @@
 
 			<!-- Weather Map -->
 			<control type="group">
-				<visible>String.Contains(Skin.String(WeatherDisplay),WeatherMap) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+				<visible>String.Contains(Skin.String(WeatherDisplay),WeatherMap) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 				<top>-10</top>
 				<left>350</left>
 				<control type="image">
@@ -4104,7 +4104,7 @@
 					<viewtype label="535">list</viewtype>
 					<scrolltime>200</scrolltime>
 					<orientation>horizontal</orientation>
-					<visible>!IsEmpty(Window.Property(Map.IsFetched))</visible>
+					<visible>!String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					<itemlayout height="470" width="590">
 					</itemlayout>
 					<focusedlayout height="490" width="590">
@@ -4142,35 +4142,35 @@
 							<label2>$INFO[Window.Property(Map.1.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.1.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.1.Layer)]</property>
-							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.1.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+							<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.1.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(Map.2.Heading)]</label>
 							<label2>$INFO[Window.Property(Map.2.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.2.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.2.Layer)]</property>
-							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.2.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+							<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.2.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(Map.3.Heading)]</label>
 							<label2>$INFO[Window.Property(Map.3.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.3.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.3.Layer)]</property>
-							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.3.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+							<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.3.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(Map.4.Heading)]</label>
 							<label2>$INFO[Window.Property(Map.4.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.4.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.4.Layer)]</property>
-							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.4.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+							<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.4.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 						<item>
 							<label>$INFO[Window.Property(Map.5.Heading)]</label>
 							<label2>$INFO[Window.Property(Map.5.Legend)]</label2>
 							<icon>$INFO[Window.Property(Map.5.Area)]</icon>
 							<property name="Layer">$INFO[Window.Property(Map.5.Layer)]</property>
-							<visible>Weather.IsFetched + !IsEmpty(Window.Property(Map.5.Area)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+							<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.5.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 						</item>
 					</content>
 				</control>
@@ -4220,7 +4220,7 @@
 				</control>
 				<control type="button" id="8">
 					<description>12 Hour Forecast</description>
-					<visible>!IsEmpty(Window.Property(Hourly.1.Time))</visible>
+					<visible>!String.IsEmpty(Window.Property(Hourly.1.Time))</visible>
 					<width>340</width>
 					<height>40</height>
 					<align>left</align>
@@ -4238,7 +4238,7 @@
 				</control>
 				<control type="button" id="7">
 					<description>36 Hour Forecast</description>
-					<visible>!IsEmpty(Window.Property(Hourly.13.Time))</visible>
+					<visible>!String.IsEmpty(Window.Property(Hourly.13.Time))</visible>
 					<width>340</width>
 					<height>40</height>
 					<align>left</align>
@@ -4256,7 +4256,7 @@
 				</control>
 				<control type="button" id="6">
 					<description>Weekend Forecast</description>
-					<visible>!IsEmpty(Window.Property(Weekend.1.LongDay))</visible>
+					<visible>!String.IsEmpty(Window.Property(Weekend.1.LongDay))</visible>
 					<width>340</width>
 					<height>40</height>
 					<align>left</align>
@@ -4274,7 +4274,7 @@
 				</control>
 				<control type="button" id="5">
 					<description>Weather Maps</description>
-					<visible>!IsEmpty(Window.Property(Map.IsFetched))</visible>
+					<visible>!String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					<width>340</width>
 					<height>40</height>
 					<align>left</align>
@@ -4364,7 +4364,7 @@
 					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
 					<effect type="fade" start="100" end="0" time="300" />
 				</animation>
-				<visible>!IsEmpty(Window.Property(Hourly.13.Time)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+				<visible>!String.IsEmpty(Window.Property(Hourly.13.Time)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 			</control>
 			<control type="label">
 				<description>Nav Menu Location Label</description>
@@ -4381,7 +4381,7 @@
 					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
 					<effect type="fade" start="100" end="0" time="300" />
 				</animation>
-				<visible>!IsEmpty(Window.Property(Hourly.13.Time)) + IsEmpty(Window.Property(Map.IsFetched))</visible>
+				<visible>!String.IsEmpty(Window.Property(Hourly.13.Time)) + String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 			</control>
 			<control type="label">
 				<description>Nav Menu Location Label</description>
@@ -4398,7 +4398,7 @@
 					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
 					<effect type="fade" start="100" end="0" time="300" />
 				</animation>
-				<visible>IsEmpty(Window.Property(Hourly.13.Time))</visible>
+				<visible>String.IsEmpty(Window.Property(Hourly.13.Time))</visible>
 			</control>
 		</control>
 		<!-- Heading Labels at very top of screen -->

@@ -30,7 +30,7 @@
 						<height>155</height>
 						<texture>frames/ClassicFrame_Background.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
+						<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
 						<posx>25</posx>
@@ -46,7 +46,7 @@
 						<width>192</width>
 						<height>195</height>
 						<texture>frames/ClassicFrame_SquareSmall.png</texture>
-						<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
+						<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout width="205" height="205">
@@ -60,7 +60,7 @@
 							<height>155</height>
 							<texture>frames/ClassicFrame_Background.png</texture>
 							<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-							<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
+							<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !String.IsEmpty(ListItem.Icon)</visible>
 						</control>
 						<control type="image">
 							<posx>25</posx>
@@ -76,7 +76,7 @@
 							<width>192</width>
 							<height>195</height>
 							<texture>frames/ClassicFrame_SquareSmall.png</texture>
-							<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
+							<visible>!String.IsEqual(ListItem.Icon,-) + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !String.IsEmpty(ListItem.Icon)</visible>
 						</control>
 					</control>
 				</focusedlayout>
@@ -114,7 +114,7 @@
 					<height>182</height>
 					<texture fallback="home_art/pictures.jpg">$INFO[ListItem.Art(fanart)]</texture>
 					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
-					<visible>Window.IsActive(pictures) + IsEmpty(ListItem.Icon)</visible>
+					<visible>Window.IsActive(pictures) + String.IsEmpty(ListItem.Icon)</visible>
 				</control>
 				<control type="image">
 					<posx>20</posx>
@@ -150,7 +150,7 @@
 					<font>METF_TitleText</font>
 					<textcolor>MediaDetailsGenre</textcolor>
 					<label>$INFO[ListItem.Genre]</label>
-					<visible>!IsEmpty(ListItem.Genre) + !Container.Content(artists)</visible>
+					<visible>!String.IsEmpty(ListItem.Genre) + !Container.Content(artists)</visible>
 				</control>
 				<!-- Artist Genre -->
 				<control type="label">
@@ -161,7 +161,7 @@
 					<font>METF_TitleText</font>
 					<textcolor>MediaDetailsGenre</textcolor>
 					<label>$INFO[ListItem.Property(Artist_Genre)]</label>
-					<visible>!IsEmpty(ListItem.Property(Artist_Genre)) + Container.Content(artists)</visible>
+					<visible>!String.IsEmpty(ListItem.Property(Artist_Genre)) + Container.Content(artists)</visible>
 				</control>
 				<!-- Year -->
 				<control type="label">
@@ -171,7 +171,7 @@
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsYear</textcolor>
 					<label>$INFO[ListItem.Year]</label>
-					<visible>!IsEmpty(ListItem.Year) + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(musicvideos) | Container.Content(albums) | Container.Content(songs)]</visible>
+					<visible>!String.IsEmpty(ListItem.Year) + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(musicvideos) | Container.Content(albums) | Container.Content(songs)]</visible>
 				</control>
 			</control>
 			<control type="group">

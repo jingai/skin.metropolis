@@ -134,7 +134,7 @@
 					<texturefocus>osd/osd_button_love_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_love_nf.png</texturenofocus>
 					<onclick>RunScript(service.scrobbler.lastfm,action=LastFM.Love)</onclick>
-					<visible>!IsEmpty(Window(Home).Property(LastFM.CanLove))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(LastFM.CanLove))</visible>
 				</control>
 				<control type="button" id="1102">
 					<description>Last.fm ban</description>
@@ -143,7 +143,7 @@
 					<texturefocus>osd/osd_button_ban_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_ban_nf.png</texturenofocus>
 					<onclick>RunScript(service.scrobbler.lastfm,action=LastFM.Ban)</onclick>
-					<visible>!IsEmpty(Window(Home).Property(LastFM.CanBan))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(LastFM.CanBan))</visible>
 				</control>
 			</control>
 			<control type="group">
@@ -278,7 +278,7 @@
 					<altclick>Skin.SetAddon(LyricPath,xbmc.python.lyrics)</altclick>
 					<altclick>Close</altclick>
 					<altclick>RunScript($INFO[Skin.String(LyricPath)])</altclick>
-					<usealttexture>IsEmpty(Skin.String(LyricPath))</usealttexture>
+					<usealttexture>String.IsEmpty(Skin.String(LyricPath))</usealttexture>
 				</control>
 				<control type="button" id="500">
 					<description>Visualisation Select Button</description>

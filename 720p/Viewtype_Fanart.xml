@@ -32,7 +32,7 @@
 						<texture background="true" fallback="DefaultThumb.png">$VAR[PosterThumb]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title)</visible>
+						<visible>!String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>28</posx>
@@ -43,7 +43,7 @@
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<colordiffuse>GlassDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Title)</visible>
+						<visible>!String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>10</posx>
@@ -53,7 +53,7 @@
 						<texture>frames/ClassicFrame_PosterSmall.png</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title)</visible>
+						<visible>!String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>191</posx>
@@ -86,7 +86,7 @@
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
 					</control>
 					<control type="image">
 						<posx>34</posx>
@@ -97,7 +97,7 @@
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
 					</control>
 					<control type="image">
 						<posx>34</posx>
@@ -107,7 +107,7 @@
 						<texture fallback="home_art/movies.jpg" diffuse="frames/ClassicFrame_SegmentedDiffuse.png">$VAR[LandscapeFanart]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
 					</control>
 					<control type="image">
 						<posx>34</posx>
@@ -117,7 +117,7 @@
 						<texture fallback="home_art/movies.jpg">$VAR[LandscapeFanart]</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
 					</control>
 					<control type="image">
 						<posx>9</posx>
@@ -127,7 +127,7 @@
 						<texture>frames/ClassicFrame_Segmented.png</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
 					</control>
 					<control type="image">
 						<posx>9</posx>
@@ -137,7 +137,7 @@
 						<texture>frames/ClassicFrame_FanartMedium.png</texture>
 						<fadetime>200</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
 					</control>
 					<control type="image">
 						<posx>638</posx>
@@ -198,7 +198,7 @@
 					<font>METF_MediaDetailsSmall</font>
 					<textcolor>MediaDetailsGenre</textcolor>
 					<label>$INFO[ListItem.Genre]</label>
-					<visible>!IsEmpty(ListItem.Genre)</visible>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
 				</control>
 				<control type="label">
 					<posx>200</posx>

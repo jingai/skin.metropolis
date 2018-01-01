@@ -32,7 +32,7 @@
 						<height>152</height>
 						<texture>frames/landscapematteNF.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Title)</visible>
+						<visible>!String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>4</posx>
@@ -43,7 +43,7 @@
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">keep</aspectratio>
-						<visible>IsEmpty(ListItem.Title)</visible>
+						<visible>String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>4</posx>
@@ -54,7 +54,7 @@
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">scale</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + Container.Content(episodes)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Container.Content(episodes)</visible>
 					</control>
 					<control type="image">
 						<posx>4</posx>
@@ -65,7 +65,7 @@
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + Container.Content(tvshows)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Container.Content(tvshows)</visible>
 					</control>
 					<control type="image">
 						<posx>4</posx>
@@ -76,7 +76,7 @@
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets)]</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets)]</visible>
 					</control>
 					<control type="image">
 						<posx>2</posx>
@@ -113,7 +113,7 @@
 						<height>180</height>
 						<texture>frames/ClassicFrame_Background.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Title)</visible>
+						<visible>!String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>18</posx>
@@ -126,7 +126,7 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="100" time="300" tween="back" easing="out" />
 						</animation>
-						<visible>IsEmpty(ListItem.Title)</visible>
+						<visible>String.IsEmpty(ListItem.Title)</visible>
 					</control>
 					<control type="image">
 						<posx>18</posx>
@@ -139,7 +139,7 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="100" time="300" tween="back" easing="out" />
 						</animation>
-						<visible>!IsEmpty(ListItem.Title) + Container.Content(episodes)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Container.Content(episodes)</visible>
 					</control>
 					<control type="image">
 						<posx>18</posx>
@@ -152,7 +152,7 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="100" time="300" tween="back" easing="out" />
 						</animation>
-						<visible>!IsEmpty(ListItem.Title) + Container.Content(tvshows)</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + Container.Content(tvshows)</visible>
 					</control>
 					<control type="image">
 						<posx>18</posx>
@@ -165,7 +165,7 @@
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="100" time="300" tween="back" easing="out" />
 						</animation>
-						<visible>!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets)]</visible>
+						<visible>!String.IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets)]</visible>
 					</control>
 					<control type="image">
 						<posx>2</posx>
@@ -173,7 +173,7 @@
 						<width>354</width>
 						<height>218</height>
 						<texture background="true">frames/ClassicFrame_FanartSmall.png</texture>
-						<visible>!IsEmpty(ListItem.Title)</visible>
+						<visible>!String.IsEmpty(ListItem.Title)</visible>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="100" time="300" tween="back" easing="out" />
 							<effect type="fade" start="50" end="100" time="300" />

@@ -108,7 +108,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.1.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.1.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.1.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.1.name))</visible>
 					</item>
 					<item id="2">
 						<label>$INFO[Window(0).Property(favourite.2.name)]</label>
@@ -117,7 +117,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.2.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.2.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.2.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.2.name))</visible>
 					</item>
 					<item id="3">
 						<label>$INFO[Window(0).Property(favourite.3.name)]</label>
@@ -126,7 +126,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.3.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.3.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.3.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.3.name))</visible>
 					</item>
 					<item id="4">
 						<label>$INFO[Window(0).Property(favourite.4.name)]</label>
@@ -135,7 +135,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.4.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.4.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.4.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.4.name))</visible>
 					</item>
 					<item id="5">
 						<label>$INFO[Window(0).Property(favourite.5.name)]</label>
@@ -144,7 +144,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.5.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.5.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.5.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.5.name))</visible>
 					</item>
 					<item id="6">
 						<label>$INFO[Window(0).Property(favourite.6.name)]</label>
@@ -153,7 +153,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.6.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.6.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.6.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.6.name))</visible>
 					</item>
 					<item id="7">
 						<label>$INFO[Window(0).Property(favourite.7.name)]</label>
@@ -162,7 +162,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.7.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.7.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.7.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.7.name))</visible>
 					</item>
 					<item id="8">
 						<label>$INFO[Window(0).Property(favourite.8.name)]</label>
@@ -171,7 +171,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.8.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.8.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.8.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.8.name))</visible>
 					</item>
 					<item id="9">
 						<label>$INFO[Window(0).Property(favourite.9.name)]</label>
@@ -180,7 +180,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.9.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.9.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.9.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.9.name))</visible>
 					</item>
 					<item id="10">
 						<label>$INFO[Window(0).Property(favourite.10.name)]</label>
@@ -189,7 +189,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.10.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.10.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.10.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.10.name))</visible>
 					</item>
 					<item id="11">
 						<label>$INFO[Window(0).Property(favourite.11.name)]</label>
@@ -198,7 +198,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.11.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.11.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.11.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.11.name))</visible>
 					</item>
 					<item id="12">
 						<label>$INFO[Window(0).Property(favourite.12.name)]</label>
@@ -207,7 +207,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.12.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.12.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.12.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.12.name))</visible>
 					</item>
 					<item id="13">
 						<label>$INFO[Window(0).Property(favourite.13.name)]</label>
@@ -216,7 +216,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.13.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.13.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.13.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.13.name))</visible>
 					</item>
 					<item id="14">
 						<label>$INFO[Window(0).Property(favourite.14.name)]</label>
@@ -225,7 +225,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.14.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.14.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.14.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.14.name))</visible>
 					</item>
 					<item id="15">
 						<label>$INFO[Window(0).Property(favourite.15.name)]</label>
@@ -234,7 +234,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.15.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.15.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.15.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.15.name))</visible>
 					</item>
 					<item id="16">
 						<label>$INFO[Window(0).Property(favourite.16.name)]</label>
@@ -243,7 +243,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.16.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.16.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.16.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.16.name))</visible>
 					</item>
 					<item id="17">
 						<label>$INFO[Window(0).Property(favourite.17.name)]</label>
@@ -252,7 +252,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.17.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.17.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.17.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.17.name))</visible>
 					</item>
 					<item id="18">
 						<label>$INFO[Window(0).Property(favourite.18.name)]</label>
@@ -261,7 +261,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.18.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.18.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.18.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.18.name))</visible>
 					</item>
 					<item id="19">
 						<label>$INFO[Window(0).Property(favourite.19.name)]</label>
@@ -270,7 +270,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.19.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.19.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.19.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.19.name))</visible>
 					</item>
 					<item id="20">
 						<label>$INFO[Window(0).Property(favourite.20.name)]</label>
@@ -279,7 +279,7 @@
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteName)],$INFO[Window(0).Property(favourite.20.name)])</onclick>
 						<onclick>Skin.SetString($INFO[Skin.String(CustomFavouriteThumb)],$INFO[Window(0).Property(favourite.20.thumb)])</onclick>
 						<onclick>Dialog.Close(1114)</onclick>
-						<visible>!IsEmpty(Window(0).Property(favourite.20.name))</visible>
+						<visible>!String.IsEmpty(Window(0).Property(favourite.20.name))</visible>
 					</item>
 				</content>
 			</control>

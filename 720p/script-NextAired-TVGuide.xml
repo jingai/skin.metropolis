@@ -27,7 +27,7 @@
 				<texture background="true">$VAR[NextAiredFanart]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>FanartCrossfadeTime</fadetime>
-				<visible>!IsEmpty(Window(Home).Property(TVGuide.BackgroundFanart))</visible>
+				<visible>!String.IsEmpty(Window(Home).Property(TVGuide.BackgroundFanart))</visible>
 			</control>
 		</control>
 		<control type="image">
@@ -1302,7 +1302,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(200) | !IsEmpty(Window(Home).Property(TVGuide.MondayList))</visible>
+				<visible>Control.HasFocus(200) | !String.IsEmpty(Window(Home).Property(TVGuide.MondayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -1346,7 +1346,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(200).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1421,7 +1421,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<visible>IsEmpty(Control.GetLabel(80000))</visible>
+					<visible>String.IsEmpty(Control.GetLabel(80000))</visible>
 				</control>
 				<control type="image" id="80000">
 					<posx>122</posx>
@@ -1435,7 +1435,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(201) | !IsEmpty(Window(Home).Property(TVGuide.TuesdayList))</visible>
+				<visible>Control.HasFocus(201) | !String.IsEmpty(Window(Home).Property(TVGuide.TuesdayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -1479,7 +1479,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(201).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1554,7 +1554,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<visible>IsEmpty(Control.GetLabel(80001))</visible>
+					<visible>String.IsEmpty(Control.GetLabel(80001))</visible>
 				</control>
 				<control type="image" id="80001">
 					<posx>122</posx>
@@ -1568,7 +1568,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(202) | !IsEmpty(Window(Home).Property(TVGuide.WednesdayList))</visible>
+				<visible>Control.HasFocus(202) | !String.IsEmpty(Window(Home).Property(TVGuide.WednesdayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -1612,7 +1612,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(202).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1687,7 +1687,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<visible>IsEmpty(Control.GetLabel(80002))</visible>
+					<visible>String.IsEmpty(Control.GetLabel(80002))</visible>
 				</control>
 				<control type="image" id="80002">
 					<posx>122</posx>
@@ -1701,7 +1701,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(203) | !IsEmpty(Window(Home).Property(TVGuide.ThursdayList))</visible>
+				<visible>Control.HasFocus(203) | !String.IsEmpty(Window(Home).Property(TVGuide.ThursdayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -1745,7 +1745,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(203).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1820,7 +1820,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<visible>IsEmpty(Control.GetLabel(80003))</visible>
+					<visible>String.IsEmpty(Control.GetLabel(80003))</visible>
 				</control>
 				<control type="image" id="80003">
 					<posx>122</posx>
@@ -1834,7 +1834,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(204) | !IsEmpty(Window(Home).Property(TVGuide.FridayList))</visible>
+				<visible>Control.HasFocus(204) | !String.IsEmpty(Window(Home).Property(TVGuide.FridayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -1878,7 +1878,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(204).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -1953,7 +1953,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-				<visible>IsEmpty(Control.GetLabel(80004))</visible>
+				<visible>String.IsEmpty(Control.GetLabel(80004))</visible>
 				</control>
 				<control type="image" id="80004">
 					<posx>122</posx>
@@ -1967,7 +1967,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(205) | !IsEmpty(Window(Home).Property(TVGuide.SaturdayList))</visible>
+				<visible>Control.HasFocus(205) | !String.IsEmpty(Window(Home).Property(TVGuide.SaturdayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -2011,7 +2011,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(205).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -2086,7 +2086,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<visible>IsEmpty(Control.GetLabel(80005))</visible>
+					<visible>String.IsEmpty(Control.GetLabel(80005))</visible>
 				</control>
 				<control type="image" id="80005">
 					<posx>122</posx>
@@ -2100,7 +2100,7 @@
 				<description>Additional show info</description>
 				<posx>919</posx>
 				<posy>65</posy>
-				<visible>Control.HasFocus(206) | !IsEmpty(Window(Home).Property(TVGuide.SundayList))</visible>
+				<visible>Control.HasFocus(206) | !String.IsEmpty(Window(Home).Property(TVGuide.SundayList))</visible>
 				<control type="label">
 					<description>Episode title</description>
 					<posx>0</posx>
@@ -2144,7 +2144,7 @@
 					<height>170</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(206).ListItem.Property(Path),,landscape.jpg]</texture>
-					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
+					<visible>!String.IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
 					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
@@ -2219,7 +2219,7 @@
 					<textcolor>TextFO</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<visible>IsEmpty(Control.GetLabel(80006))</visible>
+					<visible>String.IsEmpty(Control.GetLabel(80006))</visible>
 				</control>
 				<control type="image" id="80006">
 					<posx>122</posx>

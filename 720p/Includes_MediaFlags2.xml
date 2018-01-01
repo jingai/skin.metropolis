@@ -172,7 +172,7 @@
 			<control type="group">
 				<width>58</width>
 				<height>62</height>
-				<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] | [!IsEmpty(ListItem.AudioLanguage) + ![String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
+				<visible>[[!String.IsEmpty(ListItem.SubtitleLanguage) + String.IsEmpty(VideoPlayer.SubtitleLanguage)] | [String.IsEmpty(ListItem.SubtitleLanguage) + !String.IsEmpty(VideoPlayer.SubtitleLanguage)]] | [!String.IsEmpty(ListItem.AudioLanguage) + ![String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
 				<control type="image">
 					<posx>2</posx>
 					<width>66</width>
@@ -187,7 +187,7 @@
 					<height>55</height>
 					<texture background="true" diffuse="flags/nocc.png">$VAR[Language_Icons]</texture>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
-					<visible>[IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] + !IsEmpty(ListItem.AudioLanguage) + !String.Contains(ListItem.AudioLanguage,und)</visible>
+					<visible>[String.IsEmpty(ListItem.SubtitleLanguage) + String.IsEmpty(VideoPlayer.SubtitleLanguage)] + !String.IsEmpty(ListItem.AudioLanguage) + !String.Contains(ListItem.AudioLanguage,und)</visible>
 				</control>
 				<control type="image">
 					<top>-2</top>
@@ -195,7 +195,7 @@
 					<width>60</width>
 					<height>55</height>
 					<texture background="true" diffuse="flags/cc.png">$VAR[Language_Icons]</texture>
-					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [!IsEmpty(ListItem.AudioLanguage) + ![String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
+					<visible>[[!String.IsEmpty(ListItem.SubtitleLanguage) + String.IsEmpty(VideoPlayer.SubtitleLanguage)] | [String.IsEmpty(ListItem.SubtitleLanguage) + !String.IsEmpty(VideoPlayer.SubtitleLanguage)]] + [!String.IsEmpty(ListItem.AudioLanguage) + ![String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
 				</control>
 				<control type="image">
@@ -204,7 +204,7 @@
 					<width>60</width>
 					<height>55</height>
 					<texture background="true">flags/cc.png</texture>
-					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [IsEmpty(ListItem.AudioLanguage) | [String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
+					<visible>[[!String.IsEmpty(ListItem.SubtitleLanguage) + String.IsEmpty(VideoPlayer.SubtitleLanguage)] | [String.IsEmpty(ListItem.SubtitleLanguage) + !String.IsEmpty(VideoPlayer.SubtitleLanguage)]] + [String.IsEmpty(ListItem.AudioLanguage) | [String.Contains(ListItem.AudioLanguage,und) | String.Contains(ListItem.AudioLanguage,unk)]]</visible>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
 				</control>
 			</control>

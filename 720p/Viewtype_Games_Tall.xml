@@ -38,12 +38,12 @@
 							<font>METF_MediaDetailsSmall</font>
 							<textcolor>MediaDetailsYear</textcolor>
 							<label>$INFO[ListItem.premiered]</label>
-							<visible>!IsEmpty(ListItem.premiered) + String.Contains(Container.FolderPath,plugin)</visible>
+							<visible>!String.IsEmpty(ListItem.premiered) + String.Contains(Container.FolderPath,plugin)</visible>
 						</control>
 						<!-- Bullet -->
 						<control type="image">
 							<include>ViewDetailsBullet</include>
-							<visible>![IsEmpty(ListItem.premiered) | IsEmpty(ListItem.studio)]</visible>
+							<visible>![String.IsEmpty(ListItem.premiered) | String.IsEmpty(ListItem.studio)]</visible>
 						</control>
 						<!-- Duration -->
 						<control type="label">
@@ -53,12 +53,12 @@
 							<font>METF_MediaDetailsSmall</font>
 							<textcolor>MediaDetailsDuration</textcolor>
 							<label>$INFO[ListItem.studio]</label>
-							<visible>!IsEmpty(ListItem.studio) + String.Contains(Container.FolderPath,plugin)</visible>
+							<visible>!String.IsEmpty(ListItem.studio) + String.Contains(Container.FolderPath,plugin)</visible>
 						</control>
 						<!-- Bullet -->
 						<control type="image">
 							<include>ViewDetailsBullet</include>
-							<visible>![IsEmpty(ListItem.studio) | IsEmpty(ListItem.Genre)]</visible>
+							<visible>![String.IsEmpty(ListItem.studio) | String.IsEmpty(ListItem.Genre)]</visible>
 						</control>				
 						<!-- Genre -->
 						<control type="label">
@@ -68,7 +68,7 @@
 							<font>METF_MediaDetailsSmall</font>
 							<textcolor>MediaDetailsGenre</textcolor>
 							<label>$INFO[ListItem.Genre]</label>
-							<visible>!IsEmpty(ListItem.Genre)</visible>
+							<visible>!String.IsEmpty(ListItem.Genre)</visible>
 						</control>
 					</control>			
 				</control>
@@ -107,7 +107,7 @@
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<fadetime>200</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<visible>!IsEmpty(ListItem.Title)</visible>
+							<visible>!String.IsEmpty(ListItem.Title)</visible>
 						</control>
 						<!-- Unfocused Item - Frame -->
 						<control type="image">
@@ -119,7 +119,7 @@
 							<fadetime>200</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 							<colordiffuse>GlassDiffuse</colordiffuse>
-							<visible>!IsEmpty(ListItem.Title)</visible>
+							<visible>!String.IsEmpty(ListItem.Title)</visible>
 						</control>
 						<!-- Unfocused Item - Frame -->
 						<control type="image">
@@ -128,7 +128,7 @@
 							<texture>frames/ClassicFrame_PosterSmall.png</texture>
 							<fadetime>200</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<visible>!IsEmpty(ListItem.Title)</visible>
+							<visible>!String.IsEmpty(ListItem.Title)</visible>
 						</control>
 						<!-- Unfocused Item - Watched Overlay -->
 						<control type="image">
@@ -139,7 +139,7 @@
 							<fadetime>200</fadetime>
 							<texture>$INFO[ListItem.Overlay]</texture>
 							<colordiffuse>WatchedOverlay</colordiffuse>
-							<visible>!IsEmpty(ListItem.Title)</visible>
+							<visible>!String.IsEmpty(ListItem.Title)</visible>
 						</control>
 					</control>
 				</itemlayout>
@@ -158,7 +158,7 @@
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 							<fadetime>200</fadetime>
-							<visible>!IsEmpty(ListItem.Title)</visible>
+							<visible>!String.IsEmpty(ListItem.Title)</visible>
 						</control>
 						<!-- Focused Item - Poster Frame -->
 						<control type="image">
@@ -187,7 +187,7 @@
 							<animation type="Focus" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" />
 							</animation>
-							<visible>!IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
+							<visible>!String.IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
 						</control>
 						<control type="image">
 							<posx>23</posx>
@@ -201,7 +201,7 @@
 							<animation type="Focus" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" />
 							</animation>
-							<visible>!IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
+							<visible>!String.IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
 						</control>
 						<control type="image">
 							<posx>23</posx>
@@ -214,7 +214,7 @@
 							<animation type="Focus" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" />
 							</animation>
-							<visible>!IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
+							<visible>!String.IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
 						</control>
 						<control type="image">
 							<posx>23</posx>
@@ -227,7 +227,7 @@
 							<animation type="Focus" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" />
 							</animation>
-							<visible>!IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
+							<visible>!String.IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
 						</control>
 						<!-- Focused Item Segmented Fanart Frame -->
 						<control type="image">
@@ -239,7 +239,7 @@
 							<animation type="Focus" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" />
 							</animation>
-							<visible>!IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
+							<visible>!String.IsEmpty(ListItem.Title) + !Skin.HasSetting(NoSegmentedFanart)</visible>
 						</control>
 						<!-- Focused Item Normal Fanart Frame -->						
 						<control type="image">
@@ -251,7 +251,7 @@
 							<animation type="Focus" reversible="false">
 								<effect type="fade" start="0" end="100" time="300" />
 							</animation>
-							<visible>!IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
+							<visible>!String.IsEmpty(ListItem.Title) + Skin.HasSetting(NoSegmentedFanart)</visible>
 						</control>
 					</control>
 				</focusedlayout>

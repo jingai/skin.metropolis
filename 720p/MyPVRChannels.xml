@@ -220,7 +220,7 @@
 					<aligny>center</aligny>
 					<include>LiveTVLabel</include>
 					<label>$LOCALIZE[19031] : $INFO[ListItem.NextTitle]</label>
-					<visible>!IsEmpty(ListItem.NextTitle)</visible>
+					<visible>!String.IsEmpty(ListItem.NextTitle)</visible>
 				</control>
 			</control>
 			<!-- TV Channel Plot (Bottom) -->

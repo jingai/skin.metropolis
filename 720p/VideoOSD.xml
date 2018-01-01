@@ -4,8 +4,8 @@
 	<controls>
 		<control type="button" id="410">
 			<onfocus>Dialog.Close(FullscreenInfo)</onfocus>
-			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(14)</onfocus>
-			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + !IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(17)</onfocus>
+			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + String.IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(14)</onfocus>
+			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + !String.IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(17)</onfocus>
 			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + !VideoPlayer.HasSubtitles + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(15)</onfocus>
 			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + VideoPlayer.HasSubtitles + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(16)</onfocus>
 			<onfocus condition="String.Contains(Skin.String(DefaultOSD),711)">SetFocus(11)</onfocus>
@@ -68,7 +68,7 @@
 					<onclick>Close</onclick>
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 					<onclick>ActivateWindow(SubtitleSearch)</onclick>
-					<visible>!Skin.HasSetting(OneButtonSubtitles) + IsEmpty(Skin.String(SubtitlesPath))</visible>
+					<visible>!Skin.HasSetting(OneButtonSubtitles) + String.IsEmpty(Skin.String(SubtitlesPath))</visible>
 				</control>
 				<control type="button" id="17">
 					<description>OSD Subtitles</description>
@@ -80,7 +80,7 @@
 					<onclick>Close</onclick>
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 					<onclick>ActivateWindow(SubtitleSearch)</onclick>
-					<visible>!Skin.HasSetting(OneButtonSubtitles) + !IsEmpty(Skin.String(SubtitlesPath))</visible>
+					<visible>!Skin.HasSetting(OneButtonSubtitles) + !String.IsEmpty(Skin.String(SubtitlesPath))</visible>
 				</control>
 				<control type="button" id="15">
 					<description>One Button OSD Subtitles</description>

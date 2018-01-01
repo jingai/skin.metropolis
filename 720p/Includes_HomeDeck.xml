@@ -103,7 +103,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Movies.Count))</visible>
+							<visible>!String.IsEmpty(Window.Property(Movies.Count))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Movies.Count)]</label>
@@ -120,7 +120,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Movies.UnWatched))</visible>
+							<visible>!String.IsEmpty(Window.Property(Movies.UnWatched))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Movies.UnWatched)]</label>
@@ -161,7 +161,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(TVShows.Count))</visible>
+							<visible>!String.IsEmpty(Window.Property(TVShows.Count))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(TVShows.Count)]</label>
@@ -178,7 +178,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Episodes.Count))</visible>
+							<visible>!String.IsEmpty(Window.Property(Episodes.Count))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Episodes.Count)]</label>
@@ -195,7 +195,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Episodes.UnWatched))</visible>
+							<visible>!String.IsEmpty(Window.Property(Episodes.UnWatched))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Episodes.UnWatched)]</label>
@@ -220,7 +220,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Music.ArtistsCount))</visible>
+							<visible>!String.IsEmpty(Window.Property(Music.ArtistsCount))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Music.ArtistsCount)]</label>
@@ -237,7 +237,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Music.AlbumsCount))</visible>
+							<visible>!String.IsEmpty(Window.Property(Music.AlbumsCount))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Music.AlbumsCount)]</label>
@@ -254,7 +254,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(Music.SongsCount))</visible>
+							<visible>!String.IsEmpty(Window.Property(Music.SongsCount))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(Music.SongsCount)]</label>
@@ -279,7 +279,7 @@
 							<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">HomeStatsDetails1</include>
 							<include condition="Skin.HasSetting(Home2)">HomeStatsDetails2</include>
 							<include condition="Skin.HasSetting(Home3)">HomeStatsDetails3</include>
-							<visible>!IsEmpty(Window.Property(MusicVideos.Count))</visible>
+							<visible>!String.IsEmpty(Window.Property(MusicVideos.Count))</visible>
 						</control>
 						<control type="label">
 							<label>$INFO[Window.Property(MusicVideos.Count)]</label>
@@ -308,7 +308,7 @@
 					<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">RecentlyAddedArrow1</include>
 					<include condition="Skin.HasSetting(Home2)">RecentlyAddedArrow2</include>
 					<include condition="Skin.HasSetting(Home3)">RecentlyAddedArrow3</include>
-					<visible>!IsEmpty(Container(9000).ListItem.Property(widget))</visible>
+					<visible>!String.IsEmpty(Container(9000).ListItem.Property(widget))</visible>
 					<visible>![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
 				</control>
 				<!-- Widget titles for all home views -->
@@ -318,7 +318,7 @@
 					<include condition="Skin.HasSetting(Home3)">RecentlyAddedTitle3</include>
 					<label>[B]$INFO[Container(9000).ListItem.Property(widgetName)][/B]</label>
 					<shadowcolor>ff000000</shadowcolor>
-					<visible>!IsEmpty(Container(9000).ListItem.Property(widget))</visible>
+					<visible>!String.IsEmpty(Container(9000).ListItem.Property(widget))</visible>
 					<visible>![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
 				</control>
 			</control>
@@ -331,7 +331,7 @@
 					<ondown>Control.Move(8000,1)</ondown>
 					<onleft>9000</onleft>
 					<onright>9000</onright>
-					<onclick condition="IsEmpty(Container(8000).ListItem.PicturePath)">ShowPicture($INFO[Container(8000).ListItem.Thumb])</onclick>
+					<onclick condition="String.IsEmpty(Container(8000).ListItem.PicturePath)">ShowPicture($INFO[Container(8000).ListItem.Thumb])</onclick>
 					<visible>String.IsEqual(Container(9000).ListItem.Property(widgetType),pictures)</visible>
 				</control>
 
@@ -372,7 +372,7 @@
 				<font>METF_RecentlyAddedListText</font>
 				<textcolor>RecentlyAddedNF</textcolor>
 				<label>$VAR[GlobalWidgetLabel]</label>
-				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
+				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !String.IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
 			</control>
 		</itemlayout>
 		<focusedlayout width="510" height="27">
@@ -385,7 +385,7 @@
 				<aligny>center</aligny>
 				<texture>FocusLine.png</texture>
 				<colordiffuse>FocusBar</colordiffuse>
-				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
+				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !String.IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
 			</control>
 			<control type="label">
 				<posx>10</posx>
@@ -400,7 +400,7 @@
 				<font>METF_RecentlyAddedListText</font>
 				<textcolor>FocusBarText</textcolor>
 				<label>$VAR[GlobalWidgetLabel]</label>
-				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
+				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !String.IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
 			</control>
 		</focusedlayout>
 	</include>
@@ -593,7 +593,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day0.HighTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day0.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -601,7 +601,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day0.HighTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day0.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day0.LowTemp)]</label>
@@ -609,7 +609,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day0.LowTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day0.LowTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -617,7 +617,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day0.LowTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day0.LowTemp))</visible>
 			</control>
 		</control>
 		<!-- Next Day Forecast or One Day From Today -->
@@ -665,7 +665,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day1.HighTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day1.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -673,7 +673,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day1.HighTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day1.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day1.LowTemp)]</label>
@@ -681,7 +681,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day1.LowTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day1.LowTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -689,7 +689,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day1.LowTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day1.LowTemp))</visible>
 			</control>
 		</control>
 		<!-- Two Days From Today -->
@@ -737,7 +737,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day2.HighTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day2.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -745,7 +745,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day2.HighTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day2.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day2.LowTemp)]</label>
@@ -753,7 +753,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day2.LowTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day2.LowTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -761,7 +761,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day2.LowTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day2.LowTemp))</visible>
 			</control>
 		</control>
 		<!-- Three Days From Today -->
@@ -809,7 +809,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day3.HighTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day3.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -817,7 +817,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day3.HighTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day3.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day3.LowTemp)]</label>
@@ -825,7 +825,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day3.LowTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day3.LowTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -833,7 +833,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day3.LowTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day3.LowTemp))</visible>
 			</control>
 		</control>
 		<!-- Four Days From Today -->
@@ -881,7 +881,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day4.HighTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day4.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -889,7 +889,7 @@
 				<align>center</align>
 				<font>METF_WeatherHighHome</font>
 				<textcolor>WeatherHighTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day4.HighTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day4.HighTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Window(2600).Property(Day4.LowTemp)]</label>
@@ -897,7 +897,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>!IsEmpty(Window(2600).Property(Day4.LowTemp))</visible>
+				<visible>!String.IsEmpty(Window(2600).Property(Day4.LowTemp))</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[31010]</label>
@@ -905,7 +905,7 @@
 				<align>center</align>
 				<font>METF_WeatherLowHome</font>
 				<textcolor>WeatherLowTemp</textcolor>
-				<visible>IsEmpty(Window(2600).Property(Day4.LowTemp))</visible>
+				<visible>String.IsEmpty(Window(2600).Property(Day4.LowTemp))</visible>
 			</control>
 		</control>
 	</include>

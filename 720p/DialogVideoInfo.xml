@@ -69,7 +69,7 @@
 				<font>METF_PlotText</font>
 				<textcolor>TextNF</textcolor>
 				<label>$INFO[ListItem.Tagline]</label>
-				<visible>!IsEmpty(ListItem.Tagline) + !String.IsEqual(ListItem.DBType,episode)</visible>
+				<visible>!String.IsEmpty(ListItem.Tagline) + !String.IsEqual(ListItem.DBType,episode)</visible>
 			</control>
 			<!-- TVShows Number of Episodes -->
 			<control type="label">
@@ -108,7 +108,7 @@
 				<font>METF_InfoText</font>
 				<textcolor>MediaDetailsGenre</textcolor>
 				<label>$INFO[ListItem.Genre]</label>
-				<visible>!IsEmpty(ListItem.Genre) + !String.IsEqual(ListItem.DBType,episode)</visible>
+				<visible>!String.IsEmpty(ListItem.Genre) + !String.IsEqual(ListItem.DBType,episode)</visible>
 			</control>
 			<!-- Episode Air Date -->
 			<control type="label">
@@ -121,7 +121,7 @@
 				<font>METF_InfoTextLarger</font>
 				<textcolor>MediaDetailsInfo</textcolor>
 				<label>$LOCALIZE[20416] $INFO[ListItem.Premiered]</label>
-				<visible>!IsEmpty(ListItem.Premiered) + String.IsEqual(ListItem.DBType,episode)</visible>
+				<visible>!String.IsEmpty(ListItem.Premiered) + String.IsEqual(ListItem.DBType,episode)</visible>
 			</control>
 			<!-- User Rating -->
 			<control type="image">
@@ -133,7 +133,7 @@
 				<texture fallback="flags/Rating10/rating0.png">$INFO[ListItem.UserRating,flags/Rating10/rating,.png]</texture>
 				<aspectratio align="center" aligny="center">keep</aspectratio>
 				<colordiffuse>MediaFlagDiffuse</colordiffuse>
-				<visible>!Skin.HasSetting(ShowVideoPath) + !IsEmpty(ListItem.UserRating) + [!Skin.HasSetting(NextAired) | IsEmpty(Window(Home).Property(NextAired.NextDate))]</visible>
+				<visible>!Skin.HasSetting(ShowVideoPath) + !String.IsEmpty(ListItem.UserRating) + [!Skin.HasSetting(NextAired) | String.IsEmpty(Window(Home).Property(NextAired.NextDate))]</visible>
 			</control>
 			<control type="image">
 				<posx>-8</posx>
@@ -144,7 +144,7 @@
 				<texture>flags/Rating10/rating0.png</texture>
 				<aspectratio align="center" aligny="center">keep</aspectratio>
 				<colordiffuse>MediaFlagDiffuse</colordiffuse>
-				<visible>!Skin.HasSetting(ShowVideoPath) + IsEmpty(ListItem.UserRating) + [!Skin.HasSetting(NextAired) | IsEmpty(Window(Home).Property(NextAired.NextDate))]</visible>
+				<visible>!Skin.HasSetting(ShowVideoPath) + String.IsEmpty(ListItem.UserRating) + [!Skin.HasSetting(NextAired) | String.IsEmpty(Window(Home).Property(NextAired.NextDate))]</visible>
 			</control>
 			<!-- Video Path -->
 			<control type="fadelabel">
@@ -182,7 +182,7 @@
 				<font>METF_InfoText</font>
 				<textcolor>TextNF</textcolor>
 				<label>[COLOR=MediaDetailsInfo]$LOCALIZE[31427]:[/COLOR] $INFO[Window(Home).Property(NextAired.NextTitle),,[CR]]$INFO[Window(Home).Property(NextAired.AirTime),, - ]$INFO[Window(Home).Property(NextAired.NextDate)]</label>
-				<visible>String.IsEqual(ListItem.DBType,tvshow) + Skin.HasSetting(NextAired) + !IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
+				<visible>String.IsEqual(ListItem.DBType,tvshow) + Skin.HasSetting(NextAired) + !String.IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 			</control>
 			<control type="group">
 				<posx>550</posx>
@@ -448,12 +448,12 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsYear</textcolor>
 				<label>$INFO[ListItem.Country]</label>
-				<visible>!IsEmpty(ListItem.Country) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
+				<visible>!String.IsEmpty(ListItem.Country) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Bullet -->
 			<control type="image">
 				<include>ViewDetailsBullet</include>
-				<visible>!IsEmpty(ListItem.Country) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
+				<visible>!String.IsEmpty(ListItem.Country) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Year -->
 			<control type="label">
@@ -463,12 +463,12 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsYear</textcolor>
 				<label>$INFO[ListItem.Year]</label>
-				<visible>!IsEmpty(ListItem.Year) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
+				<visible>!String.IsEmpty(ListItem.Year) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Bullet -->
 			<control type="image">
 				<include>ViewDetailsBullet</include>
-				<visible>![IsEmpty(ListItem.Year) | IsEmpty(ListItem.Duration)] + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
+				<visible>![String.IsEmpty(ListItem.Year) | String.IsEmpty(ListItem.Duration)] + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 			<!-- Duration -->
 			<control type="label">
@@ -478,7 +478,7 @@
 				<font>METF_MediaDetailsSmall</font>
 				<textcolor>MediaDetailsDuration</textcolor>
 				<label>$INFO[ListItem.Duration]</label>
-				<visible>!IsEmpty(ListItem.Duration) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
+				<visible>!String.IsEmpty(ListItem.Duration) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)]</visible>
 			</control>
 		</control>
 
@@ -513,7 +513,7 @@
 				<texturenofocus>buttons/button_trailer.png</texturenofocus>
 				<texturefocus>buttons/button_trailerFO.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
-				<visible>!IsEmpty(ListItem.Trailer)</visible>
+				<visible>!String.IsEmpty(ListItem.Trailer)</visible>
 			</control>
 			<!-- Choose Art -->
 			<control type="button" id="10">

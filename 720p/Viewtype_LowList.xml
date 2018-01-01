@@ -192,7 +192,7 @@
 					<height>440</height>
 					<texture>frames/ClassicFrame_Background.png</texture>
 					<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-					<visible>[!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)]] | [Container.Content(seasons) | Container.Content(episodes)]</visible>
+					<visible>[!String.IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)]] | [Container.Content(seasons) | Container.Content(episodes)]</visible>
 				</control>
 				<control type="image">
 					<posx>37</posx>
@@ -202,7 +202,7 @@
 					<texture background="true">$INFO[ListItem.Icon]</texture>
 					<aspectratio scalediffuse="false">keep</aspectratio>
 					<fadetime>300</fadetime>
-					<visible>Window.IsActive(videos) + ![Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(artists) | Container.Content(albums) | Container.Content(addons)] + IsEmpty(ListItem.Title)</visible>
+					<visible>Window.IsActive(videos) + ![Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(artists) | Container.Content(albums) | Container.Content(addons)] + String.IsEmpty(ListItem.Title)</visible>
 				</control>
 				<control type="image">
 					<posx>37</posx>
@@ -212,7 +212,7 @@
 					<texture background="true" fallback="DefaultThumb.png">$VAR[PosterThumb]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<fadetime>300</fadetime>
-					<visible>Window.IsActive(videos) + ![Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(artists) | Container.Content(albums) | Container.Content(addons)] + !IsEmpty(ListItem.Title)</visible>
+					<visible>Window.IsActive(videos) + ![Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(artists) | Container.Content(albums) | Container.Content(addons)] + !String.IsEmpty(ListItem.Title)</visible>
 				</control>
 				<!-- Poster Image for TV Show Seasons and Episodes -->
 				<control type="image">
@@ -234,7 +234,7 @@
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<aspectratio>stretch</aspectratio>
 					<fadetime>300</fadetime>
-					<visible>[!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)]] | [Container.Content(seasons) | Container.Content(episodes)]</visible>
+					<visible>[!String.IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)]] | [Container.Content(seasons) | Container.Content(episodes)]</visible>
 				</control>
 				<!-- Music Videos -->
 				<control type="image">
@@ -255,7 +255,7 @@
 					<height>300</height>
 					<texture>frames/ClassicFrame_Background.png</texture>
 					<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
+					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !String.IsEmpty(ListItem.Icon)</visible>
 				</control>
 				<control type="image">
 					<posx>32</posx>
@@ -273,7 +273,7 @@
 					<width>340</width>
 					<height>340</height>
 					<texture>frames/ClassicFrame_SquareMedium.png</texture>
-					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !IsEmpty(ListItem.Icon)</visible>
+					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!String.StartsWith(ListItem.Icon,default) | String.StartsWith(ListItem.Icon,defaultalbumcover)] + !String.IsEmpty(ListItem.Icon)</visible>
 				</control>
 
 				<!-- RIGHT SIDE OF SCREEN -->
@@ -371,7 +371,7 @@
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<aspectratio>stretch</aspectratio>
 					<fadetime>300</fadetime>
-					<visible>Container.Content(seasons) + !String.IsEqual(ListItem.Icon,-) + !String.StartsWith(ListItem.Icon,default) + !IsEmpty(ListItem.Icon)</visible>
+					<visible>Container.Content(seasons) + !String.IsEqual(ListItem.Icon,-) + !String.StartsWith(ListItem.Icon,default) + !String.IsEmpty(ListItem.Icon)</visible>
 				</control>
 			</control>
 			<!-- Info Details -->
@@ -421,7 +421,7 @@
 					<label>$LOCALIZE[20416] $INFO[ListItem.Premiered]</label>
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsInfo</textcolor>
-					<visible>!IsEmpty(ListItem.Premiered) + Container.Content(episodes)</visible>
+					<visible>!String.IsEmpty(ListItem.Premiered) + Container.Content(episodes)</visible>
 				</control>
 				<!-- Addon Author -->
 				<control type="label">
@@ -433,7 +433,7 @@
 					<label fallback="416">[COLOR=MediaDetailsGenre]$LOCALIZE[31423]:[/COLOR] $INFO[ListItem.AddonCreator]</label>
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsInfo</textcolor>
-					<visible>!IsEmpty(ListItem.AddonCreator) + Container.Content(addons)</visible>
+					<visible>!String.IsEmpty(ListItem.AddonCreator) + Container.Content(addons)</visible>
 				</control>
 				<!-- Genre -->
 				<control type="label">
@@ -445,7 +445,7 @@
 					<label>$INFO[ListItem.Genre]</label>
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsGenre</textcolor>
-					<visible>!IsEmpty(ListItem.Genre) + [Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(musicvideos)]</visible>
+					<visible>!String.IsEmpty(ListItem.Genre) + [Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(musicvideos)]</visible>
 				</control>
 				<control type="label">
 					<posx>1245</posx>
@@ -456,7 +456,7 @@
 					<label>$INFO[ListItem.Property(Artist_Genre)]</label>
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsGenre</textcolor>
-					<visible>IsEmpty(ListItem.Genre) + !IsEmpty(ListItem.Property(Artist_Genre))</visible>
+					<visible>String.IsEmpty(ListItem.Genre) + !String.IsEmpty(ListItem.Property(Artist_Genre))</visible>
 				</control>
 				<!-- Episode Duration -->
 				<control type="label">
@@ -468,7 +468,7 @@
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsDuration</textcolor>
 					<label>$INFO[ListItem.Duration]</label>
-					<visible>Container.Content(episodes) + !IsEmpty(listitem.Duration)</visible>
+					<visible>Container.Content(episodes) + !String.IsEmpty(listitem.Duration)</visible>
 				</control>
 				<!-- Tagline -->
 				<control type="textbox">
@@ -481,7 +481,7 @@
 					<textcolor>TextNF</textcolor>
 					<label>$INFO[ListItem.Tagline]</label>
 					<autoscroll time="4000" delay="4000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-					<visible>Container.Content(movies) + !IsEmpty(ListItem.Tagline) + !Skin.HasSetting(Hide_MovieTagline)</visible>
+					<visible>Container.Content(movies) + !String.IsEmpty(ListItem.Tagline) + !Skin.HasSetting(Hide_MovieTagline)</visible>
 					<include>Animation_HiddenByInfo</include>
 				</control>
 				<!-- Year/Duration/Number of Episodes -->

@@ -2,7 +2,7 @@
 <includes>
 	<include name="Global_MediaOverlay">
 		<control type="group">
-			<visible>!Window.IsActive(visualisation) + IsEmpty(Window(videos).Property(PlayingBackgroundMedia))</visible>
+			<visible>!Window.IsActive(visualisation) + String.IsEmpty(Window(videos).Property(PlayingBackgroundMedia))</visible>
 			<control type="group" id="9904">
 				<posx>20</posx>
 				<posy>560</posy>
@@ -42,7 +42,7 @@
 				<animation effect="slide" start="0,0" end="204,0" time="600" tween="cubic" easing="out" condition="Skin.HasSetting(MediaOverlay)">Conditional</animation>
 				<visible>Player.HasAudio + Skin.HasSetting(MusicSongInfoOverlay)</visible>
 				<!-- 9001 = submenu, 9901/9902 = media flags; 8000-800x are widgets; plotbox automatically adjusts itself to make room -->
-				<visible>![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)] + ![Control.IsVisible(9901) | Control.IsVisible(9902)] + [[[Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Control.IsVisible(9001)] | [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + [[Skin.HasSetting(HideUnfocusedWidgets) + ![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]] | IsEmpty(Container(9000).ListItem.Property(widget))]]]</visible>
+				<visible>![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)] + ![Control.IsVisible(9901) | Control.IsVisible(9902)] + [[[Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Control.IsVisible(9001)] | [![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + [[Skin.HasSetting(HideUnfocusedWidgets) + ![Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]] | String.IsEmpty(Container(9000).ListItem.Property(widget))]]]</visible>
 
 				<control type="label">
 					<posx>0</posx>
@@ -55,7 +55,7 @@
 					<font>METF_TitleTextMedium</font>
 					<label>$INFO[MusicPlayer.Title]</label>
 					<textcolor>NowPlayingDetails</textcolor>
-					<animation effect="slide" end="0,26" condition="IsEmpty(MusicPlayer.Artist) + IsEmpty(MusicPlayer.Album)">Conditional</animation>
+					<animation effect="slide" end="0,26" condition="String.IsEmpty(MusicPlayer.Artist) + String.IsEmpty(MusicPlayer.Album)">Conditional</animation>
 				</control>
 				<control type="grouplist">
 					<posx>0</posx>

@@ -41,7 +41,7 @@
 					<texture background="true">$INFO[ListItem.Icon]</texture>
 					<aspectratio scalediffuse="false">keep</aspectratio>
 					<fadetime>200</fadetime>
-					<visible>IsEmpty(ListItem.Title)</visible>
+					<visible>String.IsEmpty(ListItem.Title)</visible>
 				</control>
 				<control type="image">
 					<posx>37</posx>
@@ -51,7 +51,7 @@
 					<texture background="true" fallback="DefaultThumb.png">$VAR[PosterThumb]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<fadetime>200</fadetime>
-					<visible>!IsEmpty(ListItem.Title)</visible>
+					<visible>!String.IsEmpty(ListItem.Title)</visible>
 				</control>
 				<control type="image">
 					<posx>20</posx>
@@ -60,7 +60,7 @@
 					<height>490</height>
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<fadetime>200</fadetime>
-					<visible>!IsEmpty(ListItem.Title)</visible>
+					<visible>!String.IsEmpty(ListItem.Title)</visible>
 				</control>
 				<!-- Title -->
 				<control type="label">

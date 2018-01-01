@@ -116,7 +116,7 @@
 				<height>35</height>
 				<include>SettingsLabel</include>
 				<label>$LOCALIZE[19024]</label>
-				<visible>IsEmpty(Window.Property(IsRadio))</visible>
+				<visible>String.IsEmpty(Window.Property(IsRadio))</visible>
 				<onleft>60</onleft>
 				<onright>4</onright>
 				<onup>30</onup>
@@ -130,7 +130,7 @@
 				<height>35</height>
 				<include>SettingsLabel</include>
 				<label>$LOCALIZE[19023]</label>
-				<visible>!IsEmpty(Window.Property(IsRadio))</visible>
+				<visible>!String.IsEmpty(Window.Property(IsRadio))</visible>
 				<onleft>60</onleft>
 				<onright>4</onright>
 				<onup>30</onup>

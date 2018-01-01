@@ -31,7 +31,7 @@
 						<height>142</height>
 						<texture>frames/ClassicFrame_Background.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Label)</visible>
+						<visible>!String.IsEmpty(ListItem.Label)</visible>
 					</control>
 					<control type="image">
 						<posx>22</posx>
@@ -50,7 +50,7 @@
 						<height>142</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">scale</aspectratio>
-						<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.Icon)</visible>
+						<visible>Window.IsActive(pictures) + !String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<!-- Picture Fanart Image (use for thumb if no icon set) -->
 					<control type="image">
@@ -60,7 +60,7 @@
 						<height>142</height>
 						<texture background="true" fallback="home_art/pictures.jpg">$INFO[ListItem.Art(fanart)]</texture>
 						<aspectratio scalediffuse="false">scale</aspectratio>
-						<visible>Window.IsActive(pictures) + IsEmpty(ListItem.Icon)</visible>
+						<visible>Window.IsActive(pictures) + String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
 						<posx>22</posx>
@@ -116,7 +116,7 @@
 						<height>142</height>
 						<texture>frames/ClassicFrame_Background.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Label)</visible>
+						<visible>!String.IsEmpty(ListItem.Label)</visible>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="125" time="300" tween="back" easing="out" />
 							<effect type="fade" start="70" end="100" time="300" />
@@ -148,7 +148,7 @@
 							<effect type="fade" start="70" end="100" time="300" />
 						</animation>
 						<aspectratio scalediffuse="false">scale</aspectratio>
-						<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.Icon)</visible>
+						<visible>Window.IsActive(pictures) + !String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
 						<include>Animation_GalleryFanartFloat</include>
@@ -162,7 +162,7 @@
 							<effect type="fade" start="70" end="100" time="300" />
 						</animation>
 						<aspectratio scalediffuse="false">scale</aspectratio>
-						<visible>Window.IsActive(pictures) + IsEmpty(ListItem.Icon)</visible>
+						<visible>Window.IsActive(pictures) + String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
 						<include>Animation_GalleryFanartFloat</include>
@@ -199,7 +199,7 @@
 						<width>288</width>
 						<height>174</height>
 						<texture>frames/ClassicFrame_FanartSmall.png</texture>
-						<visible>!IsEmpty(ListItem.Label)</visible>
+						<visible>!String.IsEmpty(ListItem.Label)</visible>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="70" end="125" time="300" tween="back" easing="out" />
 							<effect type="fade" start="70" end="100" time="300" />

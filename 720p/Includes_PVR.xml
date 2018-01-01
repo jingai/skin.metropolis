@@ -16,8 +16,8 @@
 			<texturenofocus></texturenofocus>
 			<label>$LOCALIZE[19019]</label>
 			<onclick condition="Window.IsActive(TVChannels) | Window.IsActive(RadioChannels)">NextChannelGroup</onclick>
-			<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVChannels)</onclick>
-			<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioChannels)</onclick>
+			<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVChannels)</onclick>
+			<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioChannels)</onclick>
 		</control>
 		<control type="button" id="101">
 			<description>TV Guide</description>
@@ -34,8 +34,8 @@
 			<texturenofocus></texturenofocus>
 			<label>$LOCALIZE[22020]</label>
 			<onclick condition="Window.IsActive(TVGuide) | Window.IsActive(RadioGuide)">NextChannelGroup</onclick>
-			<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVGuide)</onclick>
-			<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioGuide)</onclick>
+			<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVGuide)</onclick>
+			<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioGuide)</onclick>
 		</control>
 		<control type="button" id="102">
 			<description>Recordings</description>
@@ -51,8 +51,8 @@
 			<texturefocus>ButtonFO2Wide.png</texturefocus>
 			<texturenofocus></texturenofocus>
 			<label>$LOCALIZE[19163]</label>
-			<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVRecordings)</onclick>
-			<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioRecordings)</onclick>
+			<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVRecordings)</onclick>
+			<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioRecordings)</onclick>
 		</control>
 		<control type="button" id="103">
 			<description>Timers</description>
@@ -68,8 +68,8 @@
 			<texturefocus>ButtonFO2Wide.png</texturefocus>
 			<texturenofocus></texturenofocus>
 			<label>$LOCALIZE[19040]</label>
-			<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimers)</onclick>
-			<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimers)</onclick>
+			<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVTimers)</onclick>
+			<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioTimers)</onclick>
 		</control>
 		<control type="button" id="104">
 			<description>EPG Search</description>
@@ -85,8 +85,8 @@
 			<texturefocus>ButtonFO2Wide.png</texturefocus>
 			<texturenofocus></texturenofocus>
 			<label>$LOCALIZE[137]</label>
-			<onclick condition="IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVSearch)</onclick>
-			<onclick condition="!IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioSearch)</onclick>
+			<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVSearch)</onclick>
+			<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioSearch)</onclick>
 		</control>
 		<control type="label" id="202">
 			<description>space</description>

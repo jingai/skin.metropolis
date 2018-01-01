@@ -390,10 +390,10 @@
 					</control>
 					<control type="button" id="515">
 						<include>SettingsLabel</include>
-						<onfocus condition="IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,2)</onfocus>
+						<onfocus condition="String.IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,2)</onfocus>
 						<label2>$INFO[Skin.String(BannerViewHeight)]</label2>
 						<label>$LOCALIZE[31483]</label>
-						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),2) | IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,3)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),2) | String.IsEmpty(Skin.String(BannerViewHeight))">Skin.SetString(BannerViewHeight,3)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),3)">Skin.SetString(BannerViewHeight,4)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(BannerViewHeight),4)">Skin.SetString(BannerViewHeight,2)</onclick>
 					</control>
@@ -649,25 +649,25 @@
 					</control>
 					<control type="button" id="710">
 						<include>SettingsLabel</include>
-						<onfocus condition="IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Disabled)</onfocus>
+						<onfocus condition="String.IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Disabled)</onfocus>
 						<label2>$INFO[Skin.String(OSDFade)]</label2>
 						<label>$LOCALIZE[31476]</label>
-						<onclick condition="String.IsEqual(Skin.String(OSDFade),Disabled) | IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Partial)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFade),Disabled) | String.IsEmpty(Skin.String(OSDFade))">Skin.SetString(OSDFade,Partial)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFade),Partial)">Skin.SetString(OSDFade,Complete)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFade),Complete)">Skin.SetString(OSDFade,Disabled)</onclick>
 					</control>
 					<control type="button" id="711">
 						<include>SettingsLabel</include>
-						<onfocus condition="IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,15)</onfocus>
+						<onfocus condition="String.IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,15)</onfocus>
 						<label2>$INFO[Skin.String(OSDFadeTime),, s]</label2>
 						<label>$LOCALIZE[31477]</label>
-						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),30) | IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,5)</onclick>
+						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),30) | String.IsEmpty(Skin.String(OSDFadeTime))">Skin.SetString(OSDFadeTime,5)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),5)">Skin.SetString(OSDFadeTime,10)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),10)">Skin.SetString(OSDFadeTime,15)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),15)">Skin.SetString(OSDFadeTime,20)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),20)">Skin.SetString(OSDFadeTime,25)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(OSDFadeTime),25)">Skin.SetString(OSDFadeTime,30)</onclick>
-						<visible>![String.IsEqual(Skin.String(OSDFade),Disabled) | IsEmpty(Skin.String(OSDFade))]</visible>
+						<visible>![String.IsEqual(Skin.String(OSDFade),Disabled) | String.IsEmpty(Skin.String(OSDFade))]</visible>
 					</control>
 					<control type="image" id="712">
 						<include>Settings_Line</include>

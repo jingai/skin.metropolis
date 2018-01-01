@@ -17,7 +17,7 @@
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\search\)">home_art/search.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\settings\)">home_art/settings.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\shutdown\)">home_art/shutdown.jpg</value>
-		<value condition="!IsEmpty(Container(9000).ListItem.Property(background)) + !String.StartsWith(Container(9000).ListItem.Property(background),home\)">$INFO[Container(9000).ListItem.Property(background)]</value>
+		<value condition="!String.IsEmpty(Container(9000).ListItem.Property(background)) + !String.StartsWith(Container(9000).ListItem.Property(background),home\)">$INFO[Container(9000).ListItem.Property(background)]</value>
 	</variable>
 	<variable name="HomeBackgroundSkinShortcuts">
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\dvd\)">home_art/playdisc.jpg</value>
@@ -55,15 +55,15 @@
 		<value condition="Control.HasFocus(206)">$INFO[Container(206).ListItem.Property(Fanart)]</value>
 	</variable>
 	<variable name="GlobalFanart">
-		<value condition="Window.IsActive(pictures) + IsEmpty(ListItem.Art(fanart)) + [String.IsEqual(ListItem.FileExtension,png) | String.IsEqual(ListItem.FileExtension,jpg) | String.IsEqual(ListItem.FileExtension,jpeg) | String.IsEqual(ListItem.FileExtension,bmp) | String.IsEqual(ListItem.FileExtension,gif) | String.IsEqual(ListItem.FileExtension,ico) | String.IsEqual(ListItem.FileExtension,tif) | String.IsEqual(ListItem.FileExtension,tiff) | String.IsEqual(ListItem.FileExtension,tga) | String.IsEqual(ListItem.FileExtension,pcx) | String.IsEqual(ListItem.FileExtension,cbz) | String.IsEqual(ListItem.FileExtension,zip) | String.IsEqual(ListItem.FileExtension,cbr) | String.IsEqual(ListItem.FileExtension,rar) | String.IsEqual(ListItem.FileExtension,m3u)]">$INFO[listitem.filenameandpath]</value>
+		<value condition="Window.IsActive(pictures) + String.IsEmpty(ListItem.Art(fanart)) + [String.IsEqual(ListItem.FileExtension,png) | String.IsEqual(ListItem.FileExtension,jpg) | String.IsEqual(ListItem.FileExtension,jpeg) | String.IsEqual(ListItem.FileExtension,bmp) | String.IsEqual(ListItem.FileExtension,gif) | String.IsEqual(ListItem.FileExtension,ico) | String.IsEqual(ListItem.FileExtension,tif) | String.IsEqual(ListItem.FileExtension,tiff) | String.IsEqual(ListItem.FileExtension,tga) | String.IsEqual(ListItem.FileExtension,pcx) | String.IsEqual(ListItem.FileExtension,cbz) | String.IsEqual(ListItem.FileExtension,zip) | String.IsEqual(ListItem.FileExtension,cbr) | String.IsEqual(ListItem.FileExtension,rar) | String.IsEqual(ListItem.FileExtension,m3u)]">$INFO[listitem.filenameandpath]</value>
 		<value>$INFO[ListItem.Art(fanart)]</value>
 	</variable>
 	<variable name="GlobalExtraFanart">
 		<!-- XXX: This is such a kludge.  It sucks having to see the first image first all the time -->
-		<value condition="!IsEmpty(ListItem.Art(fanart)) + !System.IdleTime(5)"></value>
-		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.ExtraFanArtPath))">$INFO[Window(Home).Property(SkinHelper.ExtraFanArtPath)]</value>
-		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.Music.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.Music.ExtraFanArt)]</value>
-		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.PVR.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.PVR.ExtraFanArt)]</value>
+		<value condition="!String.IsEmpty(ListItem.Art(fanart)) + !System.IdleTime(5)"></value>
+		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !String.IsEmpty(Window(Home).Property(SkinHelper.ExtraFanArtPath))">$INFO[Window(Home).Property(SkinHelper.ExtraFanArtPath)]</value>
+		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !String.IsEmpty(Window(Home).Property(SkinHelper.Music.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.Music.ExtraFanArt)]</value>
+		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !String.IsEmpty(Window(Home).Property(SkinHelper.PVR.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.PVR.ExtraFanArt)]</value>
 		<value></value>
 	</variable>
 	<variable name="GlobalFanartDiffuse">
@@ -72,8 +72,8 @@
 	</variable>
 
 	<variable name="GlobalWidgetIcon">
-		<value condition="!IsEmpty(Container(8000).ListItem.Art(poster))">$INFO[Container(8000).ListItem.Art(poster)]</value>
-		<value condition="![IsEmpty(Container(8000).ListItem.Icon) | String.StartsWith(Container(8000).ListItem.Icon, default)]">$INFO[Container(8000).ListItem.Icon]</value>
+		<value condition="!String.IsEmpty(Container(8000).ListItem.Art(poster))">$INFO[Container(8000).ListItem.Art(poster)]</value>
+		<value condition="![String.IsEmpty(Container(8000).ListItem.Icon) | String.StartsWith(Container(8000).ListItem.Icon, default)]">$INFO[Container(8000).ListItem.Icon]</value>
 	</variable>
 	<variable name="GlobalWidgetLabel">
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), movies)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
@@ -82,8 +82,8 @@
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), songs)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), musicvideos)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
 		<!-- fixing the playlists content labels -->
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widget), Playlist) + IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widget), Playlist) + !String.IsEqual(ListItem.Title, ListItem.TVShowTitle) + !IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
+		<value condition="String.IsEqual(Container(9000).ListItem.Property(widget), Playlist) + String.IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="String.IsEqual(Container(9000).ListItem.Property(widget), Playlist) + !String.IsEqual(ListItem.Title, ListItem.TVShowTitle) + !String.IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
 		<!-- default -->
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
@@ -99,34 +99,34 @@
 	</variable>
 
 	<variable name="Language_Icons">
-		<value condition="!IsEmpty(Skin.String(LanguageIcons.name))">$INFO[Skin.String(LanguageIcons.path)]/$INFO[ListItem.AudioLanguage]$INFO[Skin.String(LanguageIcons.ext)]</value>
+		<value condition="!String.IsEmpty(Skin.String(LanguageIcons.name))">$INFO[Skin.String(LanguageIcons.path)]/$INFO[ListItem.AudioLanguage]$INFO[Skin.String(LanguageIcons.ext)]</value>
 		<value>resource://resource.images.languageflags.colour/$INFO[ListItem.AudioLanguage].png</value>
 	</variable>
 
 	<variable name="Player_RecordLabel_Icons">
-		<value condition="!IsEmpty(Skin.String(RecordLabelIcons.name))">$INFO[Skin.String(RecordLabelIcons.path)]/$INFO[MusicPlayer.Property(Album_Label)]$INFO[Skin.String(RecordLabelIcons.ext)]</value>
+		<value condition="!String.IsEmpty(Skin.String(RecordLabelIcons.name))">$INFO[Skin.String(RecordLabelIcons.path)]/$INFO[MusicPlayer.Property(Album_Label)]$INFO[Skin.String(RecordLabelIcons.ext)]</value>
 		<value>resource://resource.images.recordlabels.white/$INFO[MusicPlayer.Property(Album_Label)].png</value>
 	</variable>
 
 	<variable name="Studio_Icons">
-		<value condition="!IsEmpty(Skin.String(StudioIcons.name)) + !String.Contains(Container.FolderPath,advanced.launcher)">$INFO[Skin.String(StudioIcons.path)]/$INFO[ListItem.Studio]$INFO[Skin.String(StudioIcons.ext)]</value>
+		<value condition="!String.IsEmpty(Skin.String(StudioIcons.name)) + !String.Contains(Container.FolderPath,advanced.launcher)">$INFO[Skin.String(StudioIcons.path)]/$INFO[ListItem.Studio]$INFO[Skin.String(StudioIcons.ext)]</value>
 		<value condition="String.Contains(Container.FolderPath,advanced.launcher)">special://skin/extras/games/studios/$INFO[ListItem.Studio,,.png]</value>
 		<value>resource://resource.images.studios.coloured/$INFO[ListItem.Studio].png</value>
 	</variable>
 
 	<variable name="Weather_Fanart">
-		<value condition="!IsEmpty(Container(9000).ListItem.Property(background)) + !String.StartsWith(Container(9000).ListItem.Property(background),home\)">$INFO[Container(9000).ListItem.Property(background)]</value>
-		<value condition="!IsEmpty(Skin.String(WeatherFanart.name)) + !Skin.HasSetting(WeatherFanart.multi)">$INFO[Skin.String(WeatherFanart.path)]/$INFO[Window(Weather).Property(Current.FanartCode)]$INFO[Skin.String(WeatherFanart.ext)]</value>
-		<value condition="!IsEmpty(Skin.String(WeatherFanart.name)) + Skin.HasSetting(WeatherFanart.multi)">$INFO[Skin.String(WeatherFanart.path)]/$INFO[Window(Weather).Property(Current.FanartCode)]</value>
+		<value condition="!String.IsEmpty(Container(9000).ListItem.Property(background)) + !String.StartsWith(Container(9000).ListItem.Property(background),home\)">$INFO[Container(9000).ListItem.Property(background)]</value>
+		<value condition="!String.IsEmpty(Skin.String(WeatherFanart.name)) + !Skin.HasSetting(WeatherFanart.multi)">$INFO[Skin.String(WeatherFanart.path)]/$INFO[Window(Weather).Property(Current.FanartCode)]$INFO[Skin.String(WeatherFanart.ext)]</value>
+		<value condition="!String.IsEmpty(Skin.String(WeatherFanart.name)) + Skin.HasSetting(WeatherFanart.multi)">$INFO[Skin.String(WeatherFanart.path)]/$INFO[Window(Weather).Property(Current.FanartCode)]</value>
 		<value>resource://resource.images.weatherfanart.prairie/$INFO[Window(Weather).Property(Current.FanartCode)].jpg</value>
 	</variable>
 	<variable name="WeatherIconsPath">
-		<value condition="!IsEmpty(Skin.String(WeatherIcons.name))">$INFO[Skin.String(WeatherIcons.path)]</value>
+		<value condition="!String.IsEmpty(Skin.String(WeatherIcons.name))">$INFO[Skin.String(WeatherIcons.path)]</value>
 		<value>resource://resource.images.weathericons.coloured</value>
 	</variable>
 	<variable name="WeatherIconsExt">
-		<value condition="!IsEmpty(Skin.String(WeatherIcons.name)) + !Skin.HasSetting(WeatherIcons.multi)">$INFO[Skin.String(WeatherIcons.ext)]</value>
-		<value condition="!IsEmpty(Skin.String(WeatherIcons.name)) + Skin.HasSetting(WeatherIcons.multi)">/</value>
+		<value condition="!String.IsEmpty(Skin.String(WeatherIcons.name)) + !Skin.HasSetting(WeatherIcons.multi)">$INFO[Skin.String(WeatherIcons.ext)]</value>
+		<value condition="!String.IsEmpty(Skin.String(WeatherIcons.name)) + Skin.HasSetting(WeatherIcons.multi)">/</value>
 		<value>.png</value>
 	</variable>
 	<variable name="Weather_Icons_Current">
@@ -307,14 +307,14 @@
 		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(301)">$LOCALIZE[31730]</value>
 		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(308)">$LOCALIZE[31731]</value>
 		<!-- Videos -->
-		<value condition="[Container.Content(Movies) + [!Skin.HasSetting(Show_PlotOutline) | IsEmpty(ListItem.PlotOutline)]] | Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(MusicVideos) | String.Contains(Container.FolderPath,plugin)">$INFO[ListItem.Plot]</value>
-		<value condition="Container.Content(Movies) + Skin.HasSetting(Show_PlotOutline) + !IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.PlotOutline]</value>
+		<value condition="[Container.Content(Movies) + [!Skin.HasSetting(Show_PlotOutline) | String.IsEmpty(ListItem.PlotOutline)]] | Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(MusicVideos) | String.Contains(Container.FolderPath,plugin)">$INFO[ListItem.Plot]</value>
+		<value condition="Container.Content(Movies) + Skin.HasSetting(Show_PlotOutline) + !String.IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.PlotOutline]</value>
 		<value condition="Container.Content(Seasons)">$INFO[Container.ShowPlot]</value>
 		<!-- Music -->
-		<value condition="!IsEmpty(ListItem.Property(Artist_Description)) + IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Artist_Description)]</value>
-		<value condition="!IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Album_Description)]</value>
+		<value condition="!String.IsEmpty(ListItem.Property(Artist_Description)) + String.IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Artist_Description)]</value>
+		<value condition="!String.IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Album_Description)]</value>
 		<!-- Addons -->
-		<value condition="!IsEmpty(ListItem.AddonDescription)">$INFO[ListItem.AddonDescription]</value>
+		<value condition="!String.IsEmpty(ListItem.AddonDescription)">$INFO[ListItem.AddonDescription]</value>
 		<!-- Video Genres -->
 		<value condition="String.IsEqual(ListItem.Label,Action)">$LOCALIZE[31343]</value>
 		<value condition="String.IsEqual(ListItem.Label,Adventure)">$LOCALIZE[31344]</value>
@@ -372,95 +372,95 @@
 		<value condition="String.IsEqual(ListItem.Label,Wrestling)">$LOCALIZE[31396]</value>
 	</variable>
 	<variable name="MediaFlag_VideoResolution">
-		<value condition="IsEmpty(ListItem.VideoResolution)">$INFO[VideoPlayer.VideoResolution,flags/VideoResolution/,.png]</value>
+		<value condition="String.IsEmpty(ListItem.VideoResolution)">$INFO[VideoPlayer.VideoResolution,flags/VideoResolution/,.png]</value>
 		<value>$INFO[ListItem.VideoResolution,flags/VideoResolution/,.png]</value>
 	</variable>
 	<variable name="MediaFlag_VideoAspect">
-		<value condition="IsEmpty(ListItem.VideoAspect)">$INFO[VideoPlayer.VideoAspect,flags/VideoAspect/,.png]</value>
+		<value condition="String.IsEmpty(ListItem.VideoAspect)">$INFO[VideoPlayer.VideoAspect,flags/VideoAspect/,.png]</value>
 		<value>$INFO[ListItem.VideoAspect,flags/VideoAspect/,.png]</value>
 	</variable>
 	<variable name="MediaFlag_VideoCodec">
-		<value condition="IsEmpty(ListItem.VideoCodec)">$INFO[VideoPlayer.VideoCodec,flags/VideoCodec/,.png]</value>
+		<value condition="String.IsEmpty(ListItem.VideoCodec)">$INFO[VideoPlayer.VideoCodec,flags/VideoCodec/,.png]</value>
 		<value>$INFO[ListItem.VideoCodec,flags/VideoCodec/,.png]</value>
 	</variable>
 	<variable name="MediaFlag_AudioCodec">
-		<value condition="IsEmpty(ListItem.AudioCodec)">$INFO[VideoPlayer.AudioCodec,flags/AudioCodec/,.png]</value>
+		<value condition="String.IsEmpty(ListItem.AudioCodec)">$INFO[VideoPlayer.AudioCodec,flags/AudioCodec/,.png]</value>
 		<value>$INFO[ListItem.AudioCodec,flags/AudioCodec/,.png]</value>
 	</variable>
 	<variable name="MediaFlag_AudioChannels">
-		<value condition="IsEmpty(ListItem.AudioChannels)">$INFO[VideoPlayer.AudioChannels,flags/AudioChannels/,ch.png]</value>
+		<value condition="String.IsEmpty(ListItem.AudioChannels)">$INFO[VideoPlayer.AudioChannels,flags/AudioChannels/,ch.png]</value>
 		<value>$INFO[ListItem.AudioChannels,flags/AudioChannels/,ch.png]</value>
 	</variable>
 	<variable name="MediaFlag_MPAA">
 		<!-- US (IMDB) -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated R)] | [IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated R)]">flags/MPAA/mpaa_r.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated PG-13)] | [IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated PG-13)]">flags/MPAA/mpaa_pg13.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated PG)] | [IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated PG)]">flags/MPAA/mpaa_pg.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated NC)] | [IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated NC)]">flags/MPAA/mpaa_nc17.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated G)] | [IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated G)]">flags/MPAA/mpaa_general.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated R)] | [String.IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated R)]">flags/MPAA/mpaa_r.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated PG-13)] | [String.IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated PG-13)]">flags/MPAA/mpaa_pg13.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated PG)] | [String.IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated PG)]">flags/MPAA/mpaa_pg.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated NC)] | [String.IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated NC)]">flags/MPAA/mpaa_nc17.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.StartsWith(ListItem.mpaa,Rated G)] | [String.IsEmpty(ListItem.mpaa) + String.StartsWith(VideoPlayer.mpaa,Rated G)]">flags/MPAA/mpaa_general.png</value>
 		<!-- US (TMDB) -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,R)] | [IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,R)]">flags/MPAA/mpaa_r.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,PG-13)] | [IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,PG-13)]">flags/MPAA/mpaa_pg13.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,PG)] | [IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,PG)]">flags/MPAA/mpaa_pg.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,NC-17)] | [IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,NC-17)]">flags/MPAA/mpaa_nc17.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,G)] | [IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,G)]">flags/MPAA/mpaa_general.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,R)] | [String.IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,R)]">flags/MPAA/mpaa_r.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,PG-13)] | [String.IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,PG-13)]">flags/MPAA/mpaa_pg13.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,PG)] | [String.IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,PG)]">flags/MPAA/mpaa_pg.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,NC-17)] | [String.IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,NC-17)]">flags/MPAA/mpaa_nc17.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.IsEqual(ListItem.mpaa,G)] | [String.IsEmpty(ListItem.mpaa) + String.IsEqual(VideoPlayer.mpaa,G)]">flags/MPAA/mpaa_general.png</value>
 		<!-- US (TV) -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-14)] | [IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-14)]">flags/MPAA/TV-14.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-G)] | [IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-G)]">flags/MPAA/TV-G.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-MA)] | [IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-MA)]">flags/MPAA/TV-MA.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-PG)] | [IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-PG)]">flags/MPAA/TV-PG.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-Y7)] | [IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-Y7)]">flags/MPAA/TV-Y7.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-Y)] | [IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-Y)]">flags/MPAA/TV-Y.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-14)] | [String.IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-14)]">flags/MPAA/TV-14.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-G)] | [String.IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-G)]">flags/MPAA/TV-G.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-MA)] | [String.IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-MA)]">flags/MPAA/TV-MA.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-PG)] | [String.IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-PG)]">flags/MPAA/TV-PG.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-Y7)] | [String.IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-Y7)]">flags/MPAA/TV-Y7.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.EndsWith(ListItem.mpaa,TV-Y)] | [String.IsEmpty(ListItem.mpaa) + String.EndsWith(VideoPlayer.mpaa,TV-Y)]">flags/MPAA/TV-Y.png</value>
 		<!-- Germany -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:0)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:0)]">flags/MPAA/germany_0.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:6)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:6)]">flags/MPAA/germany_6.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:12)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:12)]">flags/MPAA/germany_12.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:16)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:16)]">flags/MPAA/germany_16.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:18)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:18)]">flags/MPAA/germany_18.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:0)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:0)]">flags/MPAA/germany_0.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:6)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:6)]">flags/MPAA/germany_6.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:12)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:12)]">flags/MPAA/germany_12.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:16)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:16)]">flags/MPAA/germany_16.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Germany:18)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Germany:18)]">flags/MPAA/germany_18.png</value>
 		<!-- Australia -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:R)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:R)]">flags/MPAA/australia_r.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:MA)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:MA)]">flags/MPAA/australia_ma.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:M)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:M)]">flags/MPAA/australia_m.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:PG)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:PG)]">flags/MPAA/australia_pg.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:G)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:G)]">flags/MPAA/australia_g.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:E)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:E)]">flags/MPAA/australia_e.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:X)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:X)]">flags/MPAA/australia_x.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:R)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:R)]">flags/MPAA/australia_r.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:MA)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:MA)]">flags/MPAA/australia_ma.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:M)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:M)]">flags/MPAA/australia_m.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:PG)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:PG)]">flags/MPAA/australia_pg.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:G)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:G)]">flags/MPAA/australia_g.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:E)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:E)]">flags/MPAA/australia_e.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,Australia:X)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,Australia:X)]">flags/MPAA/australia_x.png</value>
 		<!-- United Kingdom -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:U)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:U)]">flags/MPAA/bbfc_u.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:PG)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:PG)]">flags/MPAA/bbfc_pg.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:12A)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:12A)]">flags/MPAA/bbfc_12a.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:12)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:12)]">flags/MPAA/bbfc_12.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:15)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:15)]">flags/MPAA/bbfc_15.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:18)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:18)]">flags/MPAA/bbfc_18.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:X)] | [IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:X)]">flags/MPAA/bbfc_r18.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:U)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:U)]">flags/MPAA/bbfc_u.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:PG)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:PG)]">flags/MPAA/bbfc_pg.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:12A)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:12A)]">flags/MPAA/bbfc_12a.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:12)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:12)]">flags/MPAA/bbfc_12.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:15)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:15)]">flags/MPAA/bbfc_15.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:18)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:18)]">flags/MPAA/bbfc_18.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,UK:X)] | [String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,UK:X)]">flags/MPAA/bbfc_r18.png</value>
 		<!-- France -->
-		<value condition="[IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:U) | String.Contains(VideoPlayer.mpaa,partir de 3 ans) | String.Contains(VideoPlayer.mpaa,partir de 6 ans)]] | [!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:U) | String.Contains(ListItem.mpaa,partir de 3 ans) | String.Contains(ListItem.mpaa,partir de 6 ans)]]">flags/MPAA/csaU.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-10) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 10 ans) | String.Contains(VideoPlayer.mpaa,des propos ou des images peuvent heurter)]] | [!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-10) | String.Contains(ListItem.mpaa,Interdit aux moins de 10 ans) | String.Contains(ListItem.mpaa,des propos ou des images peuvent heurter)]]">flags/MPAA/csa10.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-12) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 12 ans)]] | [!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-12) | String.Contains(ListItem.mpaa,Interdit aux moins de 12 ans)]]">flags/MPAA/csa12.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-16) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 16 ans)]] | [!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-16) | String.Contains(ListItem.mpaa,Interdit aux moins de 16 ans)]]">flags/MPAA/csa16.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-18) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 18 ans)]] | [!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-18) | String.Contains(ListItem.mpaa,Interdit aux moins de 18 ans)]]">flags/MPAA/csa18.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:U) | String.Contains(VideoPlayer.mpaa,partir de 3 ans) | String.Contains(VideoPlayer.mpaa,partir de 6 ans)]] | [!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:U) | String.Contains(ListItem.mpaa,partir de 3 ans) | String.Contains(ListItem.mpaa,partir de 6 ans)]]">flags/MPAA/csaU.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-10) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 10 ans) | String.Contains(VideoPlayer.mpaa,des propos ou des images peuvent heurter)]] | [!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-10) | String.Contains(ListItem.mpaa,Interdit aux moins de 10 ans) | String.Contains(ListItem.mpaa,des propos ou des images peuvent heurter)]]">flags/MPAA/csa10.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-12) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 12 ans)]] | [!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-12) | String.Contains(ListItem.mpaa,Interdit aux moins de 12 ans)]]">flags/MPAA/csa12.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-16) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 16 ans)]] | [!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-16) | String.Contains(ListItem.mpaa,Interdit aux moins de 16 ans)]]">flags/MPAA/csa16.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,France:-18) | String.Contains(VideoPlayer.mpaa,Interdit aux moins de 18 ans)]] | [!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,France:-18) | String.Contains(ListItem.mpaa,Interdit aux moins de 18 ans)]]">flags/MPAA/csa18.png</value>
 		<!-- Korean -->
-		<value condition="[IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,전체)] | [!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,전체)]">flags/MPAA/KR_Certificate_All.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,12세)] | [!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,12세)]">flags/MPAA/KR_Certificate_12.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,15세)] | [!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,15세)]">flags/MPAA/KR_Certificate_15.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,불가)] | [!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,불가)]">flags/MPAA/KR_Certificate_18.png</value>
-		<value condition="[IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,제한)] | [!IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,제한)]">flags/MPAA/KR_Certificate_R.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,전체)] | [!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,전체)]">flags/MPAA/KR_Certificate_All.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,12세)] | [!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,12세)]">flags/MPAA/KR_Certificate_12.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,15세)] | [!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,15세)]">flags/MPAA/KR_Certificate_15.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,불가)] | [!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,불가)]">flags/MPAA/KR_Certificate_18.png</value>
+		<value condition="[String.IsEmpty(ListItem.mpaa) + String.Contains(VideoPlayer.mpaa,제한)] | [!String.IsEmpty(ListItem.mpaa) + String.Contains(ListItem.mpaa,제한)]">flags/MPAA/KR_Certificate_R.png</value>
 		<!-- Brazil -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:Livre) | String.Contains(ListItem.mpaa,Livre)]] | [IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:Livre) | String.Contains(VideoPlayer.mpaa,Livre)]]">flags/MPAA/MPAA_Brazil_Livre.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:10) | String.Contains(ListItem.mpaa,10 anos)]] | [IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:10) | String.Contains(VideoPlayer.mpaa,10 anos)]]">flags/MPAA/MPAA_Brazil_10.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:12) | String.Contains(ListItem.mpaa,12 anos)]] | [IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:12) | String.Contains(VideoPlayer.mpaa,12 anos)]]">flags/MPAA/MPAA_Brazil_12.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:14) | String.Contains(ListItem.mpaa,14 anos)]] | [IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:14) | String.Contains(VideoPlayer.mpaa,14 anos)]]">flags/MPAA/MPAA_Brazil_14.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:16) | String.Contains(ListItem.mpaa,16 anos)]] | [IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:16) | String.Contains(VideoPlayer.mpaa,16 anos)]]">flags/MPAA/MPAA_Brazil_16.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:18) | String.Contains(ListItem.mpaa,18 anos)]] | [IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:18) | String.Contains(VideoPlayer.mpaa,18 anos)]]">flags/MPAA/MPAA_Brazil_18.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:Livre) | String.Contains(ListItem.mpaa,Livre)]] | [String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:Livre) | String.Contains(VideoPlayer.mpaa,Livre)]]">flags/MPAA/MPAA_Brazil_Livre.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:10) | String.Contains(ListItem.mpaa,10 anos)]] | [String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:10) | String.Contains(VideoPlayer.mpaa,10 anos)]]">flags/MPAA/MPAA_Brazil_10.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:12) | String.Contains(ListItem.mpaa,12 anos)]] | [String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:12) | String.Contains(VideoPlayer.mpaa,12 anos)]]">flags/MPAA/MPAA_Brazil_12.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:14) | String.Contains(ListItem.mpaa,14 anos)]] | [String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:14) | String.Contains(VideoPlayer.mpaa,14 anos)]]">flags/MPAA/MPAA_Brazil_14.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:16) | String.Contains(ListItem.mpaa,16 anos)]] | [String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:16) | String.Contains(VideoPlayer.mpaa,16 anos)]]">flags/MPAA/MPAA_Brazil_16.png</value>
+		<value condition="[!String.IsEmpty(ListItem.mpaa) + [String.Contains(ListItem.mpaa,Brazil:18) | String.Contains(ListItem.mpaa,18 anos)]] | [String.IsEmpty(ListItem.mpaa) + [String.Contains(VideoPlayer.mpaa,Brazil:18) | String.Contains(VideoPlayer.mpaa,18 anos)]]">flags/MPAA/MPAA_Brazil_18.png</value>
 		<value>flags/MPAA/NoRating.png</value>
 	</variable>
 	<variable name="MediaFlag_Rating">
-		<value condition="[!Skin.HasSetting(Show_MediaFlagUserRating) + !IsEmpty(ListItem.Rating)] | [Skin.HasSetting(Show_MediaFlagUserRating) + IsEmpty(ListItem.UserRating)]">$INFO[ListItem.Rating]</value>
-		<value condition="Skin.HasSetting(Show_MediaFlagUserRating) + !IsEmpty(ListItem.UserRating)">$INFO[ListItem.UserRating]</value>
+		<value condition="[!Skin.HasSetting(Show_MediaFlagUserRating) + !String.IsEmpty(ListItem.Rating)] | [Skin.HasSetting(Show_MediaFlagUserRating) + String.IsEmpty(ListItem.UserRating)]">$INFO[ListItem.Rating]</value>
+		<value condition="Skin.HasSetting(Show_MediaFlagUserRating) + !String.IsEmpty(ListItem.UserRating)">$INFO[ListItem.UserRating]</value>
 		<value>NA</value>
 	</variable>
 	<variable name="PosterThumb">
-		<value condition="!String.Contains(Container.FolderPath,plugin) + !IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+		<value condition="!String.Contains(Container.FolderPath,plugin) + !String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
 		<value>$INFO[ListItem.Icon]</value>
 	</variable>
 	<variable name="SquarePosterThumb">
@@ -468,25 +468,25 @@
 	</variable>
 	<variable name="LandscapeFanart">
 		<!-- control 52 is the Landscape Viewtype, where Landscape images are always preferred -->
-		<value condition="!IsEmpty(ListItem.Art(landscape)) + !String.IsEqual(ListItem.Art(landscape),-) + [Skin.HasSetting(ViewPreferLandscape) | Control.IsVisible(52)]">$INFO[ListItem.Art(landscape)]</value>
+		<value condition="!String.IsEmpty(ListItem.Art(landscape)) + !String.IsEqual(ListItem.Art(landscape),-) + [Skin.HasSetting(ViewPreferLandscape) | Control.IsVisible(52)]">$INFO[ListItem.Art(landscape)]</value>
 		<value>$INFO[ListItem.Art(fanart)]</value>
 	</variable>
 	<variable name="ListClearartClearlogo">
-		<value condition="[!IsEmpty(ListItem.Art(clearlogo)) + !String.IsEqual(ListItem.Art(clearlogo),-) + Skin.HasSetting(ViewPreferClearLogo)] | IsEmpty(ListItem.Art(clearart)) | String.IsEqual(ListItem.Art(clearart),-)">$INFO[ListItem.Art(clearlogo)]</value>
+		<value condition="[!String.IsEmpty(ListItem.Art(clearlogo)) + !String.IsEqual(ListItem.Art(clearlogo),-) + Skin.HasSetting(ViewPreferClearLogo)] | String.IsEmpty(ListItem.Art(clearart)) | String.IsEqual(ListItem.Art(clearart),-)">$INFO[ListItem.Art(clearlogo)]</value>
 		<value>$INFO[ListItem.Art(clearart)]</value>
 	</variable>
 	<variable name="PlayerTVShowClearartClearlogo">
-		<value condition="[!IsEmpty(Player.Art(tvshow.clearlogo)) + !String.IsEqual(Player.Art(tvshow.clearlogo),-) + Skin.HasSetting(ViewPreferClearLogo)] | IsEmpty(Player.Art(tvshow.clearart)) | String.IsEqual(Player.Art(tvshow.clearart),-)">$INFO[Player.Art(tvshow.clearlogo)]</value>
+		<value condition="[!String.IsEmpty(Player.Art(tvshow.clearlogo)) + !String.IsEqual(Player.Art(tvshow.clearlogo),-) + Skin.HasSetting(ViewPreferClearLogo)] | String.IsEmpty(Player.Art(tvshow.clearart)) | String.IsEqual(Player.Art(tvshow.clearart),-)">$INFO[Player.Art(tvshow.clearlogo)]</value>
 		<value>$INFO[Player.Art(tvshow.clearart)]</value>
 	</variable>
 	<variable name="VideoPlayerTitle">
-		<value condition="!IsEmpty(VideoPlayer.Year) + !VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode,,. ]$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)]</value>
-		<value condition="IsEmpty(VideoPlayer.Year) + !VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode,,. ]$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Title]</value>
+		<value condition="!String.IsEmpty(VideoPlayer.Year) + !VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode,,. ]$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)]</value>
+		<value condition="String.IsEmpty(VideoPlayer.Year) + !VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode,,. ]$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Title]</value>
 		<value>$INFO[VideoPlayer.Title]</value>
 	</variable>
 	<variable name="VideoPlayerTitle2">
-		<value condition="!IsEmpty(VideoPlayer.Year) + [!IsEmpty(VideoPlayer.Artist) | !IsEmpty(VideoPlayer.Album)] + VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Artist]$INFO[VideoPlayer.Album, - ]$INFO[VideoPlayer.Year, (,)]</value>
-		<value condition="IsEmpty(VideoPlayer.Year) + [!IsEmpty(VideoPlayer.Artist) | !IsEmpty(VideoPlayer.Album)] + VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Artist]$INFO[VideoPlayer.Album, - ]</value>
+		<value condition="!String.IsEmpty(VideoPlayer.Year) + [!String.IsEmpty(VideoPlayer.Artist) | !String.IsEmpty(VideoPlayer.Album)] + VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Artist]$INFO[VideoPlayer.Album, - ]$INFO[VideoPlayer.Year, (,)]</value>
+		<value condition="String.IsEmpty(VideoPlayer.Year) + [!String.IsEmpty(VideoPlayer.Artist) | !String.IsEmpty(VideoPlayer.Album)] + VideoPlayer.Content(MusicVideos)">$INFO[VideoPlayer.Artist]$INFO[VideoPlayer.Album, - ]</value>
 		<value condition="Integer.IsGreater(Player.ChapterCount,1) + !VideoPlayer.Content(LiveTV)">$INFO[Player.Chapter,$LOCALIZE[21396]: ]$INFO[Player.ChapterCount, / ]$INFO[Player.ChapterName,[COLOR=TitleText] - (,)[/COLOR]]</value>
 		<value>$INFO[VideoPlayer.Tagline]</value>
 	</variable>
@@ -495,7 +495,7 @@
 		<value condition="Window.IsActive(music) + !String.IsEqual(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</value>
 	</variable>
 	<variable name="TVShowStatus">
-		<value condition="!IsEmpty(Window(Home).Property(NextAired.Label))">$INFO[Window(Home).Property(NextAired.Status)]</value>
+		<value condition="!String.IsEmpty(Window(Home).Property(NextAired.Label))">$INFO[Window(Home).Property(NextAired.Status)]</value>
 		<value>$LOCALIZE[31472]</value>
 	</variable>
 	<variable name="VideoHWDecoder">
@@ -504,7 +504,7 @@
 	</variable>
 
 	<variable name="GlobalHeadingLeft">
-		<value condition="[String.EndsWith(System.CurrentWindow, Videos) | String.EndsWith(System.CurrentWindow, Music) | String.EndsWith(System.CurrentWindow, Programs) | String.EndsWith(System.CurrentWindow, Pictures)] + IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
+		<value condition="[String.EndsWith(System.CurrentWindow, Videos) | String.EndsWith(System.CurrentWindow, Music) | String.EndsWith(System.CurrentWindow, Programs) | String.EndsWith(System.CurrentWindow, Pictures)] + String.IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
 		<value condition="[String.EndsWith(Container.FolderPath, library://video/movies/) | String.EndsWith(Container.FolderPath, library://video/tvshows/) | String.EndsWith(Container.FolderPath, sources://video/) | String.EndsWith(Container.FolderPath, special://videoplaylists/) | String.EndsWith(Container.FolderPath, addons://sources/video) | String.EndsWith(Container.FolderPath, addons://sources/executable) | String.EndsWith(Container.FolderPath, addons://sources/image)]">$INFO[System.CurrentWindow]$INFO[Container.FolderName, · ]</value>
 		<value condition="String.StartsWith(Container.FolderPath, special://videoplaylists/) + !String.EndsWith(Container.FolderPath, special://videoplaylists/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[20011]$INFO[Container.FolderName, · ]</value>
 
@@ -550,7 +550,7 @@
 		<value condition="[String.StartsWith(Container.FolderPath, special://profile/playlists/) + !String.EndsWith(Container.FolderPath, special://profile/playlists/)]">$INFO[System.CurrentWindow,, · ]$LOCALIZE[136]$INFO[Container.FolderName, · ]</value>
 
 		<!-- Left side pictures titles -->
-		<value condition="String.StartsWith(System.CurrentWindow, Pictures) + !IsEmpty(Container.FolderPath) + !String.EndsWith(Container.FolderPath, addons://sources/image) + !String.StartsWith(Container.FolderPath, plugin)">$INFO[System.CurrentWindow] · $INFO[Container.FolderPath]</value>
+		<value condition="String.StartsWith(System.CurrentWindow, Pictures) + !String.IsEmpty(Container.FolderPath) + !String.EndsWith(Container.FolderPath, addons://sources/image) + !String.StartsWith(Container.FolderPath, plugin)">$INFO[System.CurrentWindow] · $INFO[Container.FolderPath]</value>
 
 		<!-- Left side music titles -->
 		<value condition="String.EndsWith(Container.FolderPath, musicdb://genres/) | String.EndsWith(Container.FolderPath, musicdb://artists/) | String.EndsWith(Container.FolderPath, musicdb://albums/) | String.EndsWith(Container.FolderPath, musicdb://songs/) | String.EndsWith(Container.FolderPath, musicdb://years/) | String.EndsWith(Container.FolderPath, library://music/top100/) | String.EndsWith(Container.FolderPath, musicdb://recentlyaddedalbums/) | String.EndsWith(Container.FolderPath, musicdb://recentlyplayedalbums/) | String.EndsWith(Container.FolderPath, musicdb://compilations/) | String.EndsWith(Container.FolderPath, special://musicplaylists/) | String.EndsWith(Container.FolderPath, library://music/musicroles/) | String.EndsWith(Container.FolderPath, sources://music/)">$INFO[System.CurrentWindow]$INFO[Container.FolderName, · ]</value>
@@ -593,7 +593,7 @@
 		<value condition="Window.IsActive(MusicPlaylist)">$LOCALIZE[2] $LOCALIZE[559]</value>
 		<value condition="Window.IsActive(SystemInfo)">$LOCALIZE[130]</value>
 		<value condition="Window.IsActive(LoginScreen)">$LOCALIZE[20096]</value>
-		<value condition="IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
+		<value condition="String.IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
 		<value>$INFO[Container.FolderName]</value>
 	</variable>
 </includes>

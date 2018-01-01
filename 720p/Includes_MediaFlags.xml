@@ -4,7 +4,7 @@
 		<control type="group" id="9901">
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_CommonFade</include>
-			<visible>!IsEmpty(ListItem.Title)</visible>
+			<visible>!String.IsEmpty(ListItem.Title)</visible>
 			<visible>Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | String.Contains(Container.FolderPath,plugin)</visible>
 			<include>VisibleIfNotMovieSet</include>
 			<visible>![[Player.HasAudio | Player.HasVideo] + Skin.HasSetting(MediaOverlay)]</visible>
@@ -20,7 +20,7 @@
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<texture fallback="flags/default-studio.png">$VAR[Studio_Icons]</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>!IsEmpty(ListItem.Studio)</visible>
+					<visible>!String.IsEmpty(ListItem.Studio)</visible>
 				</control>
 				<control type="image">
 					<width>112</width>
@@ -28,7 +28,7 @@
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<texture>flags/default-studio.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>IsEmpty(ListItem.Studio)</visible>
+					<visible>String.IsEmpty(ListItem.Studio)</visible>
 				</control>
 				<control type="image">
 					<posx>-14</posx>
@@ -61,7 +61,7 @@
 						<include>MediaFlagsVarsSquare</include>
 						<texture>special://skin/extras/games/platforms/$INFO[ListItem.Writer,,.png]</texture>
 						<colordiffuse>MediaFlagDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Writer) + String.Contains(Container.FolderPath,advanced.launcher)</visible>
+						<visible>!String.IsEmpty(ListItem.Writer) + String.Contains(Container.FolderPath,advanced.launcher)</visible>
 					</control>
 					<control type="image">
 						<posx>2</posx>
@@ -94,7 +94,7 @@
 						<include>MediaFlagsVarsSquare</include>
 						<texture>special://skin/extras/games/genres/$INFO[ListItem.Genre,,.png]</texture>
 						<colordiffuse>MediaFlagDiffuse</colordiffuse>
-						<visible>!IsEmpty(ListItem.Genre) + String.Contains(Container.FolderPath,advanced.launcher)</visible>
+						<visible>!String.IsEmpty(ListItem.Genre) + String.Contains(Container.FolderPath,advanced.launcher)</visible>
 					</control>
 					<control type="image">
 						<posx>2</posx>
@@ -110,7 +110,7 @@
 					<control type="group">
 						<width>58</width>
 						<height>62</height>
-						<visible>!Skin.HasSetting(Show_VotesMediaFlagAlways) + [!IsEmpty(ListItem.Top250) + !String.StartsWith(ListItem.Top250,0)]</visible>
+						<visible>!Skin.HasSetting(Show_VotesMediaFlagAlways) + [!String.IsEmpty(ListItem.Top250) + !String.StartsWith(ListItem.Top250,0)]</visible>
 						<control type="image">
 							<include>MediaFlagsVarsSquareHalfTop</include>
 							<texture>flags/IMDB-Logo.png</texture>
@@ -136,7 +136,7 @@
 					<control type="group">
 						<width>58</width>
 						<height>62</height>
-						<visible>[Skin.HasSetting(Show_VotesMediaFlagAlways) | [IsEmpty(ListItem.Top250) | [!IsEmpty(ListItem.Top250) + String.StartsWith(ListItem.Top250,0)]]] + !IsEmpty(ListItem.Votes) + !String.StartsWith(ListItem.Votes,0)</visible>
+						<visible>[Skin.HasSetting(Show_VotesMediaFlagAlways) | [String.IsEmpty(ListItem.Top250) | [!String.IsEmpty(ListItem.Top250) + String.StartsWith(ListItem.Top250,0)]]] + !String.IsEmpty(ListItem.Votes) + !String.StartsWith(ListItem.Votes,0)</visible>
 						<control type="image">
 							<include>MediaFlagsVarsSquareHalfTop</include>
 							<texture>flags/IMDB-Logo.png</texture>

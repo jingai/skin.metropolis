@@ -153,7 +153,7 @@
 						<aligny>center</aligny>
 						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(2)">Conditional</animation>
-						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Label2)">Conditional</animation>
+						<animation effect="slide" end="0,20" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
 					</control>
 					<control type="label">
 						<posx>245</posx>
@@ -166,7 +166,7 @@
 						<aligny>center</aligny>
 						<focusedcolor>ButtonText</focusedcolor>
 						<label>$INFO[ListItem.Label]</label>
-						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Label2)">Conditional</animation>
+						<animation effect="slide" end="0,20" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
 					</control>
 					<control type="label">
 						<posx>245</posx>
