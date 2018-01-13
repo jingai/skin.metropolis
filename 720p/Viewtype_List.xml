@@ -173,6 +173,15 @@
 						<texture>$INFO[ListItem.VideoResolution,flags/VideoResolutionIcons/,.png]</texture>
 						<visible>Window.IsActive(videos) + [Container.Content(movies) | Container.Content(episodes)] + !String.IsEmpty(ListItem.VideoResolution)</visible>
 					</control>
+					<!-- 3D icon -->
+					<control type="image">
+						<posx>745</posx>
+						<posy>5</posy>
+						<width>32</width>
+						<height>24</height>
+						<texture>flags/3d.png</texture>
+						<visible>Window.IsActive(videos) + [Container.Content(movies) | Container.Content(episodes)] + [ListItem.IsStereoscopic | String.Contains(ListItem.FilenameAndPath,.3d.) | String.Contains(ListItem.FilenameAndPath,hsbs) | String.Contains(ListItem.FilenameAndPath,sbs) | String.Contains(ListItem.FilenameAndPath,half-sbs)]</visible>
+					</control>
 					<!-- Episode Count for TVShows -->
 					<control type="label">
 						<posx>730</posx>
@@ -400,6 +409,15 @@
 						<height>24</height>
 						<texture>$INFO[ListItem.VideoResolution,flags/VideoResolutionIcons/,.png]</texture>
 						<visible>Window.IsActive(videos) + [Container.Content(movies) | Container.Content(episodes)] + !String.IsEmpty(ListItem.VideoResolution)</visible>
+					</control>
+					<!-- 3D icon -->
+					<control type="image">
+						<posx>745</posx>
+						<posy>5</posy>
+						<width>32</width>
+						<height>24</height>
+						<texture>flags/3d.png</texture>
+						<visible>Window.IsActive(videos) + [Container.Content(movies) | Container.Content(episodes)] + [ListItem.IsStereoscopic | String.Contains(ListItem.FilenameAndPath,.3d.) | String.Contains(ListItem.FilenameAndPath,hsbs) | String.Contains(ListItem.FilenameAndPath,sbs) | String.Contains(ListItem.FilenameAndPath,half-sbs)]</visible>
 					</control>
 					<!-- Episode Count for TVShows -->
 					<control type="label">
