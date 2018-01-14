@@ -147,7 +147,7 @@
 					<include>Animation_ButtonFocus</include>
 					<height>60</height>
 					<width>60</width>
-					<texturefocus>osd/osd_button_pause_fo.png</texturefocus>
+					<texturefocus>osd/osd_button_pause_tempo_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_pause_nf.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus>osd/osd_button_play_fo.png</alttexturefocus>
@@ -155,6 +155,8 @@
 					<disabledcolor></disabledcolor>
 					<colordiffuse></colordiffuse>
 					<onclick>PlayerControl(play)</onclick>
+					<onup condition="Player.TempoEnabled">PlayerControl(tempoup)</onup>
+					<ondown condition="Player.TempoEnabled">PlayerControl(tempodown)</ondown>
 				</control>
 				<control type="button" id="6">
 					<description>Forward</description>

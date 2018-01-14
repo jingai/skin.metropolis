@@ -1751,7 +1751,7 @@
 			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
-				<label>[UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
+				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
 				<visible>Player.Paused</visible>
 			</control>
 			<control type="label">
@@ -1806,12 +1806,12 @@
 			</control>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
-				<label>[UPPERCASE]$LOCALIZE[31244][/UPPERCASE]</label>
+				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$LOCALIZE[31244][/UPPERCASE]</label>
 				<visible>Player.Playing + ![Player.SeekBar | Player.DisplayAfterSeek]</visible>
 			</control>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
-				<label>[UPPERCASE]$INFO[Player.SeekOffset][/UPPERCASE]</label>
+				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$INFO[Player.SeekOffset][/UPPERCASE]</label>
 				<visible>Player.DisplayAfterSeek + ![Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 			</control>
 		</control>
