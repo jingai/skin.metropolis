@@ -177,7 +177,6 @@
 				<posy>660</posy>
 				<width>500</width>
 				<height>15</height>
-				<align>center</align>
 				<info>Player.Progress</info>
 				<reveal>true</reveal>
 				<texturebg>osd/osd_progress_back.png</texturebg>
@@ -206,7 +205,6 @@
 				<posy>660</posy>
 				<width>320</width>
 				<height>15</height>
-				<align>center</align>
 				<info>Player.Progress</info>
 				<reveal>true</reveal>
 				<texturebg>osd/osd_progress_back.png</texturebg>

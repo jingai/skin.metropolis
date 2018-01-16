@@ -95,7 +95,7 @@
 			<posy>160</posy>
 			<width>220</width>
 			<height>35</height>
-			<font>font12_title</font>
+			<font>METF_IMDbRating</font>
 			<align>center</align>
 			<aligny>center</aligny>
 			<texturefocus border="1">ButtonFO2Wide.png</texturefocus>

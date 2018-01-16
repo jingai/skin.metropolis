@@ -35,7 +35,6 @@
 					<font>METF_TitleTextLarge</font>
 					<textcolor>SettingsTitle</textcolor>
 					<align>left</align>
-					<aligny>center</aligny>
 					<scroll>true</scroll>
 					<label>$LOCALIZE[13406]</label>
 				</control>

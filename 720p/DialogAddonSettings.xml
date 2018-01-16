@@ -56,7 +56,7 @@
 				<include>Settings_Line</include>
 			</control>
 			<control type="edit" id="12">
-				<include>DefaultSettingButton</include>
+				<include>SettingsLabel</include>
 			</control>
 			<control type="label" id="14">
 				<description>Separator label</description>

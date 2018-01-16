@@ -315,7 +315,7 @@
 					<width>293</width>
 					<height>165</height>
 					<texture background="true">$INFO[ListItem.Thumb]</texture>
-					<aspectratio scalediffuse="false" background="true">scale</aspectratio>
+					<aspectratio scalediffuse="false">scale</aspectratio>
 					<fadetime>300</fadetime>
 					<visible>Container.Content(episodes)</visible>
 				</control>
@@ -337,7 +337,7 @@
 					<width>293</width>
 					<height>165</height>
 					<texture fallback="home_art/programs.jpg" background="true">$VAR[LandscapeFanart]</texture>
-					<aspectratio scalediffuse="false" background="true">scale</aspectratio>
+					<aspectratio scalediffuse="false">scale</aspectratio>
 					<fadetime>300</fadetime>
 					<visible>Container.Content(addons)</visible>
 				</control>
