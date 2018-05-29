@@ -44,6 +44,7 @@
 					<height>372</height>
 					<label></label>
 					<font>METF_ContextValue</font>
+					<monofont>mono30</monofont>
 					<textcolor>SettingsDetail</textcolor>
 					<align>left</align>
 					<aligny>top</aligny>

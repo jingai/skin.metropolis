@@ -352,5 +352,10 @@
 			<filename>MET_UbuntuRegular.ttf</filename>
 			<size>19</size>
 		</font>
+		<font>
+			<name>Mono30</name>
+			<filename>NotoMono-Regular.ttf</filename>
+			<size>30</size>
+		</font>
 	</fontset>
 </fonts>
