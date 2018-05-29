@@ -18,6 +18,57 @@
 					<colordiffuse>88FFFFFF</colordiffuse>
 					<texture>VideoInfoLine.png</texture>
 				</control>
+				<control type="fixedlist" id="11">
+					<top>40</top>
+					<left>90</left>
+					<right>40</right>
+					<onleft>noop</onleft>
+					<onright>noop</onright>
+					<onup>10</onup>
+					<ondown>10</ondown>
+					<orientation>horizontal</orientation>
+					<scrolltime>200</scrolltime>
+					<visible>Control.IsVisible(50)</visible>
+					<itemlayout height="25" width="200">
+						<control type="label">
+							<left>5</left>
+							<width>200</width>
+							<height>25</height>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+							<textcolor>HelpText</textcolor>
+						</control>
+					</itemlayout>
+					<focusedlayout height="25" width="200">
+						<control type="image">
+							<left>1</left>
+							<top>0</top>
+							<width>200</width>
+							<height>25</height>
+							<texture>pvr/PVR-GreyFO.png</texture>
+							<visible>Control.HasFocus(11)</visible>
+						</control>
+						<control type="image">
+							<left>1</left>
+							<top>0</top>
+							<width>200</width>
+							<height>25</height>
+							<texture>pvr/PVR-GreyFO.png</texture>
+							<animation effect="fade" end="30" condition="true">Conditional</animation>
+							<visible>!Control.HasFocus(11)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<width>180</width>
+							<height>25</height>
+							<align>center</align>
+							<aligny>center</aligny>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</focusedlayout>
+				</control>
 				<control type="epggrid" id="10">
 					<viewtype label="19032">list</viewtype>
 					<description>EPG Grid</description>
@@ -32,7 +83,7 @@
 					<progresstexture border="0,48,18,14" colordiffuse="ArrowDiffuse">pvr/PVR-EpgProgressIndicator.png</progresstexture>
 					<onleft>101</onleft>
 					<onright>101</onright>
-					<onup>10</onup>
+					<onup>11</onup>
 					<ondown>10</ondown>
 					<onback>101</onback>
 					<rulerlayout height="35" width="40">
