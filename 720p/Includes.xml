@@ -1488,7 +1488,7 @@
 				<align>right</align>
 				<font>METF_OSDTime</font>
 				<textcolor>OSDPlayingDuration</textcolor>
-				<label>$INFO[VideoPlayer.Time] [COLOR TextNF]/[/COLOR] $INFO[VideoPlayer.Duration]</label>
+				<label>$VAR[SeekTimeLabel]</label>
 			</control>
 			<!-- Finish Time -->
 			<control type="label">
@@ -1669,7 +1669,7 @@
 				<aligny>center</aligny>
 				<align>left</align>
 				<font>METF_OSDTime</font>
-				<label>$INFO[VideoPlayer.Time] [COLOR TextNF]/[/COLOR] $INFO[VideoPlayer.Duration]</label>
+				<label>$VAR[SeekTimeLabel]</label>
 				<textcolor>OSDPlayingDuration</textcolor>
 			</control>
 			<!-- Chapter -->

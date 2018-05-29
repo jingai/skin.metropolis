@@ -490,6 +490,12 @@
 		<value condition="Integer.IsGreater(Player.ChapterCount,1) + !VideoPlayer.Content(LiveTV)">$INFO[Player.Chapter,$LOCALIZE[21396]: ]$INFO[Player.ChapterCount, / ]$INFO[Player.ChapterName,[COLOR=TitleText] - (,)[/COLOR]]</value>
 		<value>$INFO[VideoPlayer.Tagline]</value>
 	</variable>
+	<variable name="SeekTimeLabel">
+ 		<value condition="!String.IsEmpty(Player.SeekNumeric)">[B]$INFO[Player.SeekNumeric(hh:mm:ss)][/B]</value>
+ 		<value condition="Player.Seeking">$INFO[Player.SeekTime]$INFO[Player.Duration, [COLOR TextNF]/[/COLOR] ]</value>
+		<value condition="VideoPlayer.HasEpg">$INFO[PVR.EpgEventElapsedTime]$INFO[PVR.EpgEventDuration, [COLOR TextNF]/[/COLOR] ]</value>
+ 		<value>$INFO[Player.Time]$INFO[Player.Duration, [COLOR TextNF]/[/COLOR] ]</value>
+ 	</variable>
 	<variable name="GoPlaylist">
 		<value condition="Window.IsActive(videos) + !String.IsEqual(Playlist.Length(video),0)">ActivateWindow(videoplaylist)</value>
 		<value condition="Window.IsActive(music) + !String.IsEqual(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</value>
