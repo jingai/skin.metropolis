@@ -4,8 +4,7 @@
 	<controls>
 		<control type="button" id="410">
 			<onfocus>Dialog.Close(FullscreenInfo)</onfocus>
-			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + String.IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(14)</onfocus>
-			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + !String.IsEmpty(Skin.String(SubtitlesPath)) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(17)</onfocus>
+			<onfocus condition="!Skin.HasSetting(OneButtonSubtitles) + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(14)</onfocus>
 			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + !VideoPlayer.HasSubtitles + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(15)</onfocus>
 			<onfocus condition="Skin.HasSetting(OneButtonSubtitles) + VideoPlayer.HasSubtitles + String.Contains(Skin.String(DefaultOSD),714)">SetFocus(16)</onfocus>
 			<onfocus condition="String.Contains(Skin.String(DefaultOSD),711)">SetFocus(11)</onfocus>
@@ -65,22 +64,8 @@
 					<width>60</width>
 					<texturefocus>osd/osd_button_sub_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_sub_nf.png</texturenofocus>
-					<onclick>Close</onclick>
-					<onclick>Dialog.Close(VideoOSD)</onclick>
-					<onclick>ActivateWindow(SubtitleSearch)</onclick>
-					<visible>!Skin.HasSetting(OneButtonSubtitles) + String.IsEmpty(Skin.String(SubtitlesPath))</visible>
-				</control>
-				<control type="button" id="17">
-					<description>OSD Subtitles</description>
-					<include>Animation_ButtonFocus</include>
-					<height>60</height>
-					<width>60</width>
-					<texturefocus>osd/osd_button_sub_fo.png</texturefocus>
-					<texturenofocus>osd/osd_button_sub_nf.png</texturenofocus>
-					<onclick>Close</onclick>
-					<onclick>Dialog.Close(VideoOSD)</onclick>
-					<onclick>ActivateWindow(SubtitleSearch)</onclick>
-					<visible>!Skin.HasSetting(OneButtonSubtitles) + !String.IsEmpty(Skin.String(SubtitlesPath))</visible>
+					<onclick>ActivateWindow(osdsubtitlesettings)</onclick>
+					<visible>!Skin.HasSetting(OneButtonSubtitles)</visible>
 				</control>
 				<control type="button" id="15">
 					<description>One Button OSD Subtitles</description>
@@ -89,9 +74,7 @@
 					<width>60</width>
 					<texturefocus>osd/osd_button_sub_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_sub_nf.png</texturenofocus>
-					<onclick>Close</onclick>
-					<onclick>Dialog.Close(VideoOSD)</onclick>
-					<onclick>ActivateWindow(SubtitleSearch)</onclick>
+					<onclick>ActivateWindow(osdsubtitlesettings)</onclick>
 					<visible>Skin.HasSetting(OneButtonSubtitles) + !VideoPlayer.HasSubtitles</visible>
 				</control>
 				<control type="button" id="16">
