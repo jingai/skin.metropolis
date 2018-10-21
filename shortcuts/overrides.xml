@@ -45,6 +45,8 @@
 	<backgrounddefault defaultID="tvshows">home\tvshows\</backgrounddefault>
 	<background label="10006">home\videos\</background>
 	<backgrounddefault defaultID="videos">home\videos\</backgrounddefault>
+	<background label="15016">home\games\</background>
+	<backgrounddefault defaultID="games">home\games\</backgrounddefault>
 	<background label="31334">home\trailers\</background>
 	<backgrounddefault defaultID="trailers">home\trailers\</backgrounddefault>
 	<background label="32022">home\livetv\</background>
@@ -76,6 +78,7 @@
 	<thumbnail label="342">home_icons/movies.png</thumbnail>
 	<thumbnail label="20343">home_icons/tvshows.png</thumbnail>
 	<thumbnail label="10006">home_icons/videos.png</thumbnail>
+	<thumbnail label="15016">home_icons/games.png</thumbnail>
 	<thumbnail label="31334">home_icons/trailers.png</thumbnail>
 	<thumbnail label="32022">home_icons/livetv.png</thumbnail>
 	<thumbnail label="10005">home_icons/music.png</thumbnail>

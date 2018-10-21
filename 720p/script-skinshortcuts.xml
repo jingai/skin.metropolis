@@ -4,7 +4,6 @@
 	<controls>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
-			<visible>IsEmpty(Window.Property(additionalDialog))</visible>
 
 			<!-- Heading -->
 			<control type="group">

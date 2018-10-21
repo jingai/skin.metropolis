@@ -4,7 +4,7 @@
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<label>$ADDON[script.skinshortcuts 32032]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/playdisc.png</icon>
 			<thumb />
 			<property name="labelID">dvd</property>
@@ -23,7 +23,7 @@
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
 			<label>$LOCALIZE[342]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/movies.png</icon>
 			<thumb />
 			<property name="labelID">movies</property>
@@ -31,7 +31,7 @@
 			<property name="widget">RecentMovies</property>
 			<property name="widgetName">20386</property>
 			<property name="widgetType">movies</property>
-			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentmovies&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=movies&amp;reload=$INFO[Window(home).Property(widgetreload-movies)]</property>
 			<property name="widgetTarget">videos</property>
 			<property name="background">home\movies\</property>
 			<property name="backgroundName">342</property>
@@ -47,7 +47,7 @@
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
 			<label>$LOCALIZE[20343]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/tvshows.png</icon>
 			<thumb />
 			<property name="labelID">tvshows</property>
@@ -55,7 +55,7 @@
 			<property name="widget">RecentEpisodes</property>
 			<property name="widgetName">20387</property>
 			<property name="widgetType">episodes</property>
-			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentepisodes&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=episodes&amp;reload=$INFO[Window(home).Property(widgetreload-episodes)]</property>
 			<property name="widgetTarget">videos</property>
 			<property name="background">home\tvshows\</property>
 			<property name="backgroundName">20343</property>
@@ -70,11 +70,11 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<label>Videos</label>
-			<label2>Common menu item</label2>
+			<label>$LOCALIZE[3]</label>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/videos.png</icon>
 			<thumb />
-			<property name="labelID">videos</property>
+			<property name="labelID">3</property>
 			<property name="defaultID">videos</property>
 			<property name="background">home\videos\</property>
 			<property name="backgroundName">10006</property>
@@ -82,18 +82,20 @@
 			<property name="path">ActivateWindow(Videos)</property>
 			<property name="list">Videos</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">videos</property>
+			<property name="submenuVisibility">num-3</property>
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
 			<label>$LOCALIZE[15016]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/games.png</icon>
 			<thumb />
 			<property name="labelID">15016</property>
 			<property name="defaultID">games</property>
+			<property name="background">home\games\</property>
+			<property name="backgroundName">15016</property>
 			<visible>System.GetBool(gamesgeneral.enable)</visible>
 			<onclick>ActivateWindow(Games,files,return)</onclick>
 			<property name="path">ActivateWindow(Games,files,return)</property>
@@ -106,7 +108,7 @@
 		<item id="6">
 			<property name="id">$NUMBER[6]</property>
 			<label>$LOCALIZE[31334]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/trailers.png</icon>
 			<thumb />
 			<property name="labelID">plugin.video.itunes_trailers</property>
@@ -125,7 +127,7 @@
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
 			<label>$ADDON[script.skinshortcuts 32022]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/livetv.png</icon>
 			<thumb />
 			<property name="labelID">livetv</property>
@@ -146,16 +148,16 @@
 		</item>
 		<item id="8">
 			<property name="id">$NUMBER[8]</property>
-			<label>$LOCALIZE[10005]</label>
-			<label2>Common menu item</label2>
+			<label>$LOCALIZE[2]</label>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/music.png</icon>
 			<thumb />
-			<property name="labelID">music</property>
+			<property name="labelID">2</property>
 			<property name="defaultID">music</property>
 			<property name="widget">RecentAlbums</property>
 			<property name="widgetName">359</property>
 			<property name="widgetType">albums</property>
-			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentalbums&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreloadmusic)]</property>
+			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=music&amp;reload=$INFO[Window(home).Property(widgetreload-music)]</property>
 			<property name="widgetTarget">music</property>
 			<property name="background">home\music\</property>
 			<property name="backgroundName">10005</property>
@@ -163,14 +165,14 @@
 			<property name="path">ActivateWindow(Music)</property>
 			<property name="list">Music</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">music</property>
+			<property name="submenuVisibility">num-2</property>
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="9">
 			<property name="id">$NUMBER[9]</property>
 			<label>$LOCALIZE[20389]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/musicvideos.png</icon>
 			<thumb />
 			<property name="labelID">musicvideos</property>
@@ -178,7 +180,7 @@
 			<property name="widget">RecentMusicVideos</property>
 			<property name="widgetName">20390</property>
 			<property name="widgetType">musicvideos</property>
-			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentmusicvideos&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=musicvideos&amp;reload=$INFO[Window(home).Property(widgetreload-musicvideos)]</property>
 			<property name="widgetTarget">videos</property>
 			<property name="background">home\musicvideos\</property>
 			<property name="backgroundName">20389</property>
@@ -194,7 +196,7 @@
 		<item id="10">
 			<property name="id">$NUMBER[10]</property>
 			<label>$ADDON[script.skinshortcuts 32087]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/radio.png</icon>
 			<thumb />
 			<property name="labelID">radio</property>
@@ -213,7 +215,7 @@
 		<item id="11">
 			<property name="id">$NUMBER[11]</property>
 			<label>$LOCALIZE[10002]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/pictures.png</icon>
 			<thumb />
 			<property name="labelID">pictures</property>
@@ -231,7 +233,7 @@
 		<item id="12">
 			<property name="id">$NUMBER[12]</property>
 			<label>$LOCALIZE[10001]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/programs.png</icon>
 			<thumb />
 			<property name="labelID">programs</property>
@@ -249,7 +251,7 @@
 		<item id="13">
 			<property name="id">$NUMBER[13]</property>
 			<label>$LOCALIZE[12600]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/weather.png</icon>
 			<thumb />
 			<property name="labelID">weather</property>
@@ -271,7 +273,7 @@
 		<item id="14">
 			<property name="id">$NUMBER[14]</property>
 			<label>$LOCALIZE[1036]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/favourites.png</icon>
 			<thumb />
 			<property name="labelID">1036</property>
@@ -279,7 +281,7 @@
 			<property name="widget">Favourites</property>
 			<property name="widgetName">1036</property>
 			<property name="widgetType">static</property>
-			<property name="widgetPath">plugin://script.skin.helper.service/?action=favourites&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=favourite&amp;mediatype=media&amp;reload=$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetTarget">static</property>
 			<property name="background">home\favourites\</property>
 			<property name="backgroundName">1036</property>
@@ -294,7 +296,7 @@
 		<item id="15">
 			<property name="id">$NUMBER[15]</property>
 			<label>$LOCALIZE[137]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/search.png</icon>
 			<thumb />
 			<property name="labelID">script.globalsearch</property>
@@ -313,7 +315,7 @@
 		<item id="16">
 			<property name="id">$NUMBER[16]</property>
 			<label>$LOCALIZE[10004]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/settings.png</icon>
 			<thumb />
 			<property name="labelID">settings</property>
@@ -331,7 +333,7 @@
 		<item id="17">
 			<property name="id">$NUMBER[17]</property>
 			<label>$LOCALIZE[13005]</label>
-			<label2>Common menu item</label2>
+			<label2>$ADDON[script.skinshortcuts 32034]</label2>
 			<icon>home_icons/shutdown.png</icon>
 			<thumb />
 			<property name="labelID">13005</property>
@@ -710,8 +712,8 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -723,12 +725,12 @@
 			<thumb />
 			<property name="labelID">20342</property>
 			<property name="defaultID">20342</property>
-			<visible>[[Library.HasContent(Movies)] + [Library.HasContent(Movies)]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
+			<visible>[[Library.HasContent(Movies)] + [Library.HasContent(Movies)]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
 			<onclick>ActivateWindow(Videos,videodb://movies/titles/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/titles/,return)</property>
 			<property name="list">videodb://movies/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -740,12 +742,12 @@
 			<thumb />
 			<property name="labelID">tvshows</property>
 			<property name="defaultID">tvshows</property>
-			<visible>[[Library.HasContent(TVShows)] + [Library.HasContent(TVShows)]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
+			<visible>[[Library.HasContent(TVShows)] + [Library.HasContent(TVShows)]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
 			<onclick>ActivateWindow(Videos,videodb://tvshows/titles/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/titles/,return)</property>
 			<property name="list">videodb://tvshows/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -757,12 +759,12 @@
 			<thumb />
 			<property name="labelID">musicvideos</property>
 			<property name="defaultID">musicvideos</property>
-			<visible>[[Library.HasContent(MusicVideos)] + [Library.HasContent(MusicVideos)]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
+			<visible>[[Library.HasContent(MusicVideos)] + [Library.HasContent(MusicVideos)]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/titles/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/titles/,return)</property>
 			<property name="list">videodb://musicvideos/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -777,8 +779,8 @@
 			<onclick>ActivateWindow(Videos,videodb://playlists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://playlists/,return)</property>
 			<property name="list">videodb://playlists/</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -793,8 +795,8 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -809,8 +811,8 @@
 			<onclick>CleanLibrary(video)</onclick>
 			<property name="path">CleanLibrary(video)</property>
 			<property name="list">CleanLibrary(video)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -825,8 +827,8 @@
 			<onclick>UpdateLibrary(video)</onclick>
 			<property name="path">UpdateLibrary(video)</property>
 			<property name="list">UpdateLibrary(video)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="1">
@@ -923,12 +925,12 @@
 			<thumb />
 			<property name="labelID">31438</property>
 			<property name="defaultID">31438</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://recentlyaddedalbums/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://recentlyaddedalbums/,return)</property>
 			<property name="list">musicdb://recentlyaddedalbums/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -943,8 +945,8 @@
 			<onclick>ActivateWindow(Music,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -956,12 +958,12 @@
 			<thumb />
 			<property name="labelID">135</property>
 			<property name="defaultID">135</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://genres/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://genres/,return)</property>
 			<property name="list">musicdb://genres/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -976,8 +978,8 @@
 			<onclick>ActivateWindow(Music,musicdb://roles/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://roles/,return)</property>
 			<property name="list">musicdb://roles/</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -989,12 +991,12 @@
 			<thumb />
 			<property name="labelID">652</property>
 			<property name="defaultID">652</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://years/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://years/,return)</property>
 			<property name="list">musicdb://years/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -1006,12 +1008,12 @@
 			<thumb />
 			<property name="labelID">133</property>
 			<property name="defaultID">133</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://artists/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://artists/,return)</property>
 			<property name="list">musicdb://artists/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -1023,12 +1025,12 @@
 			<thumb />
 			<property name="labelID">132</property>
 			<property name="defaultID">132</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://albums/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://albums/,return)</property>
 			<property name="list">musicdb://albums/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -1040,12 +1042,12 @@
 			<thumb />
 			<property name="labelID">134</property>
 			<property name="defaultID">134</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://songs/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://songs/,return)</property>
 			<property name="list">musicdb://songs/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="9">
@@ -1060,8 +1062,8 @@
 			<onclick>PlayerControl(Partymode(music))</onclick>
 			<property name="path">PlayerControl(Partymode(music))</property>
 			<property name="list">PlayerControl(Partymode(music))</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="10">
@@ -1076,8 +1078,8 @@
 			<onclick>ActivateWindow(Music,Files,return)</onclick>
 			<property name="path">ActivateWindow(Music,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="11">
@@ -1092,8 +1094,8 @@
 			<onclick>CleanLibrary(music)</onclick>
 			<property name="path">CleanLibrary(music)</property>
 			<property name="list">CleanLibrary(music)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="12">
@@ -1108,8 +1110,8 @@
 			<onclick>UpdateLibrary(music)</onclick>
 			<property name="path">UpdateLibrary(music)</property>
 			<property name="list">UpdateLibrary(music)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="1">
@@ -1704,7 +1706,7 @@
 			<property name="mainmenuid">16</property>
 			<label>$LOCALIZE[13200]</label>
 			<label2>$ADDON[script.skinshortcuts 32034]</label2>
-			<icon>DefaultShortcut.png</icon>
+			<icon>UnknownUser.png</icon>
 			<thumb />
 			<property name="labelID">13200</property>
 			<property name="defaultID">13200</property>
@@ -2611,7 +2613,7 @@
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
-	<include name="skinshortcuts-group-videos">
+	<include name="skinshortcuts-group-num-3">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">4</property>
@@ -2625,7 +2627,7 @@
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -2642,7 +2644,7 @@
 			<property name="path">ActivateWindow(Videos,videodb://movies/titles/,return)</property>
 			<property name="list">videodb://movies/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -2659,7 +2661,7 @@
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/titles/,return)</property>
 			<property name="list">videodb://tvshows/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -2676,7 +2678,7 @@
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/titles/,return)</property>
 			<property name="list">videodb://musicvideos/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -2692,7 +2694,7 @@
 			<property name="path">ActivateWindow(Videos,videodb://playlists/,return)</property>
 			<property name="list">videodb://playlists/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -2708,7 +2710,7 @@
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -2724,7 +2726,7 @@
 			<property name="path">CleanLibrary(video)</property>
 			<property name="list">CleanLibrary(video)</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -2740,11 +2742,11 @@
 			<property name="path">UpdateLibrary(video)</property>
 			<property name="list">UpdateLibrary(video)</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
-	<include name="skinshortcuts-group-alt-videos">
+	<include name="skinshortcuts-group-alt-num-3">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">4</property>
@@ -2757,8 +2759,8 @@
 			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -2770,12 +2772,12 @@
 			<thumb />
 			<property name="labelID">20342</property>
 			<property name="defaultID">20342</property>
-			<visible>[[Library.HasContent(Movies)] + [Library.HasContent(Movies)]] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
+			<visible>[[Library.HasContent(Movies)] + [Library.HasContent(Movies)]] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
 			<onclick>ActivateWindow(Videos,videodb://movies/titles/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://movies/titles/,return)</property>
 			<property name="list">videodb://movies/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -2787,12 +2789,12 @@
 			<thumb />
 			<property name="labelID">tvshows</property>
 			<property name="defaultID">tvshows</property>
-			<visible>[[Library.HasContent(TVShows)] + [Library.HasContent(TVShows)]] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
+			<visible>[[Library.HasContent(TVShows)] + [Library.HasContent(TVShows)]] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
 			<onclick>ActivateWindow(Videos,videodb://tvshows/titles/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://tvshows/titles/,return)</property>
 			<property name="list">videodb://tvshows/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -2804,12 +2806,12 @@
 			<thumb />
 			<property name="labelID">musicvideos</property>
 			<property name="defaultID">musicvideos</property>
-			<visible>[[Library.HasContent(MusicVideos)] + [Library.HasContent(MusicVideos)]] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
+			<visible>[[Library.HasContent(MusicVideos)] + [Library.HasContent(MusicVideos)]] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
 			<onclick>ActivateWindow(Videos,videodb://musicvideos/titles/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://musicvideos/titles/,return)</property>
 			<property name="list">videodb://musicvideos/titles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">videos</property>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -2824,8 +2826,8 @@
 			<onclick>ActivateWindow(Videos,videodb://playlists/,return)</onclick>
 			<property name="path">ActivateWindow(Videos,videodb://playlists/,return)</property>
 			<property name="list">videodb://playlists/</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -2840,8 +2842,8 @@
 			<onclick>ActivateWindow(Videos,Files,return)</onclick>
 			<property name="path">ActivateWindow(Videos,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -2856,8 +2858,8 @@
 			<onclick>CleanLibrary(video)</onclick>
 			<property name="path">CleanLibrary(video)</property>
 			<property name="list">CleanLibrary(video)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -2872,8 +2874,8 @@
 			<onclick>UpdateLibrary(video)</onclick>
 			<property name="path">UpdateLibrary(video)</property>
 			<property name="list">UpdateLibrary(video)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),videos)</visible>
-			<property name="group">videos</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-3)</visible>
+			<property name="group">3</property>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
@@ -3063,7 +3065,7 @@
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
-	<include name="skinshortcuts-group-music">
+	<include name="skinshortcuts-group-num-2">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">8</property>
@@ -3078,7 +3080,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://recentlyaddedalbums/,return)</property>
 			<property name="list">musicdb://recentlyaddedalbums/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -3094,7 +3096,7 @@
 			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -3111,7 +3113,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://genres/,return)</property>
 			<property name="list">musicdb://genres/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -3127,7 +3129,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://roles/,return)</property>
 			<property name="list">musicdb://roles/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -3144,7 +3146,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://years/,return)</property>
 			<property name="list">musicdb://years/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -3161,7 +3163,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://artists/,return)</property>
 			<property name="list">musicdb://artists/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -3178,7 +3180,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://albums/,return)</property>
 			<property name="list">musicdb://albums/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -3195,7 +3197,7 @@
 			<property name="path">ActivateWindow(Music,musicdb://songs/,return)</property>
 			<property name="list">musicdb://songs/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="9">
@@ -3211,7 +3213,7 @@
 			<property name="path">PlayerControl(Partymode(music))</property>
 			<property name="list">PlayerControl(Partymode(music))</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="10">
@@ -3227,7 +3229,7 @@
 			<property name="path">ActivateWindow(Music,Files,return)</property>
 			<property name="list">Files</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="11">
@@ -3243,7 +3245,7 @@
 			<property name="path">CleanLibrary(music)</property>
 			<property name="list">CleanLibrary(music)</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="12">
@@ -3259,11 +3261,11 @@
 			<property name="path">UpdateLibrary(music)</property>
 			<property name="list">UpdateLibrary(music)</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
-	<include name="skinshortcuts-group-alt-music">
+	<include name="skinshortcuts-group-alt-num-2">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">8</property>
@@ -3273,12 +3275,12 @@
 			<thumb />
 			<property name="labelID">31438</property>
 			<property name="defaultID">31438</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://recentlyaddedalbums/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://recentlyaddedalbums/,return)</property>
 			<property name="list">musicdb://recentlyaddedalbums/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -3293,8 +3295,8 @@
 			<onclick>ActivateWindow(Music,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -3306,12 +3308,12 @@
 			<thumb />
 			<property name="labelID">135</property>
 			<property name="defaultID">135</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://genres/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://genres/,return)</property>
 			<property name="list">musicdb://genres/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -3326,8 +3328,8 @@
 			<onclick>ActivateWindow(Music,musicdb://roles/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://roles/,return)</property>
 			<property name="list">musicdb://roles/</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -3339,12 +3341,12 @@
 			<thumb />
 			<property name="labelID">652</property>
 			<property name="defaultID">652</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://years/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://years/,return)</property>
 			<property name="list">musicdb://years/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="6">
@@ -3356,12 +3358,12 @@
 			<thumb />
 			<property name="labelID">133</property>
 			<property name="defaultID">133</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://artists/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://artists/,return)</property>
 			<property name="list">musicdb://artists/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="7">
@@ -3373,12 +3375,12 @@
 			<thumb />
 			<property name="labelID">132</property>
 			<property name="defaultID">132</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://albums/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://albums/,return)</property>
 			<property name="list">musicdb://albums/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -3390,12 +3392,12 @@
 			<thumb />
 			<property name="labelID">134</property>
 			<property name="defaultID">134</property>
-			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
+			<visible>[Library.HasContent(Music)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
 			<onclick>ActivateWindow(Music,musicdb://songs/,return)</onclick>
 			<property name="path">ActivateWindow(Music,musicdb://songs/,return)</property>
 			<property name="list">musicdb://songs/</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">music</property>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="9">
@@ -3410,8 +3412,8 @@
 			<onclick>PlayerControl(Partymode(music))</onclick>
 			<property name="path">PlayerControl(Partymode(music))</property>
 			<property name="list">PlayerControl(Partymode(music))</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="10">
@@ -3426,8 +3428,8 @@
 			<onclick>ActivateWindow(Music,Files,return)</onclick>
 			<property name="path">ActivateWindow(Music,Files,return)</property>
 			<property name="list">Files</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="11">
@@ -3442,8 +3444,8 @@
 			<onclick>CleanLibrary(music)</onclick>
 			<property name="path">CleanLibrary(music)</property>
 			<property name="list">CleanLibrary(music)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="12">
@@ -3458,8 +3460,8 @@
 			<onclick>UpdateLibrary(music)</onclick>
 			<property name="path">UpdateLibrary(music)</property>
 			<property name="list">UpdateLibrary(music)</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),music)</visible>
-			<property name="group">music</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-2)</visible>
+			<property name="group">2</property>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
@@ -4563,7 +4565,7 @@
 			<property name="mainmenuid">16</property>
 			<label>$LOCALIZE[13200]</label>
 			<label2>$ADDON[script.skinshortcuts 32034]</label2>
-			<icon>DefaultShortcut.png</icon>
+			<icon>UnknownUser.png</icon>
 			<thumb />
 			<property name="labelID">13200</property>
 			<property name="defaultID">13200</property>
@@ -4726,7 +4728,7 @@
 			<property name="mainmenuid">16</property>
 			<label>$LOCALIZE[13200]</label>
 			<label2>$ADDON[script.skinshortcuts 32034]</label2>
-			<icon>DefaultShortcut.png</icon>
+			<icon>UnknownUser.png</icon>
 			<thumb />
 			<property name="labelID">13200</property>
 			<property name="defaultID">13200</property>
@@ -5103,7 +5105,7 @@
 		<control id="8000" type="list">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),movies)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="videos">plugin://script.skin.helper.service/?action=recentmovies&amp;reload=$INFO[Window(Home).Property(widgetreload)]</content>
+			<content target="videos">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=movies&amp;reload=$INFO[Window(home).Property(widgetreload-movies)]</content>
 		</control>
 		<control type="image">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),tvshows)</visible>
@@ -5125,7 +5127,7 @@
 		<control id="8000" type="list">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),tvshows)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="videos">plugin://script.skin.helper.service/?action=recentepisodes&amp;reload=$INFO[Window(Home).Property(widgetreload)]</content>
+			<content target="videos">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=episodes&amp;reload=$INFO[Window(home).Property(widgetreload-episodes)]</content>
 		</control>
 		<control id="8002" type="button">
 			<left>1</left>
@@ -5148,7 +5150,7 @@
 			<content target="" />
 		</control>
 		<control type="image">
-			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<include>Animation_CommonFadeNoHide</include>
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_HiddenByInfo</include>
@@ -5165,9 +5167,9 @@
 			<visible>[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] | Control.HasFocus(8000)</visible>
 		</control>
 		<control id="8000" type="list">
-			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
+			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-2)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="music">plugin://script.skin.helper.service/?action=recentalbums&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreloadmusic)]</content>
+			<content target="music">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=music&amp;reload=$INFO[Window(home).Property(widgetreload-music)]</content>
 		</control>
 		<control type="image">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),musicvideos)</visible>
@@ -5189,7 +5191,7 @@
 		<control id="8000" type="list">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),musicvideos)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="videos">plugin://script.skin.helper.service/?action=recentmusicvideos&amp;reload=$INFO[Window(Home).Property(widgetreload)]</content>
+			<content target="videos">plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=musicvideos&amp;reload=$INFO[Window(home).Property(widgetreload-musicvideos)]</content>
 		</control>
 		<control id="8003" type="button">
 			<left>1</left>
@@ -5230,7 +5232,7 @@
 		<control id="8000" type="list">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-1036)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="static">plugin://script.skin.helper.service/?action=favourites&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</content>
+			<content target="static">plugin://script.skin.helper.widgets/?action=favourite&amp;mediatype=media&amp;reload=$INFO[Window(Home).Property(widgetreload2)]</content>
 		</control>
 	</include>
 </includes>

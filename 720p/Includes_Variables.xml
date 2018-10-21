@@ -5,6 +5,7 @@
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\movies\)">home_art/movies.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\tvshows\)">home_art/tvshows.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\videos\)">home_art/videos.jpg</value>
+		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\games\)">home_art/games.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\trailers\)">home_art/trailers.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\livetv\)">home_art/livetv.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\music\)">home_art/music.jpg</value>
@@ -24,6 +25,7 @@
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\movies\)">home_art/movies.jpg</value>
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\tvshows\)">home_art/tvshows.jpg</value>
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\videos\)">home_art/videos.jpg</value>
+		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\games\)">home_art/games.jpg</value>
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\trailers\)">home_art/trailers.jpg</value>
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\livetv\)">home_art/livetv.jpg</value>
 		<value condition="String.IsEqual(Container(211).ListItem.Property(background),home\music\)">home_art/music.jpg</value>
