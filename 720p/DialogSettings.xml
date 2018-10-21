@@ -2,6 +2,7 @@
 <window>
 	<defaultcontrol>5</defaultcontrol>
 	<controls>
+		<include>Global_Background</include>
 		<control type="group">
 			<visible>!Window.IsActive(sliderdialog) + !Window.IsActive(addonsettings)</visible>
 			<posx>300</posx>
@@ -106,7 +107,7 @@
 			</control>
 			<control type="edit" id="12">
 				<width>620</width>
-				<height>120</height>
+				<height>40</height>
 				<align>left</align>
 				<label></label>
 				<include>SettingsLabel</include>
