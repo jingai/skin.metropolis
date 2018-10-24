@@ -175,32 +175,28 @@
 					<posy>190</posy>
 					<label>24069</label>
 					<onup>9</onup>
-					<!--<ondown>10</ondown>-->
+					<ondown>10</ondown>
+					<onleft>Dialog.Close(addoninformation)</onleft>
+					<onright>50</onright>
+				</control>
+				<control type="button" id="10">
+					<description>Dependencies</description>
+					<include>SettingsLabelLeft</include>
+					<posx>0</posx>
+					<posy>228</posy>
+					<label>39024</label>
+					<onup>8</onup>
 					<ondown>12</ondown>
 					<onleft>Dialog.Close(addoninformation)</onleft>
 					<onright>50</onright>
 				</control>
-				<!-- XXX: Hoping this comes back at some point
-				<control type="button" id="10">
-					<description>Changelog</description>
-					<include>SettingsLabelLeft</include>
-					<posx>0</posx>
-					<posy>228</posy>
-					<label>24036</label>
-					<onup>8</onup>
-					<ondown>12</ondown>
-					<onleft>Dialog.Close(addoninformation)</onleft>
-					<onright>50</onright>
-				</control>-->
 				<control type="button" id="12">
 					<description>Launch Addon button</description>
 					<include>SettingsLabelLeft</include>
 					<posx>0</posx>
-					<!--<posy>266</posy>-->
-					<posy>228</posy>
+					<posy>266</posy>
 					<label>518</label>
-					<!--<onup>10</onup>-->
-					<onup>8</onup>
+					<onup>10</onup>
 					<ondown>13</ondown>
 					<onleft>Dialog.Close(addoninformation)</onleft>
 					<onright>50</onright>
@@ -209,8 +205,7 @@
 					<description>Auto-Update Addon button</description>
 					<include>SettingsLabelLeftIcon</include>
 					<posx>0</posx>
-					<!--<posy>304</posy>-->
-					<posy>266</posy>
+					<posy>304</posy>
 					<label>21340</label>
 					<onup>12</onup>
 					<ondown>6</ondown>
