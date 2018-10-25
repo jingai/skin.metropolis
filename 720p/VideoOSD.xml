@@ -148,7 +148,8 @@
 					<width>60</width>
 					<texturefocus>osd/osd_button_ff_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_ff_nf.png</texturenofocus>
-					<onclick>PlayerControl(forward)</onclick>
+					<onclick condition="!Player.Paused">PlayerControl(forward)</onclick>
+					<onclick condition="Player.Paused">PlayerControl(frameadvance(1))</onclick>
 				</control>
 				<control type="button" id="10">
 					<description>Next</description>
