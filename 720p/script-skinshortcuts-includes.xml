@@ -4,7 +4,7 @@
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<label>$ADDON[script.skinshortcuts 32032]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/playdisc.png</icon>
 			<thumb />
 			<property name="labelID">dvd</property>
@@ -23,7 +23,7 @@
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
 			<label>$LOCALIZE[342]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/movies.png</icon>
 			<thumb />
 			<property name="labelID">movies</property>
@@ -47,7 +47,7 @@
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
 			<label>$LOCALIZE[20343]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/tvshows.png</icon>
 			<thumb />
 			<property name="labelID">tvshows</property>
@@ -71,7 +71,7 @@
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
 			<label>$LOCALIZE[3]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/videos.png</icon>
 			<thumb />
 			<property name="labelID">3</property>
@@ -89,7 +89,7 @@
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
 			<label>$LOCALIZE[15016]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/games.png</icon>
 			<thumb />
 			<property name="labelID">15016</property>
@@ -108,7 +108,7 @@
 		<item id="6">
 			<property name="id">$NUMBER[6]</property>
 			<label>$LOCALIZE[31334]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/trailers.png</icon>
 			<thumb />
 			<property name="labelID">plugin.video.itunes_trailers</property>
@@ -127,7 +127,7 @@
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
 			<label>$ADDON[script.skinshortcuts 32022]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/livetv.png</icon>
 			<thumb />
 			<property name="labelID">livetv</property>
@@ -149,7 +149,7 @@
 		<item id="8">
 			<property name="id">$NUMBER[8]</property>
 			<label>$LOCALIZE[2]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/music.png</icon>
 			<thumb />
 			<property name="labelID">2</property>
@@ -172,7 +172,7 @@
 		<item id="9">
 			<property name="id">$NUMBER[9]</property>
 			<label>$LOCALIZE[20389]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/musicvideos.png</icon>
 			<thumb />
 			<property name="labelID">musicvideos</property>
@@ -196,7 +196,7 @@
 		<item id="10">
 			<property name="id">$NUMBER[10]</property>
 			<label>$ADDON[script.skinshortcuts 32087]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/radio.png</icon>
 			<thumb />
 			<property name="labelID">radio</property>
@@ -215,7 +215,7 @@
 		<item id="11">
 			<property name="id">$NUMBER[11]</property>
 			<label>$LOCALIZE[10002]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/pictures.png</icon>
 			<thumb />
 			<property name="labelID">pictures</property>
@@ -233,7 +233,7 @@
 		<item id="12">
 			<property name="id">$NUMBER[12]</property>
 			<label>$LOCALIZE[10001]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/programs.png</icon>
 			<thumb />
 			<property name="labelID">programs</property>
@@ -251,7 +251,7 @@
 		<item id="13">
 			<property name="id">$NUMBER[13]</property>
 			<label>$LOCALIZE[12600]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/weather.png</icon>
 			<thumb />
 			<property name="labelID">weather</property>
@@ -273,16 +273,16 @@
 		<item id="14">
 			<property name="id">$NUMBER[14]</property>
 			<label>$LOCALIZE[1036]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/favourites.png</icon>
 			<thumb />
 			<property name="labelID">1036</property>
 			<property name="defaultID">favourites</property>
-			<property name="widget">Favourites</property>
-			<property name="widgetName">1036</property>
-			<property name="widgetType">static</property>
-			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=favourite&amp;mediatype=media&amp;reload=$INFO[Window(Home).Property(widgetreload2)]</property>
-			<property name="widgetTarget">static</property>
+			<property name="widget">plugin://script.skin.helper.widgets/?action=favouriteslisting</property>
+			<property name="widgetName">Favourites</property>
+			<property name="widgetType">movies</property>
+			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=favourites&amp;mediatype=favourites&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetTarget">videos</property>
 			<property name="background">home\favourites\</property>
 			<property name="backgroundName">1036</property>
 			<onclick>ActivateWindow(favourites)</onclick>
@@ -296,7 +296,7 @@
 		<item id="15">
 			<property name="id">$NUMBER[15]</property>
 			<label>$LOCALIZE[137]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/search.png</icon>
 			<thumb />
 			<property name="labelID">script.globalsearch</property>
@@ -315,7 +315,7 @@
 		<item id="16">
 			<property name="id">$NUMBER[16]</property>
 			<label>$LOCALIZE[10004]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/settings.png</icon>
 			<thumb />
 			<property name="labelID">settings</property>
@@ -333,7 +333,7 @@
 		<item id="17">
 			<property name="id">$NUMBER[17]</property>
 			<label>$LOCALIZE[13005]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>home_icons/shutdown.png</icon>
 			<thumb />
 			<property name="labelID">13005</property>
@@ -5232,7 +5232,7 @@
 		<control id="8000" type="list">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-1036)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="static">plugin://script.skin.helper.widgets/?action=favourite&amp;mediatype=media&amp;reload=$INFO[Window(Home).Property(widgetreload2)]</content>
+			<content target="videos">plugin://script.skin.helper.widgets/?action=favourites&amp;mediatype=favourites&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</content>
 		</control>
 	</include>
 </includes>
