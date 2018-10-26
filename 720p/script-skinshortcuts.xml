@@ -2,6 +2,7 @@
 <window>
 	<defaultcontrol always="true">10</defaultcontrol>
 	<controls>
+		<include>Global_Background</include>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
 
