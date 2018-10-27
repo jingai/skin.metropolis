@@ -112,13 +112,31 @@
 					<onclick>ActivateWindow(GameControllers)</onclick>
 				</control>
 				<control type="button" id="50">
-					<description>View mode button</description>
+					<description>View stretch button</description>
 					<include>Animation_ButtonFocus</include>
 					<height>60</height>
 					<width>60</width>
 					<texturefocus>buttons/button_videoconfigFO.png</texturefocus>
 					<texturenofocus>buttons/button_videoconfig.png</texturenofocus>
-					<onclick>ActivateWindow(GameViewMode)</onclick>
+					<onclick>ActivateWindow(GameStretchMode)</onclick>
+				</control>
+				<control type="button" id="51">
+					<description>Rotate button</description>
+					<include>Animation_ButtonFocus</include>
+					<height>60</height>
+					<width>60</width>
+					<texturefocus>osd/osd_button_repeat_fo.png</texturefocus>
+					<texturenofocus>osd/osd_button_repeat_nf.png</texturenofocus>
+					<onclick>ActivateWindow(GameVideoRotation)</onclick>
+				</control>
+				<control type="button" id="53">
+					<description>Game Settings</description>
+					<include>Animation_ButtonFocus</include>
+					<height>60</height>
+					<width>60</width>
+					<texturefocus>osd/osd_button_settings_fo.png</texturefocus>
+					<texturenofocus>osd/osd_button_settings_nf.png</texturenofocus>
+					<onclick>ActivateWindow(GameAdvancedSettings)</onclick>
 				</control>
 				<control type="button" id="55">
 					<description>Video filter button</description>
@@ -136,18 +154,9 @@
 					<width>60</width>
 					<texturefocus>osd/osd_button_audio_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_audio_nf.png</texturenofocus>
-					<onclick>ActivateWindow(osdaudiosettings)</onclick>
-				</control>
-	<!--			<control type="button" id="65">
-					<description>Audio Settings</description>
-					<include>Animation_ButtonFocus</include>
-					<height>60</height>
-					<width>60</width>
-					<texturefocus>osd/osd_button_audio_fo.png</texturefocus>
-					<texturenofocus>osd/osd_button_audio_nf.png</texturenofocus>
 					<onclick>ActivateWindow(GameVolume)</onclick>
 				</control>
-	-->		</control>
+			</control>
 		</control>
 	</controls>
 </window>
