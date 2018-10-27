@@ -1,3 +1,43 @@
+3.18.4 - 20181027
+- Fix for transparent Addon dialog
+- Add and fix missing Game menu items 
+- Fix for Favourites submenu after update
+- Fixed Home Furniture submenu transparent issue
+- 2018-07-29 New InfoBool: Player.FrameAdvance
+- 2018-10-03 DialogAddonInfo.xml - new dependencies button
+- Added support for included "Games" menu item
+- Fixed dialog order for various windows
+- 2018-01-16 MyPVRGuide.xml - channel group selection list
+- 2018-03-16 time formatting options
+- 2017-11-25 DialogTextViewer.xml - monofont option
+- 2018-02-19 new dialog - osdsubtitlesettings
+- 2017-12-28 new / renamed infolabels
+- Fixed some random errors in DialogAddonSettings.xml, DialogPictureInfo.xml, Includes_Animations.xml, MusicVisualisation.xml, MyGames.xml, Viewtype_LowList.xml, abd script_rating_update-main.xml
+- 2016-08-4 playspeed control
+- 2016-07-01 colormanagement support
+- Added 3d icon to list view
+- Added support to launch ExtendedInfo script from video info
+- Added missing icons per jingai#106
+- Fix for issue jingai#139
+- Removed old numbers for Music and Videos that had been removed from Kodi
+- Fix for the the deprecated "IsEmpty" in Leia
+- Fix for 2017-06-14 Changes to DialogAddonSettings.xml
+- 2017-12-01 renamed infolabels / builtin
+- 2017-11-21 removed infolabels
+- 2017-10-10 MyMusicPlaylistEditor.xml - add view definition
+- 2017-06-14 Changes to DialogAddonSettings.xml
+- 2017-03-20 DialogPVRGroupManager.xml - radio channel groups
+- 2017-03-21 new infolabels
+- 2017-03-17 onclick made optional for static listitems
+- 2017-03-13 DialogPVRChannelGuide.xml
+- 2017-02-24 drop support for using hyphen as none value
+- 2017-02-23 MyPVRRecordings.xml - watched toggle
+- 2016-12-17 changed infolabel
+- 2016-12-12 removed infobools
+- 2016-12-01 games support
+- New dialog GameOSD.xml
+- xbmc.gui bump to 5.13.0
+
 3.4.3 - 20170627
 - Show year/duration/etc in List Fanart view.
 - Add show path option for DialogMusicInfo.
