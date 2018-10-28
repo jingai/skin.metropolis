@@ -1,4 +1,4 @@
-3.18.4 - 20181027
+3.5.0-alpha4 (aka 4.4.18) - 20181027
 - Fix for transparent Addon dialog
 - Add and fix missing Game menu items 
 - Fix for Favourites submenu after update
