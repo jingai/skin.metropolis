@@ -1752,7 +1752,7 @@
 			<include condition="String.IsEqual(Skin.String(OSDFade),Complete) + String.IsEqual(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
-				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
+				<label>[UPPERCASE]$LOCALIZE[112][/UPPERCASE]</label>
 				<visible>Player.Paused</visible>
 			</control>
 			<control type="label">
@@ -1805,15 +1805,27 @@
 				<label>[UPPERCASE]$LOCALIZE[31168][/UPPERCASE]</label>
 				<visible>Player.Rewinding32x</visible>
 			</control>
+			<!--labels while at normal speed -->
+			<control type="label">
+				<include>OSD_Player_Labels</include>
+				<label>[UPPERCASE]$LOCALIZE[31244][/UPPERCASE]</label>
+				<visible>Player.Playing + ![Player.SeekBar | Player.DisplayAfterSeek] + !Player.IsTempo</visible>
+			</control>
+			<control type="label">
+				<include>OSD_Player_Labels</include>
+				<label>[UPPERCASE]$INFO[Player.SeekOffset][/UPPERCASE]</label>
+				<visible>Player.DisplayAfterSeek + ![Player.Paused | Player.Forwarding | Player.Rewinding] + !Player.IsTempo</visible>
+			</control>
+			<!--labels while at not normal speed -->
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$LOCALIZE[31244][/UPPERCASE]</label>
-				<visible>Player.Playing + ![Player.SeekBar | Player.DisplayAfterSeek]</visible>
+				<visible>Player.Playing + ![Player.SeekBar | Player.DisplayAfterSeek] + Player.IsTempo</visible>
 			</control>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$INFO[Player.SeekOffset][/UPPERCASE]</label>
-				<visible>Player.DisplayAfterSeek + ![Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
+				<visible>Player.DisplayAfterSeek + ![Player.Paused | Player.Forwarding | Player.Rewinding] + Player.IsTempo</visible>
 			</control>
 		</control>
 	</include>
@@ -1854,7 +1866,7 @@
 					<label>$INFO[VideoPlayer.Plot]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
-					<visible>Skin.HasSetting(ShowVideoPlotFullscreen) + !String.IsEmpty(VideoPlayer.Plot)</visible>
+					<visible>Skin.HasSetting(ShowVideoPlotFullscreen) + !String.IsEmpty(VideoPlayer.Plot) + !Player.IsTempo</visible>
 				</control>
 				<control type="grouplist">
 					<orientation>vertical</orientation>
