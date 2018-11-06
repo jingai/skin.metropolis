@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.metropolis" version="3.4.18" name="Metropolis" provider-name="jingai, Stoli, Amra">
+<addon id="skin.metropolis" version="3.4.20" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.skinshortcuts" version="1.0.6"/>
@@ -15,11 +15,11 @@
 	</extension>
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="be_BY">A Mix of Retro and Modern. Original Metropolis skin by Amra - continued by Stoli, jingai and Macgyverr</summary>
+		<summary lang="be_BY">A Mix of Retro and Modern. Original Metropolis skin by Amra - continued by Stoli, jingai and Macgyver</summary>
 		<summary lang="cs_CZ">Mix retro a moderního.</summary>
 		<summary lang="da_DK">En blanding af retro og moderne.</summary>
 		<summary lang="de_DE">Ein Mix aus Retro und Moderne.</summary>
-		<summary lang="el_GR">Ένα μείγμα Παλαιού και Νέου. Το αρχικό κέλυφος Metropolis από τον Amra - συντήρηση και εξέλιξη από τον Stoli, jingai, Macgyverr</summary>
+		<summary lang="el_GR">Ένα μείγμα Παλαιού και Νέου. Το αρχικό κέλυφος Metropolis από τον Amra - συντήρηση και εξέλιξη από τον Stoli, jingai, Macgyver</summary>
 		<summary lang="en_AU">A Mix of Retro and Modern.</summary>
 		<summary lang="en_GB">A Mix of Retro and Modern.</summary>
 		<summary lang="en_NZ">A Mix of Retro and Modern.</summary>
@@ -30,15 +30,15 @@
 		<summary lang="fr_FR">Un mélange de Rétro et de Moderne.</summary>
 		<summary lang="gl_ES">Unha Mestura do Retro e o Moderno.</summary>
 		<summary lang="he_IL">שילוב של רטרו ומודרני.</summary>
-		<summary lang="hu_HU">Eden-re optimalizálva. A retro és modern stílus ötvözete. Az eredeti Metropolis felszín készítője: Amra -  Stoli, jingai, Macgyverr folytatja.</summary>
+		<summary lang="hu_HU">Eden-re optimalizálva. A retro és modern stílus ötvözete. Az eredeti Metropolis felszín készítője: Amra -  Stoli, jingai, Macgyver folytatja.</summary>
 		<summary lang="it_IT">Un Mix di Retrò e Moderno.</summary>
 		<summary lang="ko_KR">복고풍과 모던함의 혼합</summary>
 		<summary lang="lt_LT">Retro ir modernaus mišinys</summary>
 		<summary lang="ms_MY">Campuran Retro dan Modern</summary>
 		<summary lang="nb_NO">En miks av retro og moderne.</summary>
-		<summary lang="nl_NL">Bijgewerkt voor Eden, een mix van retro en modern. Originele Metropolis skin door Amra - voortgezet door Stoli, jingai, Macgyverr</summary>
+		<summary lang="nl_NL">Bijgewerkt voor Eden, een mix van retro en modern. Originele Metropolis skin door Amra - voortgezet door Stoli, jingai, Macgyver</summary>
 		<summary lang="pl_PL">Mieszanka tradycji z nowoczesnością.</summary>
-		<summary lang="pt_BR">Atualizada para Eden, um Mix de Retro e Modern. Skin Original Metropolis por Amra - continuada por Stoli, jingai, Macgyverr</summary>
+		<summary lang="pt_BR">Atualizada para Eden, um Mix de Retro e Modern. Skin Original Metropolis por Amra - continuada por Stoli, jingai, Macgyver</summary>
 		<summary lang="pt_PT">Uma Mistura de Retro e Modernidade.</summary>
 		<summary lang="ru_RU">Смесь ретро и модерна</summary>
 		<summary lang="sv_SE">En blandning av Retro och Modernt.</summary>

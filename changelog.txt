@@ -1,4 +1,8 @@
-3.5.0-alpha4 (aka 4.4.18) - 20181027
+3.5.0-beta1 (aka 3.4.20) - 20181105
+- Fix for plot running into playback rate
+- Fix for mp3 audio codec icon until a real Kodi fix is submitted (returns mp3float instead of mp3)
+
+3.5.0-alpha4 (aka 3.4.18) - 20181027
 - Fix for transparent Addon dialog
 - Add and fix missing Game menu items 
 - Fix for Favourites submenu after update
