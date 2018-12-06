@@ -16,7 +16,7 @@
 				<onup>55</onup>
 				<ondown>55</ondown>
 				<include condition="!Skin.HasSetting(ViewLockdown)">OnLeft7000</include>
-				<onright>998</onright>
+				<onright>997</onright>
 				<scrolltime>160</scrolltime>
 				<viewtype label="31285">list</viewtype>
 				<orientation>vertical</orientation>
@@ -181,6 +181,15 @@
 						<height>24</height>
 						<texture>flags/3d.png</texture>
 						<visible>Window.IsActive(videos) + [Container.Content(movies) | Container.Content(episodes)] + [ListItem.IsStereoscopic | String.Contains(ListItem.FilenameAndPath,.3d.) | String.Contains(ListItem.FilenameAndPath,hsbs) | String.Contains(ListItem.FilenameAndPath,sbs) | String.Contains(ListItem.FilenameAndPath,half-sbs)]</visible>
+					</control>
+					<!-- Sets icon -->
+					<control type="image">
+						<posx>795</posx>
+						<posy>5</posy>
+						<width>32</width>
+						<height>24</height>
+						<texture>flags/set.png</texture>
+						<visible>Window.IsActive(videos) + !String.StartsWith(Container.FolderPath, videodb://movies/sets/) + !String.IsEmpty(ListItem.Set)</visible>
 					</control>
 					<!-- Episode Count for TVShows -->
 					<control type="label">
@@ -418,6 +427,23 @@
 						<height>24</height>
 						<texture>flags/3d.png</texture>
 						<visible>Window.IsActive(videos) + [Container.Content(movies) | Container.Content(episodes)] + [ListItem.IsStereoscopic | String.Contains(ListItem.FilenameAndPath,.3d.) | String.Contains(ListItem.FilenameAndPath,hsbs) | String.Contains(ListItem.FilenameAndPath,sbs) | String.Contains(ListItem.FilenameAndPath,half-sbs)]</visible>
+					</control>
+					<!-- Sets icon -->
+					<control type="image">
+						<posx>795</posx>
+						<posy>5</posy>
+						<width>32</width>
+						<height>24</height>
+						<texture>flags/set.png</texture>
+						<visible>Window.IsActive(videos) + !String.StartsWith(Container.FolderPath, videodb://movies/sets/) + !Control.HasFocus(997) + !String.IsEmpty(ListItem.Set)</visible>
+					</control>
+					<control type="image">
+						<posx>795</posx>
+						<posy>5</posy>
+						<width>32</width>
+						<height>24</height>
+						<texture>flags/setFO.png</texture>
+						<visible>Window.IsActive(videos) + !String.StartsWith(Container.FolderPath, videodb://movies/sets/) + Control.HasFocus(997) + !String.IsEmpty(ListItem.Set)</visible>
 					</control>
 					<!-- Episode Count for TVShows -->
 					<control type="label">
@@ -800,6 +826,21 @@
 					<include>ViewDetailsOneLineJustified</include>
 				</control>
 			</control>
+			<!-- Sets button -->
+			<control type="button" id="997">
+				<onup>55</onup>
+				<ondown>55</ondown>
+				<onleft>55</onleft>
+				<onright>998</onright>
+				<description>sets</description>
+				<posx>745</posx>
+				<posy>5</posy>
+				<width>32</width>
+				<height>24</height>
+				<label>-</label>
+				<onclick>ActivateWindow(10025,"videodb://movies/sets/$INFO[ListItem.SetId]/?setid=$INFO[ListItem.SetId]",return)</onclick>
+				<visible>Window.IsActive(videos) + !String.StartsWith(Container.FolderPath, videodb://movies/sets/) + !IsEmpty(ListItem.Set)</visible>
+			</control>	
 			<!-- Scroll Bar -->
 			<control type="scrollbar" id="998">
 				<include>Animation_OpenCloseFade</include>
@@ -812,7 +853,7 @@
 				<texturesliderbackground></texturesliderbackground>
 				<textureslidernib>ScrollbarVnibFO.png</textureslidernib>
 				<textureslidernibfocus>ScrollbarVnibFO.png</textureslidernibfocus>
-				<onleft>55</onleft>
+				<onleft>997</onleft>
 				<onright>noop</onright>
 				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
