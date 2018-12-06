@@ -1,3 +1,11 @@
+3.5.0-beta3 (aka 3.4.22) - 20181205
+- New feature - Display sets icon if item is part of a set
+- New feature - Jump-to-letter.
+
+3.5.0-beta2 (aka 3.4.21) - 20181119
+- Added extra color profiles.
+- xbmc.gui bumped to 5.14.0.
+
 3.5.0-beta1 (aka 3.4.20) - 20181105
 - Fix for plot running into playback rate
 - Fix for mp3 audio codec icon until a real Kodi fix is submitted (returns mp3float instead of mp3)
