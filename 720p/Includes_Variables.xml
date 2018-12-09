@@ -560,6 +560,38 @@
 		<!-- Left side pictures titles -->
 		<value condition="String.StartsWith(System.CurrentWindow, Pictures) + !String.IsEmpty(Container.FolderPath) + !String.EndsWith(Container.FolderPath, addons://sources/image) + !String.StartsWith(Container.FolderPath, plugin)">$INFO[System.CurrentWindow] · $INFO[Container.FolderPath]</value>
 
+		<!-- Left side roles titles -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://roles/?)">$INFO[System.CurrentWindow,, · ] $LOCALIZE[38046]</value>
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://roles/)">$INFO[System.CurrentWindow,, · ] $LOCALIZE[38046] · $INFO[Container.FolderName]</value>
+		<!-- Role Composer -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?role=Composer)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29903]</value>
+		<value condition="String.Contains(Container.FolderPath, &role=Composer) + !String.IsEmpty(Container.ListItem.Property(Role.Composer)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29903] · $INFO[Container.ListItem.Property(Role.Composer)] · $INFO[Container.FolderName]</value>
+		<value condition="String.EndsWith(Container.FolderPath, &role=Composer)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29903] · $INFO[Container.FolderName]</value>
+		<!-- Role Conductor -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?role=Conductor)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29990]</value>
+		<value condition="String.Contains(Container.FolderPath, &role=Conductor) + !String.IsEmpty(Container.ListItem.Property(Role.Conductor)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29990] · $INFO[Container.ListItem.Property(Role.Conductor)] · $INFO[Container.FolderName]</value>
+		<value condition="String.EndsWith(Container.FolderPath, &role=Conductor)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29990] · $INFO[Container.FolderName]</value>
+		<!-- Role Lyricist -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?role=Lyricist)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29992]</value>
+		<value condition="String.Contains(Container.FolderPath, &role=Lyricist) + !String.IsEmpty(Container.ListItem.Property(Role.Lyricist)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29992] · $INFO[Container.ListItem.Property(Role.Lyricist)] · $INFO[Container.FolderName]</value>
+		<value condition="String.EndsWith(Container.FolderPath, &role=Lyricist)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29992] · $INFO[Container.FolderName]</value>
+		<!-- Role Remixer -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?role=Remixer)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29987]</value>
+		<value condition="String.Contains(Container.FolderPath, &role=Remixer) + !String.IsEmpty(Container.ListItem.Property(Role.Remixer)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29987] · $INFO[Container.ListItem.Property(Role.Remixer)] · $INFO[Container.FolderName]</value>
+		<value condition="String.EndsWith(Container.FolderPath, &role=Remixer)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[29987] · $INFO[Container.FolderName]</value>
+		<!-- Roles -Album Artist -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?albumartistsonly=true)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38043]</value>
+		<value condition="String.EndsWith(Container.FolderPath, ?albumartistsonly=true) + !String.IsEmpty(Container.ListItem.AlbumArtist)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38043] · $INFO[Container.ListItem.AlbumArtist]</value>
+		<value condition="String.Contains(Container.FolderPath, ?albumartistsonly=true) + !String.IsEmpty(Container.ListItem.AlbumArtist)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38043] · $INFO[Container.ListItem.AlbumArtist] · $INFO[Container.FolderName]</value>
+		<value condition="String.Contains(Container.FolderPath, ?albumartistsonly=true) + String.IsEmpty(Container.ListItem.AlbumArtist)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38043] · $INFO[Container.FolderName]</value>
+		<!-- Roles -All Roles -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?albumartistsonly=false)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38044]</value>
+		<!-- Roles -All Contributors -->
+		<value condition="String.StartsWith(Container.FolderPath, musicdb://artists/?roleid=-1000)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38045]</value>
+		<value condition="String.EndsWith(Container.FolderPath, roleid=-1000) + !String.IsEmpty(Container.ListItem.Contributors)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38045] · $INFO[Container.ListItem.Contributors] · $INFO[Container.FolderName]</value>
+		<value condition="String.EndsWith(Container.FolderPath, roleid=-1000)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38045] · $INFO[Container.FolderName]</value>
+		<value condition="String.StartsWith(Container.FolderPath, library://music/musicroles/) + !String.EndsWith(Container.FolderPath, library://music/musicroles/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994]$INFO[Container.FolderName, · ]</value>
+		
 		<!-- Left side music titles -->
 		<value condition="String.EndsWith(Container.FolderPath, musicdb://genres/) | String.EndsWith(Container.FolderPath, musicdb://artists/) | String.EndsWith(Container.FolderPath, musicdb://albums/) | String.EndsWith(Container.FolderPath, musicdb://songs/) | String.EndsWith(Container.FolderPath, musicdb://years/) | String.EndsWith(Container.FolderPath, library://music/top100/) | String.EndsWith(Container.FolderPath, musicdb://recentlyaddedalbums/) | String.EndsWith(Container.FolderPath, musicdb://recentlyplayedalbums/) | String.EndsWith(Container.FolderPath, musicdb://compilations/) | String.EndsWith(Container.FolderPath, special://musicplaylists/) | String.EndsWith(Container.FolderPath, library://music/musicroles/) | String.EndsWith(Container.FolderPath, sources://music/)">$INFO[System.CurrentWindow]$INFO[Container.FolderName, · ]</value>
 		<value condition="String.StartsWith(Container.FolderPath, musicdb://genres/) + !String.EndsWith(Container.FolderPath, musicdb://genres/) + !String.StartsWith(ListItem.DBType, album) + !String.StartsWith(ListItem.DBType,song)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[135]$INFO[Container.FolderName, · ]</value>
@@ -576,7 +608,6 @@
 		<value condition="String.StartsWith(Container.FolderPath, musicdb://recentlyplayedalbums/) + !String.EndsWith(Container.FolderPath, musicdb://recentlyplayedalbums/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[517]$INFO[Container.FolderName, · ]</value>
 		<value condition="String.StartsWith(Container.FolderPath, musicdb://compilations/) + !String.EndsWith(Container.FolderPath, musicdb://compilations/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[521]$INFO[Container.FolderName, · ]</value>
 		<value condition="String.StartsWith(Container.FolderPath, special://musicplaylists/) + !String.EndsWith(Container.FolderPath, special://musicplaylists/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[20011]$INFO[Container.FolderName, · ]</value>
-		<value condition="String.StartsWith(Container.FolderPath, library://music/musicroles/) + !String.EndsWith(Container.FolderPath, library://music/musicroles/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994]$INFO[Container.FolderName, · ]</value>
 		<value condition="String.StartsWith(System.CurrentWindow, Music) + String.EndsWith(Container.Content, files)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[744]$INFO[Container.FolderPath, · ]</value>
 		<!-- fallbacks -->
 		<value condition="String.StartsWith(Container.FolderPath, musicdb://)">$INFO[System.CurrentWindow]</value>
