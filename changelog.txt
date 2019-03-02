@@ -1,8 +1,8 @@
 3.5.0-beta4 (aka 3.4.24) - 20190301
--Fixes to allow the sub-menus to work under the changes made back between Kodi 18 RC1 & RC2.
--Added breadcrumbs for Roles
--Added DTSHRA, DTSHD-HRA Media Flags
--Skin support for Lyrics script
+- Fixes to allow the sub-menus to work under the changes made back between Kodi 18 RC1 & RC2.
+- Added breadcrumbs for Roles
+- Added DTSHRA, DTSHD-HRA Media Flags
+- Skin support for Lyrics script
 
 3.5.0-beta3 (aka 3.4.22) - 20181205
 - New feature - Display sets icon if item is part of a set
