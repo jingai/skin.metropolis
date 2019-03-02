@@ -73,21 +73,20 @@
 		<value>FanartDiffuse</value>
 	</variable>
 
+
 	<variable name="GlobalWidgetIcon">
 		<value condition="!String.IsEmpty(Container(8000).ListItem.Art(poster))">$INFO[Container(8000).ListItem.Art(poster)]</value>
 		<value condition="![String.IsEmpty(Container(8000).ListItem.Icon) | String.StartsWith(Container(8000).ListItem.Icon, default)]">$INFO[Container(8000).ListItem.Icon]</value>
-	</variable>
+		<value>DefaultThumb.png</value>
+		</variable>
 	<variable name="GlobalWidgetLabel">
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), movies)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), episodes)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), albums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), songs)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widgetType), musicvideos)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
-		<!-- fixing the playlists content labels -->
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widget), Playlist) + String.IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
-		<value condition="String.IsEqual(Container(9000).ListItem.Property(widget), Playlist) + !String.IsEqual(ListItem.Title, ListItem.TVShowTitle) + !String.IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
-		<!-- default -->
-		<value>$INFO[ListItem.Label]</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE, movie)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE, episode)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode,, - ]$INFO[ListItem.Title]</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE, album)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE, song)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE, artist)">$INFO[ListItem.Artist]</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE, musicvideo)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
+		<value>$INFO[ListItem.Title]</value>
 	</variable>
 
 	<variable name="RatingColor">

@@ -372,7 +372,7 @@
 				<font>METF_RecentlyAddedListText</font>
 				<textcolor>RecentlyAddedNF</textcolor>
 				<label>$VAR[GlobalWidgetLabel]</label>
-				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !String.IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
+				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] ] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)| Control.HasFocus(8003)]</visible> 
 			</control>
 		</itemlayout>
 		<focusedlayout width="510" height="27">
@@ -385,7 +385,7 @@
 				<aligny>center</aligny>
 				<texture>FocusLine.png</texture>
 				<colordiffuse>FocusBar</colordiffuse>
-				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !String.IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
+				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] ] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)| Control.HasFocus(8003)]</visible>
 			</control>
 			<control type="label">
 				<posx>10</posx>
@@ -400,7 +400,7 @@
 				<font>METF_RecentlyAddedListText</font>
 				<textcolor>FocusBarText</textcolor>
 				<label>$VAR[GlobalWidgetLabel]</label>
-				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] + !String.IsEmpty(Container(9000).ListItem.Property(widget))] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)]</visible>
+				<visible>[[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] ] | [Control.HasFocus(8000) | Control.HasFocus(8001) | Control.HasFocus(8002) | Control.HasFocus(8003)| Control.HasFocus(8003)]</visible>
 			</control>
 		</focusedlayout>
 	</include>
