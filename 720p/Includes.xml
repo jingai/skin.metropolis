@@ -140,6 +140,7 @@
 		<aligny>center</aligny>
 		<include>Animation_HiddenByInfo</include>
 	</include>
+	
 	<include name="Global_Heading">
 		<control type="group">
 			<posx>30</posx>
@@ -147,20 +148,30 @@
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_HiddenByInfo</include>
-
 			<!-- Left side title -->
 			<control type="label">
 				<label>$VAR[GlobalHeadingLeft]</label>
 				<include>Global_HeadingSectionVars</include>
 			</control>
-
 			<!-- Center details -->
 			<control type="label">
 				<label>$LOCALIZE[31208] $INFO[Window.Property(Updated)]</label>
 				<include>Global_HeadingLevelVars</include>
 				<visible>Window.IsActive(AddonBrowser)</visible>
 			</control>
-
+			<!-- Center NextAired sub details -->
+			<control type="label">
+				<label>$VAR[GlobalSubHeadingCenter]</label>
+				<font>METF_PlotTextSmall</font>
+				<posy>20</posy>
+				<width>1220</width>
+				<align>center</align>
+				<aligny>center</aligny>
+				<height>30</height>
+				<textcolor>SettingsDetail</textcolor>
+				<include>Animation_HiddenByInfo</include>
+				<visible>[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + Skin.HasSetting(NextAired)</visible>
+			</control>
 			<!-- Right side details -->
 			<control type="label" id="52">
 				<description>Build Version</description>
@@ -175,6 +186,7 @@
 			</control>
 		</control>
 	</include>
+	
 	<!-- SortLetter popup when scrolling through lists quickly -->
 	<include name="Global_ScrollOffsetLabel">
 		<control type="group" id="9906">

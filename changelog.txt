@@ -1,3 +1,6 @@
+3.5.0-beta5 (aka 3.4.25) - 20190308
+- Added Next-Aired back to the VideoNav Windows (I don't know when I lost it)
+
 3.5.0-beta4 (aka 3.4.24) - 20190301
 - Fixes to allow the sub-menus to work under the changes made back between Kodi 18 RC1 & RC2.
 - Added breadcrumbs for Roles
