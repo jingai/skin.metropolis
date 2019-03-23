@@ -296,6 +296,7 @@
 	<variable name="PlotBox_Text">
 		<!-- Skin Shortcuts help text -->
 		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(302)">$LOCALIZE[31720]</value>
+		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(313)">$LOCALIZE[31733]</value>
 		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(303)">$LOCALIZE[31721]</value>
 		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(304)">$LOCALIZE[31722]</value>
 		<value condition="Window.IsActive(script-skinshortcuts.xml) + Control.HasFocus(401)">$LOCALIZE[31723]</value>

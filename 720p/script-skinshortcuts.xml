@@ -48,6 +48,17 @@
 					<width>1</width>
 					<height>1</height>
 					<onleft>304</onleft>
+					<onright>313</onright>
+					<onup>noop</onup>
+					<ondown>noop</ondown>
+				</control>
+				<!-- Disable -->
+				<control type="button" id="313">
+					<left>-10</left>
+					<top>-10</top>
+					<width>1</width>
+					<height>1</height>
+					<onleft>303</onleft>
 					<onright>302</onright>
 					<onup>noop</onup>
 					<ondown>noop</ondown>
@@ -58,7 +69,7 @@
 					<top>-10</top>
 					<width>1</width>
 					<height>1</height>
-					<onleft>303</onleft>
+					<onleft>313</onleft>
 					<onright>9001</onright>
 					<onup>noop</onup>
 					<ondown>noop</ondown>
@@ -68,14 +79,14 @@
 				<control type="list" id="211">
 					<left>0</left>
 					<top>65</top>
-					<width>370</width>
+					<width>398</width>
 					<height>462</height>
 					<onleft>9001</onleft>
 					<onright>304</onright>
 					<onup>211</onup>
 					<ondown>211</ondown>
 					<scrolltime tween="sine" easing="out">240</scrolltime>
-					<itemlayout width="375" height="38">
+					<itemlayout width="403" height="38">
 						<control type="label">
 							<left>-75</left>
 							<top>5</top>
@@ -87,13 +98,27 @@
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>
 							<animation effect="fade" start="100" end="75" time="0" condition="!Control.HasFocus(211)">Conditional</animation>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),False)</visible>
+						</control>
+						<control type="label">
+							<left>-75</left>
+							<top>5</top>
+							<width>350</width>
+							<height>38</height>
+							<font>METF_TitleTextMedium</font>
+							<textcolor>red</textcolor>
+							<align>right</align>
+							<aligny>center</aligny>
+							<label>(Disabled) $INFO[ListItem.Label]</label>
+							<animation effect="fade" start="100" end="75" time="0" condition="!Control.HasFocus(211)">Conditional</animation>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</visible>
 						</control>
 					</itemlayout>
-					<focusedlayout width="375" height="38">
+					<focusedlayout width="403" height="38">
 						<control type="image">
 							<left>00</left>
 							<top>5</top>
-							<width>375</width>
+							<width>403</width>
 							<height>38</height>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -120,7 +145,28 @@
 							<top>8</top>
 							<width>29</width>
 							<height>29</height>
+							<texture>osd/osd_button_stop_fo.png</texture>
+							<include>Animation_ButtonFocus</include>
+							<visible>!Control.HasFocus(313)</visible>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),False)</visible>
+						</control>
+						<control type="image">
+							<left>339</left>
+							<top>8</top>
+							<width>29</width>
+							<height>29</height>
+							<texture>osd/osd_button_play_fo.png</texture>
+							<include>Animation_ButtonFocus</include>
+							<visible>!Control.HasFocus(313)</visible>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</visible>
+						</control>
+						<control type="image">
+							<left>367</left>
+							<top>8</top>
+							<width>29</width>
+							<height>29</height>
 							<texture>osd/osd_button_ban_fo.png</texture>
+							<include>Animation_ButtonFocus</include>
 							<visible>!Control.HasFocus(302)</visible>
 						</control>
 						<control type="image">
@@ -146,6 +192,26 @@
 							<top>8</top>
 							<width>29</width>
 							<height>29</height>
+							<texture>osd/osd_button_stop_nf.png</texture>
+							<include>Animation_ButtonFocus</include>
+							<visible>Control.HasFocus(313)</visible>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),False)</visible>
+						</control>
+						<control type="image">
+							<left>339</left>
+							<top>8</top>
+							<width>29</width>
+							<height>29</height>
+							<texture>osd/osd_button_play_nf.png</texture>
+							<include>Animation_ButtonFocus</include>
+							<visible>Control.HasFocus(313)</visible>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</visible>
+						</control>
+						<control type="image">
+							<left>367</left>
+							<top>8</top>
+							<width>29</width>
+							<height>29</height>
 							<texture>osd/osd_button_ban_nf.png</texture>
 							<include>Animation_ButtonFocus</include>
 							<visible>Control.HasFocus(302)</visible>
@@ -160,6 +226,19 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label]</label>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),False)</visible>
+						</control>
+						<control type="label">
+							<left>-75</left>
+							<top>5</top>
+							<width>350</width>
+							<height>38</height>
+							<font>METF_TitleTextMedium</font>
+							<textcolor>red</textcolor>
+							<align>right</align>
+							<aligny>center</aligny>
+							<label>(Disabled) $INFO[ListItem.Label]</label>
+							<visible>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</visible>
 						</control>
 					</focusedlayout>
 				</control>
@@ -187,9 +266,9 @@
 
 				<!-- Right grouplist -->
 				<control type="grouplist" id="9000">
-					<left>385</left>
+					<left>413</left>
 					<top>70</top>
-					<width>800</width>
+					<width>772</width>
 					<height>660</height>
 					<itemgap>0</itemgap>
 					<onleft>211</onleft>

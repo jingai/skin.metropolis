@@ -1151,3 +1151,7 @@ msgstr "Reset ALL shortcuts back to default.  This will revert any changes to th
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
 msgstr "Are you sure you really want to remove the Settings shortcut?"
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
