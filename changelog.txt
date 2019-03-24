@@ -1,3 +1,9 @@
+3.5.0-beta6 (aka 3.4.26) - 20190324
+-Removed random character on listview error
+-Updated skinshortcuts features to include Enable and Disable ability
+-Updated Next-Aired features to cover all show states
+-Update Font.xml to not point to mising font
+
 3.5.0-beta5 (aka 3.4.25) - 20190308
 - Added Next-Aired back to the VideoNav Windows (I don't know when I lost it)
 
