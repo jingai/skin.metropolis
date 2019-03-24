@@ -837,7 +837,6 @@
 				<posy>5</posy>
 				<width>32</width>
 				<height>24</height>
-				<label>-</label>
 				<onclick>ActivateWindow(10025,"videodb://movies/sets/$INFO[ListItem.SetId]/?setid=$INFO[ListItem.SetId]",return)</onclick>
 				<visible>Window.IsActive(videos) + !String.StartsWith(Container.FolderPath, videodb://movies/sets/) + !IsEmpty(ListItem.Set)</visible>
 			</control>	
