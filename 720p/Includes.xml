@@ -1626,6 +1626,38 @@
 					<info>VideoPlayer.Cover</info>
 					<visible>VideoPlayer.Content(LiveTV)</visible>
 				</control>
+				<!-- Game Boxart Poster -->
+				<control type="image">
+					<description>Game Boxart Poster</description>
+					<posx>42</posx>
+					<posy>370</posy>
+					<width>216</width>
+					<height>318</height>
+					<texture fallback="DefaultAddonGame.png">$INFO[Player.Filenameandpath].jpg</texture>
+					<aspectratio scalediffuse="false">stretch</aspectratio>
+					<visible>Window.IsActive(GameOSD)</visible>
+				</control>
+				<!-- Game Boxart Poster -->
+				<control type="image">
+					<description>Game Boxart Poster</description>
+					<posx>42</posx>
+					<posy>370</posy>
+					<width>216</width>
+					<height>318</height>
+					<texture diffuse="frames/EpisodeMatte.png">$INFO[Player.Filenameandpath].png</texture>
+					<aspectratio scalediffuse="false">stretch</aspectratio>
+					<visible>Window.IsActive(GameOSD)</visible>
+				</control>
+				<control type="image">
+					<description>Game Boxart Poster Frame</description>
+					<posx>28</posx>
+					<posy>350</posy>
+					<width>244</width>
+					<height>358</height>
+					<texture>frames/ClassicFrame_PosterMedium.png</texture>
+					<aspectratio>stretch</aspectratio>
+					<visible>Window.IsActive(GameOSD)</visible>
+				</control>
 			</control>
 			<control type="group">
 				<visible>String.StartsWith(Player.FolderPath,http)</visible>
@@ -1928,6 +1960,25 @@
 					</control>
 				</control>
 			</control>
+			
+	<!-- GameOSD controls -->
+			<control type="group">
+				<posx>225</posx>
+				<posy>6</posy>
+				<visible>Window.IsActive(GameOSD)</visible>
+				<!-- Plot -->
+				<control type="textbox">
+					<width>830</width>
+					<height>66</height>
+					<align>justify</align>
+					<font>METF_PlotTextSmall</font>
+					<textcolor>TextNF</textcolor>
+                        <label>$LOCALIZE[35236] [CR]$LOCALIZE[35224] = Select + X      |      $LOCALIZE[13007] = Select + B [CR]$LOCALIZE[35222] = Select + Start      |      $LOCALIZE[13376] = Select + Right Stick</label>
+					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
+					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
+				</control>	
+			</control>		
+			
 		</control>
 	</include>
 
