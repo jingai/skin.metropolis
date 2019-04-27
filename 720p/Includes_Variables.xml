@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<variable name="HomeBackground">
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb))">$INFO[Container(8000).ListItem.Art(thumb)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart))">$INFO[Container(8000).ListItem.Art(fanart)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape))">$INFO[Container(8000).ListItem.Art(landscape)]</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\dvd\)">home_art/playdisc.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\movies\)">home_art/movies.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\tvshows\)">home_art/tvshows.jpg</value>

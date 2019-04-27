@@ -69,7 +69,7 @@
 			<imagepath background="true" diffuse="FanartDiffuse.png">$VAR[HomeBackground]</imagepath>
 			<aspectratio>scale</aspectratio>
 			<visible>!String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
-			<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
+			<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds) + !Control.HasFocus(8000)</visible>
 		</control>
 		<control type="multiimage">
 			<posx>0</posx>
@@ -82,7 +82,7 @@
 			<imagepath background="true">$VAR[HomeBackground]</imagepath>
 			<aspectratio>stretch</aspectratio>
 			<visible>!String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
-			<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds)</visible>
+			<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds) | Control.HasFocus(8000)</visible>
 		</control>
 		<control type="multiimage">
 			<include>Dimensions_Fullscreen</include>
