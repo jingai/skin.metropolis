@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<variable name="HomeBackground">
-		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb))">$INFO[Container(8000).ListItem.Art(thumb)]</value>
-		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart))">$INFO[Container(8000).ListItem.Art(fanart)]</value>
-		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape))">$INFO[Container(8000).ListItem.Art(landscape)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb)) + [String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))]">$INFO[Container(8000).ListItem.Art(thumb)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart)) + [String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))]">$INFO[Container(8000).ListItem.Art(fanart)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape)) + [String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))]">$INFO[Container(8000).ListItem.Art(landscape)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">$INFO[Container(8000).ListItem.Art(fanart)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">$INFO[Container(8000).ListItem.Art(landscape)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">$INFO[Container(8000).ListItem.Art(thumb)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),landscape)">$INFO[Container(8000).ListItem.Art(landscape)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),landscape)">$INFO[Container(8000).ListItem.Art(fanart)]</value>
+		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),landscape)">$INFO[Container(8000).ListItem.Art(thumb)]</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\dvd\)">home_art/playdisc.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\movies\)">home_art/movies.jpg</value>
 		<value condition="String.IsEqual(Container(9000).ListItem.Property(background),home\tvshows\)">home_art/tvshows.jpg</value>
@@ -44,6 +50,11 @@
 		<value>$INFO[Container(211).ListItem.Property(background)] + !String.StartsWith(Container(9000).ListItem.Property(background),home\)</value>
 	</variable>
 
+	<variable name="WidgetBackgroundOrderLabel">
+		<value condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))">Thumbnail-Fanart-Landscape</value>
+		<value condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">Fanart-Landscape-Thumbnail</value>
+		<value condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),landscape)">Landscape-Fanart-Thumbnail</value>
+	</variable>
 	<variable name="ListItemTitle">
 		<value condition="Container.Content(albums) | Container.Content(songs)">$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</value>
 		<value condition="String.Contains(Container.FolderPath,plugin)">$INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Label]</value>
@@ -89,7 +100,8 @@
 		<value condition="String.IsEqual(ListItem.DBTYPE, song)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
 		<value condition="String.IsEqual(ListItem.DBTYPE, artist)">$INFO[ListItem.Artist]</value>
 		<value condition="String.IsEqual(ListItem.DBTYPE, musicvideo)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
-		<value>$INFO[ListItem.Title]</value>
+		<value condition="!String.IsEmpty(ListItem.Title)">$INFO[ListItem.Title]</value>
+		<value>$INFO[ListItem.Label]</value>
 	</variable>
 
 	<variable name="RatingColor">

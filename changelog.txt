@@ -1,3 +1,7 @@
+3.5.0-beta9 (aka 3.4.29) - 20190429
+-Added the ability to sort the order in which widget main menu background is displayed.
+-Fixed the widget label to work even if the widget's contents are not in the databade (folder list).
+
 3.5.0-beta8 (aka 3.4.28) - 20190427
 -Added support for fanart and thumbs to background of main menu when widget is selected.
 
