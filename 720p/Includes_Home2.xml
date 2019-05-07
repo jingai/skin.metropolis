@@ -4,22 +4,22 @@
 	<visible>Skin.HasSetting(Home2)</visible>
 
 	<include name="HomeStatsPosition2">
-		<posx>26</posx>
+		<posx>20</posx>
 		<posy>560</posy>
-		<width>220</width>
-		<height>416</height>
+		<width>240</width>
+		<height>420</height>
 	</include>
 	<include name="HomeStatsDetails2">
-		<width>120</width>
-		<height>24</height>
+		<width>130</width>
+		<height>26</height>
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>METF_HomeStatsText</font>
 		<textcolor>HomeStatsCategory</textcolor>
 	</include>
 	<include name="HomeStatsDetailsNumber2">
-		<width>60</width>
-		<height>24</height>
+		<width>75</width>
+		<height>26</height>
 		<align>right</align>
 		<aligny>center</aligny>
 		<font>METF_HomeStatsText</font>

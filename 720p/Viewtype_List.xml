@@ -12,7 +12,7 @@
 				<posx>360</posx>
 				<posy>140</posy>
 				<height>350</height>
-				<width>850</width>
+				<width>860</width>
 				<onup>55</onup>
 				<ondown>55</ondown>
 				<include condition="!Skin.HasSetting(ViewLockdown)">OnLeft7000</include>
@@ -193,9 +193,9 @@
 					</control>
 					<!-- Episode Count for TVShows -->
 					<control type="label">
-						<posx>730</posx>
+						<posx>715</posx>
 						<posy>-2</posy>
-						<width>120</width>
+						<width>145</width>
 						<height>35</height>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -206,9 +206,9 @@
 					</control>
 					<!-- Episode Count for Seasons -->
 					<control type="label">
-						<posx>730</posx>
+						<posx>715</posx>
 						<posy>-2</posy>
-						<width>120</width>
+						<width>145</width>
 						<height>35</height>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -447,9 +447,9 @@
 					</control>
 					<!-- Episode Count for TVShows -->
 					<control type="label">
-						<posx>730</posx>
+						<posx>715</posx>
 						<posy>-2</posy>
-						<width>120</width>
+						<width>145</width>
 						<height>35</height>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -460,9 +460,9 @@
 					</control>
 					<!-- Episode Count for Seasons -->
 					<control type="label">
-						<posx>730</posx>
+						<posx>715</posx>
 						<posy>-2</posy>
-						<width>120</width>
+						<width>145</width>
 						<height>35</height>
 						<align>right</align>
 						<aligny>center</aligny>

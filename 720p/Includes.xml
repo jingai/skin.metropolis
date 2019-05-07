@@ -378,7 +378,7 @@
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_HiddenByInfo</include>
 			<width>750</width>
-			<height>126</height>
+			<height>132</height>
 			<font>METF_PlotTextSmall</font>
 			<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollLong</include>
 			<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollLongFast</include>
