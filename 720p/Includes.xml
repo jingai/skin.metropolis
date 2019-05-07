@@ -225,13 +225,16 @@
 		<aspectratio align="center">keep</aspectratio>
 	</include>
 	<include name="Global_Weather">
-		<control type="group">
-			<posx>12</posx>
-			<posy>40</posy>
+		<control type="grouplist">
+			<left>1110</left>
+			<top>557</top>
+			<height>30</height>
+			<width>140</width>
+			<align>right</align>
+			<orientation>horizontal</orientation>
+			<usecontrolcoords>false</usecontrolcoords>
 			<visible>Weather.IsFetched + [[!Window.IsActive(visualisation) + !Skin.HasSetting(HideClockTemp)] | [Window.IsActive(visualisation) + Player.ShowInfo + !Skin.HasSetting(HideVisClock) + !Window.IsVisible(120)]]</visible>
 			<control type="multiimage">
-				<posx>1145</posx>
-				<posy>517</posy>
 				<width>30</width>
 				<height>30</height>
 				<include>Weather_Icon_Common</include>
@@ -239,12 +242,10 @@
 			</control>
 			<control type="label">
 				<description>Temperature</description>
-				<posx>1241</posx>
-				<posy>517</posy>
-				<width>200</width>
+				<width min="50" max="110">auto</width>
 				<height>30</height>
 				<font>METF_Temp</font>
-				<align>right</align>
+				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>Temp</textcolor>
 				<label>[B]$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits][/B]</label>
@@ -255,7 +256,7 @@
 		<posx>1241</posx>
 		<posy>546</posy>
 		<width>200</width>
-		<height>30</height>
+		<height>26</height>
 		<font>METF_Date</font>
 		<align>right</align>
 		<aligny>center</aligny>
@@ -270,7 +271,7 @@
 			<visible>[!Window.IsActive(visualisation) + !Skin.HasSetting(HideClock)] | [Window.IsActive(visualisation) + Player.ShowInfo + !Skin.HasSetting(HideVisClock) + !Window.IsVisible(120)]</visible>
 			<control type="label">
 				<description>Hours</description>
-				<posx>1182</posx>
+				<posx>1175</posx>
 				<posy>614</posy>
 				<width>150</width>
 				<font>METF_Hours</font>
@@ -281,24 +282,24 @@
 			</control>
 			<control type="label">
 				<description>Minutes</description>
-				<posx>1195</posx>
+				<posx>1240</posx>
 				<posy>596</posy>
 				<width>80</width>
 				<font>METF_Minutes</font>
-				<align>left</align>
+				<align>right</align>
 				<aligny>center</aligny>
 				<textcolor>Time</textcolor>
 				<label>$INFO[System.Time(mm)]</label>
 			</control>
 			<control type="label">
 				<description>AM/PM</description>
-				<posx>1186</posx>
+				<posx>1240</posx>
 				<posy>640</posy>
 				<width>80</width>
 				<font>METF_FontAMPM</font>
 				<textcolor>TimeAMPM</textcolor>
 				<label>[B]$INFO[System.Time(xx)][/B]</label>
-				<align>left</align>
+				<align>right</align>
 				<aligny>center</aligny>
 			</control>
 			<control type="label">
@@ -356,14 +357,14 @@
 	</include>
 	<include name="PlotBox">
 		<posx>300</posx>
-		<posy>565</posy>
+		<posy>560</posy>
 		<control type="textbox">
 			<include>Animation_FadedByMenuExceptions</include>
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
 			<width>750</width>
-			<height>64</height>
+			<height>84</height>
 			<font>METF_PlotTextSmall</font>
 			<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 			<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
