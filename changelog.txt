@@ -1,3 +1,10 @@
+3.5.0-beta10 (aka 3.4.30) - 20190510
+-Added a "Zoomed" fontset for the visually impaired. It obviously looks a little funny in places because Metropolis was never meant to have it's fonts be 25% larger. It's there if you want to use it.
+-Fixed the missing studio and codec icons in the music visualization screen.
+-Fixed missing cdart support for Kodi 18.
+-Added Clearlogos for music artists and a setting to turn it off and on.
+-Added a larger CD case,discart and codec info tiles when you turn off the clock under music visualization settings. (per user suggestion)
+
 3.5.0-beta9 (aka 3.4.29) - 20190429
 -Added the ability to sort the order in which widget main menu background is displayed.
 -Fixed the widget label to work even if the widget's contents are not in the databade (folder list).
