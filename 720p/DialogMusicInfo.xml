@@ -658,12 +658,16 @@
 				<include>Animation_ButtonFocus</include>
 				<visible>!String.IsEqual(ListItem.DBtype,album) + !String.IsEqual(ListItem.DBtype,song)</visible>
 			</control>
-			<!-- Refresh -->
-			<control type="button" id="6">
+			<!-- Artwork Downloading Button, artwork.beef -->
+			<control type="button" id="20">
 				<include>VideoInfoButton</include>
-				<texturenofocus>buttons/button_refresh.png</texturenofocus>
-				<texturefocus>buttons/button_refreshFO.png</texturefocus>
+				<texturenofocus>osd/osd_button_channel_previous_nf.png</texturenofocus>
+				<texturefocus>osd/osd_button_channel_previous_fo.png</texturefocus>
+				<onclick condition="String.IsEqual(ListItem.DBTYPE,artist)">RunScript(script.artwork.beef, mediatype=artist, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBTYPE,album)">RunScript(script.artwork.beef, mediatype=album, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBTYPE,song)">RunScript(script.artwork.beef, mediatype=song, dbid=$INFO[ListItem.DBID])</onclick>
 				<include>Animation_ButtonFocus</include>
+				<visible>System.HasAddon(script.artwork.beef) + [String.IsEqual(ListItem.DBType,artist) | String.IsEqual(ListItem.DBType,album) | String.IsEqual(ListItem.DBType,song)]</visible>
 			</control>
 			<!-- Set Rating -->
 			<control type="button" id="7">
@@ -708,6 +712,12 @@
 				<include>VideoInfoButtonLabel</include>
 				<info>Control.GetLabel(7)</info>
 				<visible>ControlGroup(7001).HasFocus(7)</visible>
+			</control>
+			<control type="label">
+				<description>Extra Artwork Downloader</description>
+				<include>VideoInfoButtonLabel</include>
+				<label>$INFO[System.AddonTitle(script.artwork.beef)]</label>
+				<visible>ControlGroup(7001).HasFocus(20)</visible>
 			</control>
 		</control>
 		<include>Object_InfoLines</include>
