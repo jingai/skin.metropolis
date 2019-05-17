@@ -85,7 +85,7 @@
 			<height>35</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<font>font32_title</font>
+			<font>METF_DialogMedium</font>
 			<label>$ADDON[script.cu.lrclyrics 32005]</label>
 			<shadowcolor>black</shadowcolor>
 			<visible>Control.IsVisible(120) + !Control.IsVisible(110)</visible>
