@@ -527,9 +527,9 @@
 				<include>VideoInfoButton</include>
 				<texturenofocus>osd/osd_button_channel_previous_nf.png</texturenofocus>
 				<texturefocus>osd/osd_button_channel_previous_fo.png</texturefocus>
-				<onclick condition="String.IsEqual(ListItem.DBType,episode) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=episode, dbid=$INFO[ListItem.DBID])</onclick>
-				<onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-				<onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBType,episode) + System.HasAddon(script.artwork.beef)">RunScript(script.artwork.beef, mode=gui, mediatype=episode, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.beef)">RunScript(script.artwork.beef, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+				<onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.beef)">RunScript(script.artwork.beef, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
 				<include>Animation_ButtonFocus</include>
 				<visible>System.HasAddon(script.artwork.beef) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode)]</visible>
 			</control>
@@ -593,7 +593,7 @@
 			<control type="label">
 				<description>Extra Artwork Downloader</description>
 				<include>VideoInfoButtonLabel</include>
-				<label>$LOCALIZE[31126]</label>
+				<label>$INFO[System.AddonTitle(script.artwork.beef)]</label>
 				<visible>ControlGroup(7003).HasFocus(20)</visible>
 			</control>
 			<control type="label">
@@ -703,15 +703,57 @@
 				</control>
 
 				<!-- Default Fanart Image -->
-				<control type="image">
+				<control type="fadelabel" id="3333">
+					<left>440</left>
+					<top>-10</top>
+					<width>0</width>
+					<height>0</height>
+					<font>METF_MediaDetailsSmall</font>
+					<align>right</align>
+					<scrollspeed>200</scrollspeed>
+					<scrollout>true</scrollout>
+					<scroll>true</scroll>
+					<textcolor>white</textcolor>
+					<disabledcolor>black</disabledcolor>
+					<info>ListItem.Art(fanart)</info>
+					<info>ListItem.Art(banner)</info>
+					<info>ListItem.Art(landscape)</info>
+					<info>ListItem.Art(clearlogo)</info>
+					<info>ListItem.Art(characterart)</info>
+					<info>ListItem.Art(clearart)</info>
+					<info>ListItem.Art(fanart1)</info>
+					<info>ListItem.Art(fanart2)</info>
+					<info>ListItem.Art(fanart3)</info>
+					<info>ListItem.Art(fanart4)</info>
+					<info>ListItem.Art(season.fanart)</info>
+					<info>ListItem.Art(season.banner)</info>
+					<info>ListItem.Art(season.landscape)</info>
+					<info>ListItem.Art(season.clearlogo)</info>
+					<info>ListItem.Art(season.characterart)</info>
+					<info>ListItem.Art(season.clearart)</info>
+					<info>ListItem.Art(tvshow.fanart)</info>
+					<info>ListItem.Art(tvshow.banner)</info>
+					<info>ListItem.Art(tvshow.landscape)</info>
+					<info>ListItem.Art(tvshow.clearlogo)</info>
+					<info>ListItem.Art(tvshow.characterart)</info>
+					<info>ListItem.Art(tvshow.clearart)</info>
+					<info>ListItem.Art(tvshow.fanart1)</info>
+					<info>ListItem.Art(tvshow.fanart2)</info>
+					<info>ListItem.Art(tvshow.fanart3)</info>
+					<info>ListItem.Art(tvshow.fanart4)</info>
+				</control>
+				<control type="multiimage" id="3334">
 					<posx>912</posx>
 					<posy>80</posy>
 					<width>320</width>
 					<height>180</height>
-					<texture fallback="home_art/movies.jpg">$INFO[ListItem.Art(fanart)]</texture>
-					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+					<timeperimage>6000</timeperimage>
+					<fadetime>6000</fadetime>
+					<imagepath fallback="DefaultThumb.png">$INFO[Control.GetLabel(3333)]</imagepath>
+					<aspectratio align="center">keep</aspectratio>
 					<visible>!String.IsEqual(ListItem.DBType,episode)</visible>
-				</control>
+				</control>				
+				
 				<!-- TV Show Episode Fanart Image -->
 				<control type="image">
 					<posx>912</posx>
