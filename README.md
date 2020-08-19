@@ -2,4 +2,4 @@
 
 Metropolis skin for Kodi
 
-WIP for Kodi 18
+WIP for Kodi 19
