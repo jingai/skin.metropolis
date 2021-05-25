@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Hungarian (Hungary) (http://www.transifex.com/projects/p/kodi-skins/language/hu_HU/)\n"
+"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Hungarian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/hu_hu/>\n"
+"Language: hu_hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu_HU\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6.2\n"
 
 msgctxt "#31001"
 msgid "View Options"
@@ -75,6 +76,10 @@ msgstr "Kiadó ikonok kiválasztása"
 msgctxt "#31017"
 msgid "Select Language Flag icons"
 msgstr "Nyelvzászló ikonok kiválasztása"
+
+msgctxt "#31018"
+msgid "Show User Rating instead of scraped Rating in Media Flag"
+msgstr ""
 
 msgctxt "#31021"
 msgid "Decrease Star Rating"
@@ -247,6 +252,37 @@ msgstr "Utoljára frissítve:"
 msgctxt "#31210"
 msgid "Default Home layout"
 msgstr "Alapértelmezett főképernyő elrendezés"
+
+msgctxt "#31211"
+msgid "Configure actions that can be used during playback · Configure how media content is played"
+msgstr ""
+
+msgctxt "#31212"
+msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
+msgstr ""
+
+msgctxt "#31213"
+msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
+msgstr ""
+
+# empty strings from id 31214 to 31215
+msgctxt "#31216"
+msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr ""
+
+# empty string with id 31217
+msgctxt "#31218"
+msgid "Configure & manage media sharing services · Configure & manage the weather service"
+msgstr ""
+
+# empty string with id 31219
+msgctxt "#31220"
+msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
+msgstr ""
+
+msgctxt "#31221"
+msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
+msgstr ""
 
 msgctxt "#31244"
 msgid "Playing"
@@ -454,15 +490,15 @@ msgstr "A bűnügyi filmek a bűnözők és gengszterek baljós tettei köré é
 
 msgctxt "#31356"
 msgid "Disaster films, a sub-genre of action films, hit their peak in the decade of the 1970s. Big-budget disaster films provided all-star casts and interlocking, Grand Hotel-type stories, with suspenseful action and impending crises in locales such as aboard imperiled airliners, trains, dirigibles, sinking or wrecked ocean-liners, or in towering burning skyscrapers, crowded stadiums or earthquake zones. Often noted for their visual and special effects, but not their acting performances."
-msgstr "A katasztrófafilmek, az akciófilmek alműfajaként, a fénykorukat az 1970-es  években élték. Nagyköltségvetésű katasztrófafilmek felsorakoztatták a legfelkapottabb színészeket, Grand Hotel stílusú történetek, ízgalmas akciók és közelgő krízisek olyan helyszíneken mint veszélyben lévő repülők fedélzete, vonatok, léghajók, sűlyedő vagy megfeneklett óceánjárók, vagy kigyulladó felhőkarcolók, tömött stadionok vagy földrengési zónák. Gyakran kiemelkedő vizuális effektekkel, de nem a színészi játékkal tűnnek ki."
+msgstr "A katasztrófafilmek, az akciófilmek alműfajaként, a fénykorukat az 1970-es években élték. Nagyköltségvetésű katasztrófafilmek felsorakoztatták a legfelkapottabb színészeket, Grand Hotel stílusú történetek, ízgalmas akciók és közelgő krízisek olyan helyszíneken mint veszélyben lévő repülők fedélzete, vonatok, léghajók, sűlyedő vagy megfeneklett óceánjárók, vagy kigyulladó felhőkarcolók, tömött stadionok vagy földrengési zónák. Gyakran kiemelkedő vizuális effektekkel, de nem a színészi játékkal tűnnek ki."
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr "Szigorúan véve, a dokumentumfilmek nem kitaláltak, tényszerű műalkotások. Eredetileg, a legkorábbi dokumentumfilmek inkább rövid híradók, oktatási képek, vagy útleírások (aktualitásokként feltüntetve) anélkül, hogy a kreatív elbeszélés vagy rendezés lett volna bennük. De rengeted leágazása van, néha propagandisztikus és nem objektív. Mockumentaries-nek  nevezzük a dokumentumfilmek paródiáját."
+msgstr "Szigorúan véve, a dokumentumfilmek nem kitaláltak, tényszerű műalkotások. Eredetileg, a legkorábbi dokumentumfilmek inkább rövid híradók, oktatási képek, vagy útleírások (aktualitásokként feltüntetve) anélkül, hogy a kreatív elbeszélés vagy rendezés lett volna bennük. De rengeted leágazása van, néha propagandisztikus és nem objektív. Mockumentaries-nek nevezzük a dokumentumfilmek paródiáját."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
-msgstr "A Drámák komoly, eseményvezérelt bemutatások, reális portrék bemutatása, élethelyzetek, és történetek amelyek a kapcsolatokat és a jellemfejlődést helyezik előtérbe. Rendszerint nem hangsúlyosak a  speciális effektek, vígjáték és akció elemek, A Drámai filmek talán a legnagyobb műfaj, rengeteg kisebb irányzattal."
+msgstr "A Drámák komoly, eseményvezérelt bemutatások, reális portrék bemutatása, élethelyzetek, és történetek amelyek a kapcsolatokat és a jellemfejlődést helyezik előtérbe. Rendszerint nem hangsúlyosak a speciális effektek, vígjáték és akció elemek, A Drámai filmek talán a legnagyobb műfaj, rengeteg kisebb irányzattal."
 
 msgctxt "#31359"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G or PG) that do not include topics or scenes with violence, foul language and other profanity, religious issues, mature themes and so on, and are specifically designed for children 12 and under (or for family viewing). Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
@@ -474,7 +510,7 @@ msgstr "A Fantasy filmek, rendszerint al-műfajként használva, legtöbbször �
 
 msgctxt "#31361"
 msgid "Film noir (meaning 'black film') is a distinct branch of the crime/gangster sagas from the 1930s. Strictly speaking, film noir is not a genre, but rather the mood, style or tone of various American films that evolved in the 1940s. Noirs are usually black and white films with primary moods of melancholy, alienation, bleakness, disillusionment, disenchantment, pessimism, ambiguity, moral corruption, evil, guilt and paranoia. They often feature a cynical, loner hero (anti-hero) and femme fatale, in a seedy big city."
-msgstr "A Noir film (jelentése \"fekete film\") egy külön ága a bűncselekmény / gengszter elbeszéléseknek az 1930-as évekből. Szigorúan véve a Noir film nem egy műfaj, hanem inkább egy hangulat, stílus, hangnem ami az amerikai filmekben alakult ki az a1940-es években. A Noir filmek általában fekete-fehér filmek,  elsődleges hangulatuk a melankólia, az elidegenedés, a sivárság, a csalódás, a kiábrándulás, a pesszimizmus, kétértelműség, erkölcsi romlás, a gonosz, a bűn és a paranoia. Gyakran jellemző rájuk a cinikus, magányos hős (anti-hős), és a végzet asszonya ábrázolása a bűnös nagyvárosban."
+msgstr "A Noir film (jelentése \"fekete film\") egy külön ága a bűncselekmény / gengszter elbeszéléseknek az 1930-as évekből. Szigorúan véve a Noir film nem egy műfaj, hanem inkább egy hangulat, stílus, hangnem ami az amerikai filmekben alakult ki az a1940-es években. A Noir filmek általában fekete-fehér filmek, elsődleges hangulatuk a melankólia, az elidegenedés, a sivárság, a csalódás, a kiábrándulás, a pesszimizmus, kétértelműség, erkölcsi romlás, a gonosz, a bűn és a paranoia. Gyakran jellemző rájuk a cinikus, magányos hős (anti-hős), és a végzet asszonya ábrázolása a bűnös nagyvárosban."
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
@@ -490,7 +526,7 @@ msgstr "A Történelmi filmek olyan eposzok amik a történelmi múltban játsz�
 
 msgctxt "#31367"
 msgid "Horror films are designed to frighten and to invoke our hidden worst fears, often in a terrifying, shocking finale, while captivating and entertaining us at the same time in a cathartic experience. Horror films feature a wide range of styles, from the earliest silent Nosferatu classic, to today's CGI monsters and deranged humans. They are often combined with science fiction when the menace or monster is related to a corruption of technology, or when Earth is threatened by aliens."
-msgstr "A Horror filmek célja, hogy megrémisszen, előhozza a rejtett legrosszabb félelmeinket, gyakran rémisztő és sokkoló a végjáték, de magával ragadó és szórakoztató ugyanakkor és egy katartikus élmény. A Horror filmek a stílusok széles skáláját magában foglalja, a legkorábbi csendes klasszikus Nosferatu-tól  a mai CGI szörnyekig és őrült emberekig. Ezek gyakran kombinálva vannak  a sci-fi elemeivel, amikor a fenyegetés egy kisiklott a technológiával kapcsolatos, vagy a Földet fenyegető idegenek jelennek meg."
+msgstr "A Horror filmek célja, hogy megrémisszen, előhozza a rejtett legrosszabb félelmeinket, gyakran rémisztő és sokkoló a végjáték, de magával ragadó és szórakoztató ugyanakkor és egy katartikus élmény. A Horror filmek a stílusok széles skáláját magában foglalja, a legkorábbi csendes klasszikus Nosferatu-tól a mai CGI szörnyekig és őrült emberekig. Ezek gyakran kombinálva vannak a sci-fi elemeivel, amikor a fenyegetés egy kisiklott a technológiával kapcsolatos, vagy a Földet fenyegető idegenek jelennek meg."
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
@@ -498,15 +534,121 @@ msgstr "A független vagy indie film egy olyan produkció, amire a legjellemzőb
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
-msgstr "Az Interjú  egy beszélgetés két ember között (a műsorvezető és az interjúalany) ahol kérdéseket tesz fel a műsorvezető, hogy információkhoz jusson az interjúalanytól."
+msgstr "Az Interjú egy beszélgetés két ember között (a műsorvezető és az interjúalany) ahol kérdéseket tesz fel a műsorvezető, hogy információkhoz jusson az interjúalanytól."
+
+msgctxt "#31370"
+msgid "A sub-genre of the action film, martial arts films contain numerous fights between characters, usually as the films' primary appeal and entertainment value, and often as a method of storytelling and character expression and development. Martial arts are frequently featured in training scenes and other sequences in addition to fights. Martial arts films commonly include other types of action, such as stuntwork, chases, and/or gunfights."
+msgstr ""
+
+msgctxt "#31371"
+msgid "Multi-episode, fictional program of limited duration, shown on a daily or weekly schedule, usually lasting fifteen hours or less in total running time. A good television miniseries can make the small screen seem huge. These programs are the best that TV has to offer: an excuse to sink in and lose yourself in a story that isn't over in just a couple of hours. The sets, the plots, and the acting make each of these essential miniseries an exquisite television experience."
+msgstr ""
+
+msgctxt "#31372"
+msgid "Monster movie (also can be referred to as a creature feature or monster film) is a name commonly given to movies, which centre on the struggle between human beings and one or more monsters. The term is usually applied to films sometimes labelled as horror, fantasy or science fiction genre that involve fictional creatures, in most cases it is applied to films that feature more oversized monsters despite its history starting with adaptations of horror folklore and literature."
+msgstr ""
 
 msgctxt "#31373"
 msgid "Music genre films will incorporate a lot of music but it will not necessarily be the focal point of the film, thus differentiating it from a Musical."
 msgstr "A Zene műfajú filmekben rengeteg zenével dolgozik, de mégsem csak ekörül forog a film, ez különbözteti meg a Musical-tól."
 
+msgctxt "#31374"
+msgid "Musical/dance films are cinematic forms that emphasize full-scale scores or song and dance routines in a significant way (usually with a musical or dance performance integrated as part of the film narrative), or they are films that are centered on combinations of music, dance, song or choreography. Major subgenres include the musical comedy or the concert film."
+msgstr ""
+
+msgctxt "#31375"
+msgid "Mystery film is a sub-genre of the more general category of crime film. It focuses on the efforts of the detective, private investigator or amateur sleuth to solve the mysterious circumstances of a crime by means of clues, investigation, and clever deduction."
+msgstr ""
+
+msgctxt "#31376"
+msgid "A nature documentary is a documentary film about animals, plants, or other non-human living creatures, usually concentrating on film taken in their natural habitat. Such programmes are most frequently made for television, particularly for public broadcasting channels, but some are also made for the cinema."
+msgstr ""
+
+msgctxt "#31377"
+msgid "Television news is considered by many to be the most influential medium for journalism. For most of the American public, local and national TV newscasts are the primary news sources."
+msgstr ""
+
+msgctxt "#31378"
+msgid "Apocalyptic fiction is a sub-genre of science fiction that is concerned with the end of civilization due to a catastrophe such as nuclear warfare, pandemic, impact event, cybernetic revolt, Technological Singularity, Dysgenics, supernatural phenomena, Ecological disaster, resource depletion or some other general disaster. Post-apocalyptic fiction is set in a world or civilization after such a disaster."
+msgstr ""
+
+msgctxt "#31379"
+msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
+msgstr ""
+
+# empty string with id 31380
+msgctxt "#31381"
+msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
+msgstr ""
+
+msgctxt "#31382"
+msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
+msgstr ""
+
+msgctxt "#31383"
+msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
+msgstr ""
+
+msgctxt "#31384"
+msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
+msgstr ""
+
+# empty string with id 31385
+msgctxt "#31386"
+msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
+msgstr ""
+
+msgctxt "#31387"
+msgid "The spy film genre deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John Le Carré) or as a basis for fantasy (such as James Bond). Many novels in the spy fiction genre have been adapted as films, including works by John Buchan, John Le Carré, Ian Fleming and Len Deighton. It is a significant aspect of British cinema, with leading British directors such as Alfred Hitchcock and Carol Reed making notable contributions and many films set in the British Secret Service."
+msgstr ""
+
+msgctxt "#31388"
+msgid "A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading. There are rare dramatists, notably George Bernard Shaw, who have had little preference whether their plays were performed or read. The term \"play\" can refer to both the written works of playwrights and to their complete theatrical performance."
+msgstr ""
+
+msgctxt "#31389"
+msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
+msgstr ""
+
+msgctxt "#31390"
+msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
+msgstr ""
+
+msgctxt "#31391"
+msgid "Supernatural films, a sub-genre category, may be combined with other genres, including comedy, sci-fi, fantasy or horror. They have themes including gods or goddesses, ghosts, apparitions, spirits, miracles, and other similar ideas or depictions of extraordinary phenomena."
+msgstr ""
+
+msgctxt "#31392"
+msgid "A talk show (American and Australian English) or chat show (British) is a television or radio program where one person (or group of people) discuss various topics put forth by a talk show host. Sometimes, talk shows feature a panel of guests, usually consisting of a group of people who are learned or who have great experience in relation to whatever issue is being discussed on the show for that episode. Other times, a single guest discusses their work or area of expertise with a host or co-hosts."
+msgstr ""
+
+msgctxt "#31393"
+msgid "Thrillers (or Suspense films) are often hybrids with other genres - there are action-thrillers, crime-caper thrillers, western-thrillers, film-noir thrillers, even romantic comedy-thrillers. Another closely-related genre is the horror film genre. They are types of films known to promote intense excitement, suspense, a high level of anticipation, ultra-heightened expectation, uncertainty, anxiety, and nerve-wracking tension. Spy films may be considered a type of thriller/suspense film."
+msgstr ""
+
+msgctxt "#31394"
+msgid "War films are a film genre concerned with warfare, usually about naval, air or land battles, sometimes focusing instead on prisoners of war, covert operations, military training or other related subjects. At times war films focus on daily military or civilian life in wartime without depicting battles. Their stories may be fiction, based on history, docudrama, biographical, or even alternate history fiction."
+msgstr ""
+
+msgctxt "#31395"
+msgid "Westerns are the major defining genre of the American film industry - a eulogy to the early days of the expansive American frontier. They are one of the oldest, most enduring genres with very recognizable plots, elements, and characters (six-guns, horses, dusty towns and trails, cowboys, Indians, etc.). Over time, westerns have been re-defined, re-invented and expanded, dismissed, re-discovered, and spoofed."
+msgstr ""
+
+msgctxt "#31396"
+msgid "Wrestling is a martial art that uses grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds. A wrestling bout is a physical competition, between two (occasionally more) competitors or sparring partners, who attempt to gain and maintain a superior position. There are a wide range of styles with varying rules with both traditional historic and modern styles."
+msgstr ""
+
+msgctxt "#31397"
+msgid "Epics include costume dramas, historical dramas, war films, medieval romps, or 'period pictures' that often cover a large expanse of time set against a vast, panoramic backdrop. Epics often share elements of the elaborate adventure films genre. Epics take an historical or imagined event, mythic, legendary, or heroic figure, and add an extravagant setting and lavish costumes, accompanied by grandeur and spectacle, dramatic scope, high production values, and a sweeping musical score."
+msgstr ""
+
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
 msgstr "Némafilmek amiknek nincs hozzáigazított hangsávja és nincs bennük dialógus, rendszerint az 1920-as évek hangosfilmek berobbanása előttről valók. A némafilmek feliratokkal írják le a beszélgetéseket a jelenetek alatt, és gyakran zenei aláfestést tartalmaznak."
+
+msgctxt "#31399"
+msgid "Lighter Background Fanart diffuse overlay"
+msgstr ""
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
@@ -612,6 +754,10 @@ msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
 msgstr "Videó OSD: mutasd a bélyegképet"
 
+msgctxt "#31426"
+msgid "TV Show Next Aired Date display"
+msgstr ""
+
 msgctxt "#31427"
 msgid "Next Episode"
 msgstr "Következő rész"
@@ -619,6 +765,10 @@ msgstr "Következő rész"
 msgctxt "#31428"
 msgid "TV Guide"
 msgstr "TV Műsor"
+
+msgctxt "#31429"
+msgid "Display Path in Info Dialog instead of Rating"
+msgstr ""
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
@@ -702,7 +852,7 @@ msgstr "Ajánlott elemek mutatása"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr "- az opciók megváltoztatása esetén újraindítás szükséges -"
+msgstr " - az opciók megváltoztatása esetén újraindítás szükséges -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -746,15 +896,15 @@ msgstr "Játékok"
 
 msgctxt "#31461"
 msgid "Games Tall"
-msgstr "Games Tall"
+msgstr ""
 
 msgctxt "#31462"
 msgid "Games Square"
-msgstr "Games Square"
+msgstr ""
 
 msgctxt "#31463"
 msgid "Games Wide"
-msgstr "Games Wide"
+msgstr ""
 
 msgctxt "#31464"
 msgid "Show Plot in Fullscreen Info"
@@ -816,9 +966,25 @@ msgctxt "#31478"
 msgid "Hide default submenu items"
 msgstr "Alapértelmezett almenü elemek elrejtése"
 
+msgctxt "#31479"
+msgid "Poster Fixed Large"
+msgstr ""
+
+msgctxt "#31480"
+msgid "Show IMDb Ranking Media Flag"
+msgstr ""
+
+msgctxt "#31481"
+msgid "Show Votes instead of Top250 always"
+msgstr ""
+
 msgctxt "#31482"
 msgid "Install"
 msgstr "Telepítés"
+
+msgctxt "#31483"
+msgid "Banner View: Number of rows"
+msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
@@ -908,9 +1074,17 @@ msgctxt "#31711"
 msgid "Show weather forecast on home screen"
 msgstr "Időjárás megjelenítése a Főképernyőn"
 
+msgctxt "#31712"
+msgid "Crop Thumbnails in Music Video Gallery View"
+msgstr ""
+
 msgctxt "#31713"
 msgid "Custom Home Shortcut"
 msgstr "Egyéni főképernyő parancsikon"
+
+msgctxt "#31714"
+msgid "Label and Shortcut"
+msgstr ""
 
 msgctxt "#31715"
 msgid "Icon"
@@ -924,14 +1098,66 @@ msgctxt "#31717"
 msgid "Precip"
 msgstr "Csapadékos"
 
+msgctxt "#31718"
+msgid "Home Furniture"
+msgstr ""
+
+msgctxt "#31719"
+msgid "Reset Home Furniture to defaults"
+msgstr ""
+
 msgctxt "#31720"
 msgid "Remove the shortcut.  This cannot be undone."
 msgstr "Parancsikon eltávolítása. Ez nem vonható vissza."
+
+msgctxt "#31721"
+msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
+msgstr ""
+
+msgctxt "#31722"
+msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
+msgstr ""
+
+msgctxt "#31723"
+msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
+msgstr ""
 
 msgctxt "#31724"
 msgid "Set background image for the shortcut."
 msgstr "A parancsikon háttérképének beállítása."
 
+msgctxt "#31725"
+msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
+msgstr ""
+
+msgctxt "#31726"
+msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
+msgstr ""
+
+msgctxt "#31727"
+msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
+msgstr ""
+
+msgctxt "#31728"
+msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
+msgstr ""
+
+msgctxt "#31729"
+msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
+msgstr ""
+
+msgctxt "#31730"
+msgid "Create a new shortcut at the bottom of the list."
+msgstr ""
+
+msgctxt "#31731"
+msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
+msgstr ""
+
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
 msgstr "Biztos benne, hogy eltávolítja a Beállítások parancsikont?"
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr ""

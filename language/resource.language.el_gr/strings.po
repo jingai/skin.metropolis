@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Greek (Greece) (http://www.transifex.com/projects/p/kodi-skins/language/el_GR/)\n"
+"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Greek <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/el_gr/>\n"
+"Language: el_gr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el_GR\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6.2\n"
 
 msgctxt "#31001"
 msgid "View Options"
@@ -56,6 +57,30 @@ msgctxt "#31012"
 msgid "Increase Star Rating"
 msgstr "Αύξηση Αξιολόγησης"
 
+msgctxt "#31013"
+msgid "Select Weather icons"
+msgstr ""
+
+msgctxt "#31014"
+msgid "Select Weather fanart"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Select Studio Logo icons"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Select Record Label icons"
+msgstr ""
+
+msgctxt "#31017"
+msgid "Select Language Flag icons"
+msgstr ""
+
+msgctxt "#31018"
+msgid "Show User Rating instead of scraped Rating in Media Flag"
+msgstr ""
+
 msgctxt "#31021"
 msgid "Decrease Star Rating"
 msgstr "Μείωση Αξιολόγησης"
@@ -88,9 +113,22 @@ msgctxt "#31035"
 msgid "Show Clean Library SubMenu items"
 msgstr "Εμφάνιση Αντικειμένων Υπομενού για Εκκαθάριση Συλλογής"
 
+msgctxt "#31036"
+msgid "Hide Widgets until focused"
+msgstr ""
+
+msgctxt "#31037"
+msgid "Stretch background fanart to fit into viewable area"
+msgstr ""
+
 msgctxt "#31054"
 msgid "Logo"
 msgstr "Λογότυπο"
+
+# empty string with id 31055
+msgctxt "#31056"
+msgid "Enable Video/Album Art overlay"
+msgstr ""
 
 msgctxt "#31057"
 msgid "Enable Song Info text overlay"
@@ -116,13 +154,50 @@ msgctxt "#31125"
 msgid "Hide Video Root"
 msgstr "Απόκρυψη Αρχικού Φακέλου Βίντεο"
 
+msgctxt "#31126"
+msgid "Extra Artwork Downloader"
+msgstr ""
+
+msgctxt "#31127"
+msgid "TvTunes Downloader"
+msgstr ""
+
 msgctxt "#31133"
 msgid "Mute"
 msgstr "Σίγαση"
 
+# empty strings from id 31134 to 31135
+msgctxt "#31136"
+msgid "Video Info"
+msgstr ""
+
+msgctxt "#31137"
+msgid "Audio Info"
+msgstr ""
+
 msgctxt "#31138"
 msgid "System Info"
 msgstr "Πληροφορίες Συστήματος"
+
+msgctxt "#31139"
+msgid "Video decoder"
+msgstr "Αποκωδικοποιητής βίντεο"
+
+msgctxt "#31140"
+msgid "Pixel format"
+msgstr "Μορφή εικονοστοιχείων"
+
+msgctxt "#31141"
+msgid "Audio channels"
+msgstr ""
+
+msgctxt "#31142"
+msgid "CPU used"
+msgstr ""
+
+msgctxt "#31143"
+msgid "Memory used"
+msgstr ""
 
 msgctxt "#31159"
 msgid "ffx2"
@@ -179,6 +254,37 @@ msgstr "Τελευταία Ενημέρωση:"
 msgctxt "#31210"
 msgid "Default Home layout"
 msgstr "Προεπιλεγμένη διάταξη Αρχ. Οθόνης"
+
+msgctxt "#31211"
+msgid "Configure actions that can be used during playback · Configure how media content is played"
+msgstr ""
+
+msgctxt "#31212"
+msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
+msgstr ""
+
+msgctxt "#31213"
+msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
+msgstr ""
+
+# empty strings from id 31214 to 31215
+msgctxt "#31216"
+msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr ""
+
+# empty string with id 31217
+msgctxt "#31218"
+msgid "Configure & manage media sharing services · Configure & manage the weather service"
+msgstr ""
+
+# empty string with id 31219
+msgctxt "#31220"
+msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
+msgstr ""
+
+msgctxt "#31221"
+msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
+msgstr ""
 
 msgctxt "#31244"
 msgid "Playing"
@@ -283,6 +389,10 @@ msgstr "Εμφάνιση Συνόλων Πολυμέσων"
 msgctxt "#31324"
 msgid "Home Options"
 msgstr "Επιλογές Αρχ. Οθόνης"
+
+msgctxt "#31325"
+msgid "Image Resources"
+msgstr ""
 
 msgctxt "#31328"
 msgid "Show Random Items"
@@ -406,11 +516,11 @@ msgstr "Τα Φιλμ Νουάρ (Film Noir), που σαν όρος σημαί�
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr "Τα Τηλεπαιχνίδια (Game Show) είναι ένα είδος ραδιοφωνικού ή τηλεοπτικού  προγράμματος στο οποίο διάφοροι πολίτες ή διασημότητες, πολλές φορές σαν ομάδες, παίζουν ένα παιχνίδι που μπορεί να περιλαμβάνει ερωτήσεις ή επίλυση προβλημάτων, με απώτερο σκοπό συνήθως χρηματικά (ή και μη) έπαθλα. Σε κάποια τηλεπαιχνίδια οι διαγωνιζόμενοι ανταγωνίζονται μεταξύ τους ή ενάντια σε άλλες ομάδες, ενώ σε άλλες περιπτώσεις οι διαγωνιζόμενοι μπορεί να παίζουν μόνοι τους για ένα θετικό αποτέλεσμα ή μία υψηλή βαθμολογία."
+msgstr "Τα Τηλεπαιχνίδια (Game Show) είναι ένα είδος ραδιοφωνικού ή τηλεοπτικού προγράμματος στο οποίο διάφοροι πολίτες ή διασημότητες, πολλές φορές σαν ομάδες, παίζουν ένα παιχνίδι που μπορεί να περιλαμβάνει ερωτήσεις ή επίλυση προβλημάτων, με απώτερο σκοπό συνήθως χρηματικά (ή και μη) έπαθλα. Σε κάποια τηλεπαιχνίδια οι διαγωνιζόμενοι ανταγωνίζονται μεταξύ τους ή ενάντια σε άλλες ομάδες, ενώ σε άλλες περιπτώσεις οι διαγωνιζόμενοι μπορεί να παίζουν μόνοι τους για ένα θετικό αποτέλεσμα ή μία υψηλή βαθμολογία."
 
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr "Περιλαμβάνεται περιεχόμενο κατάλληλο μόνο για Ενήλικες (Adult). Τίτλοι σε αυτήν την κατηγορία μπορεί να περιλαμβάνουν εκτεταμένες σκηνές έντονης βίας ή/και σεξουαλικό περιεχόμενο και γυμνό"
+msgstr "Περιλαμβάνεται περιεχόμενο κατάλληλο μόνο για Ενήλικες (Adult). Τίτλοι σε αυτήν την κατηγορία μπορεί να περιλαμβάνουν εκτεταμένες σκηνές έντονης βίας ή/και σεξουαλικό περιεχόμενο και γυμνό."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
@@ -490,7 +600,7 @@ msgstr "Ταινίες οι οποίες έχουν ως υπόβαθρο κάπ
 
 msgctxt "#31387"
 msgid "The spy film genre deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John Le Carré) or as a basis for fantasy (such as James Bond). Many novels in the spy fiction genre have been adapted as films, including works by John Buchan, John Le Carré, Ian Fleming and Len Deighton. It is a significant aspect of British cinema, with leading British directors such as Alfred Hitchcock and Carol Reed making notable contributions and many films set in the British Secret Service."
-msgstr "Οι Κατασκοπευτικές ταινίες (Spy) ασχολούνται με το αντικείμενο της μυθιστορηματικής κατασκοπείας, είτε με ρεαλιστικό τρόπο (όπως στις ταινίες που βασίζονται σε βιβλία του Τζον Λε Καρρέ), ή έχοντας ως βάση τη φαντασία (όπως οι ταινίες του Τζέιμς Μποντ). Πολλά βιβλία κατασκοπείας έχουν γίνει ταινίες, συμπεριλαμβανομένων και έργων των Τζον Μπάκαν, Τζον Λε Καρρέ, Ίαν Φλέμινγκ και Λεν Ντέιτον. Αποτελούν ένα σημαντικό τομέα του Βρετανικού κινηματογράφου, όπου αξιοσημείωτοι Βρετανοί σκηνοθέτες όπως ο Άλφρεντ Χίτσκοκ και ο Κάρολ Ριντ "
+msgstr "Οι Κατασκοπευτικές ταινίες (Spy) ασχολούνται με το αντικείμενο της μυθιστορηματικής κατασκοπείας, είτε με ρεαλιστικό τρόπο (όπως στις ταινίες που βασίζονται σε βιβλία του Τζον Λε Καρρέ), ή έχοντας ως βάση τη φαντασία (όπως οι ταινίες του Τζέιμς Μποντ). Πολλά βιβλία κατασκοπείας έχουν γίνει ταινίες, συμπεριλαμβανομένων και έργων των Τζον Μπάκαν, Τζον Λε Καρρέ, Ίαν Φλέμινγκ και Λεν Ντέιτον. Αποτελούν ένα σημαντικό τομέα του Βρετανικού κινηματογράφου, όπου αξιοσημείωτοι Βρετανοί σκηνοθέτες όπως ο Άλφρεντ Χίτσκοκ και ο Κάρολ Ριντ."
 
 msgctxt "#31388"
 msgid "A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading. There are rare dramatists, notably George Bernard Shaw, who have had little preference whether their plays were performed or read. The term \"play\" can refer to both the written works of playwrights and to their complete theatrical performance."
@@ -535,6 +645,10 @@ msgstr "Οι Επικές ταινίες (Epics) περιλαμβάνουν τα
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
 msgstr "Ταινίες του Βουβού Κινηματογράφου (Silent) που δεν έχουν συγχρονισμένη μουσική και καθόλου ηχητικό διάλογο, μέχρι τα τέλη της δεκαετίας του 1920 οπότε και πρωτοεμφανίστηκαν οι ομιλούσες ταινίες. Αυτού του είδους οι βουβές ταινίες αξιοποιούσαν κάρτες τίτλων-διαλόγων αντί ηχητικού διαλόγου, και συχνά συνοδεύονταν από ζωντανή μουσική."
+
+msgctxt "#31399"
+msgid "Lighter Background Fanart diffuse overlay"
+msgstr ""
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
@@ -624,6 +738,10 @@ msgctxt "#31421"
 msgid "Video OSD: Show ClearArt/Logo"
 msgstr "OSD Βίντεο: Προβολή ClearArt/Λογότυπου"
 
+msgctxt "#31422"
+msgid "Logo View: Show only one item at a time"
+msgstr ""
+
 msgctxt "#31423"
 msgid "Author"
 msgstr "Δημιουργός"
@@ -636,6 +754,10 @@ msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
 msgstr "OSD Βίντεο: Προβολή Μικρογραφίας"
 
+msgctxt "#31426"
+msgid "TV Show Next Aired Date display"
+msgstr ""
+
 msgctxt "#31427"
 msgid "Next Episode"
 msgstr "Επόμενο επεισόδιο"
@@ -643,6 +765,10 @@ msgstr "Επόμενο επεισόδιο"
 msgctxt "#31428"
 msgid "TV Guide"
 msgstr "Οδηγός TV"
+
+msgctxt "#31429"
+msgid "Display Path in Info Dialog instead of Rating"
+msgstr ""
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
@@ -828,6 +954,42 @@ msgctxt "#31475"
 msgid "Default OSD button"
 msgstr "Προεπιλεγμένο πλήκτρο OSD"
 
+msgctxt "#31476"
+msgid "OSD: Fade away when paused"
+msgstr ""
+
+msgctxt "#31477"
+msgid "- Fade delay"
+msgstr ""
+
+msgctxt "#31478"
+msgid "Hide default submenu items"
+msgstr ""
+
+msgctxt "#31479"
+msgid "Poster Fixed Large"
+msgstr ""
+
+msgctxt "#31480"
+msgid "Show IMDb Ranking Media Flag"
+msgstr ""
+
+msgctxt "#31481"
+msgid "Show Votes instead of Top250 always"
+msgstr ""
+
+msgctxt "#31482"
+msgid "Install"
+msgstr ""
+
+msgctxt "#31483"
+msgid "Banner View: Number of rows"
+msgstr ""
+
+msgctxt "#31484"
+msgid "Order"
+msgstr ""
+
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
 msgstr "Ενεργοποίηση υποστήριξης Live TV (PVR)"
@@ -835,6 +997,10 @@ msgstr "Ενεργοποίηση υποστήριξης Live TV (PVR)"
 msgctxt "#31601"
 msgid "Live TV"
 msgstr "Live TV"
+
+msgctxt "#31602"
+msgid "Live Radio"
+msgstr ""
 
 msgctxt "#31605"
 msgid "Add Group"
@@ -855,6 +1021,10 @@ msgstr "Κρυφά Κανάλια"
 msgctxt "#31610"
 msgid "Scheduled Time"
 msgstr "Προγραμματισμένη Ώρα"
+
+msgctxt "#31611"
+msgid "PVR Status"
+msgstr ""
 
 msgctxt "#31700"
 msgid "7 Day Forecast"
@@ -927,3 +1097,67 @@ msgstr "Υπόβαθρο"
 msgctxt "#31717"
 msgid "Precip"
 msgstr "Βροχή"
+
+msgctxt "#31718"
+msgid "Home Furniture"
+msgstr ""
+
+msgctxt "#31719"
+msgid "Reset Home Furniture to defaults"
+msgstr ""
+
+msgctxt "#31720"
+msgid "Remove the shortcut.  This cannot be undone."
+msgstr ""
+
+msgctxt "#31721"
+msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
+msgstr ""
+
+msgctxt "#31722"
+msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
+msgstr ""
+
+msgctxt "#31723"
+msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
+msgstr ""
+
+msgctxt "#31724"
+msgid "Set background image for the shortcut."
+msgstr ""
+
+msgctxt "#31725"
+msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
+msgstr ""
+
+msgctxt "#31726"
+msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
+msgstr ""
+
+msgctxt "#31727"
+msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
+msgstr ""
+
+msgctxt "#31728"
+msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
+msgstr ""
+
+msgctxt "#31729"
+msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
+msgstr ""
+
+msgctxt "#31730"
+msgid "Create a new shortcut at the bottom of the list."
+msgstr ""
+
+msgctxt "#31731"
+msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
+msgstr ""
+
+msgctxt "#31732"
+msgid "Are you sure you really want to remove the Settings shortcut?"
+msgstr ""
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr ""

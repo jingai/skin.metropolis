@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/projects/p/kodi-skins/language/sv_SE/)\n"
+"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/sv_se/>\n"
+"Language: sv_se\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6.2\n"
 
 msgctxt "#31001"
 msgid "View Options"
@@ -56,6 +57,30 @@ msgctxt "#31012"
 msgid "Increase Star Rating"
 msgstr "Höj stjärnbetyg"
 
+msgctxt "#31013"
+msgid "Select Weather icons"
+msgstr ""
+
+msgctxt "#31014"
+msgid "Select Weather fanart"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Select Studio Logo icons"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Select Record Label icons"
+msgstr ""
+
+msgctxt "#31017"
+msgid "Select Language Flag icons"
+msgstr ""
+
+msgctxt "#31018"
+msgid "Show User Rating instead of scraped Rating in Media Flag"
+msgstr ""
+
 msgctxt "#31021"
 msgid "Decrease Star Rating"
 msgstr "Sänk stjärnbetyg"
@@ -66,7 +91,7 @@ msgstr "Ikon för hemlayout"
 
 msgctxt "#31025"
 msgid "Horizontal Text Home layout"
-msgstr "Horisontell hemtextlayout "
+msgstr "Horisontell hemtextlayout"
 
 msgctxt "#31031"
 msgid "Hide Movie Watched Status"
@@ -87,6 +112,14 @@ msgstr "Aktivera dynamiska väderbilder"
 msgctxt "#31035"
 msgid "Show Clean Library SubMenu items"
 msgstr "Visa undermeny för objekt i städa bibliotek"
+
+msgctxt "#31036"
+msgid "Hide Widgets until focused"
+msgstr ""
+
+msgctxt "#31037"
+msgid "Stretch background fanart to fit into viewable area"
+msgstr ""
 
 msgctxt "#31054"
 msgid "Logo"
@@ -132,6 +165,15 @@ msgctxt "#31133"
 msgid "Mute"
 msgstr "Tysta"
 
+# empty strings from id 31134 to 31135
+msgctxt "#31136"
+msgid "Video Info"
+msgstr ""
+
+msgctxt "#31137"
+msgid "Audio Info"
+msgstr ""
+
 msgctxt "#31138"
 msgid "System Info"
 msgstr "Systeminformation"
@@ -139,6 +181,22 @@ msgstr "Systeminformation"
 msgctxt "#31139"
 msgid "Video decoder"
 msgstr "Videokodare"
+
+msgctxt "#31140"
+msgid "Pixel format"
+msgstr "Pixelformat"
+
+msgctxt "#31141"
+msgid "Audio channels"
+msgstr ""
+
+msgctxt "#31142"
+msgid "CPU used"
+msgstr ""
+
+msgctxt "#31143"
+msgid "Memory used"
+msgstr ""
 
 msgctxt "#31159"
 msgid "ffx2"
@@ -195,6 +253,37 @@ msgstr "Senast uppdaterad:"
 msgctxt "#31210"
 msgid "Default Home layout"
 msgstr "Standard hemlayout"
+
+msgctxt "#31211"
+msgid "Configure actions that can be used during playback · Configure how media content is played"
+msgstr ""
+
+msgctxt "#31212"
+msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
+msgstr ""
+
+msgctxt "#31213"
+msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
+msgstr ""
+
+# empty strings from id 31214 to 31215
+msgctxt "#31216"
+msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr ""
+
+# empty string with id 31217
+msgctxt "#31218"
+msgid "Configure & manage media sharing services · Configure & manage the weather service"
+msgstr ""
+
+# empty string with id 31219
+msgctxt "#31220"
+msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
+msgstr ""
+
+msgctxt "#31221"
+msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
+msgstr ""
 
 msgctxt "#31244"
 msgid "Playing"
@@ -299,6 +388,10 @@ msgstr "Visa totalt media"
 msgctxt "#31324"
 msgid "Home Options"
 msgstr "Hemalternativ"
+
+msgctxt "#31325"
+msgid "Image Resources"
+msgstr ""
 
 msgctxt "#31328"
 msgid "Show Random Items"
@@ -660,6 +753,10 @@ msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
 msgstr "Video OSD: Visa miniatyr"
 
+msgctxt "#31426"
+msgid "TV Show Next Aired Date display"
+msgstr ""
+
 msgctxt "#31427"
 msgid "Next Episode"
 msgstr "Nästa avsnitt"
@@ -667,6 +764,10 @@ msgstr "Nästa avsnitt"
 msgctxt "#31428"
 msgid "TV Guide"
 msgstr "TV-guide"
+
+msgctxt "#31429"
+msgid "Display Path in Info Dialog instead of Rating"
+msgstr ""
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
@@ -750,7 +851,7 @@ msgstr "Visa rekommenderade objekt"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr "- ändring av inställningarna nedan kräver omstart -"
+msgstr " - ändring av inställningarna nedan kräver omstart -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -864,6 +965,30 @@ msgctxt "#31478"
 msgid "Hide default submenu items"
 msgstr "Göm standardval i undermeny"
 
+msgctxt "#31479"
+msgid "Poster Fixed Large"
+msgstr ""
+
+msgctxt "#31480"
+msgid "Show IMDb Ranking Media Flag"
+msgstr ""
+
+msgctxt "#31481"
+msgid "Show Votes instead of Top250 always"
+msgstr ""
+
+msgctxt "#31482"
+msgid "Install"
+msgstr ""
+
+msgctxt "#31483"
+msgid "Banner View: Number of rows"
+msgstr ""
+
+msgctxt "#31484"
+msgid "Order"
+msgstr ""
+
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
 msgstr "Aktivera Live-TV (PVR) stöd"
@@ -871,6 +996,10 @@ msgstr "Aktivera Live-TV (PVR) stöd"
 msgctxt "#31601"
 msgid "Live TV"
 msgstr "Direktsänd TV"
+
+msgctxt "#31602"
+msgid "Live Radio"
+msgstr ""
 
 msgctxt "#31605"
 msgid "Add Group"
@@ -891,6 +1020,10 @@ msgstr "Göm Kanaler"
 msgctxt "#31610"
 msgid "Scheduled Time"
 msgstr "Schemalagd tid"
+
+msgctxt "#31611"
+msgid "PVR Status"
+msgstr ""
 
 msgctxt "#31700"
 msgid "7 Day Forecast"
@@ -963,3 +1096,67 @@ msgstr "Bakgrundsbild"
 msgctxt "#31717"
 msgid "Precip"
 msgstr "Nederbörd"
+
+msgctxt "#31718"
+msgid "Home Furniture"
+msgstr ""
+
+msgctxt "#31719"
+msgid "Reset Home Furniture to defaults"
+msgstr ""
+
+msgctxt "#31720"
+msgid "Remove the shortcut.  This cannot be undone."
+msgstr ""
+
+msgctxt "#31721"
+msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
+msgstr ""
+
+msgctxt "#31722"
+msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
+msgstr ""
+
+msgctxt "#31723"
+msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
+msgstr ""
+
+msgctxt "#31724"
+msgid "Set background image for the shortcut."
+msgstr ""
+
+msgctxt "#31725"
+msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
+msgstr ""
+
+msgctxt "#31726"
+msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
+msgstr ""
+
+msgctxt "#31727"
+msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
+msgstr ""
+
+msgctxt "#31728"
+msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
+msgstr ""
+
+msgctxt "#31729"
+msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
+msgstr ""
+
+msgctxt "#31730"
+msgid "Create a new shortcut at the bottom of the list."
+msgstr ""
+
+msgctxt "#31731"
+msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
+msgstr ""
+
+msgctxt "#31732"
+msgid "Are you sure you really want to remove the Settings shortcut?"
+msgstr ""
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr ""

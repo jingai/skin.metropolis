@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Lithuanian (Lithuania) (http://www.transifex.com/projects/p/kodi-skins/language/lt_LT/)\n"
+"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Lithuanian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/lt_lt/>\n"
+"Language: lt_lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt_LT\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 4.6.2\n"
 
 msgctxt "#31001"
 msgid "View Options"
@@ -490,7 +491,7 @@ msgstr "Katastrofų filmai yra veiksmo filmų sub-žanras, kurie savo piką pasi
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr "Griežtai kalbant, dokumentiniai filmai yra neišgalvoti, faktiniai meno kūriniai. Pradžioje ankstyvoji dokumentika buvo trumpos kino kronikos, mokomosios nuotraukos ar kelionių gidai (vadinamosios aktualijos) be jokių kūrybiškų pasakojimų ar pastatymų. Bet jie išsivystė bei įgavo daugybę formų ir kartais tapo propagandiniais ir neobjektyviais. \"Mockumentaries\" yra komiškos  dokumentinių filmų parodijos."
+msgstr "Griežtai kalbant, dokumentiniai filmai yra neišgalvoti, faktiniai meno kūriniai. Pradžioje ankstyvoji dokumentika buvo trumpos kino kronikos, mokomosios nuotraukos ar kelionių gidai (vadinamosios aktualijos) be jokių kūrybiškų pasakojimų ar pastatymų. Bet jie išsivystė bei įgavo daugybę formų ir kartais tapo propagandiniais ir neobjektyviais. \"Mockumentaries\" yra komiškos dokumentinių filmų parodijos."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
@@ -586,7 +587,7 @@ msgstr "Trumpametražiniai filmai yra bet koks filmas, kuris nėra pakankamai il
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
-msgstr "Muilo opera, kartais trumpai vadinama 'Muilu', yra nuolatinis, epizodinis dramatinės fikcijos kūrinys, kuris pristatomas serialo formatu televizijoje ar radijuje. Muilo operos pavadinimas kilęs iš originalių dramos serialų, transliuotų per radiją, kuriuos rėmė ir prodiusavo muilo gamintojai, tokie kaip Procter and Gamble, Colgate-Palmolive ir Lever Brothers. Šie ankstyvieji radijo serialai buvo transliuojami dieną darbo dienomis, kai dauguma klausytojų buvo namų šeimininkės; taigi šie šou buvo daugiausia skirti ir klausomi moteriškos auditorijos,"
+msgstr "Muilo opera, kartais trumpai vadinama 'Muilu', yra nuolatinis, epizodinis dramatinės fikcijos kūrinys, kuris pristatomas serialo formatu televizijoje ar radijuje. Muilo operos pavadinimas kilęs iš originalių dramos serialų, transliuotų per radiją, kuriuos rėmė ir prodiusavo muilo gamintojai, tokie kaip Procter and Gamble, Colgate-Palmolive ir Lever Brothers. Šie ankstyvieji radijo serialai buvo transliuojami dieną darbo dienomis, kai dauguma klausytojų buvo namų šeimininkės; taigi šie šou buvo daugiausia skirti ir klausomi moteriškos auditorijos."
 
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
@@ -846,7 +847,7 @@ msgstr "Rodyti rekomenduojamus elementus"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr "- pakeitus žemiau esančias parinktis reikės paleisti iš naujo -"
+msgstr " - pakeitus žemiau esančias parinktis reikės paleisti iš naujo -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -1126,7 +1127,7 @@ msgstr "Nustatykite nuorodos etiketė. Paprastai ji nustatoma automatiškai pasi
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr "Pasirinkite nuorodos valdiklį. Valdikliai yra integruoti informacijos scenarijai, kurie atlieka įvairias užduotis ar atvaizduoja naudingus meniu. Kai kurie valdikliai buvo nustatyti pagal nutylėjimą, bet gali būti pakeisti arba pašalinti,"
+msgstr "Pasirinkite nuorodos valdiklį. Valdikliai yra integruoti informacijos scenarijai, kurie atlieka įvairias užduotis ar atvaizduoja naudingus meniu. Kai kurie valdikliai buvo nustatyti pagal nutylėjimą, bet gali būti pakeisti arba pašalinti."
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
@@ -1151,3 +1152,7 @@ msgstr "Atstatyti VISAS nuorodas į numatytąją būseną. Tai panaikins visus p
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
 msgstr "Ar tikrai norite pašalinti nustatymų nuorodą?"
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr ""

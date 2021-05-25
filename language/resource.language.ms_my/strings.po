@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Malay (Malaysia) (http://www.transifex.com/projects/p/kodi-skins/language/ms_MY/)\n"
+"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Malay <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/ms_my/>\n"
+"Language: ms_my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ms_MY\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.6.2\n"
 
 msgctxt "#31001"
 msgid "View Options"
@@ -434,7 +435,7 @@ msgstr "Cipta dan ubahsuai berbilang profil pengguna untuk Kodi supaya setiap ah
 
 msgctxt "#31343"
 msgid "Action films usually include high energy, big-budget physical stunts and chases, possibly with rescues, battles, fights, escapes, destructive crises (floods, explosions, natural disasters, fires, etc.), non-stop motion, spectacular rhythm and pacing, and adventurous, often two-dimensional 'good-guy' heroes (or recently, heroines) battling 'bad guys' - all designed for pure audience escapism."
-msgstr "Filem aksi biasanya melibatkan penggunaan tenaga yang besar, lagak ngeri berkos tinggi dengan penyelamatan, perlawanan, lari dari bahaya, masalah yang merbahaya (banjir, bencana alam, letupan, kebakaran dan lain-lain), aksi tidak-henti, pergerakan dan ritma yang hebat serta pengembaraan, biasanya melibatkan adiwira (atau terkini, wirawati) melawan 'orang jahat' - kesemuanya direka untuk escapisma penonton"
+msgstr "Filem aksi biasanya melibatkan penggunaan tenaga yang besar, lagak ngeri berkos tinggi dengan penyelamatan, perlawanan, lari dari bahaya, masalah yang merbahaya (banjir, bencana alam, letupan, kebakaran dan lain-lain), aksi tidak-henti, pergerakan dan ritma yang hebat serta pengembaraan, biasanya melibatkan adiwira (atau terkini, wirawati) melawan 'orang jahat' - kesemuanya direka untuk escapisma penonton."
 
 msgctxt "#31344"
 msgid "Adventure films are usually exciting stories, with new experiences or exotic locales, very similar to or often paired with the action film genre. They can include traditional swashbucklers, serialized films, and historical spectacles, searches or expeditions for lost continents, \"jungle\" and \"desert\" epics, treasure hunts, disaster films, or searches for the unknown."
@@ -510,11 +511,11 @@ msgstr "Filem noir (bermaksud filem 'black') merupakan cabang bagi saga jenayah/
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr "Rancangan permainan adalah sejenis program radio atau televisyen yang mana ahlinya terdiri daripada orang awam atau selebriti, kadangkala membentuk pasukan, bermain permainan dalam bentuk menjawab soalan atau menyelesaikan teka-teki yang bermatlamatkan hadiah dan/atau duit. Dalam sesetengah rancangan peserta bersaing diantara satu sama lain atau dengan pasukan lawan manakala sesetengah rancangan hanya melibatkan peserta  sahaja untuk dapatkan keputusan yang baik atau skor yang tinggi."
+msgstr "Rancangan permainan adalah sejenis program radio atau televisyen yang mana ahlinya terdiri daripada orang awam atau selebriti, kadangkala membentuk pasukan, bermain permainan dalam bentuk menjawab soalan atau menyelesaikan teka-teki yang bermatlamatkan hadiah dan/atau duit. Dalam sesetengah rancangan peserta bersaing diantara satu sama lain atau dengan pasukan lawan manakala sesetengah rancangan hanya melibatkan peserta sahaja untuk dapatkan keputusan yang baik atau skor yang tinggi."
 
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr "Isi kandungan filem ini hanya sesuai untuk orang dewasa. Tajuk dalam kategori ini melibatkan pelbagai adegan ganas yang melampau dan/atau  babak berkaitan aksi seks dan seumpama dengannya."
+msgstr "Isi kandungan filem ini hanya sesuai untuk orang dewasa. Tajuk dalam kategori ini melibatkan pelbagai adegan ganas yang melampau dan/atau babak berkaitan aksi seks dan seumpama dengannya."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
@@ -526,7 +527,7 @@ msgstr "Filem seram direka untuk menimbulkan rasa takut dan menghidupkan sesuatu
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
-msgstr "Filem bebas, atau filem indie, merupakan filem berfitur yang dihasilkan diluar studio filem utama. Ia juga merujuk kepada filem seni yang sangat berbeza  dengan kebanyakan filem pasaran massa. Filem bebas kadangkala boleh dibezakan mengikut kandungan, gaya dan cara pandangan artistik peribadi pembuat filem tersebut merealisasikannya."
+msgstr "Filem bebas, atau filem indie, merupakan filem berfitur yang dihasilkan diluar studio filem utama. Ia juga merujuk kepada filem seni yang sangat berbeza dengan kebanyakan filem pasaran massa. Filem bebas kadangkala boleh dibezakan mengikut kandungan, gaya dan cara pandangan artistik peribadi pembuat filem tersebut merealisasikannya."
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
@@ -846,7 +847,7 @@ msgstr "Tunjuk Item Disaran"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr "- pengubahan pilihan di bawah memerlukan mula semula -"
+msgstr " - pengubahan pilihan di bawah memerlukan mula semula -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -1151,3 +1152,7 @@ msgstr "Tetap semula SEMUA pintasan kembali ke lalai. Ini akan kembalikan mana-m
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
 msgstr "Anda pasti mahu buang pintasan Tetapan?"
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr ""

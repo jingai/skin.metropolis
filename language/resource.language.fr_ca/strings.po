@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: French (Canada) (http://www.transifex.com/projects/p/kodi-skins/language/fr_CA/)\n"
+"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: French (Canada) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/fr_ca/>\n"
+"Language: fr_ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_CA\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.6.2\n"
 
 msgctxt "#31001"
 msgid "View Options"
@@ -458,11 +459,11 @@ msgstr "L’anime, ou film d’animation japonais, couvre une plage large de gen
 
 msgctxt "#31349"
 msgid "Biographies are a sub-genre of the larger drama and epic film genres. These films depict the life of an important historical personage (or group) from the past or present era. They cross many genre types, since these films might showcase a western outlaw, a criminal, a musical composer, a religious figure, a war-time hero, an entertainer, an artist, an inventor or doctor, a politician or President, or an adventurer."
-msgstr "Les biographies sont un sous-genre des genres plus larges de film que sont les drames et les épopées. Ces films représentent la vie d’un personnage historique important (ou groupe) passé ou présent. Elles touchent plusieurs types de genres, vu que ces films peuvent présenter un hors-la-loi oriental, un criminel, un compositeur de musique, un personnage religieux, un héros de guerre, un artiste de variétés, un inventeur, un docteur, un politicien, un président ou un aventurier"
+msgstr "Les biographies sont un sous-genre des genres plus larges de film que sont les drames et les épopées. Ces films représentent la vie d’un personnage historique important (ou groupe) passé ou présent. Elles touchent plusieurs types de genres, vu que ces films peuvent présenter un hors-la-loi oriental, un criminel, un compositeur de musique, un personnage religieux, un héros de guerre, un artiste de variétés, un inventeur, un docteur, un politicien, un président ou un aventurier."
 
 msgctxt "#31350"
 msgid "Bollywood is the informal term popularly used for the Hindi-language film industry based in Mumbai, Maharashtra, India. The term is often incorrectly used to refer to the whole of Indian cinema; it is only a part of the total Indian film industry, which includes several regional film industries sorted by language. Bollywood is the largest film producer in India and one of the largest centers of film production in the world."
-msgstr "Bollywood est le terme familier et populaire utilisé pour l’industrie du film de langue hindi située à Mumbai et Maharashtra en Inde. Le terme est souvent utilisé de façon incorrecte pour faire référence à tout le cinéma indien ; c’est seulement une partie de la totalité de l’industrie indienne du film, qui inclut plusieurs industries régionales du film, trié par langue. Bollywood est le plus grand producteur de films en Inde et l’un des plus grands centres de production cinématographique au monde. "
+msgstr "Bollywood est le terme familier et populaire utilisé pour l’industrie du film de langue hindi située à Mumbai et Maharashtra en Inde. Le terme est souvent utilisé de façon incorrecte pour faire référence à tout le cinéma indien ; c’est seulement une partie de la totalité de l’industrie indienne du film, qui inclut plusieurs industries régionales du film, trié par langue. Bollywood est le plus grand producteur de films en Inde et l’un des plus grands centres de production cinématographique au monde."
 
 msgctxt "#31351"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G) that do not include topics or scenes with violence, foul language and other profanity, religious issues, adult situations and so on, and are specifically designed for children 12 and under. Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
@@ -490,7 +491,7 @@ msgstr "Les films catastrophes, un sous-genre des films d’action, ont atteint 
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr "Strictement parlant, les films documentaires sont des œuvres artistiques non romanesques. À l’origine les premiers documentaires étaient de courts films d’actualités, des films didactiques ou des documentaires de voyage sans récit créatif ni mise en scène. Mais ils ont bifurqués et ont pris de nombreuses formes, et sont même parfois devenus propagandistes et non-objectif. Les moqumentaires sont des documentaires parodiques. "
+msgstr "Strictement parlant, les films documentaires sont des œuvres artistiques non romanesques. À l’origine les premiers documentaires étaient de courts films d’actualités, des films didactiques ou des documentaires de voyage sans récit créatif ni mise en scène. Mais ils ont bifurqués et ont pris de nombreuses formes, et sont même parfois devenus propagandistes et non-objectif. Les moqumentaires sont des documentaires parodiques."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
@@ -578,7 +579,7 @@ msgstr "Principalement un sous-genre, cette catégorie partage certaines caract�
 
 msgctxt "#31382"
 msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
-msgstr "Les films de SF sont souvent quasi-scientifiques, visionnaires et imaginatifs - avec des héros, des extraterrestres, des planètes éloignées, des quêtes impossibles, des lieux improbables, des endroits fantastiques, de grands sombres méchants, des technologies futuristes, des forces inconnues et des monstres extraordinaires créés par des scientifiques fous ou un désastre nucléaire. La science-fiction exprime souvent le potentiel des technologies à détruire la race humaine et empiète souvent sur les films d’horreurs. "
+msgstr "Les films de SF sont souvent quasi-scientifiques, visionnaires et imaginatifs - avec des héros, des extraterrestres, des planètes éloignées, des quêtes impossibles, des lieux improbables, des endroits fantastiques, de grands sombres méchants, des technologies futuristes, des forces inconnues et des monstres extraordinaires créés par des scientifiques fous ou un désastre nucléaire. La science-fiction exprime souvent le potentiel des technologies à détruire la race humaine et empiète souvent sur les films d’horreurs."
 
 msgctxt "#31383"
 msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
@@ -846,7 +847,7 @@ msgstr "Afficher les éléments recommandés"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr "— la modification des options ci-dessous exige un redémarrage -"
+msgstr " - la modification des options ci-dessous exige un redémarrage -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -1151,3 +1152,7 @@ msgstr "Réinitialiser TOUS les raccourcis à leurs valeurs par défaut. Tout ch
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
 msgstr "Voulez-vous vraiment supprimer le raccourci Paramètres?"
+
+msgctxt "#31733"
+msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
+msgstr ""
