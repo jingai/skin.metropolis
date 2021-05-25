@@ -273,6 +273,10 @@ msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr "Configurer et gérer les services de partage de médias · Configurer et gérer le service météo"
 
+msgctxt "#31219"
+msgid "Configure controller settings · Configure rewind and autosave functions"
+msgstr ""
+
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
 msgstr "Configurer les paramètres télé - Changer les renseignements en plein écran - Gérer les paramètres des données du GÉP"
@@ -380,6 +384,10 @@ msgstr "Script par défaut pour les paroles"
 msgctxt "#31322"
 msgid "Show Media Totals"
 msgstr "Afficher les totaux des médias"
+
+msgctxt "#31323"
+msgid "Widget Background Display Order"
+msgstr ""
 
 msgctxt "#31324"
 msgid "Home Options"

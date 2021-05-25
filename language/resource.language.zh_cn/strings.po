@@ -273,6 +273,10 @@ msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr "设置和管理媒体共享服务 · 设置和管理天气服务"
 
+msgctxt "#31219"
+msgid "Configure controller settings · Configure rewind and autosave functions"
+msgstr ""
+
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
 msgstr "设置电视 · 改变全屏信息 · 管理电子节目单数据设置"
@@ -380,6 +384,10 @@ msgstr "默认歌词脚本"
 msgctxt "#31322"
 msgid "Show Media Totals"
 msgstr "显示媒体总计"
+
+msgctxt "#31323"
+msgid "Widget Background Display Order"
+msgstr ""
 
 msgctxt "#31324"
 msgid "Home Options"

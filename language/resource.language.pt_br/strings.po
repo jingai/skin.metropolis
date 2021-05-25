@@ -275,6 +275,10 @@ msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr ""
 
+msgctxt "#31219"
+msgid "Configure controller settings · Configure rewind and autosave functions"
+msgstr ""
+
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
@@ -383,6 +387,10 @@ msgstr "Scirpt Padrão de Letras de Música"
 msgctxt "#31322"
 msgid "Show Media Totals"
 msgstr "Exibir Totais Mídias"
+
+msgctxt "#31323"
+msgid "Widget Background Display Order"
+msgstr ""
 
 msgctxt "#31324"
 msgid "Home Options"

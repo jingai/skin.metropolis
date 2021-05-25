@@ -273,6 +273,10 @@ msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr "Konfigur & urus perkhidmatan perkongsian media · Konfigur & urus perkhidmatan cuaca"
 
+msgctxt "#31219"
+msgid "Configure controller settings · Configure rewind and autosave functions"
+msgstr ""
+
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
 msgstr "Konfigure tetapan TV · Ubah maklumat skrin penuh · Urus tetapan data EPG data"
@@ -380,6 +384,10 @@ msgstr "Skrip Lirik lalai"
 msgctxt "#31322"
 msgid "Show Media Totals"
 msgstr "Tunjuk Jumlah Media"
+
+msgctxt "#31323"
+msgid "Widget Background Display Order"
+msgstr ""
 
 msgctxt "#31324"
 msgid "Home Options"

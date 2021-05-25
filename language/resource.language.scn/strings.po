@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#strings 31000 thru 31999 reserved for skins
+# strings 31000 thru 31999 reserved for skins
 msgctxt "#31001"
 msgid "View Options"
 msgstr ""
@@ -25,7 +25,7 @@ msgctxt "#31002"
 msgid "Home Artwork"
 msgstr ""
 
-#empty string with id 31003
+# empty string with id 31003
 msgctxt "#31004"
 msgid "Debug"
 msgstr ""
@@ -42,7 +42,7 @@ msgctxt "#31007"
 msgid "ON"
 msgstr ""
 
-#empty string with id 31008
+# empty string with id 31008
 msgctxt "#31009"
 msgid "Browser"
 msgstr ""
@@ -83,12 +83,12 @@ msgctxt "#31018"
 msgid "Show User Rating instead of scraped Rating in Media Flag"
 msgstr ""
 
-#empty strings from id 31019 to 31020
+# empty strings from id 31019 to 31020
 msgctxt "#31021"
 msgid "Decrease Star Rating"
 msgstr ""
 
-#empty strings from id 31022 to 31023
+# empty strings from id 31022 to 31023
 msgctxt "#31024"
 msgid "Icon Home layout"
 msgstr ""
@@ -97,7 +97,7 @@ msgctxt "#31025"
 msgid "Horizontal Text Home layout"
 msgstr ""
 
-#empty strings from id 31026 to 31030
+# empty strings from id 31026 to 31030
 msgctxt "#31031"
 msgid "Hide Movie Watched Status"
 msgstr ""
@@ -126,12 +126,12 @@ msgctxt "#31037"
 msgid "Stretch background fanart to fit into viewable area"
 msgstr ""
 
-#empty strings from id 31038 to 31053
+# empty strings from id 31038 to 31053
 msgctxt "#31054"
 msgid "Logo"
 msgstr ""
 
-#empty string with id 31055
+# empty string with id 31055
 msgctxt "#31056"
 msgid "Enable Video/Album Art overlay"
 msgstr ""
@@ -140,12 +140,12 @@ msgctxt "#31057"
 msgid "Enable Song Info text overlay"
 msgstr ""
 
-#empty strings from id 31058 to 31059
+# empty strings from id 31058 to 31059
 msgctxt "#31060"
 msgid "Show Recently Added Items"
 msgstr ""
 
-#empty strings from id 31061 to 31107
+# empty strings from id 31061 to 31107
 msgctxt "#31108"
 msgid "Enable Debug Mode"
 msgstr ""
@@ -154,12 +154,12 @@ msgctxt "#31109"
 msgid "Enable Debug Grid"
 msgstr ""
 
-#empty strings from id 31110 to 31117
+# empty strings from id 31110 to 31117
 msgctxt "#31118"
 msgid "Filemanager"
 msgstr ""
 
-#empty strings from id 31119 to 31124
+# empty strings from id 31119 to 31124
 msgctxt "#31125"
 msgid "Hide Video Root"
 msgstr ""
@@ -172,12 +172,12 @@ msgctxt "#31127"
 msgid "TvTunes Downloader"
 msgstr ""
 
-#empty strings from id 31128 to 31132
+# empty strings from id 31128 to 31132
 msgctxt "#31133"
 msgid "Mute"
 msgstr ""
 
-#empty strings from id 31134 to 31135
+# empty strings from id 31134 to 31135
 msgctxt "#31136"
 msgid "Video Info"
 msgstr ""
@@ -210,7 +210,7 @@ msgctxt "#31143"
 msgid "Memory used"
 msgstr ""
 
-#empty strings from id 31144 to 31158
+# empty strings from id 31144 to 31158
 msgctxt "#31159"
 msgid "ffx2"
 msgstr ""
@@ -251,12 +251,12 @@ msgctxt "#31168"
 msgid "rwx32"
 msgstr ""
 
-#empty strings from id 31169 to 31182
+# empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
 msgstr ""
 
-#empty strings from id 31184 to 31206
+# empty strings from id 31184 to 31206
 msgctxt "#31207"
 msgid "Current"
 msgstr ""
@@ -265,7 +265,7 @@ msgctxt "#31208"
 msgid "Last Updated:"
 msgstr ""
 
-#empty string with id 31209
+# empty string with id 31209
 msgctxt "#31210"
 msgid "Default Home layout"
 msgstr ""
@@ -282,17 +282,21 @@ msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
 msgstr ""
 
-#empty strings from id 31214 to 31215
+# empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
 msgstr ""
 
-#empty string with id 31217
+# empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr ""
 
-#empty string with id 31219
+msgctxt "#31219"
+msgid "Configure controller settings · Configure rewind and autosave functions"
+msgstr ""
+
+# empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
 msgstr ""
@@ -301,12 +305,12 @@ msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
 msgstr ""
 
-#empty strings from id 31222 to 31243
+# empty strings from id 31222 to 31243
 msgctxt "#31244"
 msgid "Playing"
 msgstr ""
 
-#empty strings from id 31245 to 31248
+# empty strings from id 31245 to 31248
 msgctxt "#31249"
 msgid "System Music Files"
 msgstr ""
@@ -319,7 +323,7 @@ msgctxt "#31251"
 msgid "Current Playlist"
 msgstr ""
 
-#empty strings from id 31252 to 31269
+# empty strings from id 31252 to 31269
 msgctxt "#31270"
 msgid "Enable Custom Button"
 msgstr ""
@@ -328,12 +332,12 @@ msgctxt "#31271"
 msgid "Favourite"
 msgstr ""
 
-#empty strings from id 31272 to 31274
+# empty strings from id 31272 to 31274
 msgctxt "#31275"
 msgid "Multi Image"
 msgstr ""
 
-#empty string with id 31276
+# empty string with id 31276
 msgctxt "#31277"
 msgid "Item"
 msgstr ""
@@ -374,22 +378,22 @@ msgctxt "#31286"
 msgid "Banner"
 msgstr ""
 
-#empty strings from id 31287 to 31288
+# empty strings from id 31287 to 31288
 msgctxt "#31289"
 msgid "Files"
 msgstr ""
 
-#empty string with id 31290
+# empty string with id 31290
 msgctxt "#31291"
 msgid "Landscape"
 msgstr ""
 
-#empty string with id 31292
+# empty string with id 31292
 msgctxt "#31293"
 msgid "Picture Grid"
 msgstr ""
 
-#empty strings from id 31294 to 31297
+# empty strings from id 31294 to 31297
 msgctxt "#31298"
 msgid "Panel Square"
 msgstr ""
@@ -398,22 +402,26 @@ msgctxt "#31299"
 msgid "Min"
 msgstr ""
 
-#empty strings from id 31300 to 31312
+# empty strings from id 31300 to 31312
 msgctxt "#31313"
 msgid "Movie Set"
 msgstr ""
 
-#empty strings from id 31314 to 31318
+# empty strings from id 31314 to 31318
 msgctxt "#31319"
 msgid "Default Lyrics script"
 msgstr ""
 
-#empty strings from id 31320 to 31321
+# empty strings from id 31320 to 31321
 msgctxt "#31322"
 msgid "Show Media Totals"
 msgstr ""
 
-#empty string with id 31323
+msgctxt "#31323"
+msgid "Widget Background Display Order"
+msgstr ""
+
+# empty string with id 31323
 msgctxt "#31324"
 msgid "Home Options"
 msgstr ""
@@ -422,7 +430,7 @@ msgctxt "#31325"
 msgid "Image Resources"
 msgstr ""
 
-#empty strings from id 31326 to 31327
+# empty strings from id 31326 to 31327
 msgctxt "#31328"
 msgid "Show Random Items"
 msgstr ""
@@ -443,12 +451,12 @@ msgctxt "#31332"
 msgid "Enable Extra Fanart"
 msgstr ""
 
-#empty string with id 31333
+# empty string with id 31333
 msgctxt "#31334"
 msgid "Trailers"
 msgstr ""
 
-#empty string with id 31335
+# empty string with id 31335
 msgctxt "#31336"
 msgid "Enable Kiosk mode"
 msgstr ""
@@ -461,7 +469,7 @@ msgctxt "#31338"
 msgid "Use simple Media Filter"
 msgstr ""
 
-#empty strings from id 31339 to 31340
+# empty strings from id 31339 to 31340
 msgctxt "#31341"
 msgid "View information for your computer on such items as your network, graphics, hardware and storage space available"
 msgstr ""
@@ -550,7 +558,7 @@ msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
 msgstr ""
 
-#empty string with id 31363
+# empty string with id 31363
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
 msgstr ""
@@ -559,7 +567,7 @@ msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
 msgstr ""
 
-#empty string with id 31366
+# empty string with id 31366
 msgctxt "#31367"
 msgid "Horror films are designed to frighten and to invoke our hidden worst fears, often in a terrifying, shocking finale, while captivating and entertaining us at the same time in a cathartic experience. Horror films feature a wide range of styles, from the earliest silent Nosferatu classic, to today's CGI monsters and deranged humans. They are often combined with science fiction when the menace or monster is related to a corruption of technology, or when Earth is threatened by aliens."
 msgstr ""
@@ -612,7 +620,7 @@ msgctxt "#31379"
 msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
 msgstr ""
 
-#empty string with id 31380
+# empty string with id 31380
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
 msgstr ""
@@ -629,7 +637,7 @@ msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
 msgstr ""
 
-#empty string with id 31385
+# empty string with id 31385
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
 msgstr ""
@@ -1026,8 +1034,8 @@ msgctxt "#31484"
 msgid "Order"
 msgstr ""
 
-#empty strings from id 31485 to 31599
-#PVR Resources
+# empty strings from id 31485 to 31599
+# PVR Resources
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
 msgstr ""
@@ -1040,7 +1048,7 @@ msgctxt "#31602"
 msgid "Live Radio"
 msgstr ""
 
-#empty strings from id 31603 to 31604
+# empty strings from id 31603 to 31604
 msgctxt "#31605"
 msgid "Add Group"
 msgstr ""
@@ -1057,7 +1065,7 @@ msgctxt "#31608"
 msgid "Hidden Channels"
 msgstr ""
 
-#empty string with id 31609
+# empty string with id 31609
 msgctxt "#31610"
 msgid "Scheduled Time"
 msgstr ""
@@ -1066,7 +1074,7 @@ msgctxt "#31611"
 msgid "PVR Status"
 msgstr ""
 
-#empty strings from id 31612 to 31699
+# empty strings from id 31612 to 31699
 msgctxt "#31700"
 msgid "7 Day Forecast"
 msgstr ""

@@ -273,6 +273,10 @@ msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr "Configureer & beheer media deel diensten · Configureer & beheer de weer dienst"
 
+msgctxt "#31219"
+msgid "Configure controller settings · Configure rewind and autosave functions"
+msgstr ""
+
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
 msgstr "Configureer TV Instellingen · Configureer volledig scherm info · Beheer EPG data instellingen"
@@ -380,6 +384,10 @@ msgstr "Klik om het standaard Lyricsscript te wijzigen"
 msgctxt "#31322"
 msgid "Show Media Totals"
 msgstr "Toon mediatotalen"
+
+msgctxt "#31323"
+msgid "Widget Background Display Order"
+msgstr ""
 
 msgctxt "#31324"
 msgid "Home Options"
