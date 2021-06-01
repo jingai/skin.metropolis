@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2021-06-01 18:29+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Afrikaans (South Africa) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/af_za/>\n"
 "Language: af_za\n"
@@ -155,7 +155,7 @@ msgstr ""
 # empty strings from id 31110 to 31117
 msgctxt "#31118"
 msgid "Filemanager"
-msgstr ""
+msgstr "Lêer bestuurder"
 
 # empty strings from id 31119 to 31124
 msgctxt "#31125"
@@ -178,7 +178,7 @@ msgstr ""
 # empty strings from id 31134 to 31135
 msgctxt "#31136"
 msgid "Video Info"
-msgstr ""
+msgstr "Video inligting"
 
 msgctxt "#31137"
 msgid "Audio Info"
@@ -186,7 +186,7 @@ msgstr ""
 
 msgctxt "#31138"
 msgid "System Info"
-msgstr ""
+msgstr "Stelsel inligting"
 
 msgctxt "#31139"
 msgid "Video decoder"
@@ -198,7 +198,7 @@ msgstr "Pixel formaat"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Oudio kanale"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -206,7 +206,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Geheue gebruik"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -252,16 +252,16 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Aansigtipe"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
 msgid "Current"
-msgstr ""
+msgstr "Tans"
 
 msgctxt "#31208"
 msgid "Last Updated:"
-msgstr ""
+msgstr "Laas Opdateer:"
 
 # empty string with id 31209
 msgctxt "#31210"
@@ -270,25 +270,25 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Stel aksies op wat gedurende terugspeel gebruik kan word · Stel op hoe media inhoud gespeel word"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Bestuur jou geïnstalleerde byvoegsels · Blaai vir en installeer byvoegsels vanaf kodi.tv · Verander byvoegsel verstellings"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Stel vertoon op · Stel oudio op · Stel internet toegang op · Stel krag spaar op · Stel loghouding op"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Stel oortreksel op · Stel streek op · Stel beheer op · Stel skermskut op · Stel meester slot op"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Stel op en bestuur media deel dienste · Stel op & bestuur die weer diens"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -297,11 +297,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Stel TV verstellings op · Verander vol skerm info · Bestuur EPG data verstellings"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Stel biblioteek bronne op · Wys die media lyste vertoon inhoud · Stel op hoe biblioteek lyste navigeer word"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -310,7 +310,7 @@ msgstr "Speel"
 # empty strings from id 31245 to 31248
 msgctxt "#31249"
 msgid "System Music Files"
-msgstr ""
+msgstr "Stelsel musiek lêers"
 
 msgctxt "#31250"
 msgid "Current Selected"
@@ -318,7 +318,7 @@ msgstr "Huidiglik Geselekteer"
 
 msgctxt "#31251"
 msgid "Current Playlist"
-msgstr ""
+msgstr "Huidige speellys"
 
 # empty strings from id 31252 to 31269
 msgctxt "#31270"
@@ -339,15 +339,15 @@ msgstr "Item"
 
 msgctxt "#31278"
 msgid "Open Playlist"
-msgstr ""
+msgstr "Maak speellys oop"
 
 msgctxt "#31279"
 msgid "Save Playlist"
-msgstr ""
+msgstr "Stoor speellys"
 
 msgctxt "#31280"
 msgid "Close Playlist"
-msgstr ""
+msgstr "Maak speellys toe"
 
 msgctxt "#31281"
 msgid "Items"
@@ -398,7 +398,7 @@ msgstr ""
 # empty strings from id 31300 to 31312
 msgctxt "#31313"
 msgid "Movie Set"
-msgstr ""
+msgstr "Fliek stel"
 
 # empty strings from id 31314 to 31318
 msgctxt "#31319"
@@ -768,7 +768,7 @@ msgstr ""
 
 msgctxt "#31420"
 msgid "Video Settings"
-msgstr ""
+msgstr "Video verstellings"
 
 msgctxt "#31421"
 msgid "Video OSD: Show ClearArt/Logo"
@@ -796,11 +796,11 @@ msgstr ""
 
 msgctxt "#31427"
 msgid "Next Episode"
-msgstr ""
+msgstr "Volgende episode"
 
 msgctxt "#31428"
 msgid "TV Guide"
-msgstr ""
+msgstr "TV gids"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
@@ -864,7 +864,7 @@ msgstr ""
 
 msgctxt "#31444"
 msgid "Auto Login"
-msgstr ""
+msgstr "Outo inteken"
 
 msgctxt "#31445"
 msgid "Picture Settings"
@@ -948,7 +948,7 @@ msgstr ""
 
 msgctxt "#31465"
 msgid "Clean Library"
-msgstr ""
+msgstr "Maak biblioteek skoon"
 
 msgctxt "#31466"
 msgid "Foreign is not technically a genre, but likely includes films with dialog in a tongue not native to the viewer."
@@ -1016,7 +1016,7 @@ msgstr ""
 
 msgctxt "#31482"
 msgid "Install"
-msgstr ""
+msgstr "Installeer"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
@@ -1024,7 +1024,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Orde"
 
 # empty strings from id 31485 to 31599
 # PVR Resources
@@ -1067,11 +1067,11 @@ msgstr ""
 # empty strings from id 31612 to 31699
 msgctxt "#31700"
 msgid "7 Day Forecast"
-msgstr ""
+msgstr "7 Dae Voorspelling"
 
 msgctxt "#31701"
 msgid "12 Hour Forecast"
-msgstr ""
+msgstr "12 Uur Voorspelling"
 
 msgctxt "#31702"
 msgid "36 Hour Forecast"
@@ -1079,7 +1079,7 @@ msgstr "36 Uur Voorspelling"
 
 msgctxt "#31703"
 msgid "Pressure"
-msgstr ""
+msgstr "Druk"
 
 msgctxt "#31704"
 msgid "Clouds"
