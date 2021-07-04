@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 4.6.2\n"
 
+msgctxt "Addon Summary"
+msgid "A Mix of Retro and Modern."
+msgstr "Retro ir modernaus mišinys"
+
+msgctxt "Addon Description"
+msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
+msgstr "Metropolis sukurtas taip, kad atvaizduotų kaip galima daugiau media įrašų informacijos su lengvai skaitomu tekstu ir piktogramomis. Visa tai padaryta stengiantis išlaikyti sklandžią teminę išvaizdą, kurią paprasta naudoti visiems šeimos nariams, su keletu temų ir adaptuojamais meniu bei rodiniais. Padėka Hitcher už Alaska Revisited, kuri buvo panaudota kaip pagrindas kuriant Metropolis."
+
 msgctxt "#31001"
 msgid "View Options"
 msgstr "Rodinio parinktys"

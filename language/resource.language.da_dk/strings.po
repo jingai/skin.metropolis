@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.6.2\n"
 
+msgctxt "Addon Summary"
+msgid "A Mix of Retro and Modern."
+msgstr "En blanding af retro og moderne."
+
+msgctxt "Addon Description"
+msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
+msgstr "Metropolis er designet til at vise så mange medier som muligt med læsbar tekst og ikoner. Alt sammen mens skin'et holdes strømlinet og simpelt at bruge for alle familiemedlemmer, med flere temaer og justerbare menuer og visninger. Tak til Hitcher for Alaska Revisited, det er blevet brugt som grundlag for Metropolis."
+
 msgctxt "#31001"
 msgid "View Options"
 msgstr "Visningsindstillinger"

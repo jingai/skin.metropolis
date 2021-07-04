@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.6.2\n"
 
+msgctxt "Addon Summary"
+msgid "A Mix of Retro and Modern."
+msgstr "Eden-re optimalizálva. A retro és modern stílus ötvözete. Az eredeti Metropolis felszín készítője: Amra -  Stoli, jingai, Macgyverr folytatja."
+
+msgctxt "Addon Description"
+msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
+msgstr "A Metropolis arra lett tervezve hogy annyi média infót jelenítsen meg amennyit csak lehet könnyen olvasható szövegekkel és ikonokkal. Mindeközben megpróbálja a felszínt annyira gördülékennyé és egyszerűvé tenni hogy a család minden tagja egyszerűen tudja használni több témával, egyedivé varázsolt menüvel és nézetekkel. Köszönet Hitcher-nek az Alaska Revisited-ért ami a Metropolis alapját adja."
+
 msgctxt "#31001"
 msgid "View Options"
 msgstr "Nézet beállítások"
