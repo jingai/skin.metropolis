@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-28 17:45+0000\n"
+"PO-Revision-Date: 2021-09-26 16:49+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
 "Language-Team: German <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/de_de/>\n"
 "Language: de_de\n"
@@ -267,7 +267,7 @@ msgstr "Lege Aktionen fest, die während der Wiedergabe benutzt werden können. 
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr "Verwalte deine installierten Add-Ons. Durchsuche und installiere Add-Ons von kodi.tv. Passe die EInstellungen der Add-Ons an."
+msgstr "Installierte Addons verwalten · Addons von kodi.tv durchsuchen und installieren · Einstellungen der Addons anpassen"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
@@ -323,7 +323,7 @@ msgstr "Mehrfach Bild"
 
 msgctxt "#31277"
 msgid "Item"
-msgstr "Element"
+msgstr "Eintrag"
 
 msgctxt "#31278"
 msgid "Open Playlist"
@@ -339,7 +339,7 @@ msgstr "Wiedergabeliste schließen"
 
 msgctxt "#31281"
 msgid "Items"
-msgstr "Elemente"
+msgstr "Einträge"
 
 msgctxt "#31282"
 msgid "Poster Wrap"
@@ -407,11 +407,11 @@ msgstr "Bildquellen"
 
 msgctxt "#31328"
 msgid "Show Random Items"
-msgstr "zufällige Einträge einschalten (Standard: kürzlich hinzugefügt)"
+msgstr "Zufällige Einträge anzeigen"
 
 msgctxt "#31329"
 msgid "Select item to set up:"
-msgstr "Einträge zum einrichten auswählen:"
+msgstr "Einträge zum Einrichten auswählen:"
 
 msgctxt "#31330"
 msgid "Scripts/Extras"
@@ -419,7 +419,7 @@ msgstr "Scripts/Extras"
 
 msgctxt "#31331"
 msgid "Home Items"
-msgstr "Home Einträge"
+msgstr "Home-Einträge"
 
 msgctxt "#31332"
 msgid "Enable Extra Fanart"
@@ -435,7 +435,7 @@ msgstr "Kiosk einschalten"
 
 msgctxt "#31337"
 msgid "Disable destructive Shutdown items"
-msgstr "gefährliche Menü-Einträge zum Herunterfahren ausschalten"
+msgstr "Destruktive Herunterfahren-Einträge deaktivieren"
 
 msgctxt "#31338"
 msgid "Use simple Media Filter"
@@ -443,7 +443,7 @@ msgstr "Benutze einfache Medien-Filter"
 
 msgctxt "#31341"
 msgid "View information for your computer on such items as your network, graphics, hardware and storage space available"
-msgstr "Informationen zum Computer anzeigen, z. B. zu Netzwerk, Grafik, Hardware und verfügbarem Speicherplatz"
+msgstr "Informationen zum Computer anzeigen, z. B. über Netzwerk, Grafik, Hardware und verfügbaren Speicherplatz"
 
 msgctxt "#31342"
 msgid "Create and modify multiple user profiles for Kodi so that each member of your household can have their own video or music library"
@@ -751,7 +751,7 @@ msgstr "Video OSD: Zeige ClearArt/Logo"
 
 msgctxt "#31422"
 msgid "Logo View: Show only one item at a time"
-msgstr "Logo Ansicht: Zeigt immer nur eines an"
+msgstr "Logo-Ansicht: Zeigt immer nur eines an"
 
 msgctxt "#31423"
 msgid "Author"
@@ -859,7 +859,7 @@ msgstr "Zeige Handlung nur im Info-Dialog"
 
 msgctxt "#31449"
 msgid "Show Recommended Items"
-msgstr "Zeige empfohlene Einträge"
+msgstr "Empfohlene Einträge anzeigen"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
@@ -1123,11 +1123,11 @@ msgstr "Verknüpfung löschen. Dies kann nicht rückgängig gemacht werden."
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr "Bewegt die Verknüpfung nach oben in vertikalen Ansichten oder nach links in horizontalen Ansichen. In horizontalen Ansichten befindet sich der dritte Menüeintrag in der Mitte."
+msgstr "Bewegt die Verknüpfung in vertikalen Ansichten nach oben oder in horizontalen Ansichten nach links. In horizontalen Ansichten befindet sich der dritte Menüeintrag in der Mitte."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr "Bewegt die Verknüpfung nach unten in vertikalen Ansichten oder nach rechts in horizontalen Ansichen. In horizontalen Ansichten befindet sich der dritte Menüeintrag in der Mitte."
+msgstr "Bewegt die Verknüpfung in vertikalen Ansichten nach unten oder in horizontalen Ansichten nach rechts. In horizontalen Ansichten befindet sich der dritte Menüeintrag in der Mitte."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
@@ -1171,4 +1171,4 @@ msgstr "Bist du dir sicher, dass du die Einstellungen-Verknüpfung entfernen wil
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr "Aktivieren oder Deaktivieren der Verknüpfung.  Dadurch wird der Menüpunkt in diesem Einstellungsmenü belassen, aber im eigentlichen Hauptmenü ausgeblendet, wenn er deaktiviert ist."
+msgstr "Aktivieren oder Deaktivieren der Verknüpfung.  Dies wird den Menüeintrag in diesem Einstellungsmenü belassen, aber im eigentlichen Hauptmenü ausgeblenden, wenn er deaktiviert ist."
