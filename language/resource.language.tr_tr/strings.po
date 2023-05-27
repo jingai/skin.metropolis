@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/tr_tr/>\n"
 "Language: tr_tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -205,7 +205,7 @@ msgstr "Piksel biçimi"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Ses kanalları"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -213,7 +213,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Kullanılan bellek"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -259,7 +259,7 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Görünüm türü"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
@@ -277,25 +277,25 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Oynatım sırasında kullanılacak eylemleri yapılandırın · Medya içeriğinin nasıl oynatılacağını yapılandırın"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Yüklü eklentilerinizi yönetin · kodi.tv sitesindeki uygulamalara gözatın ve yükleyin · Eklenti ayarlarını değiştirin"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Görüntüyü yapılandırın · Sesi yapılandırın · İnternet erişimini yapılandırın · Güç tasarrufunu yapılandırın · Günlüğü yapılandırın"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Dış görünümü yapılandırın · Bölge ayarlarını yapılandırın · Denetim ayarlarını yapılandırın · Ekran koruyucuyu yapılandırın · Yönetici kilidini yapılandırın"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Medya paylaşımı hizmetlerini yapılandır ve yönet · Hava durumu hizmetini yapılandır ve yönet"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -304,11 +304,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "TV ayarlarını yapılandır · Tam ekran bilgisini değiştir · EPG veri ayarlarını yönet"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Kitaplık kaynaklarını yapılandırın · Medya listeleri içeriklerinin nasıl göstereceğini yapılandırın · Kitaplık listelerine nasıl gidileceğini yapılandırın"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -981,7 +981,7 @@ msgstr "Durumu göster"
 
 msgctxt "#31472"
 msgid "Ended"
-msgstr ""
+msgstr "Bitti"
 
 msgctxt "#31473"
 msgid "unmixed"
@@ -1029,7 +1029,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Düzen"
 
 # empty strings from id 31485 to 31599
 # PVR Resources

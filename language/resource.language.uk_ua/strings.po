@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Ukrainian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/uk_ua/>\n"
 "Language: uk_ua\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -206,7 +206,7 @@ msgstr "Формат пікселів"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Каналів аудіо"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -214,7 +214,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Використано пам'яті"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -260,7 +260,7 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Вигляд"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
@@ -278,25 +278,25 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Налаштувати дії, які можуть бути використані під час відтворення · Налаштувати як медіа-вміст відтворюватиметься"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Керування встановленими надбудовами • Встановлення надбудов з kodi.tv . Зміна налаштувань надбудов"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Налаштування дисплею · Налаштування звуку · Налаштування доступу до Інтернету · Налаштування енергозбереження · Налаштування ведення журналу"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Налаштувати зовнішній вигляд · Налаштувати область · Налаштувати керування · Налаштувати заставку · Налаштувати блокування"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Налаштування служб обміну мультимедіа і керування ними · Налаштування служби погоди і керування нею."
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -305,11 +305,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Налаштувати параметри ТВ · Змінити повноекранної інформації · Керувати налаштуваннями програми телепередач"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Налаштувати джерела бібліотеки · Показувати вміст списків медіа · Налаштувати навігації по бібліотеці"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -848,7 +848,7 @@ msgstr ""
 
 msgctxt "#31438"
 msgid "Recent"
-msgstr ""
+msgstr "Нещодавні"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
@@ -1032,7 +1032,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Порядок"
 
 # empty strings from id 31485 to 31599
 # PVR Resources

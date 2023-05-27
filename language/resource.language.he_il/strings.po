@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-03-09 09:16+0000\n"
+"Last-Translator: Dan Davidson <nnnvvv450@gmail.com>\n"
 "Language-Team: Hebrew (Israel) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/he_il/>\n"
 "Language: he_il\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -264,25 +264,25 @@ msgstr "פריסת ברירת מחדל של מסך הבית"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "הגדר פעולות שניתנות לשימוש במהלך ההקרנה · הגדר איך תוכן המדיה מנוגן"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "נהל את התוספים שלך · חפש והתקן תוספים מ kodi.tv · שנה הגדרות תוספים"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "הגדר תצוגה · הגדר שמע · הגדרת גישה לאינטרנט · הגדר חסכון בחשמל · הגדר יומן"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "הגדרת מעטפת · הגדרת אזור · הגדרת שליטה · הגדרת שומר מסך · הגדרת נעילה מרכזית"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "הגדר ונהל את שרות שיתוף המדיה · הגדר ונהל את שרות מזג האוויר"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -291,11 +291,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "שינוי הגדרות טלוויזיה · שינוי המידע המוצג במסך מלא · ניהול הגדרות נתוני לוח השידורים"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "הגדרת מקורות הספריה · הצגת תוכן רשימה המדיה · הגדרת ניווט ברשימות הספריה"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -1008,7 +1008,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr "הזמנה"
+msgstr "סידור"
 
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"

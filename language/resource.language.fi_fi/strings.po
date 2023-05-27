@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-03-19 14:50+0000\n"
+"Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/fi_fi/>\n"
 "Language: fi_fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -63,7 +63,7 @@ msgstr "Metropolis"
 
 msgctxt "#31012"
 msgid "Increase Star Rating"
-msgstr "Korota arvosanaa"
+msgstr "Korota tähtiarviota"
 
 msgctxt "#31013"
 msgid "Select Weather icons"
@@ -83,15 +83,15 @@ msgstr "Valitse levy-yhtiöiden kuvakkeet"
 
 msgctxt "#31017"
 msgid "Select Language Flag icons"
-msgstr "Valitse kielten kuvakkeet"
+msgstr "Valitse kielten lippukuvakkeet"
 
 msgctxt "#31018"
 msgid "Show User Rating instead of scraped Rating in Media Flag"
-msgstr "Näytä oma arvosana ladatun arvosanan sijaan"
+msgstr "Näytä mediatunnisteissa käyttäjäarviot ladattujen arvioiden sijaan"
 
 msgctxt "#31021"
 msgid "Decrease Star Rating"
-msgstr "Laske arvosanaa"
+msgstr "Alenna tähtiarviota"
 
 # empty strings from id 31022 to 31023
 msgctxt "#31024"
@@ -188,11 +188,11 @@ msgstr "Äänitiedot"
 
 msgctxt "#31138"
 msgid "System Info"
-msgstr "Järjestelmätiedot"
+msgstr "järjestelmätiedot"
 
 msgctxt "#31139"
 msgid "Video decoder"
-msgstr "Videon purkutapa"
+msgstr "Videodekooderi"
 
 msgctxt "#31140"
 msgid "Pixel format"
@@ -204,11 +204,11 @@ msgstr "Äänikanavat"
 
 msgctxt "#31142"
 msgid "CPU used"
-msgstr "Suoritinkäyttö"
+msgstr "Prosessorin kuormitus"
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr "Muistinkäyttö"
+msgstr "Keskusmuistin varaus"
 
 msgctxt "#31159"
 msgid "ffx2"
@@ -269,25 +269,25 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Määritä toiston aikana käytettävissä olevat asetukset · Määritä mediatoiston asetukset"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Hallitse asennettuja lisäosia · Etsi ja asenna lisäosia kodi.tv:stä · Muokkaa lisäosien asetuksia"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Määritä näyttö · Määritä ääni · Määritä Internet-yhteys · Määritä virransäästö · Määritä loki"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Muokkaa ulkoasua · Määritä aluekohtaiset asetukset · Valitse näytönsäästäjä · Määritä lukitusasetukset"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Määritä mediajakoasetukset · Muokkaa sääpalvelun asetuksia"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -296,15 +296,15 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Määritä tv-asetukset · Vaihda kokoruudun infoa · Muokkaa ohjelmaoppaan asetuksia"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Määritä kirjaston lähteet · Määritä medialistojen esitystavat · Määritä mediakirjaston ohjaustavat"
 
 msgctxt "#31244"
 msgid "Playing"
-msgstr "Toistaa"
+msgstr "Toistetaan"
 
 # empty strings from id 31245 to 31248
 msgctxt "#31249"
@@ -334,7 +334,7 @@ msgstr "Vaihtuva kuva"
 
 msgctxt "#31277"
 msgid "Item"
-msgstr "Kohdetta"
+msgstr "Kohde"
 
 msgctxt "#31278"
 msgid "Open Playlist"
@@ -378,7 +378,7 @@ msgstr "Tiedostot"
 
 msgctxt "#31291"
 msgid "Landscape"
-msgstr "Vaakakuva"
+msgstr "Landscape"
 
 msgctxt "#31293"
 msgid "Picture Grid"
@@ -408,7 +408,7 @@ msgstr ""
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr ""
+msgstr "Widgettien taustojen esitysjärjestys"
 
 # empty string with id 31323
 msgctxt "#31324"
@@ -434,7 +434,7 @@ msgstr "Skriptit/Ekstrat"
 
 msgctxt "#31331"
 msgid "Home Items"
-msgstr "Päävalikon kohteet"
+msgstr "Aloitusnäytön kohteet"
 
 msgctxt "#31332"
 msgid "Enable Extra Fanart"
@@ -442,7 +442,7 @@ msgstr "Ota Käyttöön Extra Fanitaide"
 
 msgctxt "#31334"
 msgid "Trailers"
-msgstr "Esittelyt"
+msgstr "Trailerit"
 
 msgctxt "#31336"
 msgid "Enable Kiosk mode"
@@ -695,11 +695,11 @@ msgstr ""
 
 msgctxt "#31403"
 msgid "Hide Media Flags"
-msgstr "Piilota mediakuvakkeet"
+msgstr "Piilota mediatunnisteet"
 
 msgctxt "#31404"
 msgid "Hide Rating and Studio Flags"
-msgstr "Piilota arvosanat ja elokuvastudiot"
+msgstr "Piilota arvio- ja studiokuvakkeet"
 
 msgctxt "#31405"
 msgid "Hide Movie Taglines"
@@ -715,7 +715,7 @@ msgstr "*Paina YLÖS nähdäksesi kaikki näyttelijätiedot*"
 
 msgctxt "#31408"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "Teatterikokemus"
 
 msgctxt "#31409"
 msgid "Finish"
@@ -735,7 +735,7 @@ msgstr "*Paina YLÖS valitaksesi profiilin*"
 
 msgctxt "#31413"
 msgid "Local subtitle available"
-msgstr "Paikallisia tekstityksiä saatavilla"
+msgstr "Paikallinen tekstitys on käytettävissä"
 
 msgctxt "#31414"
 msgid "Gallery"
@@ -783,7 +783,7 @@ msgstr "Juliste & fanitaide"
 
 msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
-msgstr ""
+msgstr "Videotoiston kuvaruutunäyttö: näytä pienoiskuva"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
@@ -827,7 +827,7 @@ msgstr ""
 
 msgctxt "#31436"
 msgid "Use Slim Seekbar"
-msgstr ""
+msgstr "Käytä kapeaa toistopalkkia"
 
 msgctxt "#31437"
 msgid "Enable TV Tunes script"
@@ -835,7 +835,7 @@ msgstr "Käytä TV Tunes -skriptiä"
 
 msgctxt "#31438"
 msgid "Recent"
-msgstr "Viimeisin"
+msgstr "Viimeisimmät"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
@@ -867,7 +867,7 @@ msgstr "Kuva-asetukset"
 
 msgctxt "#31446"
 msgid "Fullscreen"
-msgstr "Koko näyttö"
+msgstr "Koko ruutu"
 
 msgctxt "#31447"
 msgid "Use Realistic Weather Icons"
@@ -1003,7 +1003,7 @@ msgstr ""
 
 msgctxt "#31480"
 msgid "Show IMDb Ranking Media Flag"
-msgstr "Näytä IMDb:n sijoituskuvake"
+msgstr "Näytä IMDb-sijoituksen mediatunniste"
 
 msgctxt "#31481"
 msgid "Show Votes instead of Top250 always"
@@ -1019,7 +1019,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr "Järjestys"
+msgstr "Suunta"
 
 # empty strings from id 31485 to 31599
 # PVR Resources
@@ -1029,7 +1029,7 @@ msgstr ""
 
 msgctxt "#31601"
 msgid "Live TV"
-msgstr "Tv-lähetys"
+msgstr "Televisio"
 
 msgctxt "#31602"
 msgid "Live Radio"
@@ -1041,7 +1041,7 @@ msgstr "Lisää ryhmä"
 
 msgctxt "#31606"
 msgid "Rename Group"
-msgstr "Muuta ryhmän nimeä"
+msgstr "Nimeä ryhmä uudelleen"
 
 msgctxt "#31607"
 msgid "Delete Group"
@@ -1101,15 +1101,15 @@ msgstr "Sademäärä"
 
 msgctxt "#31710"
 msgid "Use extended weather"
-msgstr ""
+msgstr "Käytä laajaa säätä"
 
 msgctxt "#31711"
 msgid "Show weather forecast on home screen"
-msgstr "Näytä sääennuste päävalikossa"
+msgstr "Näytä sääennuste aloitusnäytössä"
 
 msgctxt "#31712"
 msgid "Crop Thumbnails in Music Video Gallery View"
-msgstr ""
+msgstr "Leikkaa pienoiskuvia musiikkivideoiden gallerianäkymässä"
 
 msgctxt "#31713"
 msgid "Custom Home Shortcut"
@@ -1129,7 +1129,7 @@ msgstr "Taustakuva"
 
 msgctxt "#31717"
 msgid "Precip"
-msgstr "Sadem."
+msgstr "Sademäärä"
 
 msgctxt "#31718"
 msgid "Home Furniture"
@@ -1145,11 +1145,11 @@ msgstr ""
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Siirrä pikavalintaa pystynäkymissä ylös tai vaakanäkymissä vasemmalle. Vaakanäkymissä kolmas valikkokohde on keskellä."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Siirrä pikavalintaa pystynäkymissä alas tai vaakanäkymissä oikealle. Vaakanäkymissä kolmas valikkokohde on keskellä."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."

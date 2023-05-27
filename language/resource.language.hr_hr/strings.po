@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-12-29 09:33+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/hr_hr/>\n"
 "Language: hr_hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.15\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -206,7 +206,7 @@ msgstr "Format piksela"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Broj zvučnih kanala"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -214,7 +214,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Korištenje memorije"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -260,12 +260,12 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Vrsta prikaza"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
 msgid "Current"
-msgstr ""
+msgstr "Trenutno"
 
 msgctxt "#31208"
 msgid "Last Updated:"
@@ -278,25 +278,25 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Prilagodite radnje koje se koriste tijekom reprodukcije · Prilagodite način reprodukcije medijskog sadržaja"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Prilagodite vaše instalirane dodatke · Pregledavajte i instalirajte dodatke s kodi.tv · Prilagodite postavke dodatka"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Prilagodite zaslon · Prilagodite zvuk · Prilagodite pristup internetu · Prilagodite štednju energije · Prilagodite zapisivanje"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Prilagodite presvlaku · Prilagodite lokalizaciju · Prilagodite upravljanje · Prilagodite čuvar zaslona · Prilagodite glavno zaključavanje"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Prilagodite i upravljajte uslugama dijeljenja medija · Prilagodite i upravljajte uslugama vremenske prognoze"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -305,11 +305,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Prilagodite postavke televizije · Prilagodite cijelozaslonske informacije · Upravljajte postavkama EPG vodiča"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Prilagodite izvore zbirke · Prilagodite kako zbirka prikazuje medijski sadržaj · Prilagodite kako se upravlja prikazom zbirke"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -1030,7 +1030,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Poredaj"
 
 # empty strings from id 31485 to 31599
 # PVR Resources

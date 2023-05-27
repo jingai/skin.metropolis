@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-09-03 21:39+0000\n"
+"Last-Translator: Xean <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/ca_es/>\n"
 "Language: ca_es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.14\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -157,7 +157,7 @@ msgstr ""
 
 msgctxt "#31109"
 msgid "Enable Debug Grid"
-msgstr ""
+msgstr "Activa la graella de depuració"
 
 # empty strings from id 31110 to 31117
 msgctxt "#31118"
@@ -205,7 +205,7 @@ msgstr "Format del píxel"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Canals d'àudio"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -213,7 +213,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Memòria utilitzada"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -275,38 +275,38 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Configureu les accions que es poden dur a terme durant la reproducció · Configureu com es reprodueix el contingut dels mitjans"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Gestioneu els vostres complements instal·lats · Navegueu i instal·leu els complements des de kodi.tv · Modifiqueu les opcions del complement"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Configureu la visualització · Configureu l'àudio · Configureu l'accés a Internet · Configureu l'estalvi energètic · Configureu el registrament"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Configureu l'aparença · Configureu la regió · Configureu el control · Configureu l'estalvi de pantalla · Configureu el bloqueig mestre"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Configureu i gestioneu els serveis de compartició de mitjans · Configureu i gestioneu el servei del temps"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
-msgstr ""
+msgstr "Configura la configuració del controlador · Configura les funcions de rebobinat i desat automàtic"
 
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Configureu les opcions de la TV · Canvieu la pantalla completa d'informació · Gestioneu les opcions de les dades de la guia electrònica de programació (EPG)"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Configureu els orígens de la biblioteca · Mostra el contingut de la visualització de les llistes dels mitjans · Configureu com es navega per les llistes de la biblioteca"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -515,7 +515,7 @@ msgstr ""
 
 msgctxt "#31353"
 msgid "Comedies are light-hearted plots consistently and deliberately designed to amuse and provoke laughter (with one-liners, jokes, etc.) by exaggerating the situation, the language, action, relationships and characters."
-msgstr ""
+msgstr "Les comèdies són trames alegres dissenyades de manera deliberada per divertir i provocar el riure (amb frases, acudits, etc.) exagerant la situació, el llenguatge, l'acció, les relacions i els personatges."
 
 msgctxt "#31354"
 msgid "This is a sub-genre of Musical. It includes filmed concerts by either a musical group of individual."
@@ -535,7 +535,7 @@ msgstr ""
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
-msgstr ""
+msgstr "Els drames són presentacions serioses, basades en la trama, que representen personatges realistes, escenaris, situacions de la vida i històries que impliquen un desenvolupament i una interacció intensos dels personatges. Normalment, no se centren en efectes especials, comèdia o acció. Les pel·lícules dramàtiques són probablement el gènere cinematogràfic més gran, amb molts subconjunts."
 
 msgctxt "#31359"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G or PG) that do not include topics or scenes with violence, foul language and other profanity, religious issues, mature themes and so on, and are specifically designed for children 12 and under (or for family viewing). Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
@@ -581,7 +581,7 @@ msgstr ""
 
 msgctxt "#31371"
 msgid "Multi-episode, fictional program of limited duration, shown on a daily or weekly schedule, usually lasting fifteen hours or less in total running time. A good television miniseries can make the small screen seem huge. These programs are the best that TV has to offer: an excuse to sink in and lose yourself in a story that isn't over in just a couple of hours. The sets, the plots, and the acting make each of these essential miniseries an exquisite television experience."
-msgstr ""
+msgstr "Programa de ficció de diversos capítols, de durada limitada, que es mostra en una programació diària o setmanal, amb una durada general de quinze hores o menys en temps total. Una bona minisèrie de televisió pot fer que la petita pantalla sembli enorme. Aquests programes són el millor que ofereix la televisió: una excusa per enfonsar-se i perdre's en una història que no s'acaba en només un parell d'hores. Els decorats, les trames i la interpretació fan de cadascuna d'aquestes minisèries essencials una experiència televisiva exquisida."
 
 msgctxt "#31372"
 msgid "Monster movie (also can be referred to as a creature feature or monster film) is a name commonly given to movies, which centre on the struggle between human beings and one or more monsters. The term is usually applied to films sometimes labelled as horror, fantasy or science fiction genre that involve fictional creatures, in most cases it is applied to films that feature more oversized monsters despite its history starting with adaptations of horror folklore and literature."
@@ -618,7 +618,7 @@ msgstr ""
 # empty string with id 31380
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
-msgstr ""
+msgstr "Un subgènere en la seva majoria, aquesta categoria comparteix algunes característiques amb drames romàntics, comèdies romàntiques i pel·lícules sexuals/eròtiques. Es tracta d'històries d'amor, o afers del cor que se centren en la passió, l'emoció i la implicació romàntica i afectuosa dels personatges principals (normalment un home i una dama protagonista), i el viatge que fa el seu amor a través del festeig o el matrimoni. Les pel·lícules romàntiques fan de la història d'amor el focus principal de la trama."
 
 msgctxt "#31382"
 msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
@@ -671,7 +671,7 @@ msgstr ""
 
 msgctxt "#31395"
 msgid "Westerns are the major defining genre of the American film industry - a eulogy to the early days of the expansive American frontier. They are one of the oldest, most enduring genres with very recognizable plots, elements, and characters (six-guns, horses, dusty towns and trails, cowboys, Indians, etc.). Over time, westerns have been re-defined, re-invented and expanded, dismissed, re-discovered, and spoofed."
-msgstr ""
+msgstr "Els westerns són el principal gènere que defineix la indústria cinematogràfica nord-americana: un elogi als primers dies de l'expansiva frontera nord-americana. Són un dels gèneres més antics i perdurables amb trames, elements i personatges molt reconeguts (revòlvers, cavalls, pobles i senders polsegosos, vaquers, indis, etc.).Amb el pas del temps, els westerns s'han redefinit, reinventat i ampliat, rebutjat, redescobert i falsificat."
 
 msgctxt "#31396"
 msgid "Wrestling is a martial art that uses grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds. A wrestling bout is a physical competition, between two (occasionally more) competitors or sparring partners, who attempt to gain and maintain a superior position. There are a wide range of styles with varying rules with both traditional historic and modern styles."
@@ -699,7 +699,7 @@ msgstr ""
 
 msgctxt "#31402"
 msgid "Use Plot Summary in other views"
-msgstr ""
+msgstr "Utilitzeu Resum de trama en altres vistes"
 
 msgctxt "#31403"
 msgid "Hide Media Flags"
@@ -883,7 +883,7 @@ msgstr ""
 
 msgctxt "#31448"
 msgid "Show Plot only in Info dialog"
-msgstr ""
+msgstr "Mostra la trama només al diàleg d'informació"
 
 msgctxt "#31449"
 msgid "Show Recommended Items"
@@ -947,7 +947,7 @@ msgstr ""
 
 msgctxt "#31464"
 msgid "Show Plot in Fullscreen Info"
-msgstr ""
+msgstr "Mostra la trama a la informació de pantalla completa"
 
 msgctxt "#31465"
 msgid "Clean Library"

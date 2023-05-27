@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/pl_pl/>\n"
 "Language: pl_pl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -263,25 +263,25 @@ msgstr "Domyślna kompozycja ekranu startowego"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Konfiguracja dostępnych funkcji odtwarzacza · Konfiguracja odtwarzania mediów"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Zarządzanie zainstalowanymi dodatkami · Przeglądanie i instalowanie dodatków · Ustawienia dodatków"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Konfiguracja wyświetlacza · Konfiguracja dźwięku · Konfiguracja dostępu do Internetu · Konfiguracja zasilania · Konfiguracja diagnostyki"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Konfiguracja skóry · Konfiguracja regionu · Konfiguracja sterowania · Konfiguracja wygaszacza · Konfiguracja dostępu"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Konfiguracja i zarządzanie usługami udostępniania · Konfiguracja i zarządzanie usługą informacji pogodowych"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -290,11 +290,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Konfiguracja telewizji · Menu ekranowe · Przewodnik programów · Nagrywanie"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Konfiguracja źródeł biblioteki · Konfiguracja wyświetlania zawartości · Konfiguracja przeglądania multimediów"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -1042,15 +1042,15 @@ msgstr "Stan usługi telewizji"
 
 msgctxt "#31700"
 msgid "7 Day Forecast"
-msgstr "Prognoza 7 dniowa"
+msgstr "Prognoza 7-dniowa"
 
 msgctxt "#31701"
 msgid "12 Hour Forecast"
-msgstr "Prognoza 12 godzinna"
+msgstr "Prognoza 12-godzinna"
 
 msgctxt "#31702"
 msgid "36 Hour Forecast"
-msgstr "Prognoza 36 godzinna"
+msgstr "Prognoza 36-godzinna"
 
 msgctxt "#31703"
 msgid "Pressure"

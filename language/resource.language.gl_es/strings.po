@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-09-23 01:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Galician (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/gl_es/>\n"
 "Language: gl_es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -199,7 +199,7 @@ msgstr "Formato de pixel"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Canles de son"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -267,25 +267,25 @@ msgstr "Disposición Predefinida da Pantalla Principal"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Configurar as accións permitidas durante a reprodución · Configurar como se reproduce o contido multimedia"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Xestiona os teus complementos instalados · Busca e instala complementos de kodi.tv · Modifica os axustes dos complementos"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Configurar a pantalla · Configurar o son · Configurar internet · Configurar o aforro de enerxía · Configurar o rexistro de eventos"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Configurar o tema · Configurar a rexión · Configurar o control · Configurar o protector de pantalla · Configurar o bloqueo maestro"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Configurar e xestionar os servizos de compartición de medios · Configurar e xestionar o servizo metereolóxico"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -294,11 +294,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Configurar os axustes da TV · Mudar a configuración da pantalla completa · Xestionar os axustes dos datos da Guía"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Axustes das fontes da biblioteca · Amosar o contido das listas de medios · Axustes de como navegar as listas da biblioteca"
 
 msgctxt "#31244"
 msgid "Playing"

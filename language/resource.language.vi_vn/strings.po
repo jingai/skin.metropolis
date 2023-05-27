@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-01 18:29+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Vietnamese <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/vi_vn/>\n"
 "Language: vi_vn\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -207,7 +207,7 @@ msgstr "Định dạng điểm ảnh"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Kênh âm thanh"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -261,7 +261,7 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Kiểu xem"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
@@ -279,15 +279,15 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Định cấu hình các hành động được sử dụng trong khi phát · Định cấu hình cách phát nội dung đa phương tiện"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Quản lý tiện ích đã cài đặt của bạn · Duyệt tìm và cài đặt các tiện ích từ kodi.tv · Sửa đổi cài đặt tiện ích"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Cấu hình hiển thị · Cấu hình âm thanh · Cấu hình truy cập internet · Cấu hình tiết kiệm năng lượng · Cấu hình ghi nhật ký"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
@@ -297,7 +297,7 @@ msgstr ""
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Định cấu hình và quản lý dịch vụ chia sẻ đa phương tiện · Cấu hình và quản lý dịch vụ thời tiết"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -851,7 +851,7 @@ msgstr ""
 
 msgctxt "#31438"
 msgid "Recent"
-msgstr ""
+msgstr "Gần đây"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
@@ -903,7 +903,7 @@ msgstr ""
 
 msgctxt "#31451"
 msgid "Recommended"
-msgstr ""
+msgstr "Khuyến nghị"
 
 msgctxt "#31452"
 msgid "Visualization: Use Slim Info Overlay"
@@ -1035,7 +1035,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Sắp xếp"
 
 # empty strings from id 31485 to 31599
 # PVR Resources

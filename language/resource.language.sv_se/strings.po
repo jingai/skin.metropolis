@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -196,7 +196,7 @@ msgstr "Pixelformat"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Ljudkanaler"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -204,7 +204,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Använt minne"
 
 msgctxt "#31159"
 msgid "ffx2"
@@ -264,25 +264,25 @@ msgstr "Standard hemlayout"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Konfigurera åtgärder som kan användas under uppspelning · Konfigurera hur mediainnehåll spelas"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Hantera dina installerade tillägg · Bläddra efter och installera tillägg från kodi.tv · Ställ in tilläggsinställningar"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Konfigurera skärmen · Konfigurera ljud · Konfigurera internetåtkomst · Konfigurera energialternativ · Konfigurera loggning"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Konfigurera skal · Konfigurera plats · Konfigurera kontroll · Konfigurera skärmsläckare · Konfigurera huvudlåset"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Konfigurera & hantera delningstjänster för media · Konfigurera & hantera vädertjänsten"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -291,11 +291,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Konfigurera tv-inställningar · Ändra helskärmsinformation · Hantera EPG datainställningar"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Konfigurera bibliotekskällor · Visa medialistor displayinnehåll · Konfigurera hur bibliotekslistor navigeras"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -1003,7 +1003,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Sortera"
 
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"

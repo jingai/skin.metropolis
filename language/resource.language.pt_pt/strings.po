@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Portuguese (Portugal) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/pt_pt/>\n"
 "Language: pt_pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -197,7 +197,7 @@ msgstr "Formato do ponto"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Canais de áudio"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -205,7 +205,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Memória usada"
 
 msgctxt "#31159"
 msgid "ffx2"
@@ -265,25 +265,25 @@ msgstr "Disposição Inicial Padrão"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Configurar as ações que podem ser usadas durante a reprodução · Configurar a forma como os conteúdos são reproduzidos"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Gerir os add-ons instalados · Procurar e instalar os add-ons a partir de kodi.tv · Modificar as definições dos add-ons"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Configurar o ecrã · Configurar o áudio · Configurar o acesso à Internet · Configurar a poupança de energia · Configurar o registo de eventos"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Configurar o visual · Configurar a região · Configurar o controlo · Configurar o protetor de ecrã · Configurar o bloqueio-mestre"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Configurar & gerir os serviços de partilha de conteúdos · Configurar & gerir o serviço meteorológico"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -292,11 +292,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Configurar definições de TV · Informação em ecrã completo · Gerir definições de dados do EPG"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Configurar fontes · Mostrar conteúdo das listas multimédia ·Configurar o modo de navegação nas listas"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -1007,7 +1007,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Ordem"
 
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"

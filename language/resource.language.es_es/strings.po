@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-03 12:29+0000\n"
-"Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
+"PO-Revision-Date: 2023-04-29 12:16+0000\n"
+"Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/es_es/>\n"
 "Language: es_es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -67,11 +67,11 @@ msgstr "Aumentar Puntuación"
 
 msgctxt "#31013"
 msgid "Select Weather icons"
-msgstr "Seleccionar iconos de Clima"
+msgstr "Seleccionar iconos de Meteorología"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr "Seleccionar fanart de Clima"
+msgstr "Seleccionar fanart de Meteorología"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
@@ -95,11 +95,11 @@ msgstr "Disminuir Puntuación"
 
 msgctxt "#31024"
 msgid "Icon Home layout"
-msgstr "Diseño de Inicio con Iconos"
+msgstr "Disposición de Inicio con Iconos"
 
 msgctxt "#31025"
 msgid "Horizontal Text Home layout"
-msgstr "Diseño de Inicio con Texto Horizontal"
+msgstr "Disposición de Inicio con Texto Horizontal"
 
 msgctxt "#31031"
 msgid "Hide Movie Watched Status"
@@ -115,7 +115,7 @@ msgstr "Ocultar Fanart de Fondo"
 
 msgctxt "#31034"
 msgid "Enable Dynamic Weather Artwork"
-msgstr "Habilitar Fondo Dinámico del Clima"
+msgstr "Habilitar Fondo Dinámico de Meteorología"
 
 msgctxt "#31035"
 msgid "Show Clean Library SubMenu items"
@@ -259,7 +259,7 @@ msgstr "Última Actualización:"
 
 msgctxt "#31210"
 msgid "Default Home layout"
-msgstr "Diseño de Inicio por defecto"
+msgstr "Disposición de Inicio por defecto"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
@@ -267,7 +267,7 @@ msgstr "Configurar acciones a usar mientras reproduce · Configurar cómo se rep
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr "Gestionar los Add-ons instalados · Buscar e instalar Add-ons desde kodi.tv · Modificar los ajustes de los Add-ons"
+msgstr "Gestionar los add-ons instalados · Buscar e instalar add-ons desde kodi.tv · Modificar los ajustes de los add-ons"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
@@ -427,7 +427,7 @@ msgstr "Activar FanArt Extra"
 
 msgctxt "#31334"
 msgid "Trailers"
-msgstr "Trailers"
+msgstr "Tráilers"
 
 msgctxt "#31336"
 msgid "Enable Kiosk mode"
@@ -619,7 +619,7 @@ msgstr "Una obra de teatro es una forma de literatura escrita por un dramaturgo,
 
 msgctxt "#31389"
 msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
-msgstr "Comedia Stand-up es un arte cómico. Por lo general, un cómico actua en frente de una audiencia en vivo, hablandoles directamente. Sus actuaciones a veces se filman para su posterior publicación en DVD, Internet y televisión. El artista se conoce comúnmente como un cómico, comediante o simplemente un stand-up."
+msgstr "Comedia Stand-up es un arte cómico. Por lo general, un cómico actua en frente de una audiencia en vivo, hablandoles directamente. Sus actuaciones a veces se filman para su posterior publicación en DVD, Internet y televisión. El intérprete se conoce comúnmente como un cómico, comediante o simplemente un stand-up."
 
 msgctxt "#31390"
 msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
@@ -663,7 +663,7 @@ msgstr "Fondo Fanart Claro difuminado"
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
-msgstr "Ocultar Temperatura Actual y Condición del Clima"
+msgstr "Ocultar Temperatura Actual y Condición Meteorológica"
 
 msgctxt "#31401"
 msgid "Hide Clock"
@@ -851,7 +851,7 @@ msgstr "Pantalla Completa"
 
 msgctxt "#31447"
 msgid "Use Realistic Weather Icons"
-msgstr "Usar Iconos Realistas de Clima"
+msgstr "Usar Iconos Realistas de Meteorología"
 
 msgctxt "#31448"
 msgid "Show Plot only in Info dialog"
@@ -959,7 +959,7 @@ msgstr "Sin mezclar"
 
 msgctxt "#31474"
 msgid "Use one button to toggle subtitles"
-msgstr "Usar un botón para cambiar los subtitulos"
+msgstr "Usar un botón para activar los subtitulos"
 
 msgctxt "#31475"
 msgid "Default OSD button"
@@ -1079,11 +1079,11 @@ msgstr "Precipitación"
 
 msgctxt "#31710"
 msgid "Use extended weather"
-msgstr "Usar tiempo extendido"
+msgstr "Usar meteorología extendida"
 
 msgctxt "#31711"
 msgid "Show weather forecast on home screen"
-msgstr "Ver Pronóstico del Clima en la pantalla principal"
+msgstr "Ver pronóstico meteorológico en la pantalla principal"
 
 msgctxt "#31712"
 msgid "Crop Thumbnails in Music Video Gallery View"

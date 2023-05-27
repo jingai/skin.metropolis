@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-04-12 15:13+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Spanish (Argentina) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/es_ar/>\n"
 "Language: es_ar\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -186,7 +186,7 @@ msgstr ""
 # empty strings from id 31134 to 31135
 msgctxt "#31136"
 msgid "Video Info"
-msgstr ""
+msgstr "Info Vídeo"
 
 msgctxt "#31137"
 msgid "Audio Info"
@@ -206,7 +206,7 @@ msgstr "Formato de píxel"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Canales de audio"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -214,7 +214,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Memoria usada"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -260,7 +260,7 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Vista"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
@@ -388,7 +388,7 @@ msgstr "Archivos"
 # empty string with id 31290
 msgctxt "#31291"
 msgid "Landscape"
-msgstr ""
+msgstr "Landscape"
 
 # empty string with id 31292
 msgctxt "#31293"
@@ -757,7 +757,7 @@ msgstr ""
 
 msgctxt "#31415"
 msgid "Square"
-msgstr ""
+msgstr "Ícono Cuadrado"
 
 msgctxt "#31416"
 msgid "Tall Genre"
@@ -805,7 +805,7 @@ msgstr ""
 
 msgctxt "#31427"
 msgid "Next Episode"
-msgstr ""
+msgstr "Próximo Episodio"
 
 msgctxt "#31428"
 msgid "TV Guide"
@@ -901,7 +901,7 @@ msgstr ""
 
 msgctxt "#31451"
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 msgctxt "#31452"
 msgid "Visualization: Use Slim Info Overlay"
@@ -985,7 +985,7 @@ msgstr ""
 
 msgctxt "#31472"
 msgid "Ended"
-msgstr ""
+msgstr "Finalizado"
 
 msgctxt "#31473"
 msgid "unmixed"
@@ -1033,7 +1033,7 @@ msgstr ""
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Orden"
 
 # empty strings from id 31485 to 31599
 # PVR Resources

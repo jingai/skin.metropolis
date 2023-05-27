@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
+"PO-Revision-Date: 2022-08-03 14:14+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Japanese <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/ja_jp/>\n"
 "Language: ja_jp\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -206,7 +206,7 @@ msgstr "ピクセル形式"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "オーディオチャンネル"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -214,7 +214,7 @@ msgstr ""
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "メモリ使用量"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
@@ -260,7 +260,7 @@ msgstr ""
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "表示タイプ"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
@@ -278,25 +278,25 @@ msgstr ""
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "再生中に使用できるアクションを設定する · メディアコンテンツの再生方法を設定"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "インストールしたアドオンの管理 · kodi.tvからインストールしたアドオンの閲覧 · アドオンの変更と設定"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "設定の表示 · オーディオの設定 · インターネット アクセスの設定 · 省電力の設定· ログの設定"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "設定 スキン · 設定 地域 · 設定 コントロール · 設定 スクリーンセーバー · 設定 マスターロック"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "設定 & メディア共有サービス · 設定 & 天気予報サービス"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -305,11 +305,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "設定 TV設定 · 変更 全画面時の詳細 · 管理 EPG データ設定"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "ライブラリソースの設定 · メディアリストの表示内容の表示 · ライブラリリストの移動方法の設定"
 
 msgctxt "#31244"
 msgid "Playing"

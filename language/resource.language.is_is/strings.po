@@ -5,20 +5,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Icelandic (Iceland) (http://www.transifex.com/projects/p/kodi-skins/language/is_IS/)\n"
-"Language: is_IS\n"
+"PO-Revision-Date: 2023-02-20 07:15+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/is_is/>\n"
+"Language: is_is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
-msgstr "Blanda af gamaldags og nútímalegu"
+msgstr "Blanda af gamaldags og nútímalegu."
 
 msgctxt "Addon Description"
 msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
@@ -267,25 +268,25 @@ msgstr "Sjálfgefin framsetning forsíðu"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Stilla aðgerðir sem hægt er að nota á meðan afspilun stendur · Stilla hvernig margmiðlunarefni er spilað"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Breyttu uppsettum viðbótum · Leitaðu að og settu upp viðbætur frá kodi.tv · Breyta stillingum viðbóta"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Stilla skjá · Stilla hljóð · Stilla internetaðgang · Stilla orkusparnað · Stilla atvikaskráningu"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Stilla skinn · Stilla landsvæði · Stilla stýringar · Stilla skjáhvílu · Stilla aðallás"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Stilla og sýsla með margmiðlunarþjónustur · Stilla og sýsla með veðurþjónustu"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
@@ -294,11 +295,11 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Skilgreina stillingar sjónvarps - Breyta upplýsingum á fullum skjá. - Meðhöndla gögn stafræns dagskrárvísis"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Stilltu uppruna í safni · Stilltu hvernig efni birtist í listum · Stilltu hvernig flakkað er um lista í safni"
 
 msgctxt "#31244"
 msgid "Playing"
