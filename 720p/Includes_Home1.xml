@@ -70,7 +70,7 @@
 				<aspectratio>scale</aspectratio>
 				<visible>!Player.HasVideo</visible>
 				<visible>!String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
-				<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
+				<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds) + !Control.HasFocus(8000)</visible>
 			</control>
 			<control type="multiimage">
 				<posx>240</posx>
@@ -84,7 +84,7 @@
 				<aspectratio>stretch</aspectratio>
 				<visible>!Player.HasVideo</visible>
 				<visible>!String.IsEqual(Container(9000).ListItem.Property(background),home\weather\)</visible>
-				<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds)</visible>
+				<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds) | Control.HasFocus(8000)</visible>
 			</control>
 			<control type="multiimage">
 				<posx>240</posx>
