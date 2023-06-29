@@ -103,7 +103,7 @@
 						<height>76</height>
 						<fadetime>100</fadetime>
 						<aspectratio align="left" aligny="center">keep</aspectratio>
-						<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
+						<texture>$VAR[GlobalDialogIcon]</texture>
 						<bordertexture border="8">frames/thumb_border_square.png</bordertexture>
 						<bordersize>6</bordersize>
 					</control>
@@ -127,7 +127,7 @@
 						<height>160</height>
 						<fadetime>100</fadetime>
 						<aspectratio align="left" aligny="center">keep</aspectratio>
-						<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
+						<texture>$VAR[GlobalDialogIcon]</texture>
 						<bordertexture border="8">frames/thumb_border_round2.png</bordertexture>
 						<bordersize>4</bordersize>
 					</control>
