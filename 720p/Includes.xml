@@ -1588,27 +1588,27 @@
 					<aspectratio align="center" aligny="bottom">keep</aspectratio>
 					<visible>Skin.HasSetting(Enable_OSDClearArt) + VideoPlayer.Content(Episodes)</visible>
 				</control>
-				<!-- Movie Poster -->
-				<control type="image">
-					<description>Movie Poster</description>
-					<posx>42</posx>
-					<posy>370</posy>
-					<width>216</width>
-					<height>318</height>
-					<texture background="true">$INFO[VideoPlayer.Cover]</texture>
-					<aspectratio scalediffuse="false">scale</aspectratio>
-					<visible>VideoPlayer.Content(Movies) + !String.StartsWith(VideoPlayer.Cover,default)</visible>
-				</control>
-				<control type="image">
-					<description>Movie Poster Frame</description>
-					<posx>28</posx>
-					<posy>350</posy>
-					<width>244</width>
-					<height>358</height>
-					<texture>frames/ClassicFrame_PosterMedium.png</texture>
-					<aspectratio>stretch</aspectratio>
-					<visible>VideoPlayer.Content(Movies) + !String.StartsWith(VideoPlayer.Cover,default)</visible>
-				</control>
+                <!-- Movie Poster -->
+                <control type="image">
+                    <description>Movie Poster</description>
+                    <posx>42</posx>
+                    <posy>370</posy>
+                    <width>216</width>
+                    <height>318</height>
+                    <texture background="true">$INFO[Player.Art(poster)]</texture>
+                    <aspectratio scalediffuse="false">scale</aspectratio>
+                    <visible>VideoPlayer.Content(Movies) + !String.StartsWith(Player.Art,default)</visible>
+                </control>
+                <control type="image">
+                    <description>Movie Poster Frame</description>
+                    <posx>28</posx>
+                    <posy>350</posy>
+                    <width>244</width>
+                    <height>358</height>
+                    <texture>frames/ClassicFrame_PosterMedium.png</texture>
+                    <aspectratio>stretch</aspectratio>
+                    <visible>VideoPlayer.Content(Movies) + !String.StartsWith(Player.Art,default)</visible>
+                </control>
 				<!-- Music Video Thumbnail -->
 				<control type="image">
 					<description>Music Video Thumbnail</description>
