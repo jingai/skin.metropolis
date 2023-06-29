@@ -1860,23 +1860,23 @@
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$LOCALIZE[31244][/UPPERCASE]</label>
-				<visible>Player.Playing + ![Player.SeekBar | Player.DisplayAfterSeek] + !Player.IsTempo</visible>
+				<visible>Player.Playing + ![Player.SeekBar | Player.HasPerformedSeek(3)] + !Player.IsTempo</visible>
 			</control>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$INFO[Player.SeekOffset][/UPPERCASE]</label>
-				<visible>Player.DisplayAfterSeek + ![Player.Paused | Player.Forwarding | Player.Rewinding] + !Player.IsTempo</visible>
+				<visible>Player.HasPerformedSeek(3) + ![Player.Paused | Player.Forwarding | Player.Rewinding] + !Player.IsTempo</visible>
 			</control>
 			<!--labels while at not normal speed -->
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$LOCALIZE[31244][/UPPERCASE]</label>
-				<visible>Player.Playing + ![Player.SeekBar | Player.DisplayAfterSeek] + Player.IsTempo</visible>
+				<visible>Player.Playing + ![Player.SeekBar | Player.HasPerformedSeek(3)] + Player.IsTempo</visible>
 			</control>
 			<control type="label">
 				<include>OSD_Player_Labels</include>
 				<label>[UPPERCASE]$INFO[Player.PlaySpeed,+,X][/UPPERCASE] [UPPERCASE]$INFO[Player.SeekOffset][/UPPERCASE]</label>
-				<visible>Player.DisplayAfterSeek + ![Player.Paused | Player.Forwarding | Player.Rewinding] + Player.IsTempo</visible>
+				<visible>Player.HasPerformedSeek(3) + ![Player.Paused | Player.Forwarding | Player.Rewinding] + Player.IsTempo</visible>
 			</control>
 		</control>
 	</include>
