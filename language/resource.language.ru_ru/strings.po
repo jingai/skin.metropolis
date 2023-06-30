@@ -23,7 +23,7 @@ msgstr "Смесь стилей ретро и модерна."
 
 msgctxt "Addon Description"
 msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
-msgstr "Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи. Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. &#10;Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса."
+msgstr "Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи. Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. [CR]Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса."
 
 msgctxt "#31001"
 msgid "View Options"
