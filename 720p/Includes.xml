@@ -8,6 +8,7 @@
 	<include file="Includes_Home3.xml" />
 	<include file="Includes_HomeDeck.xml" />
 	<include file="Includes_DialogSelect.xml" />
+	<include file="Includes_DialogVideoVersion.xml" />
 	<include file="script-skinshortcuts-includes.xml"/>
 	<include file="Includes_MediaFlags.xml" />
 	<include file="Includes_MediaFlags2.xml" />

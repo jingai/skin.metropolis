@@ -507,6 +507,13 @@
 				<include>Animation_ButtonFocus</include>
 				<visible>String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo)</visible>
 			</control>
+			<!-- Refresh -->
+			<control type="button" id="6">
+				<include>VideoInfoButton</include>
+				<texturenofocus>buttons/button_refresh.png</texturenofocus>
+				<texturefocus>buttons/button_refreshFO.png</texturefocus>
+				<include>Animation_ButtonFocus</include>
+			</control>
 			<!-- Trailer -->
 			<control type="button" id="11">
 				<include>VideoInfoButton</include>
@@ -522,6 +529,31 @@
 				<texturefocus>buttons/button_fanartFO.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
 			</control>
+			<!-- User ratings -->
+			<control type="button" id="7">
+				<description>Set rating</description>
+				<include>VideoInfoButton</include>
+				<texturenofocus>buttons/button_thumb.png</texturenofocus>
+				<texturefocus>buttons/button_thumbFO.png</texturefocus>
+				<include>Animation_ButtonFocus</include>
+			</control>
+			<!-- Director -->
+			<control type="button" id="13">
+				<description>Director</description>
+				<include>VideoInfoButton</include>
+				<texturenofocus>buttons/button_director.png</texturenofocus>
+				<texturefocus>buttons/button_directorFO.png</texturefocus>
+				<include>Animation_ButtonFocus</include>
+			</control>
+			<!-- Versions -->
+			<control type="button" id="14">
+				<description>Versions</description>
+				<include>VideoInfoButton</include>
+				<texturenofocus>buttons/button_layers.png</texturenofocus>
+				<texturefocus>buttons/button_layersFO.png</texturefocus>
+				<include>Animation_ButtonFocus</include>
+			</control>
+			
 			<!-- Artwork Downloading Button, artwork.beef -->
 			<control type="button" id="20">
 				<include>VideoInfoButton</include>
@@ -557,20 +589,6 @@
 				<label>$INFO[System.AddonTitle(script.extendedinfo)]</label>
 				<visible>System.HasAddon(script.extendedinfo)</visible>
 				<visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,musicvideo)</visible>
-			</control>
-			<!-- Refresh -->
-			<control type="button" id="6">
-				<include>VideoInfoButton</include>
-				<texturenofocus>buttons/button_refresh.png</texturenofocus>
-				<texturefocus>buttons/button_refreshFO.png</texturefocus>
-				<include>Animation_ButtonFocus</include>
-			</control>
-			<!-- User ratings -->
-			<control type="button" id="7">
-				<description>Set rating</description>
-				<include>VideoInfoButton</include>
-				<texturenofocus>buttons/button_thumb.png</texturenofocus>
-				<texturefocus>buttons/button_thumbFO.png</texturefocus>
 			</control>
 		</control>
 		<!-- Control Button Text -->
@@ -631,6 +649,18 @@
 				<include>VideoInfoButtonLabel</include>
 				<label>$LOCALIZE[38023]</label>
 				<visible>ControlGroup(7003).HasFocus(7)</visible>
+			</control>
+			<control type="label">
+				<description>Director</description>
+				<include>VideoInfoButtonLabel</include>
+				<label>$LOCALIZE[20339]</label>
+				<visible>ControlGroup(7003).HasFocus(13)</visible>
+			</control>
+			<control type="label">
+				<description>Versions</description>
+				<include>VideoInfoButtonLabel</include>
+				<label>$LOCALIZE[40000]</label>
+				<visible>ControlGroup(7003).HasFocus(14)</visible>
 			</control>
 		</control>
 
