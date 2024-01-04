@@ -31,7 +31,7 @@
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/hdtv.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>String.Contains(listitem.filename,hdtv) | String.Contains(listitem.filename,pdtv) | [[!String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,bluray) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.mt2s) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip) + !String.Contains(listitem.filename,dvd)] + Container.Content(episodes) + [String.Contains(listitem.VideoResolution,720) | String.Contains(listitem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K)]]</visible>
+					<visible>String.Contains(listitem.filename,hdtv) | String.Contains(listitem.filename,pdtv) | [[!String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,bluray) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.mt2s) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip) + !String.Contains(listitem.filename,dvd)] + Container.Content(episodes) + [String.Contains(listitem.VideoResolution,720) | String.Contains(listitem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K | String.Contains(ListItem.VideoResolution,8K)]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
@@ -49,13 +49,13 @@
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/bluray.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>!ListItem.IsStereoscopic + [String.Contains(listitem.filename,bluray) | String.Contains(listitem.filename,blu-ray) | String.Contains(listitem.filename,brrip) | String.Contains(listitem.filename,bdrip) | String.EndsWith(listitem.filename,.mt2s) | [[!String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.Contains(listitem.filename,pdtv) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(ListItem.VideoResolution,720) | String.Contains(ListItem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K)]]]</visible>
+					<visible>!ListItem.IsStereoscopic + [String.Contains(listitem.filename,bluray) | String.Contains(listitem.filename,blu-ray) | String.Contains(listitem.filename,brrip) | String.Contains(listitem.filename,bdrip) | String.EndsWith(listitem.filename,.mt2s) | [[!String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.Contains(listitem.filename,pdtv) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(ListItem.VideoResolution,720) | String.Contains(ListItem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K | String.Contains(ListItem.VideoResolution,8K)]]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
 					<texture fallback="flags/default.png">flags/Source/bd3d.png</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>ListItem.IsStereoscopic + [String.Contains(listitem.filename,bluray) | String.Contains(listitem.filename,blu-ray) | String.Contains(listitem.filename,brrip) | String.Contains(listitem.filename,bdrip) | String.EndsWith(listitem.filename,.mt2s) | [[!String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.Contains(listitem.filename,pdtv) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(ListItem.VideoResolution,720) | String.Contains(ListItem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K)]]]</visible>
+					<visible>ListItem.IsStereoscopic + [String.Contains(listitem.filename,bluray) | String.Contains(listitem.filename,blu-ray) | String.Contains(listitem.filename,brrip) | String.Contains(listitem.filename,bdrip) | String.EndsWith(listitem.filename,.mt2s) | [[!String.Contains(listitem.filename,sddvd) + !String.Contains(listitem.filename,blu-ray) + !String.Contains(listitem.filename,brrip) + !String.Contains(listitem.filename,bdrip) + !String.Contains(listitem.filename,tvrip) + !String.Contains(listitem.filename,pdtv) + !String.Contains(listitem.filename,hddvd) + !String.Contains(listitem.filename,sdtv) + !String.Contains(listitem.filename,hdtv) + !String.EndsWith(listitem.filename,.evo) + !String.EndsWith(listitem.filename,.ifo) + !String.EndsWith(listitem.filename,.vob) + !String.Contains(listitem.filename,r5) + !String.Contains(listitem.filename,dvdscr) + !String.Contains(listitem.filename,screener) + !String.Contains(listitem.filename,web-dl) + !String.Contains(listitem.filename,webrip)] + [Container.Content(movies) | Container.Content(MusicVideos)] + [String.Contains(ListItem.VideoResolution,720) | String.Contains(ListItem.VideoResolution,1080) | String.Contains(ListItem.VideoResolution,4K | String.Contains(ListItem.VideoResolution,8K)]]]</visible>
 				</control>
 				<control type="image">
 					<include>MediaFlagsVarsWide</include>
@@ -98,6 +98,24 @@
 					<texture>flags/flag_frame.png</texture>
 					<colordiffuse>MediaFlagBoxDiffuse</colordiffuse>
 				</control>
+			</control>
+
+			<!-- HDR Video -->
+			<control type="group">
+				<width>90</width>
+				<height>62</height>
+				<control type="image">
+					<include>MediaFlagsVarsWide</include>
+					<texture fallback="flags/VideoHDR/sdr.png">$VAR[MediaFlag_HDRVideo]</texture>
+					<colordiffuse>MediaFlagDiffuse</colordiffuse>
+				</control>
+				<control type="image">
+					<width>104</width>
+					<height>54</height>
+					<texture>flags/flag_frame.png</texture>
+					<colordiffuse>MediaFlagBoxDiffuse</colordiffuse>
+				</control>
+			<visible>!String.IsEmpty(ListItem.HdrType) | !String.IsEmpty(VideoPlayer.HdrType)</visible>
 			</control>
 
 			<!-- Video Aspect -->

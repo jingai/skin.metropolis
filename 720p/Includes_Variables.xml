@@ -408,6 +408,10 @@
 		<value condition="String.IsEmpty(ListItem.VideoResolution)">$INFO[VideoPlayer.VideoResolution,flags/VideoResolution/,.png]</value>
 		<value>$INFO[ListItem.VideoResolution,flags/VideoResolution/,.png]</value>
 	</variable>
+	<variable name="MediaFlag_HDRVideo">
+		<value condition="String.IsEmpty(ListItem.HdrType)">$INFO[VideoPlayer.HdrType,flags/VideoHDR/,.png]</value>
+		<value>$INFO[ListItem.HdrType,flags/VideoHDR/,.png]</value>
+	</variable>
 	<variable name="MediaFlag_VideoAspect">
 		<value condition="String.IsEmpty(ListItem.VideoAspect)">$INFO[VideoPlayer.VideoAspect,flags/VideoAspect/,.png]</value>
 		<value>$INFO[ListItem.VideoAspect,flags/VideoAspect/,.png]</value>
