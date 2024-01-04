@@ -99,7 +99,7 @@
 		<label>1036</label>
 		<label2>32034</label2>
 		<icon>home_icons/favourites.png</icon>
-		<action>ActivateWindow(favourites)</action>
+		<action>ActivateWindow(favouritesbrowser)</action>
 		<defaultID>favourites</defaultID>
 	</shortcut>
 	<!-- non-standard mainmenu shortcut -->

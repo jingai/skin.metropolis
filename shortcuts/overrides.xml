@@ -32,7 +32,7 @@
 	<widgetdefaultnode defaultID="tvshows" group="mainmenu" type="tvshows" target="video" label="20387" path="library://video/tvshows/recentlyaddedepisodes.xml/">RecentEpisodes</widgetdefaultnode>
 	<widgetdefaultnode defaultID="music" group="mainmenu" type="music" target="music" label="359" path="musicdb://recentlyaddedalbums/">RecentAlbums</widgetdefaultnode>
 	<widgetdefaultnode defaultID="musicvideos" group="mainmenu" type="musicvideos" target="video" label="20390" path="library://video/musicvideos/recentlyaddedmusicvideos.xml/">RecentMusicVideos</widgetdefaultnode>
-	<widgetdefaultnode defaultID="favourites" group="mainmenu" type="movies" target="videos" label="1036" path="plugin://script.skin.helper.widgets/?action=favourites&amp;mediatype=favourites&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]">Favourites</widgetdefaultnode>
+	<widgetdefaultnode defaultID="favourites" group="mainmenu" type="movies" target="videos" label="1036" path="favourites://">Favourites</widgetdefaultnode>
 	<widgetdefault defaultID="livetv" group="mainmenu">PVRStatusWidget</widgetdefault>
 	<widgetdefault defaultID="weather" group="mainmenu">WeatherForecastWidget</widgetdefault>
 
