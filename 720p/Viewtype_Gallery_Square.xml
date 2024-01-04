@@ -22,7 +22,7 @@
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
 				<visible>!Skin.HasSetting(NoViewGallerySquare)</visible>
-				<visible>Window.IsActive(pictures) | Window.IsActive(programs) | Window.IsActive(videos) | Container.Content(Addons) | Container.Content(Albums) | Container.Content(Artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin)</visible>
+				<visible>Window.IsActive(favouritesbrowser) | Window.IsActive(programs) | Window.IsActive(videos) | Container.Content(Addons) | Container.Content(Albums) | Container.Content(Artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin)</visible>
 				<itemlayout width="205" height="205">
 					<control type="image">
 						<posx>25</posx>

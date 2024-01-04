@@ -655,7 +655,7 @@
 						<height>440</height>
 						<fadetime>100</fadetime>
 						<aspectratio align="right" aligny="center">keep</aspectratio>
-						<texture>$INFO[ListItem.Icon]</texture>
+						<texture fallback="DefaultAddon.png">$INFO[ListItem.Icon]</texture>
 						<visible>[!Window.IsActive(videos) + !Window.IsActive(games) | [Window.IsActive(videos) + !Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(genres)]] + ![Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons) | [Window.IsActive(pictures) + !String.Contains(Container.FolderPath,plugin) + !Window.IsActive(games)]]</visible>
 					</control>
 					<control type="image">

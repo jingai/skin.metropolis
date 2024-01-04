@@ -680,6 +680,7 @@
 		<value condition="Window.IsActive(MusicPlaylist)">$LOCALIZE[2] $LOCALIZE[559]</value>
 		<value condition="Window.IsActive(SystemInfo)">$LOCALIZE[130]</value>
 		<value condition="Window.IsActive(LoginScreen)">$LOCALIZE[20096]</value>
+		<value condition="Window.IsActive(favouritesbrowser)">$LOCALIZE[1036]</value>
 		<value condition="String.IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
 		<value>$INFO[Container.FolderName]</value>
 	</variable>

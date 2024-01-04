@@ -280,13 +280,13 @@
 			<property name="widget">Favourites</property>
 			<property name="widgetName">1036</property>
 			<property name="widgetType">movies</property>
-			<property name="widgetPath">plugin://script.skin.helper.widgets/?action=favourites&amp;mediatype=favourites&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetPath">favourites://</property>
 			<property name="widgetTarget">videos</property>
 			<property name="background">home\favourites\</property>
 			<property name="backgroundName">1036</property>
-			<onclick>ActivateWindow(favourites)</onclick>
-			<property name="path">ActivateWindow(favourites)</property>
-			<property name="list">favourites</property>
+			<onclick>ActivateWindow(favouritesbrowser)</onclick>
+			<property name="path">ActivateWindow(favouritesbrowser)</property>
+			<property name="list">favouritesbrowser</property>
 			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
 			<property name="submenuVisibility">num-1036</property>
 			<property name="group">mainmenu</property>
@@ -5231,7 +5231,7 @@
 		<control type="list" id="8000">
 			<visible>String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-1036)</visible>
 			<include>Widget_VerticalList</include>
-			<content target="videos">plugin://script.skin.helper.widgets/?action=favourites&amp;mediatype=favourites&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</content>
+			<content target="videos">favourites://</content>
 			</control>
 		</include>
 	</includes>
