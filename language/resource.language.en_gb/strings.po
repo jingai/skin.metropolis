@@ -1122,6 +1122,22 @@ msgstr ""
 
 msgctxt "#31611"
 msgid "PVR Status"
+
+msgctxt "#31612"
+msgid "Add version"
+msgstr ""
+
+msgctxt "#31613"
+msgid "Add extras"
+msgstr "Add extras"
+
+msgctxt "#31614"
+msgid "Set default"
+msgstr "Set default"
+
+msgctxt "#31615"
+msgid "Extras"
+msgstr "Extras"
 msgstr ""
 
 #empty strings from id 31612 to 31699
