@@ -136,3 +136,12 @@
 		</control>
 	</controls>
 </window>
+
+<!-- How to use
+<control type="colorbutton" id="321">
+	<label>Background colour</label>
+	<include>DefaultSettingButton</include>
+	<colorbox>$INFO[Skin.String(bgcolor)]</colorbox>
+	<onclick>Skin.SetColor(bgcolor, Please select a colour)</onclick>
+</control>
+-->
