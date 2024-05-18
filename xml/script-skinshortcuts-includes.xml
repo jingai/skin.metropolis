@@ -370,7 +370,7 @@
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31438]</label>
-			<label2>$ADDON[script.skinshortcuts 32014]</label2>
+			<label2>Videos</label2>
 			<icon>DefaultRecentlyAddedMovies.png</icon>
 			<thumb />
 			<property name="labelID">31438</property>
@@ -385,8 +385,25 @@
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
 			<property name="mainmenuid">2</property>
+			<label>hdr10 test_lake_2021_02_01.mp4</label>
+			<label2>Favourite</label2>
+			<icon>DefaultFolder.png</icon>
+			<thumb>image://video@D%3a%5cMedia%5chdr10%2btest_lake_2021_02_01.mp4/</thumb>
+			<property name="labelID">hdr10test-lake-2021-02-01-mp4</property>
+			<property name="defaultID">hdr10test-lake-2021-02-01-mp4</property>
+			<property name="translatedPath">PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</property>
+			<onclick>PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</onclick>
+			<property name="path">PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</property>
+			<property name="list">PlayMedia(D:\\Media\\hdr10+test_lake_2021_02_01.mp4)</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),movies)</visible>
+			<property name="group">movies</property>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[135]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">135</property>
@@ -399,11 +416,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[652]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">652</property>
@@ -416,11 +433,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[344]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultActor.png</icon>
 			<thumb />
 			<property name="labelID">344</property>
@@ -433,11 +450,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20348]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultActor.png</icon>
 			<thumb />
 			<property name="labelID">20348</property>
@@ -450,11 +467,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20434]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">20434</property>
@@ -467,11 +484,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="7">
-			<property name="id">$NUMBER[7]</property>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20459]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">20459</property>
@@ -484,11 +501,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="8">
-			<property name="id">$NUMBER[8]</property>
+		<item id="9">
+			<property name="id">$NUMBER[9]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31289]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultFolder.png</icon>
 			<thumb />
 			<property name="labelID">31289</property>
@@ -500,11 +517,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="9">
-			<property name="id">$NUMBER[9]</property>
+		<item id="10">
+			<property name="id">$NUMBER[10]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31465]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">31465</property>
@@ -516,11 +533,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="10">
-			<property name="id">$NUMBER[10]</property>
+		<item id="11">
+			<property name="id">$NUMBER[11]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[653]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">653</property>
@@ -1943,7 +1960,7 @@
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31438]</label>
-			<label2>$ADDON[script.skinshortcuts 32014]</label2>
+			<label2>Videos</label2>
 			<icon>DefaultRecentlyAddedMovies.png</icon>
 			<thumb />
 			<property name="labelID">31438</property>
@@ -1958,8 +1975,25 @@
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
 			<property name="mainmenuid">2</property>
+			<label>hdr10 test_lake_2021_02_01.mp4</label>
+			<label2>Favourite</label2>
+			<icon>DefaultFolder.png</icon>
+			<thumb>image://video@D%3a%5cMedia%5chdr10%2btest_lake_2021_02_01.mp4/</thumb>
+			<property name="labelID">hdr10test-lake-2021-02-01-mp4</property>
+			<property name="defaultID">hdr10test-lake-2021-02-01-mp4</property>
+			<property name="translatedPath">PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</property>
+			<onclick>PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</onclick>
+			<property name="path">PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</property>
+			<property name="list">PlayMedia(D:\\Media\\hdr10+test_lake_2021_02_01.mp4)</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="group">movies</property>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[135]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">135</property>
@@ -1972,11 +2006,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[652]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">652</property>
@@ -1989,11 +2023,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[344]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultActor.png</icon>
 			<thumb />
 			<property name="labelID">344</property>
@@ -2006,11 +2040,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20348]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultActor.png</icon>
 			<thumb />
 			<property name="labelID">20348</property>
@@ -2023,11 +2057,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20434]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">20434</property>
@@ -2040,11 +2074,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="7">
-			<property name="id">$NUMBER[7]</property>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20459]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">20459</property>
@@ -2057,11 +2091,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="8">
-			<property name="id">$NUMBER[8]</property>
+		<item id="9">
+			<property name="id">$NUMBER[9]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31289]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultFolder.png</icon>
 			<thumb />
 			<property name="labelID">31289</property>
@@ -2073,11 +2107,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="9">
-			<property name="id">$NUMBER[9]</property>
+		<item id="10">
+			<property name="id">$NUMBER[10]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31465]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">31465</property>
@@ -2089,11 +2123,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="10">
-			<property name="id">$NUMBER[10]</property>
+		<item id="11">
+			<property name="id">$NUMBER[11]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[653]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">653</property>
@@ -2111,7 +2145,7 @@
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31438]</label>
-			<label2>$ADDON[script.skinshortcuts 32014]</label2>
+			<label2>Videos</label2>
 			<icon>DefaultRecentlyAddedMovies.png</icon>
 			<thumb />
 			<property name="labelID">31438</property>
@@ -2126,8 +2160,25 @@
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
 			<property name="mainmenuid">2</property>
+			<label>hdr10 test_lake_2021_02_01.mp4</label>
+			<label2>Favourite</label2>
+			<icon>DefaultFolder.png</icon>
+			<thumb>image://video@D%3a%5cMedia%5chdr10%2btest_lake_2021_02_01.mp4/</thumb>
+			<property name="labelID">hdr10test-lake-2021-02-01-mp4</property>
+			<property name="defaultID">hdr10test-lake-2021-02-01-mp4</property>
+			<property name="translatedPath">PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</property>
+			<onclick>PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</onclick>
+			<property name="path">PlayMedia("D:\\Media\\hdr10+test_lake_2021_02_01.mp4")</property>
+			<property name="list">PlayMedia(D:\\Media\\hdr10+test_lake_2021_02_01.mp4)</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),movies)</visible>
+			<property name="group">movies</property>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[135]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">135</property>
@@ -2140,11 +2191,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[652]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">652</property>
@@ -2157,11 +2208,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[344]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultActor.png</icon>
 			<thumb />
 			<property name="labelID">344</property>
@@ -2174,11 +2225,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20348]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultActor.png</icon>
 			<thumb />
 			<property name="labelID">20348</property>
@@ -2191,11 +2242,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20434]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">20434</property>
@@ -2208,11 +2259,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="7">
-			<property name="id">$NUMBER[7]</property>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[20459]</label>
-			<label2>$LOCALIZE[342]</label2>
+			<label2>Movies</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">20459</property>
@@ -2225,11 +2276,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="8">
-			<property name="id">$NUMBER[8]</property>
+		<item id="9">
+			<property name="id">$NUMBER[9]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31289]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultFolder.png</icon>
 			<thumb />
 			<property name="labelID">31289</property>
@@ -2241,11 +2292,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="9">
-			<property name="id">$NUMBER[9]</property>
+		<item id="10">
+			<property name="id">$NUMBER[10]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[31465]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">31465</property>
@@ -2257,11 +2308,11 @@
 			<property name="group">movies</property>
 			<property name="isSubmenu">True</property>
 			</item>
-		<item id="10">
-			<property name="id">$NUMBER[10]</property>
+		<item id="11">
+			<property name="id">$NUMBER[11]</property>
 			<property name="mainmenuid">2</property>
 			<label>$LOCALIZE[653]</label>
-			<label2>$ADDON[script.skinshortcuts 32034]</label2>
+			<label2>Common menu item</label2>
 			<icon>DefaultShortcut.png</icon>
 			<thumb />
 			<property name="labelID">653</property>

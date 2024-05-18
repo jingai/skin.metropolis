@@ -2,7 +2,9 @@
 <overrides>
 	<!-- Widgets -->
 
-
+	<override action="ActivateWindow(favourites)">
+		<action>ActivateWindow(favouritesbrowser)</action>
+	</override>
 	<!-- Videos -->
 
 	<!-- PVR -->

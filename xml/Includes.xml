@@ -84,7 +84,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<texture background="true" fallback="Background.png" diffuse="FanartDiffuse.png">$INFO[Skin.String(CustomBackground)]</texture>
 			<colordiffuse>GlobalContextColour</colordiffuse>
-			<visible>ControlGroup(7001).HasFocus | ControlGroup(7000).HasFocus | Window.IsActive(yesnodialog) | Window.IsActive(progressdialog) | Window.IsActive(okdialog) | Window.IsActive(contextmenu) | Window.IsActive(favourites) | Window.IsActive(mediasource) | Window.IsActive(addonsettings) | Window.IsActive(pictureinfo) | Window.IsActive(songinformation)</visible>
+			<visible>ControlGroup(7001).HasFocus | ControlGroup(7000).HasFocus | Window.IsActive(yesnodialog) | Window.IsActive(progressdialog) | Window.IsActive(okdialog) | Window.IsActive(contextmenu) | Container.Content(favourites) | Window.IsActive(mediasource) | Window.IsActive(addonsettings) | Window.IsActive(pictureinfo) | Window.IsActive(songinformation)</visible>
 			<animation effect="fade" start="0" end="100" time="200">Visible</animation>
 			<animation effect="fade" start="100" end="0" time="400">Hidden</animation>
 		</control>
@@ -996,10 +996,22 @@
 
 	<!-- Debug objects -->
 	<include name="Object_DebugGrid">
-		<control type="image">
+<!--		<control type="label">
+			<description>Debug String</description>
+			<posx>30</posx>
+			<posy>490</posy>
+			<width>1270</width>
+			<height>100</height>
+			<font>METF_Button</font>
+			<textcolor>ButtonText</textcolor>
+			<align>center</align>
+			<aligny>center</aligny>
+			<label>$VAR[Language_Icons]</label>
+		</control>
+-->		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>DebugGrid.png</texture>
-		</control>
+		</control> 
 	</include>
 
 	<!-- Settings Headings -->

@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.metropolis" version="4.1.0" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
+<addon id="skin.metropolis" version="4.1.1" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
-		<import addon="script.skinshortcuts" version="1.0.17"/>
-		<!--<import addon="script.tv.show.next.aired" version="6.0.10"/>-->
-		<!--<import addon="script.skin.helper.service" version="1.1.3"/>-->
-		<import addon="script.image.resource.select" version="0.1.1"/>
+		<import addon="script.skinshortcuts" version="2.0.3"/>
+		<import addon="script.image.resource.select" version="3.0.2"/>
 		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
 		<import addon="resource.images.recordlabels.white" version="0.0.7"/>
-		<import addon="resource.images.studios.coloured" version="0.0.8"/>
+		<import addon="resource.images.studios.coloured" version="0.0.23"/>
 		<import addon="resource.images.weatherfanart.prairie" version="0.0.5"/>
 		<import addon="resource.images.weathericons.coloured" version="0.0.6"/>
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="xml"/>
 	</extension>
 
 	<extension point="xbmc.addon.metadata">
-		<language></language>
 		<platform>all</platform>
 		<license>Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) United States License</license>
 		<forum>https://forum.kodi.tv/forumdisplay.php?fid=162</forum>
-		<website>http://www.floatingpenguins.com</website>
-		<email></email>
 		<source>https://github.com/jingai/skin.metropolis</source>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -35,9 +30,7 @@
 			<screenshot>resources/screenshot06.jpg</screenshot>
 			<screenshot>resources/screenshot07.jpg</screenshot>
 			<screenshot>resources/screenshot08.jpg</screenshot>
-			<screenshot>resources/screenshot09.jpg</screenshot>
 		</assets>
-		<news>[I]4.0.0[/I][CR]- Add "Zoomed" fontset for the visually impaired.[CR]- Fix missing studio and codec icons in the music visualization screen.[CR]- Fix missing cdart in Kodi 18+.[CR]- Add clearlogos for music artists and a setting to toggle it.[CR]- Add a larger CD case, discart, and codec info tiles when clock is disabled.[CR]- Add the ability to sort the order in which the widget main menu background is displayed.[CR]- Remove all artwork.downloader and add artwork.beef.[CR]- Update skinshortcuts features to include Enable and Disable ability.[CR]- Update Next-Aired features to cover all show states.[CR]- Add breadcrumbs for Roles.[CR]- Add DTSHRA and DTSHD-HRA media flags.[CR]- Add support for lyrics script.[CR]- Display sets icon if item is part of a set.[CR]- Add jump-to-letter.[CR]- Add extra color profiles.[CR]- Fix for plot running into playback rate.[CR]- Fix for mp3 audio codec icon until a real Kodi fix is submitted (returns mp3float instead of mp3).[CR]- Fix for transparent Addon dialog.[CR]- Fix Home Furniture submenu transparent issue.[CR]- Fixed dialog order for various windows.[CR]- Add time formatting options.[CR]- Add playspeed control.[CR]- Add color management support.[CR]- Add 3d icon to list view.[CR]- Add support to launch ExtendedInfo script from video info.[CR]- Add missing icons.[CR]- Add Games support.</news>
 		<summary lang="cs_CZ">Mix retro a moderního.</summary>
 		<summary lang="da_DK">En blanding af retro og moderne.</summary>
 		<summary lang="de_DE">Ein Mix aus Retro und Moderne.</summary>
@@ -88,5 +81,6 @@
 		<description lang="ru_RU">Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи. Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. [CR]Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса.</description>
 		<description lang="sv_SE">Metropolis är utformat att visa så mycket mediainfo som möjligt, med text och ikoner som är lätta att läsa. Allt medan skalet är mjukt och enkelt nog att använda för alla familjemedlemmar, med flera teman, anpassningsbara menyer och vyer. Tack till Hitcher för Alaska Revisited som användes som bas för Metropolis.</description>
 		<description lang="zh_CN">Metropolis 旨在更多通过易读的文字和图标来展示媒体信息。采用多主题和自定义菜单及视图，同时试图保持皮肤流畅，并且对所有家庭成员都简单易用。感谢 Hitcher 制作 Alaska Revisited 皮肤，它是 Metropolis 的基础。</description>
+		<disclaimer lang="en_NZ">Just a skin for Kodi, remove if you want</disclaimer>
 	</extension>
 </addon>

@@ -9,8 +9,9 @@
 		<include>Viewtype_List</include>
 		<include>Viewtype_Gallery_Square</include>
 		<include>Global_ContextFilter</include>
-		<include>Global_AddonInfo</include>
-		<include>Global_ScrollOffsetLabel</include>
+				<include>Animation_OpenCloseFade</include>
+				<include>Animation_FadedByMenu</include>
+				<include>Animation_HiddenByInfo</include>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_CommonFade</include>
