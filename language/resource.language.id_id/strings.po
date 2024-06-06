@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-31 07:15+0000\n"
+"PO-Revision-Date: 2023-12-12 14:11+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Indonesian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/id_id/>\n"
 "Language: id_id\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.2.1\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -137,7 +137,7 @@ msgstr ""
 # empty strings from id 31038 to 31053
 msgctxt "#31054"
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 # empty string with id 31055
 msgctxt "#31056"
@@ -320,7 +320,7 @@ msgstr "Memainkan"
 # empty strings from id 31245 to 31248
 msgctxt "#31249"
 msgid "System Music Files"
-msgstr ""
+msgstr "Berkas Musik Sistem"
 
 msgctxt "#31250"
 msgid "Current Selected"
@@ -347,7 +347,7 @@ msgstr ""
 # empty string with id 31276
 msgctxt "#31277"
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 msgctxt "#31278"
 msgid "Open Playlist"
@@ -757,7 +757,7 @@ msgstr "Subtitle lokal tersedia"
 
 msgctxt "#31414"
 msgid "Gallery"
-msgstr ""
+msgstr "Galeri"
 
 msgctxt "#31415"
 msgid "Square"
