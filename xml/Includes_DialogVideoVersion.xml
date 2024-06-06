@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+
+	<include name="DialogVideoVersionLayout">
+		<control type="group">
+			<include>Animation_FadedByMenu</include>
+			<include>Global_Background</include>
+			<control type="image" id="999">
+				<description>background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<texture>frames/Dialog_Glass2PanelLarge.png</texture>
+				<colordiffuse>GlobalContextColour</colordiffuse>
+			</control>
+			<control type="label">
+				<visible>true</visible>
+				<align>left</align>
+				<top>40</top>
+				<left>60</left>
+				<right>40</right>
+				<height>44</height>
+				<scroll>true</scroll>
+				<font>METF_Heading</font>
+				<textcolor>GlobalHeading</textcolor>
+				<shadowcolor>text_shadow</shadowcolor>
+				<haspath>false</haspath>
+				<label>$INFO[ListItem.Title]</label>
+				<animation effect="fade" start="0" end="100" time="300" delay="300">WindowOpen</animation>
+				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
+				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+			</control>
+			<include>DialogVideoVersionCommonLayout</include>
+			<control type="grouplist" id="101">
+				<left>985</left>
+				<top>90</top>
+				<width>240</width>
+				<height>565</height>
+				<onleft condition="ControlGroup(200).HasFocus(201) | Integer.IsGreater(Container(51).NumItems,0)">100</onleft>
+				<onleft condition="ControlGroup(200).HasFocus(202) + Integer.IsEqual(Container(51).NumItems,0)">200</onleft>
+				<itemgap>dialogbuttons_itemgap</itemgap>
+				<align>top</align>
+				<scrolltime tween="quadratic">200</scrolltime>
+				<control type="button" id="21">
+					<description>Play</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[208]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+				</control>
+				<control type="button" id="22">
+					<description>Add version</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[31612]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+					<visible>ControlGroup(200).HasFocus(201)</visible>
+				</control>
+				<control type="button" id="23">
+					<description>Add extras</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[31613]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+					<visible>ControlGroup(200).HasFocus(202)</visible>
+				</control>
+				<control type="button" id="27">
+					<description>Choose art</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[13511]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+				</control>
+				<control type="button" id="24">
+					<description>Rename</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[118]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+				</control>
+				<control type="button" id="26">
+					<description>Remove</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[15015]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+				</control>
+				<control type="button" id="25">
+					<description>Set Default</description>
+					<width>240</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>$LOCALIZE[31614]</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus></texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick></onclick>
+					<visible>ControlGroup(200).HasFocus(201)</visible>
+				</control>
+			</control>
+		</control>
+	</include>
+
+	<include name="DialogVideoVersionSelectLayout">
+		<control type="group">
+			<include>Animation_FadedByMenu</include>
+			<include>Global_Background</include>
+			<control type="image" id="999">
+				<description>background image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<texture>frames/Dialog_Glass2PanelLarge.png</texture>
+				<colordiffuse>GlobalContextColour</colordiffuse>
+			</control>
+			<control type="label">
+				<visible>true</visible>
+				<align>left</align>
+				<top>40</top>
+				<left>60</left>
+				<right>40</right>
+				<height>44</height>
+				<scroll>true</scroll>
+				<font>METF_Heading</font>
+				<textcolor>GlobalHeading</textcolor>
+				<shadowcolor>text_shadow</shadowcolor>
+				<haspath>false</haspath>
+				<label>$INFO[ListItem.Title]</label>
+				<animation effect="fade" start="0" end="100" time="300" delay="300">WindowOpen</animation>
+				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
+				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+			</control>
+			<include>DialogVideoVersionCommonLayout</include>
+		</control>
+	</include>
+
+	<include name="DialogVideoVersionCommonLayout">
+		<control type="grouplist" id="200">
+			<left>50</left>
+			<top>90</top>
+			<height>180</height>
+			<orientation>vertical</orientation>
+			<itemgap>dialogbuttons_itemgap</itemgap>
+			<onright condition="ControlGroup(200).HasFocus(201)">50</onright>
+			<onright condition="ControlGroup(200).HasFocus(202)">51</onright>
+			<control type="togglebutton" id="201">
+				<description>Versions</description>
+				<width>305</width>
+				<height>40</height>
+				<align>left</align>
+				<label>$LOCALIZE[40000]</label>
+				<textoffsetx>20</textoffsetx>
+				<font>METF_DialogLarge</font>
+				<textcolor>TextNF</textcolor>
+				<focusedcolor>DialogTextFO</focusedcolor>
+				<disabledcolor>TextDisabled</disabledcolor>
+				<texturefocus>ButtonFO2Wide.png</texturefocus>
+				<texturenofocus></texturenofocus>
+				<alttexturenofocus border="2">ButtonNF.png</alttexturenofocus>
+				<alttexturefocus border="2">ButtonFO2.png</alttexturefocus>
+				<usealttexture>Control.IsVisible(50)</usealttexture>
+				<aligny>center</aligny>
+				<pulseonselect>false</pulseonselect>
+				<onclick>noop</onclick>
+				<enable>true</enable>
+				<visible>Window.IsActive(videoversion)| Window.IsActive(videoversionselect) + Integer.IsGreater(Container(50).NumItems,0)</visible>
+			</control>
+			<control type="togglebutton" id="202">
+				<description>Extras</description>
+				<width>305</width>
+				<height>40</height>
+				<align>left</align>
+				<label>$LOCALIZE[31615]</label>
+				<textoffsetx>20</textoffsetx>
+				<font>METF_DialogLarge</font>
+				<textcolor>TextNF</textcolor>
+				<focusedcolor>DialogTextFO</focusedcolor>
+				<disabledcolor>TextDisabled</disabledcolor>
+				<texturefocus>ButtonFO2Wide.png</texturefocus>
+				<texturenofocus></texturenofocus>
+				<alttexturenofocus border="2">ButtonNF.png</alttexturenofocus>
+				<alttexturefocus border="2">ButtonFO2.png</alttexturefocus>
+				<usealttexture>Control.IsVisible(51)</usealttexture>
+				<aligny>center</aligny>
+				<pulseonselect>false</pulseonselect>
+				<onclick>noop</onclick>
+				<enable>true</enable>
+				<visible>Window.IsActive(videoversion) | Window.IsActive(videoversionselect) + Integer.IsGreater(Container(51).NumItems,0)</visible>
+			</control>
+		</control>
+		<control type="image">
+			<top>270</top>
+			<left>71</left>
+			<width>260</width>
+			<height>390</height>
+			<align>center</align>
+			<aligny>center</aligny>
+			<aspectratio>keep</aspectratio>
+			<texture fallback="DefaultVideo.png" background="true">$VAR[VideoVersionPosterVar]</texture>
+		</control>
+		<control type="group" id="100">
+			<top>72</top>
+			<left>340</left>
+			<control type="image">
+				<top>0</top>
+				<left>0</left>
+				<width>660</width>
+				<height>590</height>
+				<texture border="21">dialogs/ContextMenu_Middle.png</texture>
+				<colordiffuse>GlobalContextColour</colordiffuse>
+			</control>
+			<control type="list" id="50">
+				<description>version list</description>
+				<visible>ControlGroup(200).HasFocus(201)</visible>
+				<top>10</top>
+				<left>40</left>
+				<height>580</height>
+				<onup>50</onup>
+				<ondown>50</ondown>
+				<onleft>200</onleft>
+				<onright>60</onright>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout width="600" height="50">
+					<control type="group">
+						<control type="label">
+							<left>20</left>
+							<top>0</top>
+							<right>20</right>
+							<bottom>0</bottom>
+							<align>left</align>
+							<font>METF_InfoText</font>
+							<aligny>center</aligny>
+							<textcolor>TextNF</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</control>
+				</itemlayout>
+				<focusedlayout width="600" height="50">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<right>0</right>
+						<bottom>0</bottom>
+						<texture colordiffuse="FocusBar">FocusLine.png</texture>
+					</control>
+					<control type="group">
+						<control type="label">
+							<left>20</left>
+							<top>0</top>
+							<right>20</right>
+							<bottom>0</bottom>
+							<align>left</align>
+							<font>METF_TitleText</font>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+							<scroll>true</scroll>
+						</control>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="list" id="51">
+				<description>extras list</description>
+				<visible>ControlGroup(200).HasFocus(202)</visible>
+				<top>10</top>
+				<left>40</left>
+				<onup>51</onup>
+				<ondown>51</ondown>
+				<height>580</height>
+				<onleft>200</onleft>
+				<onright>60</onright>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout width="600" height="50">
+					<control type="group">
+						<control type="label">
+							<left>20</left>
+							<top>0</top>
+							<right>20</right>
+							<bottom>0</bottom>
+							<align>left</align>
+							<font>METF_InfoText</font>
+							<aligny>center</aligny>
+							<textcolor>TextNF</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</control>
+				</itemlayout>
+				<focusedlayout width="600" height="50">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<right>0</right>
+						<bottom>0</bottom>
+						<texture colordiffuse="FocusBar">FocusLine.png</texture>
+					</control>
+					<control type="group">
+						<control type="label">
+							<left>20</left>
+							<top>0</top>
+							<right>20</right>
+							<bottom>0</bottom>
+							<align>left</align>
+							<font>METF_TitleText</font>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+							<scroll>true</scroll>
+						</control>
+					</control>
+				</focusedlayout>
+			</control>
+			
+			<control type="scrollbar" id="60">
+				<left>629</left>
+				<top>20</top>
+				<width>12</width>
+				<height>560</height>
+				<onleft condition="Control.IsVisible(50)">50</onleft>
+				<onleft condition="Control.IsVisible(51)">51</onleft>
+				<onright condition="Window.IsActive(videoversion)">101</onright>
+				<texturesliderbackground></texturesliderbackground>
+				<textureslidernib>ScrollbarV.png</textureslidernib>
+				<textureslidernibfocus>ScrollbarVnibFO.png</textureslidernibfocus>
+				<orientation>vertical</orientation>
+			</control>
+		</control>
+		<control type="label">
+			<visible>Control.HasFocus(50) | Control.HasFocus(51)</visible>
+			<align>left</align>
+			<top>660</top>
+			<left>40</left>
+			<right>40</right>
+			<height>44</height>
+			<scroll>true</scroll>
+			<font>font13</font>
+			<textcolor>99FFFFFF</textcolor>
+			<shadowcolor>text_shadow</shadowcolor>
+			<haspath>false</haspath>
+			<label>$VAR[VideoVersionFileVar]</label>
+			<animation effect="fade" start="0" end="100" time="300" delay="300">WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
+			<animation effect="fade" start="0" end="100" time="300">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+		</control>
+	</include>
+
+
+<!-- 
+Window ID 12004 - videoversion - Used for manage mode (selection on list only selects item)
+Window ID 12009 - videoversionplay - Used for play mode (selection on list plays item)
+List id 50 - Versions
+List id 51 - Extras
+Button id 21 - Play
+Button id 22 - Add version
+Button id 23 - Add extras
+Button id 24 - Rename
+Button id 25 - Set Default
+Button id 26 - Remove
+Button id 27 - Choose art
+-->
+
+</includes>

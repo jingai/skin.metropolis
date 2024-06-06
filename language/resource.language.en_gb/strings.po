@@ -1124,7 +1124,23 @@ msgctxt "#31611"
 msgid "PVR Status"
 msgstr ""
 
-#empty strings from id 31612 to 31699
+msgctxt "#31612"
+msgid "Add version"
+msgstr ""
+
+msgctxt "#31613"
+msgid "Add extras"
+msgstr "Add extras"
+
+msgctxt "#31614"
+msgid "Set default"
+msgstr "Set default"
+
+msgctxt "#31615"
+msgid "Extras"
+msgstr "Extras"
+
+#empty strings from id 31616 to 31699
 
 msgctxt "#31700"
 msgid "7 Day Forecast"
