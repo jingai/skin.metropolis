@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-06-06 19:34+0000\n"
+"PO-Revision-Date: 2024-07-26 11:25+0000\n"
 "Last-Translator: roliverosc <roliverosc@hotmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/es_es/>\n"
 "Language: es_es\n"
@@ -15,23 +15,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
-msgstr "Una mezcla de Retro y Moderno."
+msgstr "Una mezcla entre retro y moderno."
 
 msgctxt "Addon Description"
 msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
-msgstr "Metrópolis está diseñada para mostrar en lo posible toda la información del contenido con texto fácil de leer e iconos. Todo ello procurando mantener una skin suave y de fácil uso para todos los miembros de la familia, con múltiples temas, vistas y menús personalizables. Agradecimientos a Hitcher, autor de la skin Alaska Revisited, la cual se usó como base para Metrópolis."
+msgstr "Metropolis está diseñado para mostrar la mayor cantidad de información multimedia posible con texto e iconos fáciles de leer. Todo mientras intentamos mantener el skin fluido y fácil de usar para todos los miembros de la familia con múltiples temas, menús y vistas personalizables. Agradecimiento a Hitcher por Alaska Revisited, que se utilizó como base para Metropolis."
 
 msgctxt "#31001"
 msgid "View Options"
-msgstr "Ver Opciones"
+msgstr "Ver opciones"
 
 msgctxt "#31002"
 msgid "Home Artwork"
-msgstr "Fondos de Inicio"
+msgstr "Ilustración de Inicio"
 
 msgctxt "#31004"
 msgid "Debug"
@@ -39,11 +39,11 @@ msgstr "Depurar"
 
 msgctxt "#31005"
 msgid "Enable auto scrolling for text that does not fit on-screen"
-msgstr "Activar desplazamiento de texto automático"
+msgstr "Activar desplazamiento automático para texto que no cabe en la pantalla"
 
 msgctxt "#31006"
 msgid "Shorter delay before auto scrolling"
-msgstr "Acortar retardo para desplazamiento automático"
+msgstr "Retraso más corto antes del desplazamiento automático"
 
 msgctxt "#31007"
 msgid "ON"
@@ -51,7 +51,7 @@ msgstr "ENCENDIDO"
 
 msgctxt "#31009"
 msgid "Browser"
-msgstr "Navegador"
+msgstr "Explorador"
 
 msgctxt "#31010"
 msgid "N/A"
@@ -59,75 +59,75 @@ msgstr "N/D"
 
 msgctxt "#31011"
 msgid "Metropolis"
-msgstr "Metrópolis"
+msgstr "Metropolis"
 
 msgctxt "#31012"
 msgid "Increase Star Rating"
-msgstr "Aumentar Puntuación"
+msgstr "Aumentar puntuación"
 
 msgctxt "#31013"
 msgid "Select Weather icons"
-msgstr "Seleccionar iconos de Meteorología"
+msgstr "Seleccionar iconos de meteorología"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr "Seleccionar fanart de Meteorología"
+msgstr "Seleccionar fanart de meteorología"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
-msgstr "Seleccionar iconos de Logos de Estudio"
+msgstr "Seleccionar iconos de logos de estudio"
 
 msgctxt "#31016"
 msgid "Select Record Label icons"
-msgstr "Seleccionar iconos de Sello Discográfico"
+msgstr "Seleccionar iconos de sello discográfico"
 
 msgctxt "#31017"
 msgid "Select Language Flag icons"
-msgstr "Seleccionar iconos de Banderas de Idioma"
+msgstr "Seleccionar iconos de indicador de idioma"
 
 msgctxt "#31018"
 msgid "Show User Rating instead of scraped Rating in Media Flag"
-msgstr "Mostrar Valoración de Usuario en lugar de la Valoración obtenida en la marca del contenido"
+msgstr "Mostrar valoración de usuario en lugar de valoración obtenida en el indicador de contenido"
 
 msgctxt "#31021"
 msgid "Decrease Star Rating"
-msgstr "Disminuir Puntuación"
+msgstr "Disminuir puntuación"
 
 msgctxt "#31024"
 msgid "Icon Home layout"
-msgstr "Disposición de Inicio con Iconos"
+msgstr "Disposición de inicio con iconos"
 
 msgctxt "#31025"
 msgid "Horizontal Text Home layout"
-msgstr "Disposición de Inicio con Texto Horizontal"
+msgstr "Disposición de inicio con texto horizontal"
 
 msgctxt "#31031"
 msgid "Hide Movie Watched Status"
-msgstr "Ocultar Estado de Visto en Películas"
+msgstr "Ocultar estado de visto para películas"
 
 msgctxt "#31032"
 msgid "Hide TV Watched Status"
-msgstr "Ocultar Estado de Visto en Series"
+msgstr "Ocultar estado de visto para series"
 
 msgctxt "#31033"
 msgid "Hide Background Fanart"
-msgstr "Ocultar Fanart de Fondo"
+msgstr "Ocultar fanart de fondo"
 
 msgctxt "#31034"
 msgid "Enable Dynamic Weather Artwork"
-msgstr "Habilitar Fondo Dinámico de Meteorología"
+msgstr "Activar fondos dinámicos de meteorología"
 
 msgctxt "#31035"
 msgid "Show Clean Library SubMenu items"
-msgstr "Mostrar el elemento de SubMenú Limpiar Colección"
+msgstr "Mostrar elemento de submenú limpiar biblioteca"
 
 msgctxt "#31036"
 msgid "Hide Widgets until focused"
-msgstr "Ocultar widget hasta que tengan el foco"
+msgstr "Ocultar widget hasta que sea seleccionado"
 
 msgctxt "#31037"
 msgid "Stretch background fanart to fit into viewable area"
-msgstr "Estirar fanart del fondo para que ocupe todo el área visible"
+msgstr "Estirar fanart de fondo para ocupar todo el área visible"
 
 msgctxt "#31054"
 msgid "Logo"
@@ -135,31 +135,31 @@ msgstr "Logo"
 
 msgctxt "#31056"
 msgid "Enable Video/Album Art overlay"
-msgstr "Activar Arte de Vídeo/Álbum"
+msgstr "Activar arte de vídeo/álbum"
 
 msgctxt "#31057"
 msgid "Enable Song Info text overlay"
-msgstr "Activar Texto de Información de la Canción"
+msgstr "Activar texto de información de la canción"
 
 msgctxt "#31060"
 msgid "Show Recently Added Items"
-msgstr "Mostrar Añadidos Recientemente"
+msgstr "Mostrar elementos añadidos recientemente"
 
 msgctxt "#31108"
 msgid "Enable Debug Mode"
-msgstr "Activar Modo Depuración"
+msgstr "Activar modo depuración"
 
 msgctxt "#31109"
 msgid "Enable Debug Grid"
-msgstr "Activar Rejilla de Depuración"
+msgstr "Activar cuadrícula de depuración"
 
 msgctxt "#31118"
 msgid "Filemanager"
-msgstr "Gestor de Archivos"
+msgstr "Gestor de archivos"
 
 msgctxt "#31125"
 msgid "Hide Video Root"
-msgstr "Ocultar Raíz de Vídeos"
+msgstr "Ocultar raíz de vídeos"
 
 msgctxt "#31126"
 msgid "Extra Artwork Downloader"
@@ -167,7 +167,7 @@ msgstr "Descargador Arte Extra"
 
 msgctxt "#31127"
 msgid "TvTunes Downloader"
-msgstr "Descargador TvTunes"
+msgstr "Descargador TVTunes"
 
 msgctxt "#31133"
 msgid "Mute"
@@ -175,15 +175,15 @@ msgstr "Silencio"
 
 msgctxt "#31136"
 msgid "Video Info"
-msgstr "Info Vídeo"
+msgstr "Info de vídeo"
 
 msgctxt "#31137"
 msgid "Audio Info"
-msgstr "Info Audio"
+msgstr "Info de audio"
 
 msgctxt "#31138"
 msgid "System Info"
-msgstr "Info Sistema"
+msgstr "Info de sistema"
 
 msgctxt "#31139"
 msgid "Video decoder"
@@ -195,7 +195,7 @@ msgstr "Formato de píxel"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr "Canales de Audio"
+msgstr "Canales de audio"
 
 msgctxt "#31142"
 msgid "CPU used"
@@ -203,7 +203,7 @@ msgstr "CPU usada"
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr "Memoria utilizada"
+msgstr "Memoria usada"
 
 msgctxt "#31159"
 msgid "ffx2"
@@ -247,7 +247,7 @@ msgstr "REx32"
 
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr "Tipo de Vista"
+msgstr "Tipo de vista"
 
 msgctxt "#31207"
 msgid "Current"
@@ -255,19 +255,19 @@ msgstr "Actual"
 
 msgctxt "#31208"
 msgid "Last Updated:"
-msgstr "Última Actualización:"
+msgstr "Última actualización:"
 
 msgctxt "#31210"
 msgid "Default Home layout"
-msgstr "Disposición de Inicio por defecto"
+msgstr "Disposición de inicio por defecto"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr "Configurar acciones a usar mientras reproduce · Configurar cómo se reproduce el contenido"
+msgstr "Configurar acciones que se pueden utilizar durante la reproducción · Configurar cómo se reproduce el contenido"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr "Gestionar los add-ons instalados · Buscar e instalar add-ons desde kodi.tv · Modificar los ajustes de los add-ons"
+msgstr "Gestionar tus add-ons instalados · Buscar e instalar add-ons desde kodi.tv · Modificar ajustes de los add-ons"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
@@ -291,7 +291,7 @@ msgstr "Configurar ajustes de TV · Cambiar la información en pantalla · Gesti
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr "Configurar colecciones · Mostrar las vistas de contenido · Configurar cómo se navega por la colección"
+msgstr "Configurar fuentes de la biblioteca · Mostrar vistas de contenido · Configurar cómo se navega por las listas de la biblioteca"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -299,19 +299,19 @@ msgstr "Reproduciendo"
 
 msgctxt "#31249"
 msgid "System Music Files"
-msgstr "Archivos Música de Sistema"
+msgstr "Archivos de música del sistema"
 
 msgctxt "#31250"
 msgid "Current Selected"
-msgstr "Selección Actual"
+msgstr "Selección actual"
 
 msgctxt "#31251"
 msgid "Current Playlist"
-msgstr "Playlist Actual"
+msgstr "Lista de reproducción actual"
 
 msgctxt "#31270"
 msgid "Enable Custom Button"
-msgstr "Activar Botón Personalizado"
+msgstr "Activar botón personalizado"
 
 msgctxt "#31271"
 msgid "Favourite"
@@ -319,7 +319,7 @@ msgstr "Favorito"
 
 msgctxt "#31275"
 msgid "Multi Image"
-msgstr "Imagen Múltiple"
+msgstr "Imagen múltiple"
 
 msgctxt "#31277"
 msgid "Item"
@@ -327,15 +327,15 @@ msgstr "Elemento"
 
 msgctxt "#31278"
 msgid "Open Playlist"
-msgstr "Abrir Lista"
+msgstr "Abrir lista"
 
 msgctxt "#31279"
 msgid "Save Playlist"
-msgstr "Guardar Lista"
+msgstr "Guardar lista"
 
 msgctxt "#31280"
 msgid "Close Playlist"
-msgstr "Cerrar Lista"
+msgstr "Cerrar lista"
 
 msgctxt "#31281"
 msgid "Items"
@@ -343,15 +343,15 @@ msgstr "Elementos"
 
 msgctxt "#31282"
 msgid "Poster Wrap"
-msgstr "Cartel"
+msgstr "Póster"
 
 msgctxt "#31283"
 msgid "Poster Fixed"
-msgstr "Cartel Fijo"
+msgstr "Póster fijo"
 
 msgctxt "#31284"
 msgid "Single Image"
-msgstr "Imagen Única"
+msgstr "Imagen única"
 
 msgctxt "#31285"
 msgid "List"
@@ -359,7 +359,7 @@ msgstr "Lista"
 
 msgctxt "#31286"
 msgid "Banner"
-msgstr "Pancarta"
+msgstr "Banner"
 
 msgctxt "#31289"
 msgid "Files"
@@ -367,15 +367,15 @@ msgstr "Archivos"
 
 msgctxt "#31291"
 msgid "Landscape"
-msgstr "Apaisado"
+msgstr "Landscape"
 
 msgctxt "#31293"
 msgid "Picture Grid"
-msgstr "Rejilla de Fotos"
+msgstr "Cuadrícula de imágenes"
 
 msgctxt "#31298"
 msgid "Panel Square"
-msgstr "Panel Cuadrado"
+msgstr "Panel cuadrado"
 
 msgctxt "#31299"
 msgid "Min"
@@ -383,7 +383,7 @@ msgstr "Min"
 
 msgctxt "#31313"
 msgid "Movie Set"
-msgstr "Saga de Películas"
+msgstr "Colección de películas"
 
 msgctxt "#31319"
 msgid "Default Lyrics script"
@@ -391,23 +391,23 @@ msgstr "Script de Letras por defecto"
 
 msgctxt "#31322"
 msgid "Show Media Totals"
-msgstr "Mostrar todas las Estadísticas"
+msgstr "Mostrar totales"
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr "Orden de Muestra de Widget del Fondo"
+msgstr "Orden de visualización de fondo de widget"
 
 msgctxt "#31324"
 msgid "Home Options"
-msgstr "Opciones de Inicio"
+msgstr "Opciones de inicio"
 
 msgctxt "#31325"
 msgid "Image Resources"
-msgstr "Recursos de Imagen"
+msgstr "Recursos de imagen"
 
 msgctxt "#31328"
 msgid "Show Random Items"
-msgstr "Mostrar Elementos Aleatoriamente"
+msgstr "Mostrar elementos aleatoriamente"
 
 msgctxt "#31329"
 msgid "Select item to set up:"
@@ -419,11 +419,11 @@ msgstr "Scripts/Extras"
 
 msgctxt "#31331"
 msgid "Home Items"
-msgstr "Elementos de Inicio"
+msgstr "Elementos de inicio"
 
 msgctxt "#31332"
 msgid "Enable Extra Fanart"
-msgstr "Activar FanArt Extra"
+msgstr "Activar fanart adicional"
 
 msgctxt "#31334"
 msgid "Trailers"
@@ -431,23 +431,23 @@ msgstr "Tráilers"
 
 msgctxt "#31336"
 msgid "Enable Kiosk mode"
-msgstr "Activar modo Kiosko"
+msgstr "Activar modo kiosko"
 
 msgctxt "#31337"
 msgid "Disable destructive Shutdown items"
-msgstr "Desactivar Opciones de Apagado"
+msgstr "Desactivar opciones de apagado"
 
 msgctxt "#31338"
 msgid "Use simple Media Filter"
-msgstr "Usar Filtro de Contenido simple"
+msgstr "Usar filtro de contenido simple"
 
 msgctxt "#31341"
 msgid "View information for your computer on such items as your network, graphics, hardware and storage space available"
-msgstr "Ver información de su ordenador, tales como gráficas, red, hardware y espacio de almacenamiento disponible"
+msgstr "Ver información de su ordenador sobre elementos como su red, gráfica, hardware y espacio de almacenamiento disponible"
 
 msgctxt "#31342"
 msgid "Create and modify multiple user profiles for Kodi so that each member of your household can have their own video or music library"
-msgstr "Crear y modificar varios perfiles de usuarios en Kodi para que cada miembro de su familia tenga sus propias colecciones"
+msgstr "Crea y modifica múltiples perfiles de usuario para Kodi para que cada miembro de tu hogar pueda tener su propia biblioteca de vídeos o música"
 
 msgctxt "#31343"
 msgid "Action films usually include high energy, big-budget physical stunts and chases, possibly with rescues, battles, fights, escapes, destructive crises (floods, explosions, natural disasters, fires, etc.), non-stop motion, spectacular rhythm and pacing, and adventurous, often two-dimensional 'good-guy' heroes (or recently, heroines) battling 'bad guys' - all designed for pure audience escapism."
@@ -463,7 +463,7 @@ msgstr "Acción y Aventuras se superponen unas encima de otra. Por lo general ti
 
 msgctxt "#31346"
 msgid "This genre really began in 1970 as a sub-genre of Drama. They are films which explain human social and sexual values on a scale that only people over the age of 17 can really understand."
-msgstr "Este género realmente comenzó en 1970 como un subgénero del Drama. Son películas que explican los valores humanos sociales y sexuales en una escala que sólo las personas mayores de 18 pueden realmente entender."
+msgstr "Este género realmente comenzó en 1970 como un subgénero del Drama. Son películas que explican los valores humanos sociales y sexuales en una escala que solo las personas mayores de 18 pueden realmente entender."
 
 msgctxt "#31347"
 msgid "Animations are not a strictly-defined genre category, but rather a film technique, noted for frame-by-frame creation. This includes claymation (use of clay objects), anime (a style of animation with its roots in Japanese comic books, usually adult-oriented sci-fi and fantasy) or CGI (computer-generated animation). Animated films are often considered kid or family-oriented films, although they may be enjoyed by all ages."
@@ -479,7 +479,7 @@ msgstr "Las biografías son un subgénero del drama genérico y géneros cinemat
 
 msgctxt "#31350"
 msgid "Bollywood is the informal term popularly used for the Hindi-language film industry based in Mumbai, Maharashtra, India. The term is often incorrectly used to refer to the whole of Indian cinema; it is only a part of the total Indian film industry, which includes several regional film industries sorted by language. Bollywood is the largest film producer in India and one of the largest centers of film production in the world."
-msgstr "Bollywood es el término informal usado popularmente para la industria del cine hindú con sede en Mumbai, Maharashtra, India. Aunque el término a menudo se utiliza incorrectamente para referirse a la totalidad del cine hindú, es sólo una parte de la industria cinematográfica de la India, la cualincluye varias industrias cinematográficas regionales en varios idiomas. Bollywood es la mayor productora de cine de la India y uno de los mayores centros de producción de cine en el mundo."
+msgstr "Bollywood es el término informal usado popularmente para la industria del cine hindú con sede en Mumbai, Maharashtra, India. Aunque el término a menudo se utiliza incorrectamente para referirse a la totalidad del cine hindú, es solo una parte de la industria cinematográfica de la India, la cual incluye varias industrias cinematográficas regionales en varios idiomas. Bollywood es la mayor productora de cine de la India y uno de los mayores centros de producción de cine en el mundo."
 
 msgctxt "#31351"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G) that do not include topics or scenes with violence, foul language and other profanity, religious issues, adult situations and so on, and are specifically designed for children 12 and under. Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
@@ -527,11 +527,11 @@ msgstr "Cine negro es una rama distinta de las sagas del crimen / gángster de l
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr "Un programa de juegos es un tipo de programa de radio o televisión en el que los miembros del público o celebridades, a veces como parte de un equipo, paticipan en un juego que consiste en responder a preguntas o resolver puzzles generalmente por dinero y / o premios. En algunos programas los concursantes compiten contra otros jugadores o equipos, mientras que otros espectáculos implican concursantes jugando solo para conseguir un buen resultado o una puntuación alta."
+msgstr "Un programa de juegos es un tipo de programa de radio o televisión en el que los miembros del público o celebridades, a veces como parte de un equipo, participan en un juego que consiste en responder a preguntas o resolver puzzles generalmente por dinero y / o premios. En algunos programas los concursantes compiten contra otros jugadores o equipos, mientras que otros espectáculos implican concursantes jugando solo para conseguir un buen resultado o una puntuación alta."
 
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr "Contenido que es adecuado sólo para adultos. Los títulos de esta categoría podrían incluir escenas prolongadas de violencia intensa y / o contenido sexual gráfico y desnudez."
+msgstr "Contenido que es adecuado solo para adultos. Los títulos de esta categoría podrían incluir escenas prolongadas de violencia intensa y / o contenido sexual gráfico y desnudez."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
@@ -599,7 +599,7 @@ msgstr "Ciencia-ficción son a menudo casi científicas, visionarias e imaginati
 
 msgctxt "#31383"
 msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
-msgstr "Un cortometraje es cualquier película no lo suficientemente larga como para ser considerada un largometraje. No existe concenso en cuanto al tiempo máximo: la Academia de las Artes y las Ciencias Cinematográficas define un cortometraje como \"una película original que tiene una duración de 40 minutos o menos, incluyendo todos los créditos\". Internet Movie Database traza la línea a los 45 minutos."
+msgstr "Un cortometraje es cualquier película no lo suficientemente larga como para ser considerada un largometraje. No existe consenso en cuanto al tiempo máximo: la Academia de las Artes y las Ciencias Cinematográficas define un cortometraje como \"una película original que tiene una duración de 40 minutos o menos, incluyendo todos los créditos\". Internet Movie Database traza la línea a los 45 minutos."
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
@@ -619,7 +619,7 @@ msgstr "Una obra de teatro es una forma de literatura escrita por un dramaturgo,
 
 msgctxt "#31389"
 msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
-msgstr "Comedia Stand-up es un arte cómico. Por lo general, un cómico actua en frente de una audiencia en vivo, hablandoles directamente. Sus actuaciones a veces se filman para su posterior publicación en DVD, Internet y televisión. El intérprete se conoce comúnmente como un cómico, comediante o simplemente un stand-up."
+msgstr "Comedia Stand-up es un arte cómico. Por lo general, un cómico actua en frente de una audiencia en vivo, hablandoles. Sus actuaciones a veces se filman para su posterior publicación en DVD, Internet y televisión. El intérprete se conoce comúnmente como un cómico, comediante o simplemente un stand-up."
 
 msgctxt "#31390"
 msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
@@ -655,7 +655,7 @@ msgstr "Las épicas incluyen dramas de época, dramas históricos, de guerra, me
 
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
-msgstr "Las películas que no tienen banda sonora y sin diálogos. Hasta finales de 1920, las películas mudas ofrecian subtítulos y a menudo iban acompañadas de música en vivo."
+msgstr "Las películas que no tienen banda sonora y sin diálogos. Hasta finales de 1920, las películas mudas ofrecían subtítulos y a menudo iban acompañadas de música en vivo."
 
 msgctxt "#31399"
 msgid "Lighter Background Fanart diffuse overlay"
@@ -663,35 +663,35 @@ msgstr "Fondo Fanart Claro difuminado"
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
-msgstr "Ocultar Temperatura Actual y Condición Meteorológica"
+msgstr "Ocultar temperatura actual y condición meteorológica"
 
 msgctxt "#31401"
 msgid "Hide Clock"
-msgstr "Ocultar Reloj"
+msgstr "Ocultar reloj"
 
 msgctxt "#31402"
 msgid "Use Plot Summary in other views"
-msgstr "Usar Argumento Resumido en otras vistas"
+msgstr "Usar resumen en otras vistas"
 
 msgctxt "#31403"
 msgid "Hide Media Flags"
-msgstr "Ocultar Indicadores de Contenido"
+msgstr "Ocultar indicadores de contenido"
 
 msgctxt "#31404"
 msgid "Hide Rating and Studio Flags"
-msgstr "Ocultar Clasificación y Banderas de Estudio"
+msgstr "Ocultar valoración e iconos de estudio"
 
 msgctxt "#31405"
 msgid "Hide Movie Taglines"
-msgstr "Ocultar Eslogan de las películas"
+msgstr "Ocultar eslogan de las películas"
 
 msgctxt "#31406"
 msgid "Fanart Views: Classic Frame"
-msgstr "Vista Fanart: Clásico"
+msgstr "Vista fanart: Clásico"
 
 msgctxt "#31407"
 msgid "*Press UP for full cast and photos*"
-msgstr "*Pulsa ARRIBA para ver reparto y fotos*"
+msgstr "*Presiona ARRIBA para ver el reparto completo y las fotos*"
 
 msgctxt "#31408"
 msgid "Cinema Experience"
@@ -703,15 +703,15 @@ msgstr "Finalizar"
 
 msgctxt "#31410"
 msgid "Prefer Landscape to Fanart (except background)"
-msgstr "Paisaje en lugar de Fanart (excepto fondo)"
+msgstr "Preferir landscape en lugar de fanart (excepto fondo)"
 
 msgctxt "#31411"
 msgid "*Press DOWN to exit*"
-msgstr "*Pulsa ABAJO para salir*"
+msgstr "*Presiona ABAJO para salir*"
 
 msgctxt "#31412"
 msgid "*Press UP to select a profile*"
-msgstr "*Pulsa ARRIBA para elegir un perfil*"
+msgstr "*Presione ARRIBA para elegir un perfil*"
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -727,7 +727,7 @@ msgstr "Cuadrado"
 
 msgctxt "#31416"
 msgid "Tall Genre"
-msgstr "Género Alto"
+msgstr "Género alto"
 
 msgctxt "#31417"
 msgid "*help text*"
@@ -739,19 +739,19 @@ msgstr "Ocultar todo"
 
 msgctxt "#31419"
 msgid "Music Settings"
-msgstr "Ajustes de Música"
+msgstr "Ajustes de música"
 
 msgctxt "#31420"
 msgid "Video Settings"
-msgstr "Ajustes de Video"
+msgstr "Ajustes de vídeo"
 
 msgctxt "#31421"
 msgid "Video OSD: Show ClearArt/Logo"
-msgstr "OSD de Video: Mostrar ClearArt de Series de TV"
+msgstr "OSD de vídeo: Mostrar clearart de series"
 
 msgctxt "#31422"
 msgid "Logo View: Show only one item at a time"
-msgstr "Vista Logo: Mostrar solo un elemento a la vez"
+msgstr "Vista logo: Mostrar solo un elemento a la vez"
 
 msgctxt "#31423"
 msgid "Author"
@@ -759,19 +759,19 @@ msgstr "Autor"
 
 msgctxt "#31424"
 msgid "Poster & Fanart"
-msgstr "Cartel y Fanart"
+msgstr "Póster y fanart"
 
 msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
-msgstr "OSD de Video: Mostrar Miniatura"
+msgstr "OSD de vídeo: Mostrar miniatura"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr "Mostrar Fecha Proxima Emision Serie TV"
+msgstr "Mostrar fecha de proxima emision de la serie"
 
 msgctxt "#31427"
 msgid "Next Episode"
-msgstr "Siguiente Episodio"
+msgstr "Siguiente episodio"
 
 msgctxt "#31428"
 msgid "TV Guide"
@@ -779,31 +779,31 @@ msgstr "Guía TV"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
-msgstr "Mostrar Ruta en Diálogo Info en lugar de Valoración"
+msgstr "Mostrar ruta en diálogo info en lugar de valoración"
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
-msgstr "Cartel Grande"
+msgstr "Póster grande"
 
 msgctxt "#31431"
 msgid "Click to reset Metropolis to defaults"
-msgstr "Clic para restablecer los valores predeterminados de Metrópolis"
+msgstr "Clic para restablecer los valores predeterminados de Metropolis"
 
 msgctxt "#31432"
 msgid "Visualization Background: Ken Burns effect"
-msgstr "Fondo de Visualización: efecto Ken Burns"
+msgstr "Fondo de visualización: Efecto Ken Burns"
 
 msgctxt "#31433"
 msgid "Visualization Background: Fanart"
-msgstr "Fondo de Visualización: Fanart"
+msgstr "Fondo de visualización: Fanart"
 
 msgctxt "#31434"
 msgid "Visualization Background: Extra Fanart"
-msgstr "Fondo de Visualización: Extra Fanart"
+msgstr "Fondo de visualización: Extra fanart"
 
 msgctxt "#31435"
 msgid "Visualization Background: Artist Slideshow"
-msgstr "Fondo de Visualización: Artist Slideshow"
+msgstr "Fondo de visualización: Artist Slideshow"
 
 msgctxt "#31436"
 msgid "Use Slim Seekbar"
@@ -811,7 +811,7 @@ msgstr "Usar barra de búsqueda estrecha"
 
 msgctxt "#31437"
 msgid "Enable TV Tunes script"
-msgstr "Activar script TvTunes"
+msgstr "Activar script TV Tunes"
 
 msgctxt "#31438"
 msgid "Recent"
@@ -819,11 +819,11 @@ msgstr "Recientes"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
-msgstr "Pancarta y Cartel"
+msgstr "Banner y póster"
 
 msgctxt "#31440"
 msgid "View Types"
-msgstr "Tipos de Vistas"
+msgstr "Tipos de vistas"
 
 msgctxt "#31441"
 msgid "Hide"
@@ -831,7 +831,7 @@ msgstr "Ocultar"
 
 msgctxt "#31442"
 msgid "Banner & Fanart"
-msgstr "Pancarta y Fanart"
+msgstr "Banner y fanart"
 
 msgctxt "#31443"
 msgid "Pseudo TV"
@@ -843,27 +843,27 @@ msgstr "Iniciar sesión automáticamente"
 
 msgctxt "#31445"
 msgid "Picture Settings"
-msgstr "Ajustes de Foto"
+msgstr "Ajustes de foto"
 
 msgctxt "#31446"
 msgid "Fullscreen"
-msgstr "Pantalla Completa"
+msgstr "Pantalla completa"
 
 msgctxt "#31447"
 msgid "Use Realistic Weather Icons"
-msgstr "Usar Iconos Realistas de Meteorología"
+msgstr "Usar iconos realistas de meteorología"
 
 msgctxt "#31448"
 msgid "Show Plot only in Info dialog"
-msgstr "Mostrar Argumento solo en pantalla de Información"
+msgstr "Mostrar argumento solo en pantalla de información"
 
 msgctxt "#31449"
 msgid "Show Recommended Items"
-msgstr "Mostrar Elementos Recomendados"
+msgstr "Mostrar elementos recomendados"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr " - cambiar estas opciones requiere reiniciar -"
+msgstr " - cambiar las siguientes opciones requiere reiniciar -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -871,19 +871,19 @@ msgstr "Recomendado"
 
 msgctxt "#31452"
 msgid "Visualization: Use Slim Info Overlay"
-msgstr "Visualización: Usar Información Reducida"
+msgstr "Visualización: Usar información reducida"
 
 msgctxt "#31453"
 msgid "Show Date instead of Day of Week"
-msgstr "Mostrar Fecha en lugar del Día de la Semana"
+msgstr "Mostrar fecha en lugar del día de la semana"
 
 msgctxt "#31454"
 msgid "Visualization: Show player position and time in Info Overlay"
-msgstr "Visualización: Mostrar posición y tiempo de reproducción en Información"
+msgstr "Visualización: Mostrar posición y tiempo de reproducción en información"
 
 msgctxt "#31455"
 msgid "Visualization: Hide Clock and Temp in Info Overlay"
-msgstr "Visualización: Ocultar Reloj y Temperatura en Información"
+msgstr "Visualización: Ocultar reloj y temperatura en información"
 
 msgctxt "#31456"
 msgid "- Override default link"
@@ -891,15 +891,15 @@ msgstr "- Anular enlace predeterminado"
 
 msgctxt "#31457"
 msgid "Shortcuts"
-msgstr "Atajos"
+msgstr "Accesos directos"
 
 msgctxt "#31458"
 msgid "Set Timer"
-msgstr "Ajustar Temporizador"
+msgstr "Ajustar temporizador"
 
 msgctxt "#31459"
 msgid "Cancel Timer"
-msgstr "Cancelar Temporizador"
+msgstr "Cancelar temporizador"
 
 msgctxt "#31460"
 msgid "Games"
@@ -907,31 +907,31 @@ msgstr "Juegos"
 
 msgctxt "#31461"
 msgid "Games Tall"
-msgstr "Juegos Alto"
+msgstr "Juegos alto"
 
 msgctxt "#31462"
 msgid "Games Square"
-msgstr "Juegos Cuadrado"
+msgstr "Juegos cuadrado"
 
 msgctxt "#31463"
 msgid "Games Wide"
-msgstr "Juegos Ancho"
+msgstr "Juegos ancho"
 
 msgctxt "#31464"
 msgid "Show Plot in Fullscreen Info"
-msgstr "Mostrar Argumento en Información durante la Reproducción de Video"
+msgstr "Mostrar argumento en información durante la reproducción de vídeo"
 
 msgctxt "#31465"
 msgid "Clean Library"
-msgstr "Limpiar Colección"
+msgstr "Limpiar biblioteca"
 
 msgctxt "#31466"
 msgid "Foreign is not technically a genre, but likely includes films with dialog in a tongue not native to the viewer."
-msgstr "Extranjeras no es técnicamente un género, pero probablemente incluye películas con diálogo en un idioma no nativo para el espectador."
+msgstr "Extranjeras no es técnicamente un género, pero probablemente incluye películas con diálogos en una lengua que no es nativa para el espectador."
 
 msgctxt "#31467"
 msgid "Holiday is a very broad genre, encompassing films that center around a certain holiday, such as Christmas, Halloween, Easter, etc."
-msgstr "Vacaciones es un género muy amplio que abarca las películas que se centran en un día de fiesta, tales como Navidad, Halloween, Pascua, etc."
+msgstr "Festivo es un género muy amplio que abarca las películas que se centran en un día de fiesta, tales como Navidad, Halloween, Pascua, etc."
 
 msgctxt "#31468"
 msgid "Services"
@@ -943,11 +943,11 @@ msgstr "Apariencia"
 
 msgctxt "#31470"
 msgid "Prefer ClearLogo to ClearArt"
-msgstr "Preferir ClearLogo a ClearArt"
+msgstr "Preferir clearlogo a clearart"
 
 msgctxt "#31471"
 msgid "Show Status"
-msgstr "Mostrar Estado"
+msgstr "Mostrar estado"
 
 msgctxt "#31472"
 msgid "Ended"
@@ -959,7 +959,7 @@ msgstr "Sin mezclar"
 
 msgctxt "#31474"
 msgid "Use one button to toggle subtitles"
-msgstr "Usar un botón para activar los subtitulos"
+msgstr "Usar un botón para activar los subtítulos"
 
 msgctxt "#31475"
 msgid "Default OSD button"
@@ -967,7 +967,7 @@ msgstr "Botón por defecto para OSD"
 
 msgctxt "#31476"
 msgid "OSD: Fade away when paused"
-msgstr "OSD: Desvanecer mientras esta pausado"
+msgstr "OSD: Desvanecer cuando está en pausa"
 
 msgctxt "#31477"
 msgid "- Fade delay"
@@ -975,19 +975,19 @@ msgstr "- Retardo de desvanecimiento"
 
 msgctxt "#31478"
 msgid "Hide default submenu items"
-msgstr "Ocultar Elementos por Defecto del Submenú"
+msgstr "Ocultar elementos por defecto de submenú"
 
 msgctxt "#31479"
 msgid "Poster Fixed Large"
-msgstr "Cartel Fijo Grande"
+msgstr "Póster fijo grande"
 
 msgctxt "#31480"
 msgid "Show IMDb Ranking Media Flag"
-msgstr "Mostrar valoración IMDb del contenido"
+msgstr "Mostrar indicadores de contenido de clasificación IMDb"
 
 msgctxt "#31481"
 msgid "Show Votes instead of Top250 always"
-msgstr "Mostrar Votos en lugar del Top250"
+msgstr "Mostrar votos en lugar del Top250"
 
 msgctxt "#31482"
 msgid "Install"
@@ -995,7 +995,7 @@ msgstr "Instalar"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
-msgstr "Vista Pancarta: Número de filas"
+msgstr "Vista banner: Número de filas"
 
 msgctxt "#31484"
 msgid "Order"
@@ -1003,31 +1003,31 @@ msgstr "Orden"
 
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
-msgstr "Activar soporte de TV en Directo (PVR)"
+msgstr "Activar soporte para TV en Directo (PVR)"
 
 msgctxt "#31601"
 msgid "Live TV"
-msgstr "TV en Directo"
+msgstr "TV en directo"
 
 msgctxt "#31602"
 msgid "Live Radio"
-msgstr "Radio en Directo"
+msgstr "Radio en directo"
 
 msgctxt "#31605"
 msgid "Add Group"
-msgstr "Añadir Grupo"
+msgstr "Añadir grupo"
 
 msgctxt "#31606"
 msgid "Rename Group"
-msgstr "Renombrar Grupo"
+msgstr "Renombrar grupo"
 
 msgctxt "#31607"
 msgid "Delete Group"
-msgstr "Borrar Grupo"
+msgstr "Eliminar grupo"
 
 msgctxt "#31608"
 msgid "Hidden Channels"
-msgstr "Canales Ocultos"
+msgstr "Canales ocultos"
 
 msgctxt "#31610"
 msgid "Scheduled Time"
@@ -1083,19 +1083,19 @@ msgstr "Usar meteorología extendida"
 
 msgctxt "#31711"
 msgid "Show weather forecast on home screen"
-msgstr "Ver pronóstico meteorológico en la pantalla principal"
+msgstr "Ver pronóstico meteorológico en la pantalla de inicio"
 
 msgctxt "#31712"
 msgid "Crop Thumbnails in Music Video Gallery View"
-msgstr "Recortar miniaturas en la vista Galería de Vídeoclips"
+msgstr "Recortar miniaturas en la vista de galería de vídeos musicales"
 
 msgctxt "#31713"
 msgid "Custom Home Shortcut"
-msgstr "Atajo Inicio Personalizado"
+msgstr "Acceso directo de inicio personalizado"
 
 msgctxt "#31714"
 msgid "Label and Shortcut"
-msgstr "Etiqueta y Atajo"
+msgstr "Etiqueta y acceso directo"
 
 msgctxt "#31715"
 msgid "Icon"
@@ -1111,64 +1111,64 @@ msgstr "Lluvia"
 
 msgctxt "#31718"
 msgid "Home Furniture"
-msgstr "Adornos de Inicio"
+msgstr "Adornos de inicio"
 
 msgctxt "#31719"
 msgid "Reset Home Furniture to defaults"
-msgstr "Restablecer Adornos de Inicio a valores predeterminados"
+msgstr "Restablecer adornos de inicio a valores predeterminados"
 
 msgctxt "#31720"
 msgid "Remove the shortcut.  This cannot be undone."
-msgstr "Elimiar atajo. No se puede deshacer."
+msgstr "Borrar el acceso directo.   Esto no se puede deshacer."
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr "Mueve el atajo a arriba en las vistas verticales o a la izquierda en las horizontales. En las horizontales, el tercer elemento estará en el centro."
+msgstr "Mueva el acceso directo hacia arriba en vistas verticales o hacia la izquierda en vistas horizontales.   En las vistas horizontales, el tercer elemento del menú está en el centro."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr "Mueve el atajo a abajo en las vistas verticales o a la derecha en las horizontales. En las horizontales, el tercer elemento estará en el centro."
+msgstr "Mueva el acceso directo hacia abajo en vistas verticales o hacia la derecha en vistas horizontales.   En las vistas horizontales, el tercer elemento del menú está en el centro."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
-msgstr "Define la acción del atajo. Escoja entre las preestablecidas. Para más control, puede definir una acción Personalizada abajo."
+msgstr "Establecer acción para el acceso directo.   Elija entre varias selecciones preestablecidas.   Para tener más control, puede introducir manualmente una acción personalizada a continuación."
 
 msgctxt "#31724"
 msgid "Set background image for the shortcut."
-msgstr "Imagen de fondo para el atajo."
+msgstr "Imagen de fondo para el acceso directo."
 
 msgctxt "#31725"
 msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
-msgstr "Etiqueta para el atajo. Normalmente se pone automáticamente al elegir el atajo, pero se puede modificar manualmente si se quiere."
+msgstr "Establece etiqueta para el acceso directo.   Por lo general, esto se configura automáticamente al seleccionar el acceso directo, pero se puede modificar manualmente si lo desea."
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr "Seleccione el widget para el atajo. Los widgets son programas que realizan varias tareas o muestran útiles menús. Algunos widgets se ponen por defecto pero se pueden cambiar o quitar."
+msgstr "Seleccione el widget para el acceso directo.   Los widgets son scripts de información integrados que realizan diversas tareas o muestran menús útiles.  Algunos widgets se han configurado de forma predeterminada, pero se pueden cambiar o eliminar."
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
-msgstr "Acción personalizada para el atajo. Se usa para ignorar o editar la acción que hace el atajo."
+msgstr "Establezca una acción personalizada para el acceso directo.   Esto se utiliza para anular o editar la acción realizada por el acceso directo."
 
 msgctxt "#31728"
 msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
-msgstr "Personalizar submenú del atajo. Se pueden crear submenúes con órdenes personalizados, atajos y/o favoritos. El editor de submenú es exactamente igual que el editor del menú principal."
+msgstr "Personaliza el submenú para el acceso directo.   Los submenús se pueden completar con comandos personalizados, accesos directos y/o favoritos.   El editor de submenú se verá y funcionará casi exactamente como el menú principal."
 
 msgctxt "#31729"
 msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
-msgstr "Cerrar la ventana. Todos los cambios de los atajos tendrán efecto inmediato."
+msgstr "Cierra esta ventana.   Todos los cambios realizados en el editor de accesos directos surten efecto al instante."
 
 msgctxt "#31730"
 msgid "Create a new shortcut at the bottom of the list."
-msgstr "Crear un atajo nuevo al final de la lista."
+msgstr "Cree un nuevo acceso directo al final de la lista."
 
 msgctxt "#31731"
 msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
-msgstr "Restablece TODOS los atajos a sus valores predeterminados. Esto revocará todos los cambios en el menú principal y submenúes y no se puede deshacer."
+msgstr "Restablece TODOS los accesos directos a sus valores predeterminados.   Esto revertirá cualquier cambio en el menú principal o submenús y no se puede deshacer."
 
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
-msgstr "¿Esta seguro de que quiere elimiar el atajo Ajustes?"
+msgstr "¿Estás seguro de que realmente deseas eliminar el acceso directo a configuración?"
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr "Activa o Desactiva el atajo. Esto dejara el elemento del menú en los ajustes pero lo ocultará en el menú real si esta desactivado."
+msgstr "Activa o desactiva el acceso directo. Esto dejará el elemento del menú en este menú de configuración, pero lo ocultará en el menú principal real si está desactivado."
