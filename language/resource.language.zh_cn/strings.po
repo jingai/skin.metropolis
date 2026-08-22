@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-11-05 13:30+0000\n"
-"Last-Translator: 撷星芒 <mofa2020@qq.com>\n"
-"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/zh_cn/>\n"
+"PO-Revision-Date: 2026-04-11 14:41+0000\n"
+"Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -71,7 +71,7 @@ msgstr "选择天气图标"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr "选择天气同人画"
+msgstr "选择天气背景图"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
@@ -111,7 +111,7 @@ msgstr "隐藏剧集已观看状态"
 
 msgctxt "#31033"
 msgid "Hide Background Fanart"
-msgstr "隐藏背景同人画"
+msgstr "隐藏背景艺术图"
 
 msgctxt "#31034"
 msgid "Enable Dynamic Weather Artwork"
@@ -123,11 +123,11 @@ msgstr "显示清理资料库子菜单项"
 
 msgctxt "#31036"
 msgid "Hide Widgets until focused"
-msgstr "隐藏小部件直到成为焦点"
+msgstr "隐藏小组件直到成为焦点"
 
 msgctxt "#31037"
 msgid "Stretch background fanart to fit into viewable area"
-msgstr "拉伸背景同人画适应可视范围"
+msgstr "拉伸背景艺术图适应可视范围"
 
 msgctxt "#31054"
 msgid "Logo"
@@ -395,7 +395,7 @@ msgstr "显示媒体总计"
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr "小部件背景显示顺序"
+msgstr "小组件背景显示顺序"
 
 msgctxt "#31324"
 msgid "Home Options"
@@ -423,7 +423,7 @@ msgstr "首页项目"
 
 msgctxt "#31332"
 msgid "Enable Extra Fanart"
-msgstr "启用附加同人画"
+msgstr "启用额外背景图"
 
 msgctxt "#31334"
 msgid "Trailers"
@@ -487,7 +487,7 @@ msgstr "这些都是平和、健康、娱乐性的电影（通常分级为G）�
 
 msgctxt "#31352"
 msgid "This genre is comprised of theatrically released films (or TV Shows) that are entirely, or in large part, about the Christmas holiday. Films in this genre always feature important references to the holiday's symbols, such as family gatherings, trees and decorations, the Christ child, or Santa Claus."
-msgstr "这种类型完全或大部分为圣诞节在影院上映的影片（或电视节目）。这种类型的电影总是含有重要的节日因素，例如家庭聚会、圣诞树或圣诞老人。"
+msgstr "这种类型完全或大部分为圣诞节在影院上映的影片（或电视剧）。这种类型的电影总是含有重要的节日因素，例如家庭聚会、圣诞树或圣诞老人。"
 
 msgctxt "#31353"
 msgid "Comedies are light-hearted plots consistently and deliberately designed to amuse and provoke laughter (with one-liners, jokes, etc.) by exaggerating the situation, the language, action, relationships and characters."
@@ -662,7 +662,7 @@ msgstr "没有同步的配乐，没有对白的电影，直到在1920年代后�
 
 msgctxt "#31399"
 msgid "Lighter Background Fanart diffuse overlay"
-msgstr "背景同人画增亮显示"
+msgstr "浅色背景图弥散叠加"
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
@@ -690,7 +690,7 @@ msgstr "隐藏电影标语"
 
 msgctxt "#31406"
 msgid "Fanart Views: Classic Frame"
-msgstr "同人画视图：经典画幅"
+msgstr "背景图视图：经典画幅"
 
 msgctxt "#31407"
 msgid "*Press UP for full cast and photos*"
@@ -706,7 +706,7 @@ msgstr "完成"
 
 msgctxt "#31410"
 msgid "Prefer Landscape to Fanart (except background)"
-msgstr "首选水平方式显示同人画（除背景）"
+msgstr "首选水平方式显示背景图（除背景）"
 
 msgctxt "#31411"
 msgid "*Press DOWN to exit*"
@@ -762,7 +762,7 @@ msgstr "作者"
 
 msgctxt "#31424"
 msgid "Poster & Fanart"
-msgstr "海报和同人画"
+msgstr "海报和背景图"
 
 msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
@@ -770,7 +770,7 @@ msgstr "视频OSD：显示缩略图"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr "剧集下一播出日期显示"
+msgstr "电视剧下一播出日期显示"
 
 msgctxt "#31427"
 msgid "Next Episode"
@@ -798,11 +798,11 @@ msgstr "可视化效果背景：平移缩放特效"
 
 msgctxt "#31433"
 msgid "Visualization Background: Fanart"
-msgstr "可视化效果背景：同人画"
+msgstr "可视化效果背景：背景图"
 
 msgctxt "#31434"
 msgid "Visualization Background: Extra Fanart"
-msgstr "可视化效果背景：附加同人画"
+msgstr "可视化效果背景：额外背景图"
 
 msgctxt "#31435"
 msgid "Visualization Background: Artist Slideshow"
@@ -834,7 +834,7 @@ msgstr "隐藏"
 
 msgctxt "#31442"
 msgid "Banner & Fanart"
-msgstr "横幅和同人画"
+msgstr "横幅和背景图"
 
 msgctxt "#31443"
 msgid "Pseudo TV"
@@ -1146,7 +1146,7 @@ msgstr "设置快捷键标签。通常在选择快捷键时自动设置，但可
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr "为快捷键选择小部件。小部件是执行各种任务或显示有用的菜单的内置信息脚本。有些小部件是默认设置的，但可以更改或删除。"
+msgstr "为快捷键选择小组件。小组件是执行各种任务或显示有用的菜单的内置信息脚本。有些小组件是默认设置的，但可以更改或删除。"
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
@@ -1154,7 +1154,7 @@ msgstr "为快捷键设置自定义动作。用于覆盖或编辑快捷键动作
 
 msgctxt "#31728"
 msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
-msgstr "自定义快捷键子菜单。子菜单可以有自定义命令、快捷键，和/或收藏夹。子菜单编辑器的外观和操作几乎与主菜单编辑器一样。"
+msgstr "自定义快捷键子菜单。子菜单可以有自定义命令、快捷键，和/或收藏。子菜单编辑器的外观和操作几乎与主菜单编辑器一样。"
 
 msgctxt "#31729"
 msgid "Close this window.  All changes made in the shortcut editor take effect instantly."

@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-07-30 13:11+0000\n"
-"Last-Translator: Andreas Bolin <bolin.andreas@gmail.com>\n"
+"PO-Revision-Date: 2026-01-10 20:13+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/sv_se/>\n"
 "Language: sv_se\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.15.1\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -27,7 +27,7 @@ msgstr "Metropolis är utformat att visa så mycket mediainfo som möjligt, med 
 
 msgctxt "#31001"
 msgid "View Options"
-msgstr "Visningsval"
+msgstr "Visningsalternativ"
 
 msgctxt "#31002"
 msgid "Home Artwork"
@@ -35,7 +35,7 @@ msgstr "Hembilder"
 
 msgctxt "#31004"
 msgid "Debug"
-msgstr "Debuggning"
+msgstr "Felsök"
 
 msgctxt "#31005"
 msgid "Enable auto scrolling for text that does not fit on-screen"
@@ -67,27 +67,27 @@ msgstr "Höj stjärnbetyg"
 
 msgctxt "#31013"
 msgid "Select Weather icons"
-msgstr ""
+msgstr "Välj väderikoner"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr ""
+msgstr "Välj fanart för väder"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
-msgstr ""
+msgstr "Välj ikoner för studiologotyp"
 
 msgctxt "#31016"
 msgid "Select Record Label icons"
-msgstr ""
+msgstr "Välj ikoner för skivbolag"
 
 msgctxt "#31017"
 msgid "Select Language Flag icons"
-msgstr ""
+msgstr "Välj ikoner för språkflaggor"
 
 msgctxt "#31018"
 msgid "Show User Rating instead of scraped Rating in Media Flag"
-msgstr ""
+msgstr "Visa användarbetyg i stället för skrapat betyg i mediaflagga"
 
 msgctxt "#31021"
 msgid "Decrease Star Rating"
@@ -123,11 +123,11 @@ msgstr "Visa undermeny för objekt i städa bibliotek"
 
 msgctxt "#31036"
 msgid "Hide Widgets until focused"
-msgstr ""
+msgstr "Dölj widgetar tills de har fokus"
 
 msgctxt "#31037"
 msgid "Stretch background fanart to fit into viewable area"
-msgstr ""
+msgstr "Sträck ut fanart i bakgrunden så att den passar in i det synliga området"
 
 msgctxt "#31054"
 msgid "Logo"
@@ -147,11 +147,11 @@ msgstr "Visa senast tillagda objekt"
 
 msgctxt "#31108"
 msgid "Enable Debug Mode"
-msgstr "Aktivera debuggläge"
+msgstr "Aktivera felsökningsläge"
 
 msgctxt "#31109"
 msgid "Enable Debug Grid"
-msgstr "Aktivera debuggrutnät"
+msgstr "Aktivera felsökningsrutnät"
 
 msgctxt "#31118"
 msgid "Filemanager"
@@ -163,7 +163,7 @@ msgstr "Göm rotmapp för video"
 
 msgctxt "#31126"
 msgid "Extra Artwork Downloader"
-msgstr "Extra Bakgrunds-nerladdare"
+msgstr "Hämtare för extrabildmaterial"
 
 msgctxt "#31127"
 msgid "TvTunes Downloader"
@@ -176,11 +176,11 @@ msgstr "Tysta"
 # empty strings from id 31134 to 31135
 msgctxt "#31136"
 msgid "Video Info"
-msgstr ""
+msgstr "Videoinformation"
 
 msgctxt "#31137"
 msgid "Audio Info"
-msgstr ""
+msgstr "Ljudinformation"
 
 msgctxt "#31138"
 msgid "System Info"
@@ -188,11 +188,11 @@ msgstr "Systeminformation"
 
 msgctxt "#31139"
 msgid "Video decoder"
-msgstr "Videokodare"
+msgstr "Videoavkodare"
 
 msgctxt "#31140"
 msgid "Pixel format"
-msgstr "Pixelformat"
+msgstr "Bildpunktsformat"
 
 msgctxt "#31141"
 msgid "Audio channels"
@@ -200,7 +200,7 @@ msgstr "Ljudkanaler"
 
 msgctxt "#31142"
 msgid "CPU used"
-msgstr ""
+msgstr "CPU-användning"
 
 msgctxt "#31143"
 msgid "Memory used"
@@ -248,7 +248,7 @@ msgstr "rwx32"
 
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr "Vytyp"
+msgstr "Visningstyp"
 
 msgctxt "#31207"
 msgid "Current"
@@ -286,7 +286,7 @@ msgstr "Konfigurera & hantera delningstjänster för media · Konfigurera & hant
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
-msgstr ""
+msgstr "Konfigurera kontrollerinställningar - Konfigurera funktioner för tillbakaspolning och autosparning"
 
 # empty string with id 31219
 msgctxt "#31220"
@@ -323,7 +323,7 @@ msgstr "Favorit"
 
 msgctxt "#31275"
 msgid "Multi Image"
-msgstr "Flerbild"
+msgstr "Flera bilder"
 
 msgctxt "#31277"
 msgid "Item"
@@ -347,7 +347,7 @@ msgstr "Objekt"
 
 msgctxt "#31282"
 msgid "Poster Wrap"
-msgstr "Omslagswrap"
+msgstr "Poster Wrap"
 
 msgctxt "#31283"
 msgid "Poster Fixed"
@@ -371,7 +371,7 @@ msgstr "Filer"
 
 msgctxt "#31291"
 msgid "Landscape"
-msgstr "Landscape"
+msgstr "Landskap"
 
 msgctxt "#31293"
 msgid "Picture Grid"
@@ -399,7 +399,7 @@ msgstr "Visa totalt media"
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr ""
+msgstr "Visningsordning för widgetbakgrund"
 
 msgctxt "#31324"
 msgid "Home Options"
@@ -407,7 +407,7 @@ msgstr "Hemalternativ"
 
 msgctxt "#31325"
 msgid "Image Resources"
-msgstr ""
+msgstr "Bildresurser"
 
 msgctxt "#31328"
 msgid "Show Random Items"
@@ -591,7 +591,7 @@ msgstr "Apokalyptisk fiktion är en sub-genre av science fiction som handlar om 
 
 msgctxt "#31379"
 msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
-msgstr "Reality-tv är en genre av TV-program som presenterar oredigerade dramatiska eller humoristiska situationer, dokumenterar faktiska händelser, och oftast har vanliga människor istället för professionella aktörer, ibland i en tävling eller annan situation där ett pris delas ut."
+msgstr "Reality-tv är en genre av tv-serier som presenterar oredigerade dramatiska eller humoristiska situationer, dokumenterar faktiska händelser, och oftast har vanliga människor istället för professionella aktörer, ibland i en tävling eller annan situation där ett pris delas ut."
 
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
@@ -727,7 +727,7 @@ msgstr "Galleri"
 
 msgctxt "#31415"
 msgid "Square"
-msgstr "Fyrkantig"
+msgstr "Fyrkant"
 
 msgctxt "#31416"
 msgid "Tall Genre"
@@ -771,7 +771,7 @@ msgstr "Video OSD: Visa miniatyr"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr ""
+msgstr "Visa nästa sändningsdatum för tv-serie"
 
 msgctxt "#31427"
 msgid "Next Episode"
@@ -779,11 +779,11 @@ msgstr "Nästa avsnitt"
 
 msgctxt "#31428"
 msgid "TV Guide"
-msgstr "TV-guide"
+msgstr "TV-tablå"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
-msgstr ""
+msgstr "Visa sökväg i informationsdialog istället för betyg"
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
@@ -827,7 +827,7 @@ msgstr "Banderoller & Posters"
 
 msgctxt "#31440"
 msgid "View Types"
-msgstr "Vytyper"
+msgstr "Visningstyper"
 
 msgctxt "#31441"
 msgid "Hide"
@@ -955,7 +955,7 @@ msgstr "Visa status"
 
 msgctxt "#31472"
 msgid "Ended"
-msgstr "Slutade"
+msgstr "Avslutad"
 
 msgctxt "#31473"
 msgid "unmixed"
@@ -983,27 +983,27 @@ msgstr "Göm standardval i undermeny"
 
 msgctxt "#31479"
 msgid "Poster Fixed Large"
-msgstr ""
+msgstr "Poster fast stor"
 
 msgctxt "#31480"
 msgid "Show IMDb Ranking Media Flag"
-msgstr ""
+msgstr "Visa mediaflagga för IMDb-betyg"
 
 msgctxt "#31481"
 msgid "Show Votes instead of Top250 always"
-msgstr ""
+msgstr "Visa alltid röster istället för Top250"
 
 msgctxt "#31482"
 msgid "Install"
-msgstr ""
+msgstr "Installera"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
-msgstr ""
+msgstr "Banderollvy: Antal rader"
 
 msgctxt "#31484"
 msgid "Order"
-msgstr "Sortera"
+msgstr "Ordning"
 
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
@@ -1015,7 +1015,7 @@ msgstr "Direktsänd TV"
 
 msgctxt "#31602"
 msgid "Live Radio"
-msgstr ""
+msgstr "Direktsänd radio"
 
 msgctxt "#31605"
 msgid "Add Group"
@@ -1039,7 +1039,7 @@ msgstr "Schemalagd tid"
 
 msgctxt "#31611"
 msgid "PVR Status"
-msgstr ""
+msgstr "PVR-status"
 
 msgctxt "#31700"
 msgid "7 Day Forecast"
@@ -1115,64 +1115,64 @@ msgstr "Nederbörd"
 
 msgctxt "#31718"
 msgid "Home Furniture"
-msgstr ""
+msgstr "Home Furniture"
 
 msgctxt "#31719"
 msgid "Reset Home Furniture to defaults"
-msgstr ""
+msgstr "Nollställ Home Furniture till standard"
 
 msgctxt "#31720"
 msgid "Remove the shortcut.  This cannot be undone."
-msgstr ""
+msgstr "Ta bort genvägen.  Detta går inte att ångra."
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Flytta genvägen uppåt i vertikala vyer eller åt vänster i horisontella vyer.  I horisontella vyer är det tredje menyalternativet i mitten."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Flytta genvägen nedåt i vertikala vyer eller åt höger i horisontella vyer.  I horisontella vyer är det tredje menyalternativet i mitten."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
-msgstr ""
+msgstr "Ange åtgärd för genvägen.  Välj bland olika förinställda val.  Om du vill ha mer kontroll kan du ange en anpassad åtgärd manuellt nedan."
 
 msgctxt "#31724"
 msgid "Set background image for the shortcut."
-msgstr ""
+msgstr "Ställ in bakgrundsbild för genvägen."
 
 msgctxt "#31725"
 msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
-msgstr ""
+msgstr "Ange en etikett för genvägen.  Denna ställs vanligtvis in automatiskt när genvägen väljs, men den kan ändras manuellt om du vill."
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr ""
+msgstr "Välj widget för genvägen.  Widgetar är inbyggda infoskript som utför olika uppgifter eller visar användbara menyer. Vissa widgetar är standardinställda men kan ändras eller tas bort."
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
-msgstr ""
+msgstr "Ange en anpassad åtgärd för genvägen.  Detta används för att åsidosätta eller redigera den åtgärd som genvägen utför."
 
 msgctxt "#31728"
 msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
-msgstr ""
+msgstr "Anpassa undermeny för genvägen.  Undermenyer kan fyllas med egna kommandon, genvägar och/eller favoriter.  Redigeraren för undermenyer ser ut och fungerar nästan exakt som redigeraren för huvudmenyer."
 
 msgctxt "#31729"
 msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
-msgstr ""
+msgstr "Stäng det här fönstret.  Alla ändringar som görs i genvägsredigeraren träder i kraft direkt."
 
 msgctxt "#31730"
 msgid "Create a new shortcut at the bottom of the list."
-msgstr ""
+msgstr "Skapa en ny genväg längst ner i listan."
 
 msgctxt "#31731"
 msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
-msgstr ""
+msgstr "Återställ ALLA genvägar till standardinställningarna.  Detta återställer alla ändringar i huvudmenyn eller undermenyerna och kan inte ångras."
 
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
-msgstr ""
+msgstr "Är du säker på att du verkligen vill ta bort genvägen till Inställningar?"
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr ""
+msgstr "Aktivera eller inaktivera genvägen.  Menyalternativet kommer att finnas kvar i den här inställningsmenyn men döljas på den riktiga huvudmenyn om den är inaktiverad."

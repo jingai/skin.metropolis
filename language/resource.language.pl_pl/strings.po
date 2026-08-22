@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-03 14:14+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2025-11-06 21:13+0000\n"
+"Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/pl_pl/>\n"
 "Language: pl_pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 5.14\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -285,7 +285,7 @@ msgstr "Konfiguracja i zarządzanie usługami udostępniania · Konfiguracja i z
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
-msgstr ""
+msgstr "Konfigurowanie ustawień kontrolera · Konfigurowanie funkcji przewijania i automatycznego zapisywania"
 
 # empty string with id 31219
 msgctxt "#31220"
@@ -398,7 +398,7 @@ msgstr "Pokazuj statystyki mediów"
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr ""
+msgstr "Kolejność wyświetlania tła widżetu"
 
 msgctxt "#31324"
 msgid "Home Options"
@@ -454,27 +454,27 @@ msgstr "Twórz i modyfikuj profile użytkownika Kodi tak, aby każdy członek Tw
 
 msgctxt "#31343"
 msgid "Action films usually include high energy, big-budget physical stunts and chases, possibly with rescues, battles, fights, escapes, destructive crises (floods, explosions, natural disasters, fires, etc.), non-stop motion, spectacular rhythm and pacing, and adventurous, often two-dimensional 'good-guy' heroes (or recently, heroines) battling 'bad guys' - all designed for pure audience escapism."
-msgstr ""
+msgstr "Filmy akcji zazwyczaj zawierają mnóstwo energii, wysokobudżetowe sceny kaskaderskie i pościgi, czasami z akcjami ratunkowymi, bitwami, walkami, ucieczkami, katastrofami (powodziami, eksplozjami, klęskami żywiołowymi, pożarami itp.), nieprzerwaną akcję, spektakularny rytm i tempo oraz pełnych przygód, często dwuwymiarowych „dobrych” bohaterów (lub ostatnio bohaterek) walczących ze „złymi” - wszystko zaprojektowane tak, aby zapewnić widzom czystą ucieczkę od rzeczywistości."
 
 msgctxt "#31344"
 msgid "Adventure films are usually exciting stories, with new experiences or exotic locales, very similar to or often paired with the action film genre. They can include traditional swashbucklers, serialized films, and historical spectacles, searches or expeditions for lost continents, \"jungle\" and \"desert\" epics, treasure hunts, disaster films, or searches for the unknown."
-msgstr ""
+msgstr "Filmy przygodowe to zazwyczaj ekscytujące historie, z nowymi doświadczeniami lub egzotycznymi lokacjami, bardzo podobne do gatunku kina akcji, a często wręcz z nim łączone. Mogą to być tradycyjne kryminały, filmy serialowe i widowiska historyczne, poszukiwania lub wyprawy na zaginione kontynenty, epopeje o dżungli i pustyni, poszukiwania skarbów, filmy katastroficzne lub poszukiwania nieznanego."
 
 msgctxt "#31345"
 msgid "Action and Adventure movies are in most cases a cross over of each other. They usually have a continuous high level of energy, complicated stunts and other activities of such nature, chases, battles, disasters of all natures, explosions, historical figures, explorations, conquests, etc; and last, but not least, heroes."
-msgstr ""
+msgstr "Filmy akcji i przygodowe w większości przypadków są skrzyżowaniem siebie. Zazwyczaj charakteryzują się ciągłym, wysokim poziomem energii, skomplikowanymi akrobacjami i innymi tego typu aktywnościami, pościgami, bitwami, katastrofami wszelkiego rodzaju, eksplozjami, postaciami historycznymi, eksploracjami, podbojami itp.; i wreszcie, co nie mniej ważne, bohaterami."
 
 msgctxt "#31346"
 msgid "This genre really began in 1970 as a sub-genre of Drama. They are films which explain human social and sexual values on a scale that only people over the age of 17 can really understand."
-msgstr ""
+msgstr "Ten gatunek narodził się w 1970 roku jako podgatunek dramatu. Są to filmy, które wyjaśniają ludzkie wartości społeczne i seksualne w sposób zrozumiały tylko dla widzów powyżej 17. roku życia."
 
 msgctxt "#31347"
 msgid "Animations are not a strictly-defined genre category, but rather a film technique, noted for frame-by-frame creation. This includes claymation (use of clay objects), anime (a style of animation with its roots in Japanese comic books, usually adult-oriented sci-fi and fantasy) or CGI (computer-generated animation). Animated films are often considered kid or family-oriented films, although they may be enjoyed by all ages."
-msgstr ""
+msgstr "Animacje nie są ściśle zdefiniowaną kategorią gatunkową, a raczej techniką filmową, charakteryzującą się tworzeniem poklatkowym. Należą do nich plastelinizacja (wykorzystanie glinianych obiektów), anime (styl animacji wywodzący się z japońskich komiksów, zazwyczaj science fiction i fantasy dla dorosłych) oraz CGI (animacja generowana komputerowo). Filmy animowane są często uznawane za filmy dla dzieci lub familijne, choć mogą spodobać się widzom w każdym wieku."
 
 msgctxt "#31348"
 msgid "Anime, or Japanese animation, covers a much wider range of genres than can be found in most Western animation. There is anime for all age groups, and, while much of it fits into the same genres as any TV show or movie (comedy, romance, horror and action), there are several terms that are particular to anime."
-msgstr ""
+msgstr "Anime, czyli japońska animacja, obejmuje znacznie szerszy zakres gatunków niż większość animacji zachodnich. Anime jest przeznaczone dla wszystkich grup wiekowych i choć wiele z nich mieści się w tych samych gatunkach co seriale telewizyjne czy filmy (komedia, romans, horror i akcja), istnieje kilka terminów charakterystycznych dla anime."
 
 msgctxt "#31349"
 msgid "Biographies are a sub-genre of the larger drama and epic film genres. These films depict the life of an important historical personage (or group) from the past or present era. They cross many genre types, since these films might showcase a western outlaw, a criminal, a musical composer, a religious figure, a war-time hero, an entertainer, an artist, an inventor or doctor, a politician or President, or an adventurer."
@@ -482,183 +482,183 @@ msgstr "Biografie są podgatunkiem ogólniejszych gatunków: dramatu i filmu epi
 
 msgctxt "#31350"
 msgid "Bollywood is the informal term popularly used for the Hindi-language film industry based in Mumbai, Maharashtra, India. The term is often incorrectly used to refer to the whole of Indian cinema; it is only a part of the total Indian film industry, which includes several regional film industries sorted by language. Bollywood is the largest film producer in India and one of the largest centers of film production in the world."
-msgstr ""
+msgstr "Bollywood to nieformalne określenie powszechnie używane w odniesieniu do przemysłu filmowego w języku hindi, z siedzibą w Mumbaju w stanie Maharasztra w Indiach. Termin ten jest często błędnie używany w odniesieniu do całego indyjskiego kina; stanowi on jedynie część indyjskiego przemysłu filmowego, który obejmuje kilka regionalnych branż filmowych, pogrupowanych według języków. Bollywood jest największym producentem filmowym w Indiach i jednym z największych ośrodków produkcji filmowej na świecie."
 
 msgctxt "#31351"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G) that do not include topics or scenes with violence, foul language and other profanity, religious issues, adult situations and so on, and are specifically designed for children 12 and under. Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "Są to filmy nieobraźliwe, zdrowe i rozrywkowe (zazwyczaj oznaczone kategorią wiekową G), które nie zawierają tematów ani scen przemocy, wulgaryzmów, treści religijnych, scen dla dorosłych itp. i są przeznaczone specjalnie dla dzieci do 12. roku życia. Filmy dla dzieci i rodzin mogą być odpowiednie dla wszystkich grup wiekowych i obejmować szeroki zakres gatunków."
 
 msgctxt "#31352"
 msgid "This genre is comprised of theatrically released films (or TV Shows) that are entirely, or in large part, about the Christmas holiday. Films in this genre always feature important references to the holiday's symbols, such as family gatherings, trees and decorations, the Christ child, or Santa Claus."
-msgstr ""
+msgstr "Ten gatunek obejmuje filmy (lub seriale) emitowane w kinach, które w całości lub w dużej części dotyczą świąt Bożego Narodzenia. Filmy z tego gatunku zawsze zawierają istotne odniesienia do symboli świątecznych, takich jak spotkania rodzinne, choinki i dekoracje, Dzieciątko Jezus czy Święty Mikołaj."
 
 msgctxt "#31353"
 msgid "Comedies are light-hearted plots consistently and deliberately designed to amuse and provoke laughter (with one-liners, jokes, etc.) by exaggerating the situation, the language, action, relationships and characters."
-msgstr ""
+msgstr "Komedie to lekkie, pogodne fabuły, konsekwentnie i celowo zaprojektowane tak, aby bawić i wywoływać śmiech (za pomocą krótkich tekstów, żartów itp.) przez wyolbrzymianie sytuacji, języka, akcji, relacji i postaci."
 
 msgctxt "#31354"
 msgid "This is a sub-genre of Musical. It includes filmed concerts by either a musical group of individual."
-msgstr ""
+msgstr "To podgatunek musicalu. Obejmuje on filmowane koncerty zespołu muzycznego lub indywidualne."
 
 msgctxt "#31355"
 msgid "Crime films are developed around the sinister actions of criminals or mobsters, particularly bankrobbers, underworld figures, or ruthless hoodlums who operate outside the law, stealing and murdering their way through life. Criminal and gangster films are often categorized as film noir or detective-mystery films - because of underlying similarities between these cinematic forms."
-msgstr ""
+msgstr "Filmy kryminalne koncentrują się na złowrogich działaniach przestępców lub gangsterów, zwłaszcza rabusiów bankowych, przedstawicieli półświatka lub bezwzględnych bandytów, którzy działają poza prawem, kradnąc i mordując, by przetrwać. Filmy kryminalne i gangsterskie są często klasyfikowane jako film noir lub kryminał – ze względu na podobieństwa między tymi formami filmowymi."
 
 msgctxt "#31356"
 msgid "Disaster films, a sub-genre of action films, hit their peak in the decade of the 1970s. Big-budget disaster films provided all-star casts and interlocking, Grand Hotel-type stories, with suspenseful action and impending crises in locales such as aboard imperiled airliners, trains, dirigibles, sinking or wrecked ocean-liners, or in towering burning skyscrapers, crowded stadiums or earthquake zones. Often noted for their visual and special effects, but not their acting performances."
-msgstr ""
+msgstr "Filmy katastroficzne, podgatunek filmów akcji, osiągnęły szczyt popularności w latach 70. XX wieku. Wysokobudżetowe filmy katastroficzne oferowały gwiazdorską obsadę i przeplatające się historie w stylu Grand Hotelu, z trzymającą w napięciu akcją i nadchodzącymi kryzysami w miejscach takich jak zagrożone samoloty pasażerskie, pociągi, sterowce, tonące lub rozbite transatlantyki, a także w wysokich, płonących wieżowcach, zatłoczonych stadionach czy strefach trzęsień ziemi. Często znane były z efektów wizualnych i specjalnych, ale nie z gry aktorskiej."
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr ""
+msgstr "Ściśle rzecz biorąc, filmy dokumentalne to niefikcyjne, oparte na faktach dzieła sztuki. Pierwotnie, najwcześniejsze dokumenty były albo krótkimi kronikami filmowymi, obrazami instruktażowymi, albo reportażami podróżniczymi (zwanymi aktualnościami), pozbawionymi kreatywnego opowiadania historii czy inscenizacji. Jednak z czasem rozszerzyły się i przybrały wiele form, a czasami stały się propagandowe i pozbawione obiektywizmu. Mockumenty to komediowe parodie dokumentów."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
-msgstr ""
+msgstr "Dramaty to poważne, oparte na fabule przedstawienia, przedstawiające realistyczne postaci, scenerie, sytuacje życiowe i historie, charakteryzujące się intensywnym rozwojem postaci i interakcją. Zazwyczaj nie koncentrują się na efektach specjalnych, komedii ani akcji. Filmy dramatyczne to prawdopodobnie najpopularniejszy gatunek filmowy, z wieloma podgatunkami."
 
 msgctxt "#31359"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G or PG) that do not include topics or scenes with violence, foul language and other profanity, religious issues, mature themes and so on, and are specifically designed for children 12 and under (or for family viewing). Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "Są to filmy nieobraźliwe, zdrowe i rozrywkowe (zazwyczaj oznaczone kategorią wiekową G lub PG), które nie zawierają tematów ani scen przemocy, wulgaryzmów, treści religijnych, treści dla dorosłych itp. i są przeznaczone specjalnie dla dzieci do 12. roku życia (lub do oglądania w gronie rodzinnym). Filmy dla dzieci i całej rodziny mogą być odpowiednie dla wszystkich grup wiekowych i obejmować szeroki zakres kategorii gatunkowych."
 
 msgctxt "#31360"
 msgid "Fantasy films, usually considered a sub-genre, are most likely to overlap with the film genres of science fiction and horror, although they are distinct. Fantasies take the audience to netherworld places (or another dimension) where events are unlikely to occur in real life - they transcend the bounds of human possibility and physical laws. They often have an element of magic, myth, wonder, and the extraordinary."
-msgstr ""
+msgstr "Filmy fantasy, zazwyczaj uważane za podgatunek, najprawdopodobniej pokrywają się z gatunkami science fiction i horroru, choć są one odrębne. Filmy fantasy przenoszą widzów do zaświatów (lub innego wymiaru), gdzie wydarzenia raczej nie miałyby miejsca w rzeczywistości – wykraczają one poza granice ludzkich możliwości i prawa fizyki. Często zawierają elementy magii, mitu, cudów i niezwykłości."
 
 msgctxt "#31361"
 msgid "Film noir (meaning 'black film') is a distinct branch of the crime/gangster sagas from the 1930s. Strictly speaking, film noir is not a genre, but rather the mood, style or tone of various American films that evolved in the 1940s. Noirs are usually black and white films with primary moods of melancholy, alienation, bleakness, disillusionment, disenchantment, pessimism, ambiguity, moral corruption, evil, guilt and paranoia. They often feature a cynical, loner hero (anti-hero) and femme fatale, in a seedy big city."
-msgstr ""
+msgstr "Film noir (oznaczający „czarny film”) to odrębna gałąź sag kryminalnych/gangsterskich z lat 30. XX wieku. Ściśle rzecz biorąc, film noir nie jest gatunkiem, lecz raczej nastrojem, stylem lub tonem różnych amerykańskich filmów, które ewoluowały w latach 40. XX wieku. Filmy noir to zazwyczaj czarno-białe filmy, których głównymi tematami są melancholia, alienacja, ponurość, rozczarowanie, pesymizm, niejednoznaczność, moralne zepsucie, zło, poczucie winy i paranoja. Często przedstawiają cynicznego, samotnego bohatera (antybohatera) i femme fatale w obskurnym, wielkim mieście."
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr ""
+msgstr "Teleturniej to rodzaj programu radiowego lub telewizyjnego, w którym publiczność lub gwiazdy, czasami w ramach drużyny, grają w grę polegającą na odpowiadaniu na pytania lub rozwiązywaniu zagadek, zazwyczaj o pieniądze i/lub nagrody. W niektórych programach uczestnicy rywalizują z innymi graczami lub drużyną, podczas gdy w innych uczestnicy grają indywidualnie, aby uzyskać dobry wynik lub wysoki wynik."
 
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr ""
+msgstr "Zawiera treści przeznaczone wyłącznie dla osób dorosłych. Tytuły w tej kategorii mogą zawierać długie sceny przemocy i/lub drastyczne treści seksualne i nagość."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
-msgstr ""
+msgstr "Eposy historyczne to filmy epickie, których akcja rozgrywa się w przeszłości, często koncentrując się na postaciach, które zmieniają bieg historii. Wiele eposów historycznych, zwłaszcza tych z lat 50. i 60. XX wieku, rozgrywa się w czasach starożytnych, zwłaszcza w Rzymie, Grecji lub Egipcie. Eposy historyczne zazwyczaj charakteryzują się większym rozmachem niż inne rodzaje eposów, z rozbudowaną scenografią i dużą liczbą statystów."
 
 msgctxt "#31367"
 msgid "Horror films are designed to frighten and to invoke our hidden worst fears, often in a terrifying, shocking finale, while captivating and entertaining us at the same time in a cathartic experience. Horror films feature a wide range of styles, from the earliest silent Nosferatu classic, to today's CGI monsters and deranged humans. They are often combined with science fiction when the menace or monster is related to a corruption of technology, or when Earth is threatened by aliens."
-msgstr ""
+msgstr "Filmy grozy mają na celu przestraszyć i wywołać nasze najskrytsze lęki, często w przerażającym, szokującym finale, a jednocześnie urzec i zapewnić nam rozrywkę, zapewniając oczyszczające doznania. Horrory prezentują szeroki wachlarz stylów, od najwcześniejszego klasycznego filmu niemego „Nosferatu”, po współczesne potwory generowane komputerowo i obłąkanych ludzi. Często łączy się je z science fiction, gdy zagrożenie lub potwór jest związany z zepsuciem technologii lub gdy Ziemi zagrażają kosmici."
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
-msgstr ""
+msgstr "Film niezależny, czyli indie, to film fabularny, który powstaje głównie poza dużym studiem filmowym. Termin ten odnosi się również do filmów artystycznych, które wyraźnie różnią się od większości filmów masowo dystrybuowanych. Filmy niezależne często wyróżniają się treścią i stylem oraz sposobem realizacji osobistej wizji artystycznej twórców."
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
-msgstr ""
+msgstr "Wywiad to rozmowa między dwiema osobami (przeprowadzającym wywiad i udzielającym wywiadu), podczas której przeprowadzający wywiad zadaje pytania w celu uzyskania informacji od udzielającego wywiadu."
 
 msgctxt "#31370"
 msgid "A sub-genre of the action film, martial arts films contain numerous fights between characters, usually as the films' primary appeal and entertainment value, and often as a method of storytelling and character expression and development. Martial arts are frequently featured in training scenes and other sequences in addition to fights. Martial arts films commonly include other types of action, such as stuntwork, chases, and/or gunfights."
-msgstr ""
+msgstr "Filmy o sztukach walki, będące podgatunkiem filmów akcji, zawierają liczne walki między bohaterami, zazwyczaj jako główny atut i wartość rozrywkową filmu, a często jako sposób opowiadania historii oraz ekspresji i rozwoju postaci. Sztuki walki są często obecne w scenach treningowych i innych sekwencjach, oprócz walk. Filmy o sztukach walki zazwyczaj zawierają inne rodzaje akcji, takie jak sceny kaskaderskie, pościgi i/lub strzelaniny."
 
 msgctxt "#31371"
 msgid "Multi-episode, fictional program of limited duration, shown on a daily or weekly schedule, usually lasting fifteen hours or less in total running time. A good television miniseries can make the small screen seem huge. These programs are the best that TV has to offer: an excuse to sink in and lose yourself in a story that isn't over in just a couple of hours. The sets, the plots, and the acting make each of these essential miniseries an exquisite television experience."
-msgstr ""
+msgstr "Wieloodcinkowy, fikcyjny program o ograniczonej długości, emitowany codziennie lub co tydzień, zazwyczaj trwający piętnaście godzin lub krócej. Dobry miniserial telewizyjny potrafi sprawić, że mały ekran wyda się ogromny. Te programy to najlepsze, co telewizja ma do zaoferowania: pretekst, by wciągnąć się w historię, która nie kończy się w ciągu zaledwie kilku godzin. Scenografia, fabuła i aktorstwo sprawiają, że każdy z tych niezbędnych miniserialów to wyjątkowe doświadczenie telewizyjne."
 
 msgctxt "#31372"
 msgid "Monster movie (also can be referred to as a creature feature or monster film) is a name commonly given to movies, which centre on the struggle between human beings and one or more monsters. The term is usually applied to films sometimes labelled as horror, fantasy or science fiction genre that involve fictional creatures, in most cases it is applied to films that feature more oversized monsters despite its history starting with adaptations of horror folklore and literature."
-msgstr ""
+msgstr "„Monster movie” (znany również jako „creative movie” lub „monster film”) to nazwa powszechnie stosowana do filmów, których tematem jest walka między ludźmi a jednym lub kilkoma potworami. Termin ten jest zazwyczaj stosowany do filmów określanych niekiedy jako horror, fantasy lub science fiction, w których pojawiają się fikcyjne stworzenia. W większości przypadków odnosi się on do filmów z większymi potworami, mimo że jego historia sięga adaptacji folkloru i literatury grozy."
 
 msgctxt "#31373"
 msgid "Music genre films will incorporate a lot of music but it will not necessarily be the focal point of the film, thus differentiating it from a Musical."
-msgstr ""
+msgstr "Filmy muzyczne zawierają dużo muzyki, ale nie jest ona koniecznie głównym elementem filmu, co odróżnia je od musicalu."
 
 msgctxt "#31374"
 msgid "Musical/dance films are cinematic forms that emphasize full-scale scores or song and dance routines in a significant way (usually with a musical or dance performance integrated as part of the film narrative), or they are films that are centered on combinations of music, dance, song or choreography. Major subgenres include the musical comedy or the concert film."
-msgstr ""
+msgstr "Filmy musicalowe/taneczne to formy filmowe, które w znaczący sposób kładą nacisk na muzykę lub układy wokalne i taneczne (zazwyczaj z musicalem lub tańcem zintegrowanym z narracją filmu), lub też są to filmy, które koncentrują się na połączeniu muzyki, tańca, śpiewu lub choreografii. Główne podgatunki to komedia muzyczna i film koncertowy."
 
 msgctxt "#31375"
 msgid "Mystery film is a sub-genre of the more general category of crime film. It focuses on the efforts of the detective, private investigator or amateur sleuth to solve the mysterious circumstances of a crime by means of clues, investigation, and clever deduction."
-msgstr ""
+msgstr "Film kryminalny to podgatunek szerszej kategorii filmów kryminalnych. Koncentruje się na wysiłkach detektywa, prywatnego detektywa lub detektywa-amatora, którzy starają się rozwikłać tajemnicze okoliczności zbrodni za pomocą poszlak, śledztwa i sprytnej dedukcji."
 
 msgctxt "#31376"
 msgid "A nature documentary is a documentary film about animals, plants, or other non-human living creatures, usually concentrating on film taken in their natural habitat. Such programmes are most frequently made for television, particularly for public broadcasting channels, but some are also made for the cinema."
-msgstr ""
+msgstr "Film dokumentalny o przyrodzie to film dokumentalny o zwierzętach, roślinach lub innych istotach żywych, zazwyczaj skupiający się na filmach nakręconych w ich naturalnym środowisku. Tego typu programy są najczęściej realizowane na potrzeby telewizji, w szczególności dla nadawców publicznych, ale niektóre są również tworzone na potrzeby kina."
 
 msgctxt "#31377"
 msgid "Television news is considered by many to be the most influential medium for journalism. For most of the American public, local and national TV newscasts are the primary news sources."
-msgstr ""
+msgstr "Wiadomości telewizyjne są przez wielu uważane za najbardziej wpływowe medium dziennikarskie. Dla większości Amerykanów, lokalne i ogólnokrajowe serwisy informacyjne są głównym źródłem informacji."
 
 msgctxt "#31378"
 msgid "Apocalyptic fiction is a sub-genre of science fiction that is concerned with the end of civilization due to a catastrophe such as nuclear warfare, pandemic, impact event, cybernetic revolt, Technological Singularity, Dysgenics, supernatural phenomena, Ecological disaster, resource depletion or some other general disaster. Post-apocalyptic fiction is set in a world or civilization after such a disaster."
-msgstr ""
+msgstr "Fikcja apokaliptyczna to podgatunek science fiction, który koncentruje się na końcu cywilizacji w wyniku katastrofy, takiej jak wojna nuklearna, pandemia, uderzenie, rewolta cybernetyczna, osobliwość technologiczna, dysgenika, zjawiska nadprzyrodzone, katastrofa ekologiczna, wyczerpanie zasobów lub inna katastrofa o charakterze ogólnym. Akcja fikcji postapokaliptycznej rozgrywa się w świecie lub cywilizacji po takiej katastrofie."
 
 msgctxt "#31379"
 msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
-msgstr ""
+msgstr "Programy telewizyjne typu reality show to gatunek programów telewizyjnych, które przedstawiają rzekomo nieskryptowane sytuacje dramatyczne lub humorystyczne, dokumentują prawdziwe wydarzenia i zwykle występują w nich zwykli ludzie zamiast profesjonalnych aktorów, czasami w ramach konkursu lub innej sytuacji, w której przyznaje się nagrody."
 
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
-msgstr ""
+msgstr "Kategoria ta, w przeważającej mierze podgatunek, łączy pewne cechy z dramatami romantycznymi, komediami romantycznymi i filmami erotycznymi. Są to historie miłosne, czyli romanse, które koncentrują się na namiętności, emocjach i romantycznym, pełnym uczuć zaangażowaniu głównych bohaterów (zazwyczaj mężczyzny i kobiety), a także na drodze, jaką ich miłość odbywa poprzez zaloty lub małżeństwo. W filmach romantycznych historia miłosna stanowi główny wątek fabularny."
 
 msgctxt "#31382"
 msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
-msgstr ""
+msgstr "Filmy science fiction są często quasi-naukowe, wizjonerskie i pomysłowe – pełne bohaterów, kosmitów, odległych planet, niemożliwych wypraw, nieprawdopodobnych scenerii, fantastycznych miejsc, wielkich, mrocznych i tajemniczych złoczyńców, futurystycznej technologii, nieznanych i niepoznawalnych sił oraz niezwykłych potworów, stworzonych albo przez szalonych naukowców, albo przez nuklearne spustoszenie. Science fiction często ukazuje potencjał technologii do zniszczenia ludzkości i łatwo łączy się z filmami grozy."
 
 msgctxt "#31383"
 msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
-msgstr ""
+msgstr "Film krótkometrażowy to każdy film, który nie jest wystarczająco długi, by zostać uznanym za pełnometrażowy. Nie ma konsensusu co do tego, gdzie przebiega ta granica: Amerykańska Akademia Sztuki i Wiedzy Filmowej definiuje film krótkometrażowy jako „oryginalny film o czasie trwania 40 minut lub krótszym, wliczając napisy końcowe”. Internetowa Baza Danych Filmowych (Internet Movie Database) ustala granicę na 45 minut."
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
-msgstr ""
+msgstr "Opera mydlana, czasami nazywana w skrócie „soap”, to ciągłe, epizodyczne dzieło fikcji dramatycznej prezentowane w formie serialu w telewizji lub radiu. Nazwa opera mydlana wywodzi się od oryginalnych seriali dramatycznych emitowanych w radiu, których sponsorami i producentami byli producenci mydła, tacy jak Procter & Gamble, Colgate-Palmolive i Lever Brothers. Te wczesne seriale radiowe były nadawane w dni powszednie, w godzinach popołudniowych, kiedy większość słuchaczy stanowiły gospodynie domowe; w związku z tym programy były skierowane i oglądane głównie przez kobiety."
 
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
-msgstr ""
+msgstr "Filmy, których akcja rozgrywa się na stadionie piłkarskim lub baseballowym, arenie, igrzyskach olimpijskich itp., których akcja rozgrywa się w kontekście wydarzenia sportowego („wielkiego meczu”, „walki”, „wyścigu” lub „zawodów”) i/lub sportowca (boksera, zawodnika, surfera itp.), stanowiących centralny i dominujący element fabuły. Filmy sportowe mogą być fikcyjne lub niefikcyjne; stanowią hybrydową kategorię podgatunków, choć często są to dramaty lub komedie, a czasami także filmy dokumentalne lub biograficzne."
 
 msgctxt "#31387"
 msgid "The spy film genre deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John Le Carré) or as a basis for fantasy (such as James Bond). Many novels in the spy fiction genre have been adapted as films, including works by John Buchan, John Le Carré, Ian Fleming and Len Deighton. It is a significant aspect of British cinema, with leading British directors such as Alfred Hitchcock and Carol Reed making notable contributions and many films set in the British Secret Service."
-msgstr ""
+msgstr "Gatunek filmów szpiegowskich porusza tematykę fikcyjnego szpiegostwa, zarówno w sposób realistyczny (jak w adaptacjach Johna Le Carré), jak i jako podstawa fantasy (jak w przypadku Jamesa Bonda). Wiele powieści z gatunku powieści szpiegowskich zostało zaadaptowanych na potrzeby filmów, w tym dzieła Johna Buchana, Johna Le Carré, Iana Fleminga i Lena Deightona. Jest to istotny aspekt brytyjskiego kina, z wybitnym wkładem czołowych brytyjskich reżyserów, takich jak Alfred Hitchcock i Carol Reed, a wiele filmów rozgrywa się w brytyjskich służbach specjalnych."
 
 msgctxt "#31388"
 msgid "A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading. There are rare dramatists, notably George Bernard Shaw, who have had little preference whether their plays were performed or read. The term \"play\" can refer to both the written works of playwrights and to their complete theatrical performance."
-msgstr ""
+msgstr "Sztuka to forma literacka napisana przez dramatopisarza, zazwyczaj składająca się z dialogów między postaciami, przeznaczona do wystawienia w teatrze, a nie tylko do czytania. Nieliczni dramaturdzy, na przykład George Bernard Shaw, nie mieli preferencji co do tego, czy ich sztuki były wystawiane, czy czytane. Termin „sztuka” może odnosić się zarówno do dzieł dramatopisarzy, jak i do ich pełnego wystawienia w teatrze."
 
 msgctxt "#31389"
 msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
-msgstr ""
+msgstr "Stand-up to forma sztuki komediowej. Zazwyczaj komik występuje przed publicznością na żywo, przemawiając bezpośrednio do niej. Jego występy są czasami filmowane i udostępniane na DVD, w internecie i telewizji. Występ jest powszechnie znany jako komik, komik stand-upowy, komik stand-upowy lub po prostu stand-up."
 
 msgctxt "#31390"
 msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
-msgstr ""
+msgstr "Film superbohaterski, zwany też filmem komiksowym, to film akcji, fantasy lub science fiction, który koncentruje się na poczynaniach jednego lub kilku superbohaterów – osób, które zazwyczaj posiadają nadludzkie zdolności w porównaniu ze zwykłymi ludźmi i są oddane ochronie społeczeństwa. Filmy te są niemal zawsze nastawione na akcję, a pierwszy film o danej postaci często skupia się na pochodzeniu jej mocy specjalnych, w tym na pierwszej walce z najsłynniejszym arcywrogiem, czyli superzłoczyńcą tej postaci."
 
 msgctxt "#31391"
 msgid "Supernatural films, a sub-genre category, may be combined with other genres, including comedy, sci-fi, fantasy or horror. They have themes including gods or goddesses, ghosts, apparitions, spirits, miracles, and other similar ideas or depictions of extraordinary phenomena."
-msgstr ""
+msgstr "Filmy o zjawiskach nadprzyrodzonych, stanowiące podgatunek, można łączyć z innymi gatunkami, takimi jak komedia, science fiction, fantasy czy horror. Ich tematyka obejmuje bogów i boginie, duchy, zjawy, duchy, cuda i inne podobne idee lub przedstawienia zjawisk nadzwyczajnych."
 
 msgctxt "#31392"
 msgid "A talk show (American and Australian English) or chat show (British) is a television or radio program where one person (or group of people) discuss various topics put forth by a talk show host. Sometimes, talk shows feature a panel of guests, usually consisting of a group of people who are learned or who have great experience in relation to whatever issue is being discussed on the show for that episode. Other times, a single guest discusses their work or area of expertise with a host or co-hosts."
-msgstr ""
+msgstr "Talk show (w języku amerykańskim i australijskim) lub chat show (w języku brytyjskim) to program telewizyjny lub radiowy, w którym jedna osoba (lub grupa osób) omawia różne tematy poruszane przez prowadzącego talk show. Czasami w talk show pojawia się panel gości, zazwyczaj składający się z grupy osób wykształconych lub posiadających bogate doświadczenie w zakresie omawianego w danym odcinku tematu. Innym razem pojedynczy gość rozmawia z prowadzącym lub współprowadzącymi o swojej pracy lub obszarze specjalizacji."
 
 msgctxt "#31393"
 msgid "Thrillers (or Suspense films) are often hybrids with other genres - there are action-thrillers, crime-caper thrillers, western-thrillers, film-noir thrillers, even romantic comedy-thrillers. Another closely-related genre is the horror film genre. They are types of films known to promote intense excitement, suspense, a high level of anticipation, ultra-heightened expectation, uncertainty, anxiety, and nerve-wracking tension. Spy films may be considered a type of thriller/suspense film."
-msgstr ""
+msgstr "Thrillery (lub filmy suspensu) często stanowią hybrydę z innymi gatunkami – istnieją thrillery akcji, thrillery kryminalne, thrillery westernowe, thrillery filmowe noir, a nawet romantyczne komedie thrillery. Innym blisko spokrewnionym gatunkiem jest horror. To filmy znane z tego, że wywołują intensywne emocje, suspens, wysoki poziom oczekiwania, skrajnie wysokie oczekiwania, niepewność, lęk i napięcie. Filmy szpiegowskie można zaliczyć do gatunku thrillera/suspensu."
 
 msgctxt "#31394"
 msgid "War films are a film genre concerned with warfare, usually about naval, air or land battles, sometimes focusing instead on prisoners of war, covert operations, military training or other related subjects. At times war films focus on daily military or civilian life in wartime without depicting battles. Their stories may be fiction, based on history, docudrama, biographical, or even alternate history fiction."
-msgstr ""
+msgstr "Filmy wojenne to gatunek filmowy poświęcony wojnie, zazwyczaj bitwom morskim, powietrznym lub lądowym, czasem skupiający się na jeńcach wojennych, operacjach tajnych, szkoleniu wojskowym lub innych pokrewnych tematach. Czasami filmy wojenne koncentrują się na codziennym życiu żołnierzy lub cywilów w czasie wojny, nie przedstawiając bitew. Ich fabuła może być fikcją, oparta na faktach historycznych, dokumentem dramatycznym, biografią, a nawet historią alternatywną."
 
 msgctxt "#31395"
 msgid "Westerns are the major defining genre of the American film industry - a eulogy to the early days of the expansive American frontier. They are one of the oldest, most enduring genres with very recognizable plots, elements, and characters (six-guns, horses, dusty towns and trails, cowboys, Indians, etc.). Over time, westerns have been re-defined, re-invented and expanded, dismissed, re-discovered, and spoofed."
-msgstr ""
+msgstr "Westerny to gatunek definiujący amerykański przemysł filmowy – pochwała początków ekspansywnego amerykańskiego Dzikiego Zachodu. To jeden z najstarszych i najtrwalszych gatunków, z bardzo rozpoznawalnymi fabułami, elementami i postaciami (rewolwery, konie, zakurzone miasta i szlaki, kowboje, Indianie itp.). Z biegiem czasu westerny były na nowo definiowane, na nowo odkrywane i rozszerzane, odrzucane, odkrywane na nowo i parodiowane."
 
 msgctxt "#31396"
 msgid "Wrestling is a martial art that uses grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds. A wrestling bout is a physical competition, between two (occasionally more) competitors or sparring partners, who attempt to gain and maintain a superior position. There are a wide range of styles with varying rules with both traditional historic and modern styles."
-msgstr ""
+msgstr "Zapasy to sztuka walki wykorzystująca techniki zapaśnicze, takie jak klincz, rzuty i obalenia, dźwignie na stawy, wiązania i inne chwyty grapplingowe. Walka zapaśnicza to rywalizacja fizyczna pomiędzy dwoma (czasami więcej) zawodnikami lub partnerami sparingowymi, którzy starają się zdobyć i utrzymać przewagę. Istnieje szeroka gama stylów walki o zróżnicowanych zasadach, zarówno tradycyjnych, jak i współczesnych."
 
 msgctxt "#31397"
 msgid "Epics include costume dramas, historical dramas, war films, medieval romps, or 'period pictures' that often cover a large expanse of time set against a vast, panoramic backdrop. Epics often share elements of the elaborate adventure films genre. Epics take an historical or imagined event, mythic, legendary, or heroic figure, and add an extravagant setting and lavish costumes, accompanied by grandeur and spectacle, dramatic scope, high production values, and a sweeping musical score."
-msgstr ""
+msgstr "Do eposów zaliczają się dramaty kostiumowe, dramaty historyczne, filmy wojenne, średniowieczne romanse czy „filmy historyczne”, które często obejmują szeroki zakres czasowy, rozgrywający się na rozległym, panoramicznym tle. Eposy często zawierają elementy rozbudowanego gatunku filmów przygodowych. Eposy biorą pod lupę wydarzenie historyczne lub fikcyjne, postać mityczną, legendarną lub bohaterską, dodając do tego ekstrawagancką scenerię i bogate kostiumy, a wszystko to w połączeniu z majestatycznością i widowiskowością, dramaturgią, wysokim poziomem produkcji i porywającą ścieżką dźwiękową."
 
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
-msgstr ""
+msgstr "Filmy, które nie miały zsynchronizowanej ścieżki dźwiękowej ani dialogów mówionych, istniały aż do początków kina dźwiękowego pod koniec lat 20. XX wieku. Filmy bez dialogów zawierały napisy do fragmentów dialogowych, a często towarzyszyła im muzyka na żywo."
 
 msgctxt "#31399"
 msgid "Lighter Background Fanart diffuse overlay"
@@ -702,7 +702,7 @@ msgstr "Dodatek Cinema Experience"
 
 msgctxt "#31409"
 msgid "Finish"
-msgstr "Zakończenie o:"
+msgstr "Zakończenie"
 
 msgctxt "#31410"
 msgid "Prefer Landscape to Fanart (except background)"
@@ -762,7 +762,7 @@ msgstr "Autor"
 
 msgctxt "#31424"
 msgid "Poster & Fanart"
-msgstr "Plakat & Fototapeta"
+msgstr "Plakat i fototapeta"
 
 msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
@@ -770,7 +770,7 @@ msgstr "Menu ekranowe: Pokazuj miniatury"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr ""
+msgstr "Wyświetlanie daty następnej emisji programu telewizyjnego"
 
 msgctxt "#31427"
 msgid "Next Episode"
@@ -782,7 +782,7 @@ msgstr "Przewodnik"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
-msgstr ""
+msgstr "Wyświetl ścieżkę w oknie dialogowym informacji zamiast oceny"
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
@@ -794,7 +794,7 @@ msgstr "Naciśnij, aby przywrócić domyślne ustawienia skóry"
 
 msgctxt "#31432"
 msgid "Visualization Background: Ken Burns effect"
-msgstr "Wizualizacja tła: efekt Ken Burnsa"
+msgstr "Wizualizacja tła: efekt Kena Burnsa"
 
 msgctxt "#31433"
 msgid "Visualization Background: Fanart"
@@ -822,7 +822,7 @@ msgstr "Ostatnie"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
-msgstr "Baner & Plakat"
+msgstr "Baner i plakat"
 
 msgctxt "#31440"
 msgid "View Types"
@@ -834,7 +834,7 @@ msgstr "Ukryj"
 
 msgctxt "#31442"
 msgid "Banner & Fanart"
-msgstr "Baner & Fototapeta"
+msgstr "Baner i fototapeta"
 
 msgctxt "#31443"
 msgid "Pseudo TV"
@@ -998,7 +998,7 @@ msgstr "Zainstaluj"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
-msgstr ""
+msgstr "Widok banera: Liczba wierszy"
 
 msgctxt "#31484"
 msgid "Order"
@@ -1170,8 +1170,8 @@ msgstr "Zresetuj wszystkie skróty do wartości domyślnych. Dotyczy to wszystki
 
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć skrót Ustawienia?"
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr ""
+msgstr "Włącz lub wyłącz skrót. Spowoduje to pozostawienie elementu menu w tym menu ustawień, ale ukrycie go w rzeczywistym menu głównym, jeśli zostanie wyłączony."

@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-10 10:59+0000\n"
-"Last-Translator: Konon-cat <konon@spark-mail.ru>\n"
+"PO-Revision-Date: 2026-06-01 23:16+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/ru_ru/>\n"
 "Language: ru_ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -27,11 +27,11 @@ msgstr "Обложка Метрополис запроектирована та�
 
 msgctxt "#31001"
 msgid "View Options"
-msgstr "Вид"
+msgstr "Параметры вида"
 
 msgctxt "#31002"
 msgid "Home Artwork"
-msgstr "Изменение фона"
+msgstr "Фон главной"
 
 msgctxt "#31004"
 msgid "Debug"
@@ -71,7 +71,7 @@ msgstr "Выберите иконки погоды"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr "Выберите фан-арт для раздела \"Погода\""
+msgstr "Выберите фан-арт раздела «Погода»"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
@@ -136,7 +136,7 @@ msgstr "Лого"
 # empty string with id 31055
 msgctxt "#31056"
 msgid "Enable Video/Album Art overlay"
-msgstr "Включить оверлей для изображений в разделах \"Видео\" и \"Альбом\""
+msgstr "Включить оверлей для изображений в разделах «Видео» и «Альбом»"
 
 msgctxt "#31057"
 msgid "Enable Song Info text overlay"
@@ -168,7 +168,7 @@ msgstr "Загрузчик дополнительных изображений"
 
 msgctxt "#31127"
 msgid "TvTunes Downloader"
-msgstr "Загрузчик для TVTunes"
+msgstr "Загрузчик для TvTunes"
 
 msgctxt "#31133"
 msgid "Mute"
@@ -261,7 +261,7 @@ msgstr "Последнее Обновление:"
 
 msgctxt "#31210"
 msgid "Default Home layout"
-msgstr "Основное меню по-умолчанию"
+msgstr "Макет основного меню по умолчанию"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
@@ -344,7 +344,7 @@ msgstr "Закрыть Плейлист"
 
 msgctxt "#31281"
 msgid "Items"
-msgstr "Обьекты"
+msgstr "Объекты"
 
 msgctxt "#31282"
 msgid "Poster Wrap"
@@ -360,7 +360,7 @@ msgstr "Одно изображение"
 
 msgctxt "#31285"
 msgid "List"
-msgstr "LIST"
+msgstr "Список"
 
 msgctxt "#31286"
 msgid "Banner"
@@ -416,7 +416,7 @@ msgstr "Показывать Случайные"
 
 msgctxt "#31329"
 msgid "Select item to set up:"
-msgstr "Выберите позицию"
+msgstr "Выберите позицию:"
 
 msgctxt "#31330"
 msgid "Scripts/Extras"
@@ -448,11 +448,11 @@ msgstr "Простой фильтр медиа"
 
 msgctxt "#31341"
 msgid "View information for your computer on such items as your network, graphics, hardware and storage space available"
-msgstr "Информация о вашей системе, как-то сеть, графика, аппаратные компоненты, место на твердом диске."
+msgstr "Информация о вашей системе, как-то сеть, графика, аппаратные компоненты, место на хранилище"
 
 msgctxt "#31342"
 msgid "Create and modify multiple user profiles for Kodi so that each member of your household can have their own video or music library"
-msgstr "Создавать и изменять профили пользователей, так чтобы каждый имел свою медиатеку."
+msgstr "Создавать и изменять профили пользователей, так чтобы каждый имел свою медиатеку"
 
 msgctxt "#31343"
 msgid "Action films usually include high energy, big-budget physical stunts and chases, possibly with rescues, battles, fights, escapes, destructive crises (floods, explosions, natural disasters, fires, etc.), non-stop motion, spectacular rhythm and pacing, and adventurous, often two-dimensional 'good-guy' heroes (or recently, heroines) battling 'bad guys' - all designed for pure audience escapism."
@@ -460,211 +460,211 @@ msgstr "Боевики (экшены) чаще всего характеризу
 
 msgctxt "#31344"
 msgid "Adventure films are usually exciting stories, with new experiences or exotic locales, very similar to or often paired with the action film genre. They can include traditional swashbucklers, serialized films, and historical spectacles, searches or expeditions for lost continents, \"jungle\" and \"desert\" epics, treasure hunts, disaster films, or searches for the unknown."
-msgstr ""
+msgstr "Приключенческие фильмы обычно представляют собой захватывающие истории с новыми впечатлениями или экзотическими местами, очень похожие на жанр боевиков или часто сочетающиеся с ним. Они могут включать традиционные плащи и шпаги, сериализованные фильмы и исторические зрелища, поиски или экспедиции затерянных континентов, «джунглевые» и «пустынные» эпопеи, охоту за сокровищами, фильмы-катастрофы или поиски неизведанного."
 
 msgctxt "#31345"
 msgid "Action and Adventure movies are in most cases a cross over of each other. They usually have a continuous high level of energy, complicated stunts and other activities of such nature, chases, battles, disasters of all natures, explosions, historical figures, explorations, conquests, etc; and last, but not least, heroes."
-msgstr ""
+msgstr "Боевики и приключенческие фильмы в большинстве случаев пересекаются друг с другом. Они обычно отличаются непрерывным высоким уровнем энергии, сложными трюками и другими подобными действиями, погонями, сражениями, катастрофами всех видов, взрывами, историческими личностями, исследованиями, завоеваниями и т.д.; и, наконец, но не в последнюю очередь, героями."
 
 msgctxt "#31346"
 msgid "This genre really began in 1970 as a sub-genre of Drama. They are films which explain human social and sexual values on a scale that only people over the age of 17 can really understand."
-msgstr ""
+msgstr "Этот жанр фактически зародился в 1970 году как поджанр драмы. Это фильмы, которые объясняют человеческие социальные и сексуальные ценности в масштабе, который по-настоящему могут понять только люди старше 17 лет."
 
 msgctxt "#31347"
 msgid "Animations are not a strictly-defined genre category, but rather a film technique, noted for frame-by-frame creation. This includes claymation (use of clay objects), anime (a style of animation with its roots in Japanese comic books, usually adult-oriented sci-fi and fantasy) or CGI (computer-generated animation). Animated films are often considered kid or family-oriented films, although they may be enjoyed by all ages."
-msgstr ""
+msgstr "Анимация — это не строго определённая жанровая категория, а скорее кинематографическая техника, отмеченная покадровым созданием. Это включает пластилиновую анимацию (использование пластилиновых объектов), аниме (стиль анимации, уходящий корнями в японские комиксы, обычно ориентированный на взрослых научную фантастику и фэнтези) или CGI (компьютерную анимацию). Анимационные фильмы часто считаются детскими или семейными, хотя они могут нравиться всем возрастам."
 
 msgctxt "#31348"
 msgid "Anime, or Japanese animation, covers a much wider range of genres than can be found in most Western animation. There is anime for all age groups, and, while much of it fits into the same genres as any TV show or movie (comedy, romance, horror and action), there are several terms that are particular to anime."
-msgstr ""
+msgstr "Аниме, или японская анимация, охватывает гораздо более широкий спектр жанров, чем можно найти в большинстве западных мультфильмов. Существует аниме для всех возрастных групп, и, хотя большая его часть вписывается в те же жанры, что и любые телешоу или фильмы (комедия, романтика, ужасы и боевик), существуют несколько терминов, характерных именно для аниме."
 
 msgctxt "#31349"
 msgid "Biographies are a sub-genre of the larger drama and epic film genres. These films depict the life of an important historical personage (or group) from the past or present era. They cross many genre types, since these films might showcase a western outlaw, a criminal, a musical composer, a religious figure, a war-time hero, an entertainer, an artist, an inventor or doctor, a politician or President, or an adventurer."
-msgstr ""
+msgstr "Биографии — это поджанр более крупных жанров драмы и эпического кино. Эти фильмы изображают жизнь важной исторической личности (или группы) прошлого или настоящего. Они пересекаются со многими жанрами, поскольку эти фильмы могут показывать преступника с Дикого Запада, композитора, религиозного деятеля, героя военного времени, артиста, художника, изобретателя, врача, политика, президента или авантюриста."
 
 msgctxt "#31350"
 msgid "Bollywood is the informal term popularly used for the Hindi-language film industry based in Mumbai, Maharashtra, India. The term is often incorrectly used to refer to the whole of Indian cinema; it is only a part of the total Indian film industry, which includes several regional film industries sorted by language. Bollywood is the largest film producer in India and one of the largest centers of film production in the world."
-msgstr ""
+msgstr "Болливуд — это неформальный термин, широко используемый для обозначения киноиндустрии на языке хинди, базирующейся в Мумбаи, Махараштра, Индия. Этот термин часто ошибочно используется для обозначения всего индийского кино; на самом деле это лишь часть общей индийской киноиндустрии, которая включает несколько региональных киноиндустрий, разделённых по языковому признаку. Болливуд является крупнейшим кинопроизводителем в Индии и одним из крупнейших центров кинопроизводства в мире."
 
 msgctxt "#31351"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G) that do not include topics or scenes with violence, foul language and other profanity, religious issues, adult situations and so on, and are specifically designed for children 12 and under. Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "Это неоскорбительные, благотворные и развлекательные фильмы (обычно с рейтингом G), которые не содержат тем или сцен с насилием, ненормативной лексикой и другими непристойностями, религиозными вопросами, взрослыми ситуациями и т.п., и специально предназначены для детей до 12 лет. Детские и семейные фильмы на самом деле могут подходить для всех возрастных групп и охватывать широкий спектр жанров."
 
 msgctxt "#31352"
 msgid "This genre is comprised of theatrically released films (or TV Shows) that are entirely, or in large part, about the Christmas holiday. Films in this genre always feature important references to the holiday's symbols, such as family gatherings, trees and decorations, the Christ child, or Santa Claus."
-msgstr ""
+msgstr "Этот жанр состоит из фильмов (или телешоу), выпущенных в кинопрокат, которые полностью или большей частью посвящены празднику Рождества. Фильмы этого жанра всегда содержат важные отсылки к символам праздника, таким как семейные собрания, ёлки и украшения, младенец Христос или Санта-Клаус."
 
 msgctxt "#31353"
 msgid "Comedies are light-hearted plots consistently and deliberately designed to amuse and provoke laughter (with one-liners, jokes, etc.) by exaggerating the situation, the language, action, relationships and characters."
-msgstr ""
+msgstr "Комедии — это легкомысленные сюжеты, последовательно и намеренно созданные для развлечения и вызова смеха (с помощью однослойных шуток, анекдотов и т.д.) путём преувеличения ситуации, языка, действия, взаимоотношений и персонажей."
 
 msgctxt "#31354"
 msgid "This is a sub-genre of Musical. It includes filmed concerts by either a musical group of individual."
-msgstr ""
+msgstr "Это поджанр мюзикла. Он включает снятые на плёнку концерты музыкальной группы или отдельного исполнителя."
 
 msgctxt "#31355"
 msgid "Crime films are developed around the sinister actions of criminals or mobsters, particularly bankrobbers, underworld figures, or ruthless hoodlums who operate outside the law, stealing and murdering their way through life. Criminal and gangster films are often categorized as film noir or detective-mystery films - because of underlying similarities between these cinematic forms."
-msgstr ""
+msgstr "Криминальные фильмы строятся вокруг зловещих действий преступников или гангстеров, особенно грабителей банков, представителей преступного мира или безжалостных бандитов, действующих вне закона, пробивающих себе путь в жизни грабежами и убийствами. Криминальные и гангстерские фильмы часто относят к фильмам-нуар или детективно-мистическим фильмам из-за глубинного сходства этих кинематографических форм."
 
 msgctxt "#31356"
 msgid "Disaster films, a sub-genre of action films, hit their peak in the decade of the 1970s. Big-budget disaster films provided all-star casts and interlocking, Grand Hotel-type stories, with suspenseful action and impending crises in locales such as aboard imperiled airliners, trains, dirigibles, sinking or wrecked ocean-liners, or in towering burning skyscrapers, crowded stadiums or earthquake zones. Often noted for their visual and special effects, but not their acting performances."
-msgstr ""
+msgstr "Фильмы-катастрофы, поджанр боевиков, достигли своего пика в 1970-х годах. Высокобюджетные фильмы-катастрофы предлагали звёздные составы и взаимосвязанные истории в стиле «Гранд-отель» с захватывающим действием и надвигающимися кризисами в таких местах, как терпящие бедствие самолёты, поезда, дирижабли, тонущие или разбитые океанские лайнеры, или в горящих небоскрёбах, переполненных стадионах или зонах землетрясений. Часто отмечаются за визуальные и специальные эффекты, но не за актёрскую игру."
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr ""
+msgstr "Строго говоря, документальные фильмы — это невымышленные, фактические произведения искусства. Изначально самые ранние документальные фильмы были либо короткими кинохрониками, обучающими картинами или путевыми заметками (называемыми актуальностями) без какого-либо творческого повествования или постановки. Но они разветвились и приняли множество форм, а иногда стали пропагандистскими и необъективными. Мокьюментари — это комедийные пародии на документальные фильмы."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
-msgstr ""
+msgstr "Драмы — это серьёзные, сюжетно-ориентированные постановки, изображающие реалистичных персонажей, обстановку, жизненные ситуации и истории, включающие интенсивное развитие персонажей и взаимодействие. Обычно они не сосредоточены на спецэффектах, комедии или экшене. Драматические фильмы, вероятно, являются самым крупным жанром кино со многими подмножествами."
 
 msgctxt "#31359"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G or PG) that do not include topics or scenes with violence, foul language and other profanity, religious issues, mature themes and so on, and are specifically designed for children 12 and under (or for family viewing). Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "Это неоскорбительные, благотворные и развлекательные фильмы (обычно с рейтингом G или PG), которые не содержат тем или сцен с насилием, ненормативной лексикой и другими непристойностями, религиозными вопросами, взрослыми темами и т.п., и специально предназначены для детей до 12 лет (или для семейного просмотра). Детские и семейные фильмы на самом деле могут подходить для всех возрастных групп и охватывать широкий спектр жанров."
 
 msgctxt "#31360"
 msgid "Fantasy films, usually considered a sub-genre, are most likely to overlap with the film genres of science fiction and horror, although they are distinct. Fantasies take the audience to netherworld places (or another dimension) where events are unlikely to occur in real life - they transcend the bounds of human possibility and physical laws. They often have an element of magic, myth, wonder, and the extraordinary."
-msgstr ""
+msgstr "Фэнтезийные фильмы, обычно считающиеся поджанром, скорее всего, пересекаются с жанрами научной фантастики и ужасов, хотя они и отличаются. Фэнтези переносят зрителя в потусторонние места (или другое измерение), где события вряд ли могут произойти в реальной жизни — они выходят за рамки человеческих возможностей и физических законов. В них часто присутствует элемент магии, мифа, чуда и необычайного."
 
 msgctxt "#31361"
 msgid "Film noir (meaning 'black film') is a distinct branch of the crime/gangster sagas from the 1930s. Strictly speaking, film noir is not a genre, but rather the mood, style or tone of various American films that evolved in the 1940s. Noirs are usually black and white films with primary moods of melancholy, alienation, bleakness, disillusionment, disenchantment, pessimism, ambiguity, moral corruption, evil, guilt and paranoia. They often feature a cynical, loner hero (anti-hero) and femme fatale, in a seedy big city."
-msgstr ""
+msgstr "Фильм-нуар (что означает «чёрный фильм») — это отдельная ветвь криминальных/гангстерских саг 1930-х годов. Строго говоря, фильм-нуар — это не жанр, а скорее настроение, стиль или тон различных американских фильмов, развивавшихся в 1940-х годах. Нуары обычно представляют собой чёрно-белые фильмы с основными настроениями меланхолии, отчуждения, мрачности, разочарования, утраты иллюзий, пессимизма, двусмысленности, морального разложения, зла, вины и паранойи. В них часто фигурирует циничный герой-одиночка (антигерой) и роковая женщина в грязном большом городе."
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr ""
+msgstr "Телеигра (игровое шоу) — это тип радиопрограммы или телепередачи, в которой члены общественности или знаменитости, иногда в составе команды, играют в игру, требующую ответов на вопросы или решения головоломок, обычно за деньги и/или призы. В некоторых шоу участники соревнуются с другими игроками или командой, в то время как в других участники играют в одиночку для достижения хорошего результата или высокого счёта."
 
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr ""
+msgstr "Содержит материалы, предназначенный только для взрослых. Названия в этой категории могут включать продолжительные сцены интенсивного насилия и/или откровенного сексуального содержания и обнажённой натуры."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
-msgstr ""
+msgstr "Исторические эпопеи — это эпические фильмы, действие которых происходит в историческом прошлом, часто фокусирующиеся на людях, меняющих ход истории. Многие исторические эпопеи, особенно снятые в 1950-х и 1960-х годах, происходят в древние времена, особенно в Риме, Греции или Египте. Исторические эпопеи обычно имеют больший масштаб, чем другие типы эпических фильмов, с тщательно продуманными декорациями и большим количеством массовки."
 
 msgctxt "#31367"
 msgid "Horror films are designed to frighten and to invoke our hidden worst fears, often in a terrifying, shocking finale, while captivating and entertaining us at the same time in a cathartic experience. Horror films feature a wide range of styles, from the earliest silent Nosferatu classic, to today's CGI monsters and deranged humans. They are often combined with science fiction when the menace or monster is related to a corruption of technology, or when Earth is threatened by aliens."
-msgstr ""
+msgstr "Фильмы ужасов призваны пугать и вызывать наши скрытые самые страшные страхи, часто в ужасающем, шокирующем финале, одновременно увлекая и развлекая нас в катарсическом переживании. Фильмы ужасов охватывают широкий спектр стилей, от раннего классического немого «Носферату» до современных CGI-монстров и обезумевших людей. Они часто сочетаются с научной фантастикой, когда угроза или монстр связаны с порчей технологий или когда Земле угрожают инопланетяне."
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
-msgstr ""
+msgstr "Независимый фильм — это художественный фильм, который производится в основном за пределами крупной киностудии. Этот термин также относится к авторским фильмам, которые заметно отличаются от большинства массовых фильмов. Независимые фильмы иногда можно отличить по содержанию и стилю, а также по тому, как реализуется личное художественное видение кинематографистов."
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
-msgstr ""
+msgstr "Интервью — это разговор между двумя людьми (интервьюером и интервьюируемым), в котором интервьюер задаёт вопросы для получения информации от интервьюируемого."
 
 msgctxt "#31370"
 msgid "A sub-genre of the action film, martial arts films contain numerous fights between characters, usually as the films' primary appeal and entertainment value, and often as a method of storytelling and character expression and development. Martial arts are frequently featured in training scenes and other sequences in addition to fights. Martial arts films commonly include other types of action, such as stuntwork, chases, and/or gunfights."
-msgstr ""
+msgstr "Поджанр боевика, фильмы о боевых искусствах содержат множество боёв между персонажами, обычно в качестве основной привлекательности и развлекательной ценности фильмов, а также часто как метод повествования, выражения и развития персонажей. Боевые искусства часто демонстрируются в сценах тренировок и других сценах в дополнение к боям. Фильмы о боевых искусствах обычно включают другие виды действия, такие как трюки, погони и/или перестрелки."
 
 msgctxt "#31371"
 msgid "Multi-episode, fictional program of limited duration, shown on a daily or weekly schedule, usually lasting fifteen hours or less in total running time. A good television miniseries can make the small screen seem huge. These programs are the best that TV has to offer: an excuse to sink in and lose yourself in a story that isn't over in just a couple of hours. The sets, the plots, and the acting make each of these essential miniseries an exquisite television experience."
-msgstr ""
+msgstr "Многосерийная художественная программа ограниченной продолжительности, показываемая по ежедневному или еженедельному графику, обычно общей длительностью пятнадцать часов или меньше. Хороший телевизионный мини-сериал может сделать маленький экран огромным. Эти программы — лучшее, что может предложить телевидение: оправдание, чтобы погрузиться и потеряться в истории, которая не заканчивается через пару часов. Декорации, сюжеты и актёрская игра делают каждый из этих обязательных мини-сериалов изысканным телевизионным опытом."
 
 msgctxt "#31372"
 msgid "Monster movie (also can be referred to as a creature feature or monster film) is a name commonly given to movies, which centre on the struggle between human beings and one or more monsters. The term is usually applied to films sometimes labelled as horror, fantasy or science fiction genre that involve fictional creatures, in most cases it is applied to films that feature more oversized monsters despite its history starting with adaptations of horror folklore and literature."
-msgstr ""
+msgstr "Фильм о монстрах (также может называться фильмом о существах) — это название, обычно присваиваемое фильмам, в центре которых борьба между людьми и одним или несколькими монстрами. Этот термин обычно применяется к фильмам, иногда обозначаемым как ужасы, фэнтези или научная фантастика, в которых участвуют вымышленные существа; в большинстве случаев он применяется к фильмам с более крупными монстрами, несмотря на то, что его история началась с адаптаций фольклора и литературы ужасов."
 
 msgctxt "#31373"
 msgid "Music genre films will incorporate a lot of music but it will not necessarily be the focal point of the film, thus differentiating it from a Musical."
-msgstr ""
+msgstr "Фильмы музыкального жанра будут включать много музыки, но она не обязательно будет центральной точкой фильма, что отличает их от мюзикла."
 
 msgctxt "#31374"
 msgid "Musical/dance films are cinematic forms that emphasize full-scale scores or song and dance routines in a significant way (usually with a musical or dance performance integrated as part of the film narrative), or they are films that are centered on combinations of music, dance, song or choreography. Major subgenres include the musical comedy or the concert film."
-msgstr ""
+msgstr "Музыкальные/танцевальные фильмы — это кинематографические формы, которые значительно акцентируют полномасштабные партитуры или песенно-танцевальные номера (обычно с музыкальным или танцевальным представлением, интегрированным как часть повествования фильма), или это фильмы, сосредоточенные на комбинациях музыки, танца, пения или хореографии. Основные поджанры включают музыкальную комедию или концертный фильм."
 
 msgctxt "#31375"
 msgid "Mystery film is a sub-genre of the more general category of crime film. It focuses on the efforts of the detective, private investigator or amateur sleuth to solve the mysterious circumstances of a crime by means of clues, investigation, and clever deduction."
-msgstr ""
+msgstr "Фильм-тайна (фильм-мистерия) — это поджанр более общей категории криминального фильма. Он фокусируется на усилиях детектива, частного следователя или сыщика-любителя раскрыть загадочные обстоятельства преступления с помощью улик, расследования и умной дедукции."
 
 msgctxt "#31376"
 msgid "A nature documentary is a documentary film about animals, plants, or other non-human living creatures, usually concentrating on film taken in their natural habitat. Such programmes are most frequently made for television, particularly for public broadcasting channels, but some are also made for the cinema."
-msgstr ""
+msgstr "Документальный фильм о природе — это документальный фильм о животных, растениях или других нечеловеческих живых существах, обычно сосредоточенный на съёмках в их естественной среде обитания. Такие программы чаще всего делаются для телевидения, особенно для каналов общественного вещания, но некоторые также создаются для кинотеатров."
 
 msgctxt "#31377"
 msgid "Television news is considered by many to be the most influential medium for journalism. For most of the American public, local and national TV newscasts are the primary news sources."
-msgstr ""
+msgstr "Телевизионные новости считаются многими самым влиятельным средством массовой информации для журналистики. Для большинства американской общественности местные и национальные телевизионные новостные выпуски являются основными источниками новостей."
 
 msgctxt "#31378"
 msgid "Apocalyptic fiction is a sub-genre of science fiction that is concerned with the end of civilization due to a catastrophe such as nuclear warfare, pandemic, impact event, cybernetic revolt, Technological Singularity, Dysgenics, supernatural phenomena, Ecological disaster, resource depletion or some other general disaster. Post-apocalyptic fiction is set in a world or civilization after such a disaster."
-msgstr ""
+msgstr "Постапокалиптика — это поджанр научной фантастики, который касается конца цивилизации из-за катастрофы, такой как ядерная война, пандемия, падение астероида, кибернетическое восстание, технологическая сингулярность, дисгеника, сверхъестественные явления, экологическая катастрофа, истощение ресурсов или какое-либо другое общее бедствие. Постапокалиптическая фантастика разворачивается в мире или цивилизации после такой катастрофы."
 
 msgctxt "#31379"
 msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
-msgstr ""
+msgstr "Реалити-шоу (реалити-телевидение) — это жанр телевизионных программ, который представляет предположительно несценарные драматические или юмористические ситуации, документирует реальные события и обычно показывает обычных людей вместо профессиональных актёров, иногда в конкурсе или другой ситуации, где вручается приз."
 
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
-msgstr ""
+msgstr "В значительной степени поджанр, эта категория разделяет некоторые черты с романтическими драмами, романтическими комедиями и сексуальными/эротическими фильмами. Это любовные истории или сердечные дела, сосредоточенные на страсти, эмоциях и романтической, нежной вовлечённости главных героев (обычно ведущего мужчины и женщины) и пути, который проходит их любовь через ухаживание или брак. Романтические фильмы делают любовную историю основным сюжетным фокусом."
 
 msgctxt "#31382"
 msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
-msgstr ""
+msgstr "Научно-фантастические фильмы часто квазинаучны, дальновидны и полны воображения — с героями, инопланетянами, далёкими планетами, невозможными квестами, неправдоподобными декорациями, фантастическими местами, великими тёмными и таинственными злодеями, футуристическими технологиями, неизвестными и непознаваемыми силами и необычайными монстрами, созданными либо сумасшедшими учёными, либо ядерным хаосом. Научная фантастика часто выражает потенциал технологий уничтожить человечество и легко пересекается с фильмами ужасов."
 
 msgctxt "#31383"
 msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
-msgstr ""
+msgstr "Короткометражный фильм — это любой фильм, недостаточно длинный, чтобы считаться полнометражным. Не существует единого мнения о том, где проходит эта граница: Академия кинематографических искусств и наук определяет короткометражный фильм как «оригинальный кинофильм продолжительностью 40 минут или менее, включая все титры». База данных Internet Movie Database проводит черту в 45 минут."
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
-msgstr ""
+msgstr "Мыльная опера, иногда сокращённо называемая «мыло», — это текущее, эпизодическое произведение драматической художественной литературы, представленное в серийном формате на телевидении или радио. Название «мыльная опера» происходит от оригинальных драматических сериалов, транслировавшихся по радио, спонсорами и продюсерами которых были производители мыла, такие как Procter and Gamble, Colgate-Palmolive и Lever Brothers. Эти ранние радиосериалы транслировались в дневные часы в будние дни, когда большинство слушателей были домохозяйками; таким образом, шоу были ориентированы на преимущественно женскую аудиторию и потреблялись ею."
 
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
-msgstr ""
+msgstr "Фильмы, в которых спортивный антураж (футбольный или бейсбольный стадион, арена, Олимпийские игры и т.д.), событие («большая игра», «бой», «гонка» или «соревнование») и/или спортсмен (боксёр, гонщик, сёрфер и т.д.) являются центральными и преобладающими в истории. Спортивные фильмы могут быть художественными или документальными; они представляют собой гибридную категорию поджанров, хотя часто являются драмами или комедийными фильмами, а иногда документальными или биографическими."
 
 msgctxt "#31387"
 msgid "The spy film genre deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John Le Carré) or as a basis for fantasy (such as James Bond). Many novels in the spy fiction genre have been adapted as films, including works by John Buchan, John Le Carré, Ian Fleming and Len Deighton. It is a significant aspect of British cinema, with leading British directors such as Alfred Hitchcock and Carol Reed making notable contributions and many films set in the British Secret Service."
-msgstr ""
+msgstr "Жанр шпионского кино занимается темой вымышленного шпионажа, либо реалистичным способом (например, экранизации Джона Ле Карре), либо как основа для фэнтези (например, Джеймс Бонд). Многие романы в жанре шпионской фантастики были экранизированы, включая работы Джона Бьюкена, Джона Ле Карре, Яна Флеминга и Лена Дейтона. Это важный аспект британского кино, с ведущими британскими режиссёрами, такими как Альфред Хичкок и Кэрол Рид, внёсшими заметный вклад, и многими фильмами, действие которых происходит в британской секретной службе."
 
 msgctxt "#31388"
 msgid "A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading. There are rare dramatists, notably George Bernard Shaw, who have had little preference whether their plays were performed or read. The term \"play\" can refer to both the written works of playwrights and to their complete theatrical performance."
-msgstr ""
+msgstr "Пьеса — это форма литературы, написанная драматургом, обычно состоящая из написанного диалога между персонажами, предназначенная для театрального исполнения, а не только для чтения. Есть редкие драматурги, особенно Джордж Бернард Шоу, которые мало заботились о том, будут ли их пьесы исполнены или прочитаны. Термин «пьеса» может относиться как к письменным произведениям драматургов, так и к их полному театральному исполнению."
 
 msgctxt "#31389"
 msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
-msgstr ""
+msgstr "Стендап-комедия — это форма комедийного искусства. Обычно комик выступает перед живой аудиторией, обращаясь непосредственно к ней. Их выступления иногда снимаются для последующего выпуска на DVD, через интернет и телевидение. Исполнитель широко известен как комик, стендап-комик, стендап-комедиант или просто стендапер."
 
 msgctxt "#31390"
 msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
-msgstr ""
+msgstr "Фильм о супергероях, или фильм по комиксам, — это боевик, фэнтези или научно-фантастический фильм, который сосредоточен на действиях одного или нескольких супергероев — личностей, которые обычно обладают сверхчеловеческими способностями по сравнению с обычным человеком и стремятся защищать общественность. Эти фильмы почти всегда ориентированы на действие, и первый фильм о конкретном персонаже часто включает фокус на происхождении особых сил, включая первую битву с самым известным злейшим врагом или суперзлодеем персонажа."
 
 msgctxt "#31391"
 msgid "Supernatural films, a sub-genre category, may be combined with other genres, including comedy, sci-fi, fantasy or horror. They have themes including gods or goddesses, ghosts, apparitions, spirits, miracles, and other similar ideas or depictions of extraordinary phenomena."
-msgstr ""
+msgstr "Сверхъестественные фильмы, являясь поджанровой категорией, могут сочетаться с другими жанрами, включая комедию, научную фантастику, фэнтези или ужасы. Они содержат темы, включающие богов или богинь, призраков, видения, духов, чудеса и другие подобные идеи или изображения необычайных явлений."
 
 msgctxt "#31392"
 msgid "A talk show (American and Australian English) or chat show (British) is a television or radio program where one person (or group of people) discuss various topics put forth by a talk show host. Sometimes, talk shows feature a panel of guests, usually consisting of a group of people who are learned or who have great experience in relation to whatever issue is being discussed on the show for that episode. Other times, a single guest discusses their work or area of expertise with a host or co-hosts."
-msgstr ""
+msgstr "Ток-шоу («разговорное представление») — это теле- или радиопрограмма, в которой один человек (или группа людей) обсуждают различные темы, предложенные ведущим ток-шоу. Иногда в ток-шоу участвует группа гостей, обычно состоящая из людей, которые являются учёными или имеют большой опыт в отношении какой-либо проблемы, обсуждаемой в шоу в этом эпизоде. В других случаях один гость обсуждает свою работу или область знаний с ведущим или соведущими."
 
 msgctxt "#31393"
 msgid "Thrillers (or Suspense films) are often hybrids with other genres - there are action-thrillers, crime-caper thrillers, western-thrillers, film-noir thrillers, even romantic comedy-thrillers. Another closely-related genre is the horror film genre. They are types of films known to promote intense excitement, suspense, a high level of anticipation, ultra-heightened expectation, uncertainty, anxiety, and nerve-wracking tension. Spy films may be considered a type of thriller/suspense film."
-msgstr ""
+msgstr "Триллеры часто являются гибридами с другими жанрами — существуют боевики-триллеры, криминальные триллеры, вестерны-триллеры, нуарные триллеры, даже романтические комедии-триллеры. Ещё один тесно связанный жанр — это фильм ужасов. Это типы фильмов, известные тем, что вызывают интенсивное возбуждение, саспенс, высокий уровень предвкушения, сверхзавышенное ожидание, неопределённость, тревогу и нервирующее напряжение. Шпионские фильмы можно считать разновидностью триллера."
 
 msgctxt "#31394"
 msgid "War films are a film genre concerned with warfare, usually about naval, air or land battles, sometimes focusing instead on prisoners of war, covert operations, military training or other related subjects. At times war films focus on daily military or civilian life in wartime without depicting battles. Their stories may be fiction, based on history, docudrama, biographical, or even alternate history fiction."
-msgstr ""
+msgstr "Военные фильмы — это жанр кино, связанный с войной, обычно о морских, воздушных или наземных сражениях, иногда фокусирующийся вместо этого на военнопленных, тайных операциях, военной подготовке или других связанных темах. Иногда военные фильмы фокусируются на повседневной военной или гражданской жизни в военное время, не изображая сражений. Их сюжеты могут быть вымышленными, основанными на истории, документальными драмами, биографическими или даже альтернативной историей."
 
 msgctxt "#31395"
 msgid "Westerns are the major defining genre of the American film industry - a eulogy to the early days of the expansive American frontier. They are one of the oldest, most enduring genres with very recognizable plots, elements, and characters (six-guns, horses, dusty towns and trails, cowboys, Indians, etc.). Over time, westerns have been re-defined, re-invented and expanded, dismissed, re-discovered, and spoofed."
-msgstr ""
+msgstr "Вестерны — это главный определяющий жанр американской киноиндустрии — панегирик ранним дням обширного американского фронтира. Это один из старейших и самых устойчивых жанров с очень узнаваемыми сюжетами, элементами и персонажами (шестизарядные револьверы, лошади, пыльные города и тропы, ковбои, индейцы и т.д.). Со временем вестерны переопределялись, заново изобретались, расширялись, отвергались, заново открывались и пародировались."
 
 msgctxt "#31396"
 msgid "Wrestling is a martial art that uses grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds. A wrestling bout is a physical competition, between two (occasionally more) competitors or sparring partners, who attempt to gain and maintain a superior position. There are a wide range of styles with varying rules with both traditional historic and modern styles."
-msgstr ""
+msgstr "Рестлинг — это боевое искусство, которое использует техники захвата, такие как клинч, броски и сбивания с ног, болевые приёмы, удержания и другие захваты. Рестлинг — это физическое соревнование между двумя (иногда более) соперниками или спарринг-партнёрами, которые пытаются занять и удерживать превосходную позицию. Существует широкий спектр стилей с различными правилами, как традиционных исторических, так и современных."
 
 msgctxt "#31397"
 msgid "Epics include costume dramas, historical dramas, war films, medieval romps, or 'period pictures' that often cover a large expanse of time set against a vast, panoramic backdrop. Epics often share elements of the elaborate adventure films genre. Epics take an historical or imagined event, mythic, legendary, or heroic figure, and add an extravagant setting and lavish costumes, accompanied by grandeur and spectacle, dramatic scope, high production values, and a sweeping musical score."
-msgstr ""
+msgstr "Эпопеи включают костюмные драмы, исторические драмы, военные фильмы, средневековые комедии или «исторические картины», которые часто охватывают большой промежуток времени на фоне обширной, панорамной декорации. Эпопеи часто разделяют элементы жанра детально проработанных приключенческих фильмов. Эпопеи берут историческое или вымышленное событие, мифическую, легендарную или героическую фигуру и добавляют экстравагантную обстановку и роскошные костюмы, сопровождаемые величием и зрелищностью, драматическим размахом, высокими производственными ценностями и величественной музыкальной партитурой."
 
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
-msgstr ""
+msgstr "Фильмы, не имеющие синхронизированной звуковой дорожки и разговорного диалога, до зарождения звукового кино в конце 1920-х годов. Фильмы без диалогов содержали титры для диалоговых сегментов и часто сопровождались живой музыкой."
 
 msgctxt "#31399"
 msgid "Lighter Background Fanart diffuse overlay"
-msgstr ""
+msgstr "Осветляющее фоновое наложение для фан-арта"
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
@@ -732,7 +732,7 @@ msgstr "Квадрат"
 
 msgctxt "#31416"
 msgid "Tall Genre"
-msgstr ""
+msgstr "Высокий жанр"
 
 msgctxt "#31417"
 msgid "*help text*"
@@ -756,7 +756,7 @@ msgstr "Показывать ClearArt/Logo в экранном меню"
 
 msgctxt "#31422"
 msgid "Logo View: Show only one item at a time"
-msgstr ""
+msgstr "Вид с логотипами: показывать только один элемент за раз"
 
 msgctxt "#31423"
 msgid "Author"
@@ -772,7 +772,7 @@ msgstr "Показывать значки в экранном меню"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr ""
+msgstr "Отображение даты следующего показа ТВ-передачи"
 
 msgctxt "#31427"
 msgid "Next Episode"
@@ -784,7 +784,7 @@ msgstr "ТВ-гид"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
-msgstr ""
+msgstr "Отображать путь в информационном диалоге вместо рейтинга"
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
@@ -968,39 +968,39 @@ msgstr "Использовать одну кнопку для включения
 
 msgctxt "#31475"
 msgid "Default OSD button"
-msgstr "Кнопка OSD по-умолчанию"
+msgstr "Кнопка OSD по умолчанию"
 
 msgctxt "#31476"
 msgid "OSD: Fade away when paused"
-msgstr ""
+msgstr "OSD: исчезать при паузе"
 
 msgctxt "#31477"
 msgid "- Fade delay"
-msgstr ""
+msgstr "- Задержка исчезновения"
 
 msgctxt "#31478"
 msgid "Hide default submenu items"
-msgstr ""
+msgstr "Скрыть элементы подменю по умолчанию"
 
 msgctxt "#31479"
 msgid "Poster Fixed Large"
-msgstr ""
+msgstr "Постер фиксированный большой"
 
 msgctxt "#31480"
 msgid "Show IMDb Ranking Media Flag"
-msgstr ""
+msgstr "Показать медиафлаг рейтинга IMDb"
 
 msgctxt "#31481"
 msgid "Show Votes instead of Top250 always"
-msgstr ""
+msgstr "Всегда показывать количество голосов вместо Топ-250"
 
 msgctxt "#31482"
 msgid "Install"
-msgstr ""
+msgstr "Установить"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
-msgstr ""
+msgstr "Вид с баннерами: количество строк"
 
 msgctxt "#31484"
 msgid "Order"
@@ -1016,7 +1016,7 @@ msgstr "ТВ"
 
 msgctxt "#31602"
 msgid "Live Radio"
-msgstr ""
+msgstr "Прямой эфир радио"
 
 msgctxt "#31605"
 msgid "Add Group"
@@ -1040,7 +1040,7 @@ msgstr "Запланированное время"
 
 msgctxt "#31611"
 msgid "PVR Status"
-msgstr ""
+msgstr "Состояние видеорекордера"
 
 msgctxt "#31700"
 msgid "7 Day Forecast"
@@ -1096,11 +1096,11 @@ msgstr "Обрезать миниатюры при просмотре музык
 
 msgctxt "#31713"
 msgid "Custom Home Shortcut"
-msgstr ""
+msgstr "Пользовательский ярлык главного экрана"
 
 msgctxt "#31714"
 msgid "Label and Shortcut"
-msgstr ""
+msgstr "Метка и ярлык"
 
 msgctxt "#31715"
 msgid "Icon"
@@ -1116,64 +1116,64 @@ msgstr "Осадки"
 
 msgctxt "#31718"
 msgid "Home Furniture"
-msgstr ""
+msgstr "Оформление главного экрана"
 
 msgctxt "#31719"
 msgid "Reset Home Furniture to defaults"
-msgstr ""
+msgstr "Сбросить оформление главного экрана на настройки по умолчанию"
 
 msgctxt "#31720"
 msgid "Remove the shortcut.  This cannot be undone."
-msgstr ""
+msgstr "Удалить ярлык. Это действие нельзя отменить."
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Переместить ярлык вверх в вертикальных видах или влево в горизонтальных видах. В горизонтальных видах третий пункт меню находится в центре."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Переместить ярлык вниз в вертикальных видах или вправо в горизонтальных видах. В горизонтальных видах третий пункт меню находится в центре."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
-msgstr ""
+msgstr "Установить действие для ярлыка. Выберите из различных предустановленных вариантов. Для более точного управления вы можете вручную ввести пользовательское действие ниже."
 
 msgctxt "#31724"
 msgid "Set background image for the shortcut."
-msgstr ""
+msgstr "Установить фоновое изображение для ярлыка."
 
 msgctxt "#31725"
 msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
-msgstr ""
+msgstr "Установить метку для ярлыка. Обычно она устанавливается автоматически при выборе ярлыка, но при желании её можно изменить вручную."
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr ""
+msgstr "Выбрать виджет для ярлыка. Виджеты — это встроенные информационные скрипты, которые выполняют различные задачи или отображают полезные меню. Некоторые виджеты установлены по умолчанию, но их можно изменить или удалить."
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
-msgstr ""
+msgstr "Установить пользовательское действие для ярлыка. Это используется для переопределения или редактирования действия, выполняемого ярлыком."
 
 msgctxt "#31728"
 msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
-msgstr ""
+msgstr "Настроить подменю для ярлыка. Подменю можно заполнить пользовательскими командами, ярлыками и/или избранным. Редактор подменю будет выглядеть и работать почти так же, как редактор главного меню."
 
 msgctxt "#31729"
 msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
-msgstr ""
+msgstr "Закрыть это окно. Все изменения, внесённые в редакторе ярлыков, вступают в силу мгновенно."
 
 msgctxt "#31730"
 msgid "Create a new shortcut at the bottom of the list."
-msgstr ""
+msgstr "Создать новый ярлык внизу списка."
 
 msgctxt "#31731"
 msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
-msgstr ""
+msgstr "Сбросить ВСЕ ярлыки до значений по умолчанию. Это отменит любые изменения в главном меню или подменю и не может быть отменено."
 
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
-msgstr ""
+msgstr "Уверены, что действительно хотите удалить ярлык настроек?"
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr ""
+msgstr "Включить или отключить ярлык. При отключении пункт меню останется в этом меню настроек, но будет скрыт на реальном главном меню."

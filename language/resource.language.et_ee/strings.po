@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-01-16 03:24+0000\n"
+"PO-Revision-Date: 2026-01-22 02:13+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/et_ee/>\n"
 "Language: et_ee\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -80,7 +80,7 @@ msgstr ""
 
 msgctxt "#31016"
 msgid "Select Record Label icons"
-msgstr ""
+msgstr "Vali plaadifirma ikoonid"
 
 msgctxt "#31017"
 msgid "Select Language Flag icons"
@@ -385,7 +385,7 @@ msgstr "Failid"
 
 msgctxt "#31291"
 msgid "Landscape"
-msgstr "Horisontaalpaigutus"
+msgstr "Rõhtpilt"
 
 # empty string with id 31292
 msgctxt "#31293"
@@ -734,7 +734,7 @@ msgstr ""
 
 msgctxt "#31410"
 msgid "Prefer Landscape to Fanart (except background)"
-msgstr ""
+msgstr "Eelista fännipiltidele rõhtpilte (välja arvatud taustapildid)"
 
 msgctxt "#31411"
 msgid "*Press DOWN to exit*"
@@ -1129,7 +1129,7 @@ msgstr ""
 
 msgctxt "#31714"
 msgid "Label and Shortcut"
-msgstr ""
+msgstr "Nimetus ja otsetee"
 
 msgctxt "#31715"
 msgid "Icon"

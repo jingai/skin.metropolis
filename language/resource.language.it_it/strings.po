@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-05-27 13:18+0000\n"
+"PO-Revision-Date: 2026-08-22 05:16+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/it_it/>\n"
 "Language: it_it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -187,7 +187,7 @@ msgstr "Informazioni sistema"
 
 msgctxt "#31139"
 msgid "Video decoder"
-msgstr "Decoder video"
+msgstr "Decoder Video"
 
 msgctxt "#31140"
 msgid "Pixel format"
@@ -546,7 +546,7 @@ msgstr "I film horror sono pensati per spaventare ed invocare le nostre peggiori
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
-msgstr "Un film indipendente, o indie, è una pellicola cinematografica prodotta principalmente al di fuori dei maggiori studios. Il termine si riferisce anche a film artistici che differiscono notevolmente dalla maggior parte dei film per il mercato di massa. I film indipendenti sono a volte distinguibili per il loro contenuto e stile, e per il modo con cui è realizzata la personale visione artistica dei produttori."
+msgstr "Un film indipendente, o indie, è una pellicola cinematografica prodotta principalmente al di fuori dei maggiori studi cinematografici. Il termine si riferisce anche a film artistici che differiscono notevolmente dalla maggior parte dei film per il mercato di massa. I film indipendenti sono a volte distinguibili per il loro contenuto e stile, e per il modo con cui è realizzata la personale visione artistica dei produttori."
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
@@ -606,7 +606,7 @@ msgstr "Un cortometraggio è un film dalla durata non sufficiente per essere con
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
-msgstr "Una soap opera, a volte abbreviata con 'soap', è una serie continua ad episodi presentata in forma seriale in TV o radio. Il nome soap opera deriva dalle serie drammatiche originali trasmesse alla radio che avevano come produttori e sponsor aziende di sapone come Procter and Gamble, Colgate-Palmolive e Lever Brothers. Queste prime serie alla radio erano trasmesse nelle ore della giornata in cui la maggior parte degli ascoltatori sarebbero state casalinghe; per questo motivo i programmi erano indirizzati e consumati da un pubblico prevalentemente femminile."
+msgstr "Una soap opera, a volte abbreviata con \"soap\", è una serie continua ad episodi presentata in forma seriale in TV o radio. Il nome soap opera deriva dalle serie drammatiche originali trasmesse alla radio che avevano come produttori e sponsor aziende di sapone come Procter and Gamble, Colgate-Palmolive e Lever Brothers. Queste prime serie alla radio erano trasmesse nelle ore della giornata in cui la maggior parte degli ascoltatori sarebbero state casalinghe; per questo motivo i programmi erano indirizzati e consumati da un pubblico prevalentemente femminile."
 
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."

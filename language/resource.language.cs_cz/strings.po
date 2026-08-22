@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-03 14:14+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2026-07-26 21:16+0000\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/cs_cz/>\n"
 "Language: cs_cz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -23,7 +23,7 @@ msgstr "Mix retro a moderního."
 
 msgctxt "Addon Description"
 msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
-msgstr ""
+msgstr "Metropolis je navržen tak, aby zobrazoval co nejvíce informací o médiích pomocí snadno čitelného textu a ikon. Zároveň se snaží zachovat plynulé a jednoduché používání vzhledu pro všechny členy rodiny díky několika motivům a přizpůsobitelným nabídkám a zobrazením. Poděkování patří Hitcherovi za Alaska Revisited, který posloužil jako základ pro Metropolis."
 
 msgctxt "#31001"
 msgid "View Options"
@@ -31,7 +31,7 @@ msgstr "Možnosti zobrazení"
 
 msgctxt "#31002"
 msgid "Home Artwork"
-msgstr ""
+msgstr "Grafika domovské obrazovky"
 
 msgctxt "#31004"
 msgid "Debug"
@@ -39,7 +39,7 @@ msgstr "Ladění"
 
 msgctxt "#31005"
 msgid "Enable auto scrolling for text that does not fit on-screen"
-msgstr ""
+msgstr "Povolit automatické posouvání textu, který se nevejde na obrazovku"
 
 msgctxt "#31006"
 msgid "Shorter delay before auto scrolling"
@@ -71,7 +71,7 @@ msgstr "Vyberte ikony počasí"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr "Vyberte fanouškovské umění pro počasí"
+msgstr "Vybrat fanart počasí"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
@@ -79,7 +79,7 @@ msgstr "Vyberte ikony log studií"
 
 msgctxt "#31016"
 msgid "Select Record Label icons"
-msgstr ""
+msgstr "Vybrat ikony hudebních vydavatelství"
 
 msgctxt "#31017"
 msgid "Select Language Flag icons"
@@ -87,7 +87,7 @@ msgstr "Vyberte ikony vlajek jazyků"
 
 msgctxt "#31018"
 msgid "Show User Rating instead of scraped Rating in Media Flag"
-msgstr ""
+msgstr "V příznaku média zobrazovat uživatelské hodnocení místo hodnocení ze zdroje informací"
 
 msgctxt "#31021"
 msgid "Decrease Star Rating"
@@ -96,23 +96,23 @@ msgstr "Odebrat hvězdičky hodnocení"
 # empty strings from id 31022 to 31023
 msgctxt "#31024"
 msgid "Icon Home layout"
-msgstr ""
+msgstr "Rozvržení domovské obrazovky s ikonami"
 
 msgctxt "#31025"
 msgid "Horizontal Text Home layout"
-msgstr ""
+msgstr "Rozvržení domovské obrazovky s vodorovným textem"
 
 msgctxt "#31031"
 msgid "Hide Movie Watched Status"
-msgstr "Skrýt stav film shlédnutý"
+msgstr "Skrýt stav zhlédnutí filmu"
 
 msgctxt "#31032"
 msgid "Hide TV Watched Status"
-msgstr ""
+msgstr "Skrýt stav zhlédnutí seriálu"
 
 msgctxt "#31033"
 msgid "Hide Background Fanart"
-msgstr "Skrýt Fanart na pozadí"
+msgstr "Skrýt fanart na pozadí"
 
 msgctxt "#31034"
 msgid "Enable Dynamic Weather Artwork"
@@ -120,15 +120,15 @@ msgstr "Zapnout dynamické ztvárnění počasí"
 
 msgctxt "#31035"
 msgid "Show Clean Library SubMenu items"
-msgstr ""
+msgstr "Zobrazovat položky podnabídky Vyčistit knihovnu"
 
 msgctxt "#31036"
 msgid "Hide Widgets until focused"
-msgstr "Skrýt widgety dokud nejsou zaměřeny"
+msgstr "Skrýt widgety, dokud nejsou vybrané"
 
 msgctxt "#31037"
 msgid "Stretch background fanart to fit into viewable area"
-msgstr "Roztáhnout fanouškovské umění na pozadí tak, aby odpovídalo viditelné oblasti"
+msgstr "Roztáhnout fanart na pozadí tak, aby se vešel do viditelné oblasti"
 
 msgctxt "#31054"
 msgid "Logo"
@@ -137,11 +137,11 @@ msgstr "Logo"
 # empty string with id 31055
 msgctxt "#31056"
 msgid "Enable Video/Album Art overlay"
-msgstr ""
+msgstr "Povolit překryv grafiky videa/alba"
 
 msgctxt "#31057"
 msgid "Enable Song Info text overlay"
-msgstr "Zobrazovat přes obraz informace o skladbě"
+msgstr "Povolit textové překrytí s informacemi o skladbě"
 
 msgctxt "#31060"
 msgid "Show Recently Added Items"
@@ -153,7 +153,7 @@ msgstr "Povolit režim ladění"
 
 msgctxt "#31109"
 msgid "Enable Debug Grid"
-msgstr "Zapnout ladící mřížku"
+msgstr "Povolit ladicí mřížku"
 
 msgctxt "#31118"
 msgid "Filemanager"
@@ -165,7 +165,7 @@ msgstr "Skrýt kořen videa"
 
 msgctxt "#31126"
 msgid "Extra Artwork Downloader"
-msgstr "Nástroj pro stahování dalších uměleckých děl"
+msgstr "Extra Artwork Downloader"
 
 msgctxt "#31127"
 msgid "TvTunes Downloader"
@@ -193,7 +193,7 @@ msgstr "Dekodér videa"
 
 msgctxt "#31140"
 msgid "Pixel format"
-msgstr "Formát pixelu"
+msgstr "Formát pixelů"
 
 msgctxt "#31141"
 msgid "Audio channels"
@@ -210,15 +210,15 @@ msgstr "Využití paměti"
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
 msgid "ffx2"
-msgstr ""
+msgstr "ffx2"
 
 msgctxt "#31160"
 msgid "ffx4"
-msgstr ""
+msgstr "ffx4"
 
 msgctxt "#31161"
 msgid "ffx8"
-msgstr ""
+msgstr "ffx8"
 
 msgctxt "#31162"
 msgid "ffx16"
@@ -250,7 +250,7 @@ msgstr "rwx32"
 
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr "Styly zobrazení"
+msgstr "Typ zobrazení"
 
 msgctxt "#31207"
 msgid "Current"
@@ -266,38 +266,38 @@ msgstr "Výchozí domovské rozvržení"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr "Nastavit akce, které mohou být použity během přehrávání · Nastavit způsob přehrávání médií"
+msgstr "Nastavení akcí dostupných při přehrávání · Nastavení způsobu přehrávání mediálního obsahu"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr "Spravujte nainstalované doplňky · Procházejte a instalujte doplňky z kodi.tv · Upravte nastavení doplňků"
+msgstr "Správa nainstalovaných doplňků · Procházení a instalace doplňků z kodi.tv · Úprava nastavení doplňků"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr "Nastavit obrazovku · Nastavit zvuk · Nastavit přístup k Internetu · Nastavit úsporu energie · Nastavit protokolování"
+msgstr "Nastavení obrazovky · Nastavení zvuku · Nastavení přístupu k internetu · Nastavení úspory energie · Nastavení protokolování"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr "Nastavit vzhled · Nastavit region · Nastavit ovládání · Nastavit spořič obrazovky · Nastavit hlavní zámek"
+msgstr "Nastavení vzhledu · Nastavení oblasti · Nastavení ovládání · Nastavení spořiče obrazovky · Nastavení hlavního zámku"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr "Konfigurujte a spravujte služby sdílení médií · Konfigurujte a spravujte služby počasí"
+msgstr "Nastavení a správa služeb sdílení médií · Nastavení a správa služby počasí"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
-msgstr ""
+msgstr "Nastavení ovladačů · Nastavení funkcí přetáčení zpět a automatického ukládání"
 
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr "Nastavit televizi · Změnit informace na celé obrazovce · Správa nastavení data televizního programu"
+msgstr "Nastavení TV · Změna informací na celé obrazovce · Správa nastavení dat EPG"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr "Nastavit zdroje knihovny · Upravte obsah zobrazení seznamu médií · Nastavit způsob navigace v seznamech knihovny"
+msgstr "Nastavení zdrojů knihovny · Zobrazení obsahu seznamů médií · Nastavení navigace v seznamech knihovny"
 
 msgctxt "#31244"
 msgid "Playing"
@@ -314,12 +314,12 @@ msgstr "Aktuálně vybraný"
 
 msgctxt "#31251"
 msgid "Current Playlist"
-msgstr "Aktuální seznam skladeb"
+msgstr "Aktuální seznam stop"
 
 # empty strings from id 31252 to 31269
 msgctxt "#31270"
 msgid "Enable Custom Button"
-msgstr ""
+msgstr "Povolit vlastní tlačítko"
 
 msgctxt "#31271"
 msgid "Favourite"
@@ -327,7 +327,7 @@ msgstr "Oblíbené"
 
 msgctxt "#31275"
 msgid "Multi Image"
-msgstr "Více Obrázků"
+msgstr "Více obrázků"
 
 msgctxt "#31277"
 msgid "Item"
@@ -335,15 +335,15 @@ msgstr "Položka"
 
 msgctxt "#31278"
 msgid "Open Playlist"
-msgstr ""
+msgstr "Otevřít seznam stop"
 
 msgctxt "#31279"
 msgid "Save Playlist"
-msgstr "Uložit seznam skladeb"
+msgstr "Uložit seznam stop"
 
 msgctxt "#31280"
 msgid "Close Playlist"
-msgstr "Zavřít seznam skladeb"
+msgstr "Zavřít seznam stop"
 
 msgctxt "#31281"
 msgid "Items"
@@ -355,11 +355,11 @@ msgstr "Obaly"
 
 msgctxt "#31283"
 msgid "Poster Fixed"
-msgstr ""
+msgstr "Pevný plakát"
 
 msgctxt "#31284"
 msgid "Single Image"
-msgstr "Jeden Obrázek"
+msgstr "Jeden obrázek"
 
 msgctxt "#31285"
 msgid "List"
@@ -384,7 +384,7 @@ msgstr "Mřížka obrázků"
 # empty strings from id 31294 to 31297
 msgctxt "#31298"
 msgid "Panel Square"
-msgstr ""
+msgstr "Čtvercový panel"
 
 msgctxt "#31299"
 msgid "Min"
@@ -393,26 +393,26 @@ msgstr "Min"
 # empty strings from id 31300 to 31312
 msgctxt "#31313"
 msgid "Movie Set"
-msgstr ""
+msgstr "Sbírka filmů"
 
 # empty strings from id 31314 to 31318
 msgctxt "#31319"
 msgid "Default Lyrics script"
-msgstr ""
+msgstr "Výchozí skript textů skladeb"
 
 # empty strings from id 31320 to 31321
 msgctxt "#31322"
 msgid "Show Media Totals"
-msgstr ""
+msgstr "Zobrazovat souhrnné počty médií"
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr ""
+msgstr "Pořadí zobrazení pozadí widgetu"
 
 # empty string with id 31323
 msgctxt "#31324"
 msgid "Home Options"
-msgstr ""
+msgstr "Možnosti domovské obrazovky"
 
 msgctxt "#31325"
 msgid "Image Resources"
@@ -424,19 +424,19 @@ msgstr "Zobrazit náhodné položky"
 
 msgctxt "#31329"
 msgid "Select item to set up:"
-msgstr ""
+msgstr "Vyberte položku k nastavení:"
 
 msgctxt "#31330"
 msgid "Scripts/Extras"
-msgstr ""
+msgstr "Skripty / doplňky"
 
 msgctxt "#31331"
 msgid "Home Items"
-msgstr ""
+msgstr "Položky domovské obrazovky"
 
 msgctxt "#31332"
 msgid "Enable Extra Fanart"
-msgstr "Zapnout extra fanouškovské umění"
+msgstr "Povolit extra fanart"
 
 msgctxt "#31334"
 msgid "Trailers"
@@ -445,240 +445,240 @@ msgstr "Upoutávky"
 # empty string with id 31335
 msgctxt "#31336"
 msgid "Enable Kiosk mode"
-msgstr ""
+msgstr "Povolit režim kiosku"
 
 msgctxt "#31337"
 msgid "Disable destructive Shutdown items"
-msgstr "Vypnout destruktivní položky vypínání"
+msgstr "Zakázat destruktivní položky vypnutí"
 
 msgctxt "#31338"
 msgid "Use simple Media Filter"
-msgstr ""
+msgstr "Používat jednoduchý filtr médií"
 
 # empty strings from id 31339 to 31340
 msgctxt "#31341"
 msgid "View information for your computer on such items as your network, graphics, hardware and storage space available"
-msgstr ""
+msgstr "Zobrazení informací o počítači, jako je síť, grafika, hardware a dostupné místo v úložišti"
 
 msgctxt "#31342"
 msgid "Create and modify multiple user profiles for Kodi so that each member of your household can have their own video or music library"
-msgstr ""
+msgstr "Vytváření a úprava více uživatelských profilů Kodi, aby každý člen domácnosti mohl mít vlastní knihovnu videí nebo hudby"
 
 msgctxt "#31343"
 msgid "Action films usually include high energy, big-budget physical stunts and chases, possibly with rescues, battles, fights, escapes, destructive crises (floods, explosions, natural disasters, fires, etc.), non-stop motion, spectacular rhythm and pacing, and adventurous, often two-dimensional 'good-guy' heroes (or recently, heroines) battling 'bad guys' - all designed for pure audience escapism."
-msgstr ""
+msgstr "Akční filmy obvykle pracují s vysokým tempem, nákladnými fyzickými kaskadérskými scénami a honičkami. Mohou obsahovat záchranné akce, bitvy, souboje, útěky, ničivé krize (povodně, výbuchy, přírodní katastrofy, požáry apod.), nepřetržitý pohyb, výrazný rytmus a tempo a dobrodružné, často jednoduché hrdiny či hrdinky bojující proti padouchům. Vše je navrženo tak, aby divákovi nabídlo čistý únik od reality."
 
 msgctxt "#31344"
 msgid "Adventure films are usually exciting stories, with new experiences or exotic locales, very similar to or often paired with the action film genre. They can include traditional swashbucklers, serialized films, and historical spectacles, searches or expeditions for lost continents, \"jungle\" and \"desert\" epics, treasure hunts, disaster films, or searches for the unknown."
-msgstr ""
+msgstr "Dobrodružné filmy jsou obvykle napínavé příběhy s novými zážitky nebo exotickým prostředím, velmi podobné akčnímu žánru nebo s ním často spojené. Mohou zahrnovat tradiční šermířská dobrodružství, filmové seriály, historické velkofilmy, pátrání či výpravy za ztracenými kontinenty, eposy z džungle i pouště, hledání pokladů, katastrofické filmy nebo hledání neznámého."
 
 msgctxt "#31345"
 msgid "Action and Adventure movies are in most cases a cross over of each other. They usually have a continuous high level of energy, complicated stunts and other activities of such nature, chases, battles, disasters of all natures, explosions, historical figures, explorations, conquests, etc; and last, but not least, heroes."
-msgstr ""
+msgstr "Akční a dobrodružné filmy se ve většině případů vzájemně prolínají. Obvykle mají trvale vysoké tempo, složité kaskadérské scény a podobné akce, honičky, bitvy, katastrofy všeho druhu, výbuchy, historické postavy, výpravy, dobývání a v neposlední řadě také hrdiny."
 
 msgctxt "#31346"
 msgid "This genre really began in 1970 as a sub-genre of Drama. They are films which explain human social and sexual values on a scale that only people over the age of 17 can really understand."
-msgstr ""
+msgstr "Tento žánr se skutečně začal rozvíjet v roce 1970 jako podžánr dramatu. Jde o filmy, které zkoumají lidské společenské a sexuální hodnoty v míře, kterou dokážou plně pochopit až diváci starší 17 let."
 
 msgctxt "#31347"
 msgid "Animations are not a strictly-defined genre category, but rather a film technique, noted for frame-by-frame creation. This includes claymation (use of clay objects), anime (a style of animation with its roots in Japanese comic books, usually adult-oriented sci-fi and fantasy) or CGI (computer-generated animation). Animated films are often considered kid or family-oriented films, although they may be enjoyed by all ages."
-msgstr ""
+msgstr "Animace nejsou přesně vymezenou žánrovou kategorií, ale spíše filmovou technikou založenou na tvorbě po jednotlivých snímcích. Patří sem claymation (animace hliněných objektů), anime (styl animace vycházející z japonských komiksů, často sci-fi a fantasy zaměřené na dospělé) nebo CGI (počítačem vytvářená animace). Animované filmy se často považují za filmy pro děti nebo rodinu, i když si je mohou užít diváci všech věkových kategorií."
 
 msgctxt "#31348"
 msgid "Anime, or Japanese animation, covers a much wider range of genres than can be found in most Western animation. There is anime for all age groups, and, while much of it fits into the same genres as any TV show or movie (comedy, romance, horror and action), there are several terms that are particular to anime."
-msgstr ""
+msgstr "Anime, tedy japonská animace, pokrývá mnohem širší škálu žánrů než většina západní animace. Existuje anime pro všechny věkové skupiny, a přestože velká část spadá do stejných žánrů jako běžné seriály nebo filmy (komedie, romantika, horor a akce), existuje i řada pojmů specifických právě pro anime."
 
 msgctxt "#31349"
 msgid "Biographies are a sub-genre of the larger drama and epic film genres. These films depict the life of an important historical personage (or group) from the past or present era. They cross many genre types, since these films might showcase a western outlaw, a criminal, a musical composer, a religious figure, a war-time hero, an entertainer, an artist, an inventor or doctor, a politician or President, or an adventurer."
-msgstr ""
+msgstr "Životopisné filmy jsou podžánrem širších žánrů dramatu a epického filmu. Zachycují život významné historické osobnosti nebo skupiny z minulosti či současnosti. Mohou zasahovat do mnoha žánrů, protože mohou představovat westernového psance, zločince, hudebního skladatele, náboženskou osobnost, válečného hrdinu, baviče, umělce, vynálezce či lékaře, politika nebo prezidenta či dobrodruha."
 
 msgctxt "#31350"
 msgid "Bollywood is the informal term popularly used for the Hindi-language film industry based in Mumbai, Maharashtra, India. The term is often incorrectly used to refer to the whole of Indian cinema; it is only a part of the total Indian film industry, which includes several regional film industries sorted by language. Bollywood is the largest film producer in India and one of the largest centers of film production in the world."
-msgstr ""
+msgstr "Bollywood je neformální označení běžně používané pro hindsky mluvený filmový průmysl sídlící v indické Bombaji ve státě Maháráštra. Tento termín se často nesprávně používá pro celou indickou kinematografii, ve skutečnosti je však jen její částí. Indický filmový průmysl zahrnuje několik regionálních odvětví rozdělených podle jazyka. Bollywood je největším producentem filmů v Indii a jedním z největších center filmové produkce na světě."
 
 msgctxt "#31351"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G) that do not include topics or scenes with violence, foul language and other profanity, religious issues, adult situations and so on, and are specifically designed for children 12 and under. Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "Jde o nenásilné, neproblematické a zábavné filmy (obvykle s přístupností G), které neobsahují témata nebo scény s násilím, hrubým jazykem a dalšími vulgaritami, náboženskými otázkami, situacemi pro dospělé apod. Jsou určeny především dětem do 12 let. Dětské a rodinně zaměřené filmy však mohou být vhodné pro všechny věkové skupiny a pokrývat širokou škálu žánrů."
 
 msgctxt "#31352"
 msgid "This genre is comprised of theatrically released films (or TV Shows) that are entirely, or in large part, about the Christmas holiday. Films in this genre always feature important references to the holiday's symbols, such as family gatherings, trees and decorations, the Christ child, or Santa Claus."
-msgstr ""
+msgstr "Tento žánr tvoří filmy uvedené v kinech (nebo seriály), které jsou zcela nebo z velké části zaměřené na vánoční svátky. Filmy v tomto žánru vždy obsahují důležité odkazy na symboly svátků, jako jsou rodinná setkání, stromky a výzdoba, Ježíšek nebo Santa Claus."
 
 msgctxt "#31353"
 msgid "Comedies are light-hearted plots consistently and deliberately designed to amuse and provoke laughter (with one-liners, jokes, etc.) by exaggerating the situation, the language, action, relationships and characters."
-msgstr ""
+msgstr "Komedie jsou odlehčené příběhy záměrně vytvářené tak, aby bavily a vyvolávaly smích, například pomocí hlášek, vtipů apod. Často zveličují situace, jazyk, jednání, vztahy i postavy."
 
 msgctxt "#31354"
 msgid "This is a sub-genre of Musical. It includes filmed concerts by either a musical group of individual."
-msgstr ""
+msgstr "Jde o podžánr muzikálu. Zahrnuje natočené koncerty hudebních skupin nebo jednotlivců."
 
 msgctxt "#31355"
 msgid "Crime films are developed around the sinister actions of criminals or mobsters, particularly bankrobbers, underworld figures, or ruthless hoodlums who operate outside the law, stealing and murdering their way through life. Criminal and gangster films are often categorized as film noir or detective-mystery films - because of underlying similarities between these cinematic forms."
-msgstr ""
+msgstr "Kriminální filmy se soustředí na temné činy zločinců nebo gangsterů, zejména bankovních lupičů, postav podsvětí nebo bezohledných gaunerů, kteří žijí mimo zákon, kradou a vraždí. Kriminální a gangsterské filmy se kvůli základní podobnosti těchto filmových forem často řadí také mezi film noir nebo detektivní a mysteriózní filmy."
 
 msgctxt "#31356"
 msgid "Disaster films, a sub-genre of action films, hit their peak in the decade of the 1970s. Big-budget disaster films provided all-star casts and interlocking, Grand Hotel-type stories, with suspenseful action and impending crises in locales such as aboard imperiled airliners, trains, dirigibles, sinking or wrecked ocean-liners, or in towering burning skyscrapers, crowded stadiums or earthquake zones. Often noted for their visual and special effects, but not their acting performances."
-msgstr ""
+msgstr "Katastrofické filmy, podžánr akčních filmů, dosáhly vrcholu v 70. letech 20. století. Nákladné katastrofické filmy nabízely hvězdné obsazení a propletené příběhy ve stylu Grand Hotelu, napínavou akci a blížící se krize například na palubě ohrožených letadel, vlaků, vzducholodí, potápějících se nebo ztroskotaných zaoceánských lodí, v hořících mrakodrapech, přeplněných stadionech nebo oblastech zemětřesení. Často vynikají obrazovou stránkou a speciálními efekty, nikoli hereckými výkony."
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr ""
+msgstr "Přísně vzato jsou dokumentární filmy nefikční, faktografická umělecká díla. Nejstarší dokumenty byly původně krátké filmové týdeníky, instruktážní filmy nebo cestopisné snímky, označované jako aktuality, bez tvůrčího vyprávění nebo inscenování. Později se však rozvětvily do mnoha forem a někdy se staly propagandistickými a neobjektivními. Mockumentary jsou komediální parodie na dokumenty."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
-msgstr ""
+msgstr "Dramata jsou vážná díla vedená příběhem, která zobrazují realistické postavy, prostředí, životní situace a příběhy s výrazným vývojem postav a jejich vzájemnými vztahy. Obvykle se nesoustředí na speciální efekty, komedii ani akci. Dramatické filmy jsou pravděpodobně největším filmovým žánrem s mnoha podskupinami."
 
 msgctxt "#31359"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G or PG) that do not include topics or scenes with violence, foul language and other profanity, religious issues, mature themes and so on, and are specifically designed for children 12 and under (or for family viewing). Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "Jde o nenásilné, neproblematické a zábavné filmy (obvykle s přístupností G nebo PG), které neobsahují témata nebo scény s násilím, hrubým jazykem a dalšími vulgaritami, náboženskými otázkami, dospělými tématy apod. Jsou určeny především dětem do 12 let nebo rodinnému sledování. Dětské a rodinně zaměřené filmy však mohou být vhodné pro všechny věkové skupiny a pokrývat širokou škálu žánrů."
 
 msgctxt "#31360"
 msgid "Fantasy films, usually considered a sub-genre, are most likely to overlap with the film genres of science fiction and horror, although they are distinct. Fantasies take the audience to netherworld places (or another dimension) where events are unlikely to occur in real life - they transcend the bounds of human possibility and physical laws. They often have an element of magic, myth, wonder, and the extraordinary."
-msgstr ""
+msgstr "Fantasy filmy, obvykle považované za podžánr, se často překrývají se sci-fi a hororem, i když jsou od nich odlišné. Fantasy zavádí diváky do nadpozemských míst nebo jiných dimenzí, kde se odehrávají události nepravděpodobné v reálném životě. Překračují hranice lidských možností i fyzikálních zákonů a často obsahují prvky magie, mýtu, úžasu a mimořádnosti."
 
 msgctxt "#31361"
 msgid "Film noir (meaning 'black film') is a distinct branch of the crime/gangster sagas from the 1930s. Strictly speaking, film noir is not a genre, but rather the mood, style or tone of various American films that evolved in the 1940s. Noirs are usually black and white films with primary moods of melancholy, alienation, bleakness, disillusionment, disenchantment, pessimism, ambiguity, moral corruption, evil, guilt and paranoia. They often feature a cynical, loner hero (anti-hero) and femme fatale, in a seedy big city."
-msgstr ""
+msgstr "Film noir (doslova „černý film“) je svébytnou větví kriminálních a gangsterských ság z 30. let. Přísně vzato nejde o žánr, ale spíše o náladu, styl nebo tón různých amerických filmů, který se rozvinul ve 40. letech. Noiry jsou obvykle černobílé filmy s převládající melancholií, odcizením, bezútěšností, rozčarováním, pesimismem, nejednoznačností, morální zkažeností, zlem, vinou a paranoiou. Často v nich vystupuje cynický osamělý hrdina (antihrdina) a femme fatale v zašlém velkoměstě."
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr ""
+msgstr "Soutěžní pořad je typ rozhlasového nebo televizního pořadu, ve kterém členové veřejnosti nebo celebrity, někdy jako součást týmu, hrají hru založenou na odpovídání na otázky nebo řešení hádanek, obvykle o peníze nebo ceny. V některých pořadech soutěžící soupeří s jinými hráči nebo týmem, zatímco v jiných hrají sami s cílem dosáhnout dobrého výsledku nebo vysokého skóre."
 
 # empty string with id 31363
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr ""
+msgstr "Zahrnuje obsah vhodný pouze pro dospělé. Tituly v této kategorii mohou obsahovat dlouhé scény intenzivního násilí a/nebo explicitní sexuální obsah a nahotu."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
-msgstr ""
+msgstr "Historické eposy jsou epické filmy odehrávající se v historické minulosti, často zaměřené na osobnosti, které změnily běh dějin. Řada historických eposů, zejména těch z 50. a 60. let 20. století, je zasazena do starověku, především do Říma, Řecka nebo Egypta. Historické eposy mají obvykle velkolepější měřítko než jiné typy eposů, využívají propracované kulisy a velké množství komparzistů."
 
 # empty string with id 31366
 msgctxt "#31367"
 msgid "Horror films are designed to frighten and to invoke our hidden worst fears, often in a terrifying, shocking finale, while captivating and entertaining us at the same time in a cathartic experience. Horror films feature a wide range of styles, from the earliest silent Nosferatu classic, to today's CGI monsters and deranged humans. They are often combined with science fiction when the menace or monster is related to a corruption of technology, or when Earth is threatened by aliens."
-msgstr ""
+msgstr "Hororové filmy mají vyvolávat strach a probouzet naše skryté nejhorší obavy, často v děsivém a šokujícím finále, a zároveň diváka zaujmout a pobavit katarzním zážitkem. Hororové filmy zahrnují širokou škálu stylů, od rané němé klasiky Nosferatu až po dnešní počítačově vytvořená monstra a vyšinuté lidi. Často se kombinují se sci-fi, pokud hrozba nebo monstrum souvisí se zkažeností technologií nebo když Zemi ohrožují mimozemšťané."
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
-msgstr ""
+msgstr "Nezávislý film neboli indie film je celovečerní film, který vzniká převážně mimo velká filmová studia. Tento termín se používá také pro umělecké filmy, které se výrazně liší od většiny masově uváděných filmů. Nezávislé filmy lze někdy poznat podle obsahu, stylu a způsobu, jakým je v nich realizována osobní umělecká vize tvůrců."
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
-msgstr ""
+msgstr "Rozhovor je konverzace mezi dvěma lidmi (tazatelem a dotazovaným), při které tazatel klade otázky, aby od dotazovaného získal informace."
 
 msgctxt "#31370"
 msgid "A sub-genre of the action film, martial arts films contain numerous fights between characters, usually as the films' primary appeal and entertainment value, and often as a method of storytelling and character expression and development. Martial arts are frequently featured in training scenes and other sequences in addition to fights. Martial arts films commonly include other types of action, such as stuntwork, chases, and/or gunfights."
-msgstr ""
+msgstr "Filmy o bojových uměních jsou podžánrem akčních filmů a obsahují četné souboje mezi postavami, obvykle jako hlavní diváckou atrakci a zdroj zábavy, často také jako prostředek vyprávění a vyjádření nebo vývoje postav. Bojová umění se kromě samotných soubojů často objevují i v tréninkových scénách a dalších sekvencích. Tyto filmy běžně zahrnují i jiné typy akce, například kaskadérské scény, honičky a/nebo přestřelky."
 
 msgctxt "#31371"
 msgid "Multi-episode, fictional program of limited duration, shown on a daily or weekly schedule, usually lasting fifteen hours or less in total running time. A good television miniseries can make the small screen seem huge. These programs are the best that TV has to offer: an excuse to sink in and lose yourself in a story that isn't over in just a couple of hours. The sets, the plots, and the acting make each of these essential miniseries an exquisite television experience."
-msgstr ""
+msgstr "Vícedílný fikční pořad s omezenou délkou, vysílaný denně nebo týdně, obvykle s celkovou stopáží patnáct hodin nebo méně. Dobrá televizní minisérie dokáže dodat malé obrazovce velkolepý rozměr. Tyto pořady patří k tomu nejlepšímu, co televize nabízí: umožňují ponořit se do příběhu, který neskončí už po pár hodinách. Výprava, zápletky i herecké výkony dělají z každé takové minisérie výjimečný televizní zážitek."
 
 msgctxt "#31372"
 msgid "Monster movie (also can be referred to as a creature feature or monster film) is a name commonly given to movies, which centre on the struggle between human beings and one or more monsters. The term is usually applied to films sometimes labelled as horror, fantasy or science fiction genre that involve fictional creatures, in most cases it is applied to films that feature more oversized monsters despite its history starting with adaptations of horror folklore and literature."
-msgstr ""
+msgstr "Film o monstrech (označovaný také jako creature feature nebo monster film) je běžné označení filmů, jejichž středem je boj lidí s jedním nebo více monstry. Termín se obvykle používá pro filmy řazené někdy k hororu, fantasy nebo sci-fi a obsahující fiktivní tvory. Ve většině případů se vztahuje na filmy s obřími monstry, i když jeho historie začíná adaptacemi hororového folkloru a literatury."
 
 msgctxt "#31373"
 msgid "Music genre films will incorporate a lot of music but it will not necessarily be the focal point of the film, thus differentiating it from a Musical."
-msgstr ""
+msgstr "Filmy hudebního žánru obsahují hodně hudby, ta však nemusí být hlavním středobodem filmu, čímž se odlišují od muzikálu."
 
 msgctxt "#31374"
 msgid "Musical/dance films are cinematic forms that emphasize full-scale scores or song and dance routines in a significant way (usually with a musical or dance performance integrated as part of the film narrative), or they are films that are centered on combinations of music, dance, song or choreography. Major subgenres include the musical comedy or the concert film."
-msgstr ""
+msgstr "Muzikály a taneční filmy jsou filmové formy, které výrazně zdůrazňují rozsáhlé hudební partitury nebo pěvecká a taneční čísla, obvykle začleněná do filmového vyprávění, případně jsou soustředěny na kombinace hudby, tance, zpěvu nebo choreografie. Mezi hlavní podžánry patří hudební komedie nebo koncertní film."
 
 msgctxt "#31375"
 msgid "Mystery film is a sub-genre of the more general category of crime film. It focuses on the efforts of the detective, private investigator or amateur sleuth to solve the mysterious circumstances of a crime by means of clues, investigation, and clever deduction."
-msgstr ""
+msgstr "Mysteriózní film je podžánrem obecnější kategorie kriminálních filmů. Zaměřuje se na úsilí detektiva, soukromého vyšetřovatele nebo amatérského pátrače, který pomocí stop, vyšetřování a chytrých dedukcí řeší záhadné okolnosti zločinu."
 
 msgctxt "#31376"
 msgid "A nature documentary is a documentary film about animals, plants, or other non-human living creatures, usually concentrating on film taken in their natural habitat. Such programmes are most frequently made for television, particularly for public broadcasting channels, but some are also made for the cinema."
-msgstr ""
+msgstr "Přírodopisný dokument je dokumentární film o zvířatech, rostlinách nebo jiných nelidských živých tvorech, obvykle zaměřený na záběry pořízené v jejich přirozeném prostředí. Takové pořady se nejčastěji vyrábějí pro televizi, zejména pro veřejnoprávní kanály, ale některé vznikají i pro kina."
 
 msgctxt "#31377"
 msgid "Television news is considered by many to be the most influential medium for journalism. For most of the American public, local and national TV newscasts are the primary news sources."
-msgstr ""
+msgstr "Televizní zpravodajství je mnohými považováno za nejvlivnější žurnalistické médium. Pro většinu americké veřejnosti jsou místní a celostátní televizní zprávy hlavním zdrojem informací."
 
 msgctxt "#31378"
 msgid "Apocalyptic fiction is a sub-genre of science fiction that is concerned with the end of civilization due to a catastrophe such as nuclear warfare, pandemic, impact event, cybernetic revolt, Technological Singularity, Dysgenics, supernatural phenomena, Ecological disaster, resource depletion or some other general disaster. Post-apocalyptic fiction is set in a world or civilization after such a disaster."
-msgstr ""
+msgstr "Apokalyptická fikce je podžánr sci-fi, který se zabývá koncem civilizace v důsledku katastrofy, například jaderné války, pandemie, dopadu kosmického tělesa, vzpoury kybernetických systémů, technologické singularity, dysgeniky, nadpřirozených jevů, ekologické katastrofy, vyčerpání zdrojů nebo jiné rozsáhlé pohromy. Postapokalyptická fikce se odehrává ve světě nebo civilizaci po takové katastrofě."
 
 msgctxt "#31379"
 msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
-msgstr ""
+msgstr "Reality TV je žánr televizní tvorby, který představuje údajně neskriptované dramatické nebo humorné situace, dokumentuje skutečné události a obvykle v něm vystupují obyčejní lidé místo profesionálních herců, někdy v soutěži nebo jiné situaci, kde se uděluje cena."
 
 # empty string with id 31380
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
-msgstr ""
+msgstr "Jde převážně o podžánr, který sdílí některé rysy s romantickými dramaty, romantickými komediemi a sexuálními nebo erotickými filmy. Jsou to milostné příběhy nebo srdeční záležitosti soustředěné na vášeň, emoce a romantický, citový vztah hlavních postav, obvykle muže a ženy, a na cestu jejich lásky během námluv nebo manželství. Romantické filmy staví milostný příběh do středu hlavní zápletky."
 
 msgctxt "#31382"
 msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
-msgstr ""
+msgstr "Sci-fi filmy jsou často kvazivědecké, vizionářské a nápadité. Nechybějí v nich hrdinové, mimozemšťané, vzdálené planety, nemožné výpravy, nepravděpodobná prostředí, fantastická místa, výrazní temní padouši, futuristické technologie, neznámé a nepoznatelné síly ani mimořádná monstra, ať už vytvořená šílenými vědci, nebo jadernou zkázou. Sci-fi často vyjadřuje potenciál technologií zničit lidstvo a snadno se překrývá s hororovými filmy."
 
 msgctxt "#31383"
 msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
-msgstr "Krátký film je takový, který není natolik dlouhý, aby mohl být považován za celovečerní film. Hranice délky není přesně stanovena: Akademie filmových umění a věd definuje krátký film jako „původní tvorbu, který trvá 40 a méně minut, včetně titulků“. V internetové databázi filmů je naproti tomu jako hranice používáno 45 minut."
+msgstr "Krátký film je film, který není natolik dlouhý, aby mohl být považován za celovečerní. Hranice délky není přesně stanovena: Akademie filmového umění a věd definuje krátký film jako „původní filmové dílo s délkou 40 minut nebo méně, včetně titulků“. Internet Movie Database stanovuje hranici na 45 minut."
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
-msgstr ""
+msgstr "Soap opera, zkráceně někdy jen soap, je průběžné epizodické dramatické fikční dílo uváděné v seriálové podobě v televizi nebo rozhlasu. Název soap opera pochází z původních dramatických seriálů vysílaných v rozhlasu, jejichž sponzory a producenty byli výrobci mýdla, například Procter and Gamble, Colgate-Palmolive a Lever Brothers. Tyto rané rozhlasové seriály se vysílaly ve všední dny přes den, kdy většinu posluchačů tvořily ženy v domácnosti; pořady tak byly zaměřené na převážně ženské publikum a také jím sledované."
 
 # empty string with id 31385
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
-msgstr ""
+msgstr "Filmy, v nichž je pro příběh ústřední a dominantní sportovní prostředí (fotbalový nebo baseballový stadion, aréna, olympijské hry apod.), událost („velký zápas“, „souboj“, „závod“ nebo „soutěž“) a/nebo sportovec (boxer, závodník, surfař apod.). Sportovní filmy mohou být fikční i nefikční a tvoří hybridní podžánrovou kategorii, i když často bývají dramaty nebo komediemi a příležitostně také dokumenty nebo životopisnými filmy."
 
 msgctxt "#31387"
 msgid "The spy film genre deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John Le Carré) or as a basis for fantasy (such as James Bond). Many novels in the spy fiction genre have been adapted as films, including works by John Buchan, John Le Carré, Ian Fleming and Len Deighton. It is a significant aspect of British cinema, with leading British directors such as Alfred Hitchcock and Carol Reed making notable contributions and many films set in the British Secret Service."
-msgstr "Žánr špionážních filmů se točí kolem fiktivní špionáže, buď v realistické podobě (jako např. adaptace děl Johna Le Cerrého) nebo na základě fantazie (např. James Bond). Mnohé z románů špionážní fikce byly použity jako předlohy k filmům, včetně děl Johna Buchana, Johna Le Carrého, Iana Fleminga a Lena Deightona. Jedná se o význačný aspekt britské kinematografie, do kterého přispěli vedoucí britští režiséři jako např. Alfréd Hitchcock a Carol Reedová a mnohé filmy zasazené do prostředí britských tajných služeb."
+msgstr "Žánr špionážních filmů se zabývá fiktivní špionáží, a to buď realisticky, například v adaptacích děl Johna Le Carrého, nebo jako základem pro fantazii, například u Jamese Bonda. Řada špionážních románů byla adaptována do filmové podoby, včetně děl Johna Buchana, Johna Le Carrého, Iana Fleminga a Lena Deightona. Jde o významnou součást britské kinematografie, k níž výrazně přispěli přední britští režiséři, například Alfred Hitchcock a Carol Reed, a mnoho filmů zasazených do prostředí britské tajné služby."
 
 msgctxt "#31388"
 msgid "A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading. There are rare dramatists, notably George Bernard Shaw, who have had little preference whether their plays were performed or read. The term \"play\" can refer to both the written works of playwrights and to their complete theatrical performance."
-msgstr ""
+msgstr "Divadelní hra je literární forma psaná dramatikem, obvykle tvořená dialogy postav a určená spíše k divadelnímu uvedení než jen ke čtení. Existují vzácní dramatici, zejména George Bernard Shaw, kterým příliš nezáleželo na tom, zda se jejich hry hrály, nebo četly. Termín „hra“ může označovat jak psaná díla dramatiků, tak jejich úplné divadelní provedení."
 
 msgctxt "#31389"
 msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
-msgstr ""
+msgstr "Stand-up comedy je komediální umělecká forma. Komik obvykle vystupuje před živým publikem a mluví přímo k němu. Vystoupení se někdy natáčejí pro pozdější vydání na DVD, internetu nebo v televizi. Účinkující se běžně označuje jako komik, stand-up komik nebo jednoduše stand-up."
 
 msgctxt "#31390"
 msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
-msgstr "Superhrdinský film, nebo také komiksový film je akcní, fantazy nebo vědecko-fantastický film který je zaměřen na akce jednoho nebo více superhrdinů, jednotlivců který obvykle disponují nadlidskými schopnostmi a ochraňují veřejnost. Tyto filmy jsou téměř vždy orientovány na akci, a první film s konkrétní postavou se často zaměřuje na původ jejích zvláštních schopností včetně prvního boje proti největšímu nepříteli nebo ničemovi."
+msgstr "Superhrdinský film, nebo také komiksový film, je akční, fantasy nebo sci-fi film zaměřený na činy jednoho nebo více superhrdinů, tedy postav, které obvykle mají ve srovnání s běžným člověkem nadlidské schopnosti a věnují se ochraně veřejnosti. Tyto filmy jsou téměř vždy orientované na akci a první film dané postavy se často zaměřuje na původ jejích zvláštních schopností, včetně prvního boje proti jejímu nejznámějšímu úhlavnímu nepříteli nebo superpadouchovi."
 
 msgctxt "#31391"
 msgid "Supernatural films, a sub-genre category, may be combined with other genres, including comedy, sci-fi, fantasy or horror. They have themes including gods or goddesses, ghosts, apparitions, spirits, miracles, and other similar ideas or depictions of extraordinary phenomena."
-msgstr ""
+msgstr "Filmy s nadpřirozenou tematikou jsou podžánrovou kategorií, kterou lze kombinovat s jinými žánry, včetně komedie, sci-fi, fantasy nebo hororu. Zahrnují témata jako bohové a bohyně, duchové, zjevení, přízraky, zázraky a další podobné náměty nebo zobrazení mimořádných jevů."
 
 msgctxt "#31392"
 msgid "A talk show (American and Australian English) or chat show (British) is a television or radio program where one person (or group of people) discuss various topics put forth by a talk show host. Sometimes, talk shows feature a panel of guests, usually consisting of a group of people who are learned or who have great experience in relation to whatever issue is being discussed on the show for that episode. Other times, a single guest discusses their work or area of expertise with a host or co-hosts."
-msgstr ""
+msgstr "Talk show je televizní nebo rozhlasový pořad, ve kterém jedna osoba nebo skupina lidí diskutuje o různých tématech předkládaných moderátorem. Někdy se v talk show objevuje panel hostů, obvykle tvořený lidmi s odbornými znalostmi nebo velkou zkušeností s tématem daného dílu. Jindy jeden host hovoří s moderátorem nebo spolumoderátory o své práci či oblasti odbornosti."
 
 msgctxt "#31393"
 msgid "Thrillers (or Suspense films) are often hybrids with other genres - there are action-thrillers, crime-caper thrillers, western-thrillers, film-noir thrillers, even romantic comedy-thrillers. Another closely-related genre is the horror film genre. They are types of films known to promote intense excitement, suspense, a high level of anticipation, ultra-heightened expectation, uncertainty, anxiety, and nerve-wracking tension. Spy films may be considered a type of thriller/suspense film."
-msgstr ""
+msgstr "Thrillery, neboli napínavé filmy, jsou často hybridy s jinými žánry. Existují akční thrillery, kriminální thrillery, westernové thrillery, film-noir thrillery i romantické komediální thrillery. Dalším úzce souvisejícím žánrem je horor. Jde o typy filmů známé tím, že vyvolávají silné vzrušení, napětí, vysoké očekávání, mimořádně vystupňované napětí, nejistotu, úzkost a nervy drásající tenzi. Špionážní filmy lze považovat za typ thrilleru nebo napínavého filmu."
 
 msgctxt "#31394"
 msgid "War films are a film genre concerned with warfare, usually about naval, air or land battles, sometimes focusing instead on prisoners of war, covert operations, military training or other related subjects. At times war films focus on daily military or civilian life in wartime without depicting battles. Their stories may be fiction, based on history, docudrama, biographical, or even alternate history fiction."
-msgstr ""
+msgstr "Válečné filmy jsou filmovým žánrem zabývajícím se válkou, obvykle námořními, leteckými nebo pozemními bitvami, někdy se však místo toho zaměřují na válečné zajatce, tajné operace, vojenský výcvik nebo další související témata. Někdy se válečné filmy soustředí na každodenní vojenský nebo civilní život za války, aniž by zobrazovaly bitvy. Jejich příběhy mohou být fikční, založené na historii, dokumentárně dramatické, životopisné nebo dokonce alternativně historické."
 
 msgctxt "#31395"
 msgid "Westerns are the major defining genre of the American film industry - a eulogy to the early days of the expansive American frontier. They are one of the oldest, most enduring genres with very recognizable plots, elements, and characters (six-guns, horses, dusty towns and trails, cowboys, Indians, etc.). Over time, westerns have been re-defined, re-invented and expanded, dismissed, re-discovered, and spoofed."
-msgstr ""
+msgstr "Westerny jsou zásadním určujícím žánrem amerického filmového průmyslu, oslavou raných dob rozlehlého amerického pohraničí. Patří mezi nejstarší a nejtrvalejší žánry s velmi rozpoznatelnými zápletkami, prvky a postavami, jako jsou kolty, koně, zaprášená města a stezky, kovbojové, indiáni apod. Postupem času byly westerny nově vymezovány, znovu vynalézány a rozšiřovány, odmítány, znovu objevovány i parodovány."
 
 msgctxt "#31396"
 msgid "Wrestling is a martial art that uses grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds. A wrestling bout is a physical competition, between two (occasionally more) competitors or sparring partners, who attempt to gain and maintain a superior position. There are a wide range of styles with varying rules with both traditional historic and modern styles."
-msgstr ""
+msgstr "Zápas je bojové umění využívající techniky úchopového typu, jako je boj v klinči, hody a strhy, páky na klouby, držení na lopatkách a další úchopy. Zápasnický souboj je fyzické soupeření mezi dvěma, občas i více, soutěžícími nebo tréninkovými partnery, kteří se snaží získat a udržet výhodnější pozici. Existuje široká škála stylů s různými pravidly, od tradičních historických až po moderní."
 
 msgctxt "#31397"
 msgid "Epics include costume dramas, historical dramas, war films, medieval romps, or 'period pictures' that often cover a large expanse of time set against a vast, panoramic backdrop. Epics often share elements of the elaborate adventure films genre. Epics take an historical or imagined event, mythic, legendary, or heroic figure, and add an extravagant setting and lavish costumes, accompanied by grandeur and spectacle, dramatic scope, high production values, and a sweeping musical score."
-msgstr ""
+msgstr "Eposy zahrnují kostýmní dramata, historická dramata, válečné filmy, středověká dobrodružství nebo dobové filmy, které často pokrývají dlouhé časové období na rozsáhlém panoramatickém pozadí. Eposy často sdílejí prvky propracovaného dobrodružného filmu. Berou historickou nebo smyšlenou událost, mýtickou, legendární nebo hrdinskou postavu a přidávají okázalé prostředí a honosné kostýmy, doprovázené velkolepostí, spektáklem, dramatickým rozsahem, vysokými produkčními hodnotami a rozmáchlou hudební partiturou."
 
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
-msgstr ""
+msgstr "Filmy bez synchronizované zvukové stopy a mluvených dialogů, vznikající do nástupu zvukového filmu na konci 20. let 20. století. Filmy bez dialogů používaly pro dialogové pasáže mezititulky a často je doprovázela živá hudba."
 
 msgctxt "#31399"
 msgid "Lighter Background Fanart diffuse overlay"
-msgstr ""
+msgstr "Světlejší difuzní překryv fanartu na pozadí"
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
@@ -690,31 +690,31 @@ msgstr "Skrýt hodiny"
 
 msgctxt "#31402"
 msgid "Use Plot Summary in other views"
-msgstr ""
+msgstr "Použít shrnutí děje i v jiných zobrazeních"
 
 msgctxt "#31403"
 msgid "Hide Media Flags"
-msgstr ""
+msgstr "Skrýt příznaky médií"
 
 msgctxt "#31404"
 msgid "Hide Rating and Studio Flags"
-msgstr ""
+msgstr "Skrýt příznaky hodnocení a studia"
 
 msgctxt "#31405"
 msgid "Hide Movie Taglines"
-msgstr ""
+msgstr "Skrýt slogany filmů"
 
 msgctxt "#31406"
 msgid "Fanart Views: Classic Frame"
-msgstr ""
+msgstr "Zobrazení fanartu: klasický rámeček"
 
 msgctxt "#31407"
 msgid "*Press UP for full cast and photos*"
-msgstr ""
+msgstr "*Stisknutím NAHORU zobrazíte celé obsazení a fotografie*"
 
 msgctxt "#31408"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "Cinema Experience"
 
 msgctxt "#31409"
 msgid "Finish"
@@ -722,15 +722,15 @@ msgstr "Dokončit"
 
 msgctxt "#31410"
 msgid "Prefer Landscape to Fanart (except background)"
-msgstr ""
+msgstr "Preferovat Landscape před fanartem (kromě pozadí)"
 
 msgctxt "#31411"
 msgid "*Press DOWN to exit*"
-msgstr ""
+msgstr "*Stisknutím DOLŮ ukončíte*"
 
 msgctxt "#31412"
 msgid "*Press UP to select a profile*"
-msgstr ""
+msgstr "*Stisknutím NAHORU vyberete profil*"
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -742,15 +742,15 @@ msgstr "Galerie"
 
 msgctxt "#31415"
 msgid "Square"
-msgstr ""
+msgstr "Čtvercové"
 
 msgctxt "#31416"
 msgid "Tall Genre"
-msgstr ""
+msgstr "Vysoký žánr"
 
 msgctxt "#31417"
 msgid "*help text*"
-msgstr ""
+msgstr "*text nápovědy*"
 
 msgctxt "#31418"
 msgid "Hide all"
@@ -766,11 +766,11 @@ msgstr "Nastavení videa"
 
 msgctxt "#31421"
 msgid "Video OSD: Show ClearArt/Logo"
-msgstr ""
+msgstr "OSD videa: zobrazit ClearArt/logo"
 
 msgctxt "#31422"
 msgid "Logo View: Show only one item at a time"
-msgstr ""
+msgstr "Zobrazení log: zobrazit vždy jen jednu položku"
 
 msgctxt "#31423"
 msgid "Author"
@@ -778,15 +778,15 @@ msgstr "Autor"
 
 msgctxt "#31424"
 msgid "Poster & Fanart"
-msgstr ""
+msgstr "Plakát a fanart"
 
 msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
-msgstr ""
+msgstr "OSD videa: zobrazit miniaturu"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr ""
+msgstr "Zobrazení data dalšího vysílání seriálu"
 
 msgctxt "#31427"
 msgid "Next Episode"
@@ -798,39 +798,39 @@ msgstr "TV program"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
-msgstr ""
+msgstr "V dialogu informací zobrazit cestu místo hodnocení"
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
-msgstr ""
+msgstr "Velký pás plakátů"
 
 msgctxt "#31431"
 msgid "Click to reset Metropolis to defaults"
-msgstr ""
+msgstr "Kliknutím obnovíte výchozí nastavení vzhledu Metropolis"
 
 msgctxt "#31432"
 msgid "Visualization Background: Ken Burns effect"
-msgstr ""
+msgstr "Pozadí vizualizace: Ken Burnsův efekt"
 
 msgctxt "#31433"
 msgid "Visualization Background: Fanart"
-msgstr ""
+msgstr "Pozadí vizualizace: fanart"
 
 msgctxt "#31434"
 msgid "Visualization Background: Extra Fanart"
-msgstr ""
+msgstr "Pozadí vizualizace: Extra Fanart"
 
 msgctxt "#31435"
 msgid "Visualization Background: Artist Slideshow"
-msgstr ""
+msgstr "Pozadí vizualizace: Artist Slideshow"
 
 msgctxt "#31436"
 msgid "Use Slim Seekbar"
-msgstr ""
+msgstr "Použít úzký panel posunu"
 
 msgctxt "#31437"
 msgid "Enable TV Tunes script"
-msgstr ""
+msgstr "Povolit skript TV Tunes"
 
 msgctxt "#31438"
 msgid "Recent"
@@ -838,11 +838,11 @@ msgstr "Nedávné"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
-msgstr ""
+msgstr "Banner a plakát"
 
 msgctxt "#31440"
 msgid "View Types"
-msgstr ""
+msgstr "Typy zobrazení"
 
 msgctxt "#31441"
 msgid "Hide"
@@ -850,19 +850,19 @@ msgstr "Skrýt"
 
 msgctxt "#31442"
 msgid "Banner & Fanart"
-msgstr ""
+msgstr "Banner a fanart"
 
 msgctxt "#31443"
 msgid "Pseudo TV"
-msgstr ""
+msgstr "Pseudo TV"
 
 msgctxt "#31444"
 msgid "Auto Login"
-msgstr ""
+msgstr "Automatické přihlášení"
 
 msgctxt "#31445"
 msgid "Picture Settings"
-msgstr ""
+msgstr "Nastavení obrázků"
 
 msgctxt "#31446"
 msgid "Fullscreen"
@@ -870,19 +870,19 @@ msgstr "Celá obrazovka"
 
 msgctxt "#31447"
 msgid "Use Realistic Weather Icons"
-msgstr ""
+msgstr "Použít realistické ikony počasí"
 
 msgctxt "#31448"
 msgid "Show Plot only in Info dialog"
-msgstr ""
+msgstr "Zobrazit děj pouze v dialogu informací"
 
 msgctxt "#31449"
 msgid "Show Recommended Items"
-msgstr ""
+msgstr "Zobrazit doporučené položky"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr ""
+msgstr " - změna níže uvedených voleb vyžaduje restart -"
 
 msgctxt "#31451"
 msgid "Recommended"
@@ -890,23 +890,23 @@ msgstr "Doporučeno"
 
 msgctxt "#31452"
 msgid "Visualization: Use Slim Info Overlay"
-msgstr ""
+msgstr "Vizualizace: použít úzký informační překryv"
 
 msgctxt "#31453"
 msgid "Show Date instead of Day of Week"
-msgstr ""
+msgstr "Zobrazit datum místo dne v týdnu"
 
 msgctxt "#31454"
 msgid "Visualization: Show player position and time in Info Overlay"
-msgstr ""
+msgstr "Vizualizace: v informačním překryvu zobrazit pozici přehrávání a čas"
 
 msgctxt "#31455"
 msgid "Visualization: Hide Clock and Temp in Info Overlay"
-msgstr ""
+msgstr "Vizualizace: v informačním překryvu skrýt hodiny a teplotu"
 
 msgctxt "#31456"
 msgid "- Override default link"
-msgstr ""
+msgstr "- Přepsat výchozí odkaz"
 
 msgctxt "#31457"
 msgid "Shortcuts"
@@ -926,31 +926,31 @@ msgstr "Hry"
 
 msgctxt "#31461"
 msgid "Games Tall"
-msgstr ""
+msgstr "Hry - vysoké"
 
 msgctxt "#31462"
 msgid "Games Square"
-msgstr ""
+msgstr "Hry - čtvercové"
 
 msgctxt "#31463"
 msgid "Games Wide"
-msgstr ""
+msgstr "Hry - široké"
 
 msgctxt "#31464"
 msgid "Show Plot in Fullscreen Info"
-msgstr ""
+msgstr "Zobrazit děj v informacích na celé obrazovce"
 
 msgctxt "#31465"
 msgid "Clean Library"
-msgstr "Vyčisti knihovnu"
+msgstr "Vyčistit knihovnu"
 
 msgctxt "#31466"
 msgid "Foreign is not technically a genre, but likely includes films with dialog in a tongue not native to the viewer."
-msgstr ""
+msgstr "Zahraniční film technicky vzato není žánr, ale pravděpodobně zahrnuje filmy s dialogy v jazyce, který není rodným jazykem diváka."
 
 msgctxt "#31467"
 msgid "Holiday is a very broad genre, encompassing films that center around a certain holiday, such as Christmas, Halloween, Easter, etc."
-msgstr ""
+msgstr "Sváteční film je velmi široký žánr zahrnující filmy soustředěné kolem určitého svátku, například Vánoc, Halloweenu, Velikonoc apod."
 
 msgctxt "#31468"
 msgid "Services"
@@ -962,11 +962,11 @@ msgstr "Vzhled"
 
 msgctxt "#31470"
 msgid "Prefer ClearLogo to ClearArt"
-msgstr ""
+msgstr "Preferovat ClearLogo před ClearArt"
 
 msgctxt "#31471"
 msgid "Show Status"
-msgstr "Zobrazit status"
+msgstr "Zobrazit stav"
 
 msgctxt "#31472"
 msgid "Ended"
@@ -974,39 +974,39 @@ msgstr "Ukončeno"
 
 msgctxt "#31473"
 msgid "unmixed"
-msgstr ""
+msgstr "nesmíšené"
 
 msgctxt "#31474"
 msgid "Use one button to toggle subtitles"
-msgstr ""
+msgstr "Použít jedno tlačítko pro přepínání titulků"
 
 msgctxt "#31475"
 msgid "Default OSD button"
-msgstr ""
+msgstr "Výchozí tlačítko OSD"
 
 msgctxt "#31476"
 msgid "OSD: Fade away when paused"
-msgstr ""
+msgstr "OSD: při pozastavení postupně skrýt"
 
 msgctxt "#31477"
 msgid "- Fade delay"
-msgstr ""
+msgstr "- Prodleva postupného skrytí"
 
 msgctxt "#31478"
 msgid "Hide default submenu items"
-msgstr ""
+msgstr "Skrýt výchozí položky podnabídky"
 
 msgctxt "#31479"
 msgid "Poster Fixed Large"
-msgstr ""
+msgstr "Velký pevný plakát"
 
 msgctxt "#31480"
 msgid "Show IMDb Ranking Media Flag"
-msgstr ""
+msgstr "Zobrazit příznak média s umístěním v IMDb"
 
 msgctxt "#31481"
 msgid "Show Votes instead of Top250 always"
-msgstr ""
+msgstr "Vždy zobrazovat hlasy místo Top 250"
 
 msgctxt "#31482"
 msgid "Install"
@@ -1014,7 +1014,7 @@ msgstr "Nainstalovat"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
-msgstr ""
+msgstr "Zobrazení bannerů: počet řádků"
 
 msgctxt "#31484"
 msgid "Order"
@@ -1024,15 +1024,15 @@ msgstr "Pořadí"
 # PVR Resources
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
-msgstr ""
+msgstr "Povolit podporu živé TV (PVR)"
 
 msgctxt "#31601"
 msgid "Live TV"
-msgstr "Televize"
+msgstr "Živá TV"
 
 msgctxt "#31602"
 msgid "Live Radio"
-msgstr ""
+msgstr "Živý rozhlas"
 
 msgctxt "#31605"
 msgid "Add Group"
@@ -1056,16 +1056,16 @@ msgstr "Plánovaný čas"
 
 msgctxt "#31611"
 msgid "PVR Status"
-msgstr "Stav nahrávače"
+msgstr "Stav PVR"
 
 # empty strings from id 31612 to 31699
 msgctxt "#31700"
 msgid "7 Day Forecast"
-msgstr ""
+msgstr "Předpověď na 7 dní"
 
 msgctxt "#31701"
 msgid "12 Hour Forecast"
-msgstr ""
+msgstr "Předpověď na 12 hodin"
 
 msgctxt "#31702"
 msgid "36 Hour Forecast"
@@ -1089,7 +1089,7 @@ msgstr "Nejvyšší"
 
 msgctxt "#31707"
 msgid "Minimum"
-msgstr ""
+msgstr "Nejnižší"
 
 msgctxt "#31708"
 msgid "Moon Phase"
@@ -1101,15 +1101,15 @@ msgstr "Srážky"
 
 msgctxt "#31710"
 msgid "Use extended weather"
-msgstr ""
+msgstr "Použít rozšířené počasí"
 
 msgctxt "#31711"
 msgid "Show weather forecast on home screen"
-msgstr ""
+msgstr "Zobrazit předpověď počasí na domovské obrazovce"
 
 msgctxt "#31712"
 msgid "Crop Thumbnails in Music Video Gallery View"
-msgstr ""
+msgstr "Ořezávat miniatury v zobrazení galerie hudebních videí"
 
 msgctxt "#31713"
 msgid "Custom Home Shortcut"
@@ -1117,7 +1117,7 @@ msgstr "Vlastní zástupce na domovskou obrazovku"
 
 msgctxt "#31714"
 msgid "Label and Shortcut"
-msgstr ""
+msgstr "Popisek a zkratka"
 
 msgctxt "#31715"
 msgid "Icon"
@@ -1133,64 +1133,64 @@ msgstr "Srážky"
 
 msgctxt "#31718"
 msgid "Home Furniture"
-msgstr "Domácí nábytek"
+msgstr "Prvky domovské obrazovky"
 
 msgctxt "#31719"
 msgid "Reset Home Furniture to defaults"
-msgstr "Vrátit nastavení domácího nábytku na výchozí hodnoty"
+msgstr "Obnovit výchozí prvky domovské obrazovky"
 
 msgctxt "#31720"
 msgid "Remove the shortcut.  This cannot be undone."
-msgstr ""
+msgstr "Odebrat zkratku.  Tuto akci nelze vrátit zpět."
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Přesunout zkratku nahoru ve svislých zobrazeních nebo doleva ve vodorovných zobrazeních.  Ve vodorovných zobrazeních je třetí položka nabídky uprostřed."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Přesunout zkratku dolů ve svislých zobrazeních nebo doprava ve vodorovných zobrazeních.  Ve vodorovných zobrazeních je třetí položka nabídky uprostřed."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
-msgstr ""
+msgstr "Nastavit akci zkratky.  Vyberte z různých předvoleb.  Pro větší kontrolu můžete níže ručně zadat vlastní akci."
 
 msgctxt "#31724"
 msgid "Set background image for the shortcut."
-msgstr ""
+msgstr "Nastavit obrázek pozadí pro zkratku."
 
 msgctxt "#31725"
 msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
-msgstr ""
+msgstr "Nastavit popisek zkratky.  Ten se obvykle nastaví automaticky při výběru zkratky, ale pokud chcete, můžete ho ručně upravit."
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr ""
+msgstr "Vybrat widget pro zkratku.  Widgety jsou vestavěné informační skripty, které provádějí různé úlohy nebo zobrazují užitečné nabídky. Některé widgety jsou nastavené jako výchozí, ale lze je změnit nebo odebrat."
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
-msgstr ""
+msgstr "Nastavit vlastní akci zkratky.  Používá se k přepsání nebo úpravě akce, kterou zkratka provede."
 
 msgctxt "#31728"
 msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
-msgstr ""
+msgstr "Přizpůsobit podnabídku zkratky.  Podnabídky mohou obsahovat vlastní příkazy, zkratky a/nebo oblíbené položky.  Editor podnabídek bude vypadat a fungovat téměř stejně jako editor hlavní nabídky."
 
 msgctxt "#31729"
 msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
-msgstr ""
+msgstr "Zavřít toto okno.  Všechny změny provedené v editoru zkratek se projeví okamžitě."
 
 msgctxt "#31730"
 msgid "Create a new shortcut at the bottom of the list."
-msgstr ""
+msgstr "Vytvořit novou zkratku na konci seznamu."
 
 msgctxt "#31731"
 msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
-msgstr ""
+msgstr "Obnovit VŠECHNY zkratky na výchozí hodnoty.  Tím se vrátí všechny změny hlavní nabídky nebo podnabídek a akci nelze vrátit zpět."
 
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
-msgstr ""
+msgstr "Opravdu chcete odebrat zkratku Nastavení?"
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr ""
+msgstr "Povolit nebo zakázat zkratku.  Položka zůstane v této nabídce nastavení, ale pokud bude zakázána, skryje se ve skutečné hlavní nabídce."

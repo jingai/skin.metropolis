@@ -5,379 +5,379 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-25 10:08+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2025-08-30 14:29+0000\n"
+"Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Bosnian (Bosnia and Herzegovina) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/bs_ba/>\n"
 "Language: bs_ba\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 5.13\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
-msgstr ""
+msgstr "Mješavina retro i modernog."
 
 msgctxt "Addon Description"
 msgid "Metropolis is designed to show as much media info as possible with easy to read text and icons. All while trying to keep the skin smooth and simple to use for all family members with multiple themes and customizable menus and views. Credit to Hitcher for Alaska Revisited which was used as a base for Metropolis."
-msgstr ""
+msgstr "Metropolis je dizajniran da prikazuje što više medijskih informacija s lako čitljivim tekstom i ikonama. Sve to uz nastojanje da izgled ostane gladak i jednostavan za korištenje za sve članove porodice s više tema i prilagodljivim menijima i prikazima. Zahvaljujemo Hitcheru na Alaska Revisited, koji je korišten kao osnova za Metropolis."
 
 # strings 31000 thru 31999 reserved for skins
 msgctxt "#31001"
 msgid "View Options"
-msgstr ""
+msgstr "Opcije prikaza"
 
 msgctxt "#31002"
 msgid "Home Artwork"
-msgstr ""
+msgstr "Umjetnička djela na kućnoj stranici"
 
 # empty string with id 31003
 msgctxt "#31004"
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 msgctxt "#31005"
 msgid "Enable auto scrolling for text that does not fit on-screen"
-msgstr ""
+msgstr "Omogući automatsko skrolovanje za tekst koji ne stane na ekran"
 
 msgctxt "#31006"
 msgid "Shorter delay before auto scrolling"
-msgstr ""
+msgstr "Kraće kašnjenje prije automatskog skrolovanja"
 
 msgctxt "#31007"
 msgid "ON"
-msgstr ""
+msgstr "UKLJUČENO"
 
 # empty string with id 31008
 msgctxt "#31009"
 msgid "Browser"
-msgstr ""
+msgstr "Preglednik"
 
 msgctxt "#31010"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgctxt "#31011"
 msgid "Metropolis"
-msgstr ""
+msgstr "Metropola"
 
 msgctxt "#31012"
 msgid "Increase Star Rating"
-msgstr ""
+msgstr "Povećaj ocjenu u zvjezdicama"
 
 msgctxt "#31013"
 msgid "Select Weather icons"
-msgstr ""
+msgstr "Odaberite ikone za vrijeme"
 
 msgctxt "#31014"
 msgid "Select Weather fanart"
-msgstr ""
+msgstr "Odaberite fanart za vrijeme"
 
 msgctxt "#31015"
 msgid "Select Studio Logo icons"
-msgstr ""
+msgstr "Odaberite ikone logotipa Studija"
 
 msgctxt "#31016"
 msgid "Select Record Label icons"
-msgstr ""
+msgstr "Odaberite ikone izdavačke kuće"
 
 msgctxt "#31017"
 msgid "Select Language Flag icons"
-msgstr ""
+msgstr "Odaberite ikone zastavica jezika"
 
 msgctxt "#31018"
 msgid "Show User Rating instead of scraped Rating in Media Flag"
-msgstr ""
+msgstr "Prikaži korisničku ocjenu umjesto kopirane ocjene u medijskoj zastavici"
 
 # empty strings from id 31019 to 31020
 msgctxt "#31021"
 msgid "Decrease Star Rating"
-msgstr ""
+msgstr "Smanji broj zvjezdica"
 
 # empty strings from id 31022 to 31023
 msgctxt "#31024"
 msgid "Icon Home layout"
-msgstr ""
+msgstr "Raspored ikona početne stranice"
 
 msgctxt "#31025"
 msgid "Horizontal Text Home layout"
-msgstr ""
+msgstr "Horizontalni raspored početne stranice teksta"
 
 # empty strings from id 31026 to 31030
 msgctxt "#31031"
 msgid "Hide Movie Watched Status"
-msgstr ""
+msgstr "Sakrij status gledanja filma"
 
 msgctxt "#31032"
 msgid "Hide TV Watched Status"
-msgstr ""
+msgstr "Sakrij status gledanja TV-a"
 
 msgctxt "#31033"
 msgid "Hide Background Fanart"
-msgstr ""
+msgstr "Sakrij pozadinsku fanart sliku"
 
 msgctxt "#31034"
 msgid "Enable Dynamic Weather Artwork"
-msgstr ""
+msgstr "Omogući dinamičnu vremensku sliku"
 
 msgctxt "#31035"
 msgid "Show Clean Library SubMenu items"
-msgstr ""
+msgstr "Prikaži stavke podmenija Čista biblioteka"
 
 msgctxt "#31036"
 msgid "Hide Widgets until focused"
-msgstr ""
+msgstr "Sakrij vidžete dok se fokus ne prebaci na"
 
 msgctxt "#31037"
 msgid "Stretch background fanart to fit into viewable area"
-msgstr ""
+msgstr "Rastegnite pozadinsku fanart sliku kako bi se uklopila u vidljivo područje"
 
 # empty strings from id 31038 to 31053
 msgctxt "#31054"
 msgid "Logo"
-msgstr ""
+msgstr "Oznaka"
 
 # empty string with id 31055
 msgctxt "#31056"
 msgid "Enable Video/Album Art overlay"
-msgstr ""
+msgstr "Omogući preklapanje slike videa/albuma"
 
 msgctxt "#31057"
 msgid "Enable Song Info text overlay"
-msgstr ""
+msgstr "Omogući preklapanje teksta s informacijama o pjesmi"
 
 # empty strings from id 31058 to 31059
 msgctxt "#31060"
 msgid "Show Recently Added Items"
-msgstr ""
+msgstr "Prikaži nedavno dodane stavke"
 
 # empty strings from id 31061 to 31107
 msgctxt "#31108"
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "Omogući način rada za otklanjanje grešaka"
 
 msgctxt "#31109"
 msgid "Enable Debug Grid"
-msgstr ""
+msgstr "Omogući mrežu za otklanjanje grešaka"
 
 # empty strings from id 31110 to 31117
 msgctxt "#31118"
 msgid "Filemanager"
-msgstr ""
+msgstr "Upravitelj datoteka"
 
 # empty strings from id 31119 to 31124
 msgctxt "#31125"
 msgid "Hide Video Root"
-msgstr ""
+msgstr "Sakrij korijen videa"
 
 msgctxt "#31126"
 msgid "Extra Artwork Downloader"
-msgstr ""
+msgstr "Program za preuzimanje dodatnih umjetničkih djela"
 
 msgctxt "#31127"
 msgid "TvTunes Downloader"
-msgstr ""
+msgstr "TvTunes program za preuzimanje"
 
 # empty strings from id 31128 to 31132
 msgctxt "#31133"
 msgid "Mute"
-msgstr ""
+msgstr "Isključi zvuk"
 
 # empty strings from id 31134 to 31135
 msgctxt "#31136"
 msgid "Video Info"
-msgstr ""
+msgstr "Informacije o videu"
 
 msgctxt "#31137"
 msgid "Audio Info"
-msgstr ""
+msgstr "Informacije o zvuku"
 
 msgctxt "#31138"
 msgid "System Info"
-msgstr ""
+msgstr "Sistemske informacije"
 
 msgctxt "#31139"
 msgid "Video decoder"
-msgstr ""
+msgstr "Video dekoder"
 
 msgctxt "#31140"
 msgid "Pixel format"
-msgstr ""
+msgstr "Format piksela"
 
 msgctxt "#31141"
 msgid "Audio channels"
-msgstr ""
+msgstr "Audio kanali"
 
 msgctxt "#31142"
 msgid "CPU used"
-msgstr ""
+msgstr "Korišteni procesor"
 
 msgctxt "#31143"
 msgid "Memory used"
-msgstr ""
+msgstr "Korištena memorija"
 
 # empty strings from id 31144 to 31158
 msgctxt "#31159"
 msgid "ffx2"
-msgstr ""
+msgstr "ffx2"
 
 msgctxt "#31160"
 msgid "ffx4"
-msgstr ""
+msgstr "ffx4"
 
 msgctxt "#31161"
 msgid "ffx8"
-msgstr ""
+msgstr "ffx8"
 
 msgctxt "#31162"
 msgid "ffx16"
-msgstr ""
+msgstr "ffx16"
 
 msgctxt "#31163"
 msgid "ffx32"
-msgstr ""
+msgstr "ffx32"
 
 msgctxt "#31164"
 msgid "rwx2"
-msgstr ""
+msgstr "rwx2"
 
 msgctxt "#31165"
 msgid "rwx4"
-msgstr ""
+msgstr "rwx4"
 
 msgctxt "#31166"
 msgid "rwx8"
-msgstr ""
+msgstr "rwx8"
 
 msgctxt "#31167"
 msgid "rwx16"
-msgstr ""
+msgstr "rwx16"
 
 msgctxt "#31168"
 msgid "rwx32"
-msgstr ""
+msgstr "rwx32"
 
 # empty strings from id 31169 to 31182
 msgctxt "#31183"
 msgid "Viewtype"
-msgstr ""
+msgstr "Vrsta prikaza"
 
 # empty strings from id 31184 to 31206
 msgctxt "#31207"
 msgid "Current"
-msgstr ""
+msgstr "Trenutni"
 
 msgctxt "#31208"
 msgid "Last Updated:"
-msgstr ""
+msgstr "Posljednje ažuriranje:"
 
 # empty string with id 31209
 msgctxt "#31210"
 msgid "Default Home layout"
-msgstr ""
+msgstr "Zadani raspored početne stranice"
 
 msgctxt "#31211"
 msgid "Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "Konfigurišite radnje koje se mogu koristiti tokom reprodukcije · Konfigurišite način reprodukcije medijskog sadržaja"
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr ""
+msgstr "Upravljajte instaliranim dodacima · Pretražite i instalirajte dodatke sa kodi.tv · Izmijenite postavke dodataka"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
-msgstr ""
+msgstr "Konfigurišite ekran · Konfigurišite zvuk · Konfigurišite pristup internetu · Konfigurišite uštedu energije · Konfigurišite zapisivanje"
 
 # empty strings from id 31214 to 31215
 msgctxt "#31216"
 msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "Konfiguriši skin · Konfiguriši regiju · Konfiguriši kontrolu · Konfiguriši čuvar ekrana · Konfiguriši glavnu bravu"
 
 # empty string with id 31217
 msgctxt "#31218"
 msgid "Configure & manage media sharing services · Configure & manage the weather service"
-msgstr ""
+msgstr "Konfigurišite i upravljajte uslugama dijeljenja medija · Konfigurišite i upravljajte uslugom vremenske prognoze"
 
 msgctxt "#31219"
 msgid "Configure controller settings · Configure rewind and autosave functions"
-msgstr ""
+msgstr "Konfigurišite postavke kontrolera · Konfigurišite funkcije premotavanja i automatskog spremanja"
 
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr ""
+msgstr "Konfigurisanje TV postavki · Promjena informacija preko cijelog ekrana · Upravljanje postavkama EPG podataka"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
-msgstr ""
+msgstr "Konfigurišite izvore biblioteke · Prikažite sadržaj prikazanih lista medija · Konfigurišite način navigacije listama biblioteke"
 
 # empty strings from id 31222 to 31243
 msgctxt "#31244"
 msgid "Playing"
-msgstr ""
+msgstr "Pokreče se"
 
 # empty strings from id 31245 to 31248
 msgctxt "#31249"
 msgid "System Music Files"
-msgstr ""
+msgstr "Sistemske muzičke datoteke"
 
 msgctxt "#31250"
 msgid "Current Selected"
-msgstr ""
+msgstr "Trenutno odabrano"
 
 msgctxt "#31251"
 msgid "Current Playlist"
-msgstr ""
+msgstr "Trenutna plejlista"
 
 # empty strings from id 31252 to 31269
 msgctxt "#31270"
 msgid "Enable Custom Button"
-msgstr ""
+msgstr "Omogući prilagođeno dugme"
 
 msgctxt "#31271"
 msgid "Favourite"
-msgstr ""
+msgstr "Omiljeno"
 
 # empty strings from id 31272 to 31274
 msgctxt "#31275"
 msgid "Multi Image"
-msgstr ""
+msgstr "Više slika"
 
 # empty string with id 31276
 msgctxt "#31277"
 msgid "Item"
-msgstr ""
+msgstr "Stavka"
 
 msgctxt "#31278"
 msgid "Open Playlist"
-msgstr ""
+msgstr "Otvori listu za reprodukciju"
 
 msgctxt "#31279"
 msgid "Save Playlist"
-msgstr ""
+msgstr "Sačuvaj plejlistu"
 
 msgctxt "#31280"
 msgid "Close Playlist"
-msgstr ""
+msgstr "Zatvori listu za reprodukciju"
 
 msgctxt "#31281"
 msgid "Items"
-msgstr ""
+msgstr "Stavke"
 
 msgctxt "#31282"
 msgid "Poster Wrap"
-msgstr ""
+msgstr "Omotavanje postera"
 
 msgctxt "#31283"
 msgid "Poster Fixed"
-msgstr ""
+msgstr "Poster je fiksiran"
 
 msgctxt "#31284"
 msgid "Single Image"
-msgstr ""
+msgstr "Jedna slika"
 
 msgctxt "#31285"
 msgid "List"
@@ -394,70 +394,70 @@ msgstr "Datoteke"
 # empty string with id 31290
 msgctxt "#31291"
 msgid "Landscape"
-msgstr ""
+msgstr "Pejzaž"
 
 # empty string with id 31292
 msgctxt "#31293"
 msgid "Picture Grid"
-msgstr ""
+msgstr "Mreža slika"
 
 # empty strings from id 31294 to 31297
 msgctxt "#31298"
 msgid "Panel Square"
-msgstr ""
+msgstr "Panel Square"
 
 msgctxt "#31299"
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 # empty strings from id 31300 to 31312
 msgctxt "#31313"
 msgid "Movie Set"
-msgstr ""
+msgstr "Filmski set"
 
 # empty strings from id 31314 to 31318
 msgctxt "#31319"
 msgid "Default Lyrics script"
-msgstr ""
+msgstr "Zadani skript za tekst pjesme"
 
 # empty strings from id 31320 to 31321
 msgctxt "#31322"
 msgid "Show Media Totals"
-msgstr ""
+msgstr "Prikaži ukupne medijske podatke"
 
 msgctxt "#31323"
 msgid "Widget Background Display Order"
-msgstr ""
+msgstr "Redoslijed prikaza pozadine widgeta"
 
 # empty string with id 31323
 msgctxt "#31324"
 msgid "Home Options"
-msgstr ""
+msgstr "Opcije za dom"
 
 msgctxt "#31325"
 msgid "Image Resources"
-msgstr ""
+msgstr "Resursi za slike"
 
 # empty strings from id 31326 to 31327
 msgctxt "#31328"
 msgid "Show Random Items"
-msgstr ""
+msgstr "Prikaži nasumične stavke"
 
 msgctxt "#31329"
 msgid "Select item to set up:"
-msgstr ""
+msgstr "Odaberite stavku za podešavanje:"
 
 msgctxt "#31330"
 msgid "Scripts/Extras"
-msgstr ""
+msgstr "Skripte/Dodaci"
 
 msgctxt "#31331"
 msgid "Home Items"
-msgstr ""
+msgstr "Kućni predmeti"
 
 msgctxt "#31332"
 msgid "Enable Extra Fanart"
-msgstr ""
+msgstr "Omogući dodatne fanartove"
 
 msgctxt "#31334"
 msgid "Trailers"
@@ -466,332 +466,332 @@ msgstr "Najava"
 # empty string with id 31335
 msgctxt "#31336"
 msgid "Enable Kiosk mode"
-msgstr ""
+msgstr "Omogući način rada kioska"
 
 msgctxt "#31337"
 msgid "Disable destructive Shutdown items"
-msgstr ""
+msgstr "Onemogućite destruktivne stavke za isključivanje"
 
 msgctxt "#31338"
 msgid "Use simple Media Filter"
-msgstr ""
+msgstr "Koristite jednostavan medijski filter"
 
 # empty strings from id 31339 to 31340
 msgctxt "#31341"
 msgid "View information for your computer on such items as your network, graphics, hardware and storage space available"
-msgstr ""
+msgstr "Pogledajte informacije o vašem računaru o stavkama kao što su mreža, grafika, hardver i dostupan prostor za pohranu"
 
 msgctxt "#31342"
 msgid "Create and modify multiple user profiles for Kodi so that each member of your household can have their own video or music library"
-msgstr ""
+msgstr "Kreirajte i mijenjajte više korisničkih profila za Kodi tako da svaki član vašeg domaćinstva može imati vlastitu video ili muzičku biblioteku"
 
 msgctxt "#31343"
 msgid "Action films usually include high energy, big-budget physical stunts and chases, possibly with rescues, battles, fights, escapes, destructive crises (floods, explosions, natural disasters, fires, etc.), non-stop motion, spectacular rhythm and pacing, and adventurous, often two-dimensional 'good-guy' heroes (or recently, heroines) battling 'bad guys' - all designed for pure audience escapism."
-msgstr ""
+msgstr "Akcioni filmovi obično uključuju energične, visokobudžetne fizičke vratolomije i potjere, moguće sa spašavanjima, bitkama, borbama, bijegovima, destruktivnim krizama (poplave, eksplozije, prirodne katastrofe, požari itd.), neprekidnim pokretom, spektakularnim ritmom i tempom, te avanturističkim, često dvodimenzionalnim \"dobrim\" junacima (ili u novije vrijeme, heroinama) koji se bore protiv \"loših momaka\" - sve osmišljeno za čisti bijeg publike od stvarnosti."
 
 msgctxt "#31344"
 msgid "Adventure films are usually exciting stories, with new experiences or exotic locales, very similar to or often paired with the action film genre. They can include traditional swashbucklers, serialized films, and historical spectacles, searches or expeditions for lost continents, \"jungle\" and \"desert\" epics, treasure hunts, disaster films, or searches for the unknown."
-msgstr ""
+msgstr "Avanturistički filmovi su obično uzbudljive priče, s novim iskustvima ili egzotičnim mjestima, vrlo slične ili često uparene s žanrom akcionih filmova. Mogu uključivati tradicionalne avanturističke filmove, serijske filmove i historijske spektakle, potrage ili ekspedicije za izgubljenim kontinentima, epske priče o \"džungli\" i \"pustinji\", lov na blago, filmove katastrofe ili potrage za nepoznatim."
 
 msgctxt "#31345"
 msgid "Action and Adventure movies are in most cases a cross over of each other. They usually have a continuous high level of energy, complicated stunts and other activities of such nature, chases, battles, disasters of all natures, explosions, historical figures, explorations, conquests, etc; and last, but not least, heroes."
-msgstr ""
+msgstr "Akcioni i avanturistički filmovi su u većini slučajeva mješavina jednih drugih. Obično imaju kontinuirano visok nivo energije, komplikovane vratolomije i druge aktivnosti takve prirode, potjere, bitke, katastrofe svih vrsta, eksplozije, historijske ličnosti, istraživanja, osvajanja itd.; i na kraju, ali ne i najmanje važno, heroje."
 
 msgctxt "#31346"
 msgid "This genre really began in 1970 as a sub-genre of Drama. They are films which explain human social and sexual values on a scale that only people over the age of 17 can really understand."
-msgstr ""
+msgstr "Ovaj žanr je zapravo nastao 1970. godine kao podžanr drame. To su filmovi koji objašnjavaju ljudske društvene i seksualne vrijednosti na način koji samo osobe starije od 17 godina mogu zaista razumjeti."
 
 msgctxt "#31347"
 msgid "Animations are not a strictly-defined genre category, but rather a film technique, noted for frame-by-frame creation. This includes claymation (use of clay objects), anime (a style of animation with its roots in Japanese comic books, usually adult-oriented sci-fi and fantasy) or CGI (computer-generated animation). Animated films are often considered kid or family-oriented films, although they may be enjoyed by all ages."
-msgstr ""
+msgstr "Animacije nisu strogo definirana žanrovska kategorija, već filmska tehnika, poznata po stvaranju kadar po kadar. To uključuje glinamaciju (korištenje glinenih predmeta), anime (stil animacije s korijenima u japanskim stripovima, obično naučnoj fantastici i fantastici za odrasle) ili CGI (računarski generirana animacija). Animirani filmovi se često smatraju filmovima za djecu ili porodice, iako ih mogu uživati gledatelji svih uzrasta."
 
 msgctxt "#31348"
 msgid "Anime, or Japanese animation, covers a much wider range of genres than can be found in most Western animation. There is anime for all age groups, and, while much of it fits into the same genres as any TV show or movie (comedy, romance, horror and action), there are several terms that are particular to anime."
-msgstr ""
+msgstr "Anime, ili japanska animacija, pokriva mnogo širi raspon žanrova nego što se može naći u većini zapadnjačkih animacija. Postoje animei za sve dobne skupine i, iako se veliki dio njih uklapa u iste žanrove kao i bilo koja TV emisija ili film (komedija, romansa, horor i akcija), postoji nekoliko termina koji su specifični za anime."
 
 msgctxt "#31349"
 msgid "Biographies are a sub-genre of the larger drama and epic film genres. These films depict the life of an important historical personage (or group) from the past or present era. They cross many genre types, since these films might showcase a western outlaw, a criminal, a musical composer, a religious figure, a war-time hero, an entertainer, an artist, an inventor or doctor, a politician or President, or an adventurer."
-msgstr ""
+msgstr "Biografije su podžanr širih dramskih i epskih filmskih žanrova. Ovi filmovi prikazuju život važne historijske ličnosti (ili grupe) iz prošlosti ili sadašnjosti. Oni prekrivaju mnoge žanrovske tipove, budući da ovi filmovi mogu prikazati zapadnog odmetnika, kriminalca, muzičkog kompozitora, vjersku figuru, ratnog heroja, zabavljača, umjetnika, izumitelja ili doktora, političara ili predsjednika, ili avanturistu."
 
 msgctxt "#31350"
 msgid "Bollywood is the informal term popularly used for the Hindi-language film industry based in Mumbai, Maharashtra, India. The term is often incorrectly used to refer to the whole of Indian cinema; it is only a part of the total Indian film industry, which includes several regional film industries sorted by language. Bollywood is the largest film producer in India and one of the largest centers of film production in the world."
-msgstr ""
+msgstr "Bollywood je neformalni termin koji se popularno koristi za filmsku industriju na hindskom jeziku sa sjedištem u Mumbaiju, Maharashtra, Indija. Termin se često pogrešno koristi za označavanje cijele indijske kinematografije; to je samo dio ukupne indijske filmske industrije, koja uključuje nekoliko regionalnih filmskih industrija sortiranih po jeziku. Bollywood je najveći filmski producent u Indiji i jedan od najvećih centara filmske produkcije u svijetu."
 
 msgctxt "#31351"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G) that do not include topics or scenes with violence, foul language and other profanity, religious issues, adult situations and so on, and are specifically designed for children 12 and under. Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "To su neuvredljivi, zdravi i zabavni filmovi (obično s oznakom G) koji ne uključuju teme ili scene s nasiljem, vulgarnim jezikom i drugim psovkama, vjerskim pitanjima, situacijama s odraslima i slično, te su posebno namijenjeni djeci do 12 godina. Dječiji i porodični filmovi mogu zapravo biti prikladni za sve dobne skupine i pokrivaju širok raspon žanrovskih kategorija."
 
 msgctxt "#31352"
 msgid "This genre is comprised of theatrically released films (or TV Shows) that are entirely, or in large part, about the Christmas holiday. Films in this genre always feature important references to the holiday's symbols, such as family gatherings, trees and decorations, the Christ child, or Santa Claus."
-msgstr ""
+msgstr "Ovaj žanr se sastoji od filmova (ili TV emisija) koji se prikazuju u kinima i koji su u potpunosti, ili većim dijelom, o božićnim praznicima. Filmovi u ovom žanru uvijek sadrže važne reference na simbole praznika, kao što su porodična okupljanja, drvca i ukrasi, dijete Isus ili Djed Mraz."
 
 msgctxt "#31353"
 msgid "Comedies are light-hearted plots consistently and deliberately designed to amuse and provoke laughter (with one-liners, jokes, etc.) by exaggerating the situation, the language, action, relationships and characters."
-msgstr ""
+msgstr "Komedije su lagane radnje dosljedno i namjerno osmišljene da zabave i izazovu smijeh (dosjetkama, šalama itd.) preuveličavanjem situacije, jezika, radnje, odnosa i likova."
 
 msgctxt "#31354"
 msgid "This is a sub-genre of Musical. It includes filmed concerts by either a musical group of individual."
-msgstr ""
+msgstr "Ovo je podžanr mjuzikla. Uključuje snimljene koncerte muzičke grupe ili pojedinca."
 
 msgctxt "#31355"
 msgid "Crime films are developed around the sinister actions of criminals or mobsters, particularly bankrobbers, underworld figures, or ruthless hoodlums who operate outside the law, stealing and murdering their way through life. Criminal and gangster films are often categorized as film noir or detective-mystery films - because of underlying similarities between these cinematic forms."
-msgstr ""
+msgstr "Kriminalistički filmovi se razvijaju oko zlokobnih djela kriminalaca ili mafijaša, posebno pljačkaša banaka, ličnosti iz podzemlja ili nemilosrdnih nasilnika koji djeluju izvan zakona, krađom i ubijanjem probijajući se kroz život. Kriminalistički i gangsterski filmovi se često kategoriziraju kao film noir ili detektivsko-misteriozni filmovi - zbog temeljnih sličnosti između ovih filmskih formi."
 
 msgctxt "#31356"
 msgid "Disaster films, a sub-genre of action films, hit their peak in the decade of the 1970s. Big-budget disaster films provided all-star casts and interlocking, Grand Hotel-type stories, with suspenseful action and impending crises in locales such as aboard imperiled airliners, trains, dirigibles, sinking or wrecked ocean-liners, or in towering burning skyscrapers, crowded stadiums or earthquake zones. Often noted for their visual and special effects, but not their acting performances."
-msgstr ""
+msgstr "Filmovi katastrofe, podžanr akcionih filmova, dostigli su vrhunac u deceniji 1970-ih. Visokobudžetni filmovi katastrofe nudili su zvjezdane glumačke postave i isprepletene priče tipa Grand Hotela, s napetom akcijom i nadolazećim krizama na lokacijama kao što su ugroženi avioni, vozovi, dirižabli, tonući ili uništeni prekookeanski brodovi, ili u visokim zapaljenim neboderima, prepunim stadionima ili zonama zemljotresa. Često su poznati po svojim vizuelnim i specijalnim efektima, ali ne i po glumačkim izvedbama."
 
 msgctxt "#31357"
 msgid "Strictly speaking, documentary films are non-fictional, factual works of art. Originally, the earliest documentaries were either short newsreels, instructional pictures, or travelogues (termed actualities) without any creative story-telling or staging. But they have branched out and taken many forms, and have sometimes become propagandistic and non-objective. Mockumentaries are comedic parodies of documentaries."
-msgstr ""
+msgstr "Strogo govoreći, dokumentarni filmovi su nefikcionalna, faktografska umjetnička djela. Izvorno, najraniji dokumentarci bili su ili kratki filmski žurnali, edukativne slike ili putopisi (nazvani aktualnosti) bez ikakvog kreativnog pripovijedanja ili inscenacije. Ali su se razgranali i poprimili mnoge oblike, a ponekad su postali propagandni i neobjektivni. Mokumentarci su komične parodije dokumentaraca."
 
 msgctxt "#31358"
 msgid "Dramas are serious, plot-driven presentations, portraying realistic characters, settings, life situations, and stories involving intense character development and interaction. Usually, they are not focused on special-effects, comedy, or action, Dramatic films are probably the largest film genre, with many subsets."
-msgstr ""
+msgstr "Drame su ozbiljne, radnjom vođene predstave koje prikazuju realistične likove, okruženja, životne situacije i priče koje uključuju intenzivan razvoj i interakciju likova. Obično se ne fokusiraju na specijalne efekte, komediju ili akciju. Dramski filmovi su vjerovatno najveći filmski žanr, s mnogo podskupova."
 
 msgctxt "#31359"
 msgid "These are non-offensive, wholesome, and entertaining films (usually rated G or PG) that do not include topics or scenes with violence, foul language and other profanity, religious issues, mature themes and so on, and are specifically designed for children 12 and under (or for family viewing). Children's and family-oriented films may actually be suitable for all age groups, and cover a wide range of genre categories."
-msgstr ""
+msgstr "To su neuvredljivi, zdravi i zabavni filmovi (obično s oznakom G ili PG) koji ne uključuju teme ili scene s nasiljem, vulgarnim jezikom i drugim psovkama, vjerskim pitanjima, temama za odrasle i slično, te su posebno dizajnirani za djecu do 12 godina (ili za porodično gledanje). Dječiji i porodični filmovi mogu zapravo biti prikladni za sve starosne grupe i pokrivaju širok raspon žanrovskih kategorija."
 
 msgctxt "#31360"
 msgid "Fantasy films, usually considered a sub-genre, are most likely to overlap with the film genres of science fiction and horror, although they are distinct. Fantasies take the audience to netherworld places (or another dimension) where events are unlikely to occur in real life - they transcend the bounds of human possibility and physical laws. They often have an element of magic, myth, wonder, and the extraordinary."
-msgstr ""
+msgstr "Fantastični filmovi, koji se obično smatraju podžanrom, najvjerovatnije se preklapaju sa filmskim žanrovima naučne fantastike i horora, iako su različiti. Fantazije vode publiku u mjesta podzemlja (ili drugu dimenziju) gdje se događaji vjerovatno neće dogoditi u stvarnom životu - one prevazilaze granice ljudskih mogućnosti i fizičkih zakona. Često imaju elemente magije, mita, čuda i izvanrednog."
 
 msgctxt "#31361"
 msgid "Film noir (meaning 'black film') is a distinct branch of the crime/gangster sagas from the 1930s. Strictly speaking, film noir is not a genre, but rather the mood, style or tone of various American films that evolved in the 1940s. Noirs are usually black and white films with primary moods of melancholy, alienation, bleakness, disillusionment, disenchantment, pessimism, ambiguity, moral corruption, evil, guilt and paranoia. They often feature a cynical, loner hero (anti-hero) and femme fatale, in a seedy big city."
-msgstr ""
+msgstr "Film noir (što znači \"crni film\") je zasebna grana kriminalističkih/gangsterskih saga iz 1930-ih. Strogo govoreći, film noir nije žanr, već raspoloženje, stil ili ton raznih američkih filmova koji su se razvili 1940-ih. Noir filmovi su obično crno-bijeli filmovi s primarnim raspoloženjima melanholije, otuđenja, tmurnosti, razočaranja, oduševljenja, pesimizma, dvosmislenosti, moralne korupcije, zla, krivnje i paranoje. Često prikazuju ciničnog, usamljenog junaka (antijunaka) i femme fatale, u sumornom velikom gradu."
 
 msgctxt "#31362"
 msgid "A game show is a type of radio or television program in which members of the public or celebrities, sometimes as part of a team, play a game which involves answering questions or solving puzzles usually for money and/or prizes. On some shows contestants compete against other players or another team while other shows involve contestants playing alone for a good outcome or a high score."
-msgstr ""
+msgstr "Kviz je vrsta radio ili televizijskog programa u kojem članovi javnosti ili poznate ličnosti, ponekad kao dio tima, igraju igru koja uključuje odgovaranje na pitanja ili rješavanje zagonetki, obično za novac i/ili nagrade. U nekim emisijama takmičari se takmiče protiv drugih igrača ili drugog tima, dok u drugim emisijama takmičari igraju sami za dobar ishod ili visok rezultat."
 
 # empty string with id 31363
 msgctxt "#31364"
 msgid "Contains content that is suitable only for adults. Titles in this category may include prolonged scenes of intense violence and/or graphic sexual content and nudity."
-msgstr ""
+msgstr "Sadrži sadržaj koji je prikladan samo za odrasle. Naslovi u ovoj kategoriji mogu uključivati produžene scene intenzivnog nasilja i/ili grafički seksualni sadržaj i golotinju."
 
 msgctxt "#31365"
 msgid "Historical epics are epic films that take place in the historical past, often focusing on people who alter the course of history. A number of historical epics, especially those made in the 1950s and 1960s, are set in ancient times, particularly in Rome, Greece, or Egypt. Historical epics typically are more grand-scale than other types of epics, featuring elaborate sets and large numbers of extras."
-msgstr ""
+msgstr "Historijski epovi su epski filmovi koji se odvijaju u historijskoj prošlosti, često fokusirajući se na ljude koji mijenjaju tok historije. Brojni historijski epovi, posebno oni snimljeni 1950-ih i 1960-ih, smješteni su u antičko doba, posebno u Rim, Grčku ili Egipat. Historijski epovi su obično grandioznijih razmjera od drugih vrsta epova, s razrađenim scenografijama i velikim brojem statista."
 
 # empty string with id 31366
 msgctxt "#31367"
 msgid "Horror films are designed to frighten and to invoke our hidden worst fears, often in a terrifying, shocking finale, while captivating and entertaining us at the same time in a cathartic experience. Horror films feature a wide range of styles, from the earliest silent Nosferatu classic, to today's CGI monsters and deranged humans. They are often combined with science fiction when the menace or monster is related to a corruption of technology, or when Earth is threatened by aliens."
-msgstr ""
+msgstr "Horor filmovi su osmišljeni da uplaše i probude naše skrivene najgore strahove, često u zastrašujućem, šokantnom finalu, dok nas istovremeno očaravaju i zabavljaju kroz katarzično iskustvo. Horor filmovi sadrže širok raspon stilova, od najranijeg nijemog klasika Nosferatu, do današnjih CGI čudovišta i poremećenih ljudi. Često se kombiniraju sa naučnom fantastikom kada je prijetnja ili čudovište povezano s korupcijom tehnologije ili kada Zemlji prijete vanzemaljci."
 
 msgctxt "#31368"
 msgid "An independent film, or indie film, is a feature film that is produced mostly outside of a major film studio. The term also refers to art films which differ noticeably from most mass marketed films. Independent films are sometimes distinguishable by their content and style and the way in which the filmmakers' personal artistic vision is realized."
-msgstr ""
+msgstr "Nezavisni film, ili indie film, je igrani film koji se uglavnom producira izvan velikog filmskog studija. Termin se također odnosi na umjetničke filmove koji se značajno razlikuju od većine masovno plasiranih filmova. Nezavisni filmovi se ponekad razlikuju po svom sadržaju i stilu, te načinu na koji se ostvaruje lična umjetnička vizija filmskih stvaralaca."
 
 msgctxt "#31369"
 msgid "An interview is a conversation between two people (the interviewer and the interviewee) where questions are asked by the interviewer to obtain information from the interviewee."
-msgstr ""
+msgstr "Intervju je razgovor između dvije osobe (anketara i ispitanika) u kojem ispitivač postavlja pitanja kako bi dobio informacije od ispitanika."
 
 msgctxt "#31370"
 msgid "A sub-genre of the action film, martial arts films contain numerous fights between characters, usually as the films' primary appeal and entertainment value, and often as a method of storytelling and character expression and development. Martial arts are frequently featured in training scenes and other sequences in addition to fights. Martial arts films commonly include other types of action, such as stuntwork, chases, and/or gunfights."
-msgstr ""
+msgstr "Kao podžanr akcionog filma, filmovi borilačkih vještina sadrže brojne borbe između likova, obično kao primarnu privlačnost i zabavnu vrijednost filma, a često i kao metodu pripovijedanja te izražavanja i razvoja likova. Borilačke vještine se često pojavljuju u scenama treninga i drugim sekvencama pored borbi. Filmovi borilačkih vještina obično uključuju i druge vrste akcije, kao što su kaskaderske akcije, potjere i/ili obračuni vatrenim oružjem."
 
 msgctxt "#31371"
 msgid "Multi-episode, fictional program of limited duration, shown on a daily or weekly schedule, usually lasting fifteen hours or less in total running time. A good television miniseries can make the small screen seem huge. These programs are the best that TV has to offer: an excuse to sink in and lose yourself in a story that isn't over in just a couple of hours. The sets, the plots, and the acting make each of these essential miniseries an exquisite television experience."
-msgstr ""
+msgstr "Višeepizodni, fiktivni program ograničenog trajanja, koji se prikazuje dnevno ili sedmično, obično u ukupnom trajanju od petnaest sati ili manje. Dobra televizijska mini-serija može učiniti da mali ekran izgleda ogroman. Ove emisije su najbolje što televizija nudi: izgovor da se uronite i izgubite u priči koja nije završena za samo nekoliko sati. Setovi, zapleti i gluma čine svaku od ovih esencijalnih mini-serija izvrsnim televizijskim iskustvom."
 
 msgctxt "#31372"
 msgid "Monster movie (also can be referred to as a creature feature or monster film) is a name commonly given to movies, which centre on the struggle between human beings and one or more monsters. The term is usually applied to films sometimes labelled as horror, fantasy or science fiction genre that involve fictional creatures, in most cases it is applied to films that feature more oversized monsters despite its history starting with adaptations of horror folklore and literature."
-msgstr ""
+msgstr "Film o čudovištima (također se može nazivati filmom o stvorenjima ili filmom o čudovištima) je naziv koji se obično daje filmovima koji se fokusiraju na borbu između ljudskih bića i jednog ili više čudovišta. Termin se obično primjenjuje na filmove koji se ponekad označavaju kao žanr horora, fantazije ili naučne fantastike, a koji uključuju izmišljena stvorenja, u većini slučajeva se primjenjuje na filmove koji prikazuju veća čudovišta, uprkos tome što njegova historija počinje adaptacijama horor folklora i književnosti."
 
 msgctxt "#31373"
 msgid "Music genre films will incorporate a lot of music but it will not necessarily be the focal point of the film, thus differentiating it from a Musical."
-msgstr ""
+msgstr "Filmovi muzičkog žanra će sadržavati mnogo muzike, ali ona neće nužno biti centralna tačka filma, što ga čini drugačijim od mjuzikla."
 
 msgctxt "#31374"
 msgid "Musical/dance films are cinematic forms that emphasize full-scale scores or song and dance routines in a significant way (usually with a musical or dance performance integrated as part of the film narrative), or they are films that are centered on combinations of music, dance, song or choreography. Major subgenres include the musical comedy or the concert film."
-msgstr ""
+msgstr "Muzički/plesni filmovi su kinematografske forme koje značajno naglašavaju punu partituru ili pjesme i plesne rutine (obično s muzičkim ili plesnim nastupom integriranim kao dio filmske naracije), ili su filmovi koji su usmjereni na kombinacije muzike, plesa, pjesme ili koreografije. Glavni podžanrovi uključuju muzičku komediju ili koncertni film."
 
 msgctxt "#31375"
 msgid "Mystery film is a sub-genre of the more general category of crime film. It focuses on the efforts of the detective, private investigator or amateur sleuth to solve the mysterious circumstances of a crime by means of clues, investigation, and clever deduction."
-msgstr ""
+msgstr "Misteriozni film je podžanr općenitije kategorije kriminalističkog filma. Fokusira se na napore detektiva, privatnog istražitelja ili amaterskog detektiva da riješe misteriozne okolnosti zločina pomoću tragova, istrage i pametne dedukcije."
 
 msgctxt "#31376"
 msgid "A nature documentary is a documentary film about animals, plants, or other non-human living creatures, usually concentrating on film taken in their natural habitat. Such programmes are most frequently made for television, particularly for public broadcasting channels, but some are also made for the cinema."
-msgstr ""
+msgstr "Dokumentarni film o prirodi je dokumentarni film o životinjama, biljkama ili drugim neljudskim živim bićima, obično fokusiran na film snimljen u njihovom prirodnom staništu. Takvi programi se najčešće prave za televiziju, posebno za javne radiotelevizijske kanale, ali neki se prave i za kina."
 
 msgctxt "#31377"
 msgid "Television news is considered by many to be the most influential medium for journalism. For most of the American public, local and national TV newscasts are the primary news sources."
-msgstr ""
+msgstr "Mnogi smatraju televizijske vijesti najuticajnijim medijem za novinarstvo. Za većinu američke javnosti, lokalne i nacionalne TV vijesti su primarni izvori vijesti."
 
 msgctxt "#31378"
 msgid "Apocalyptic fiction is a sub-genre of science fiction that is concerned with the end of civilization due to a catastrophe such as nuclear warfare, pandemic, impact event, cybernetic revolt, Technological Singularity, Dysgenics, supernatural phenomena, Ecological disaster, resource depletion or some other general disaster. Post-apocalyptic fiction is set in a world or civilization after such a disaster."
-msgstr ""
+msgstr "Apokaliptična fikcija je podžanr naučne fantastike koji se bavi krajem civilizacije usljed katastrofe kao što su nuklearni rat, pandemija, udarni događaj, kibernetička pobuna, tehnološka singularnost, disgenika, natprirodni fenomeni, ekološka katastrofa, iscrpljivanje resursa ili neka druga opšta katastrofa. Postapokaliptična fikcija je smještena u svijet ili civilizaciju nakon takve katastrofe."
 
 msgctxt "#31379"
 msgid "Reality television is a genre of television programming that presents purportedly unscripted dramatic or humorous situations, documents actual events, and usually features ordinary people instead of professional actors, sometimes in a contest or other situation where a prize is awarded."
-msgstr ""
+msgstr "Reality televizija je žanr televizijskog programa koji prikazuje navodno nescenarizirane dramske ili humoristične situacije, dokumentira stvarne događaje i obično prikazuje obične ljude umjesto profesionalnih glumaca, ponekad u takmičenju ili drugoj situaciji u kojoj se dodjeljuje nagrada."
 
 # empty string with id 31380
 msgctxt "#31381"
 msgid "A sub-genre for the most part, this category shares some features with romantic dramas, romantic comedies, and sexual/erotic films. These are love stories, or affairs of the heart that center on passion, emotion, and the romantic, affectionate involvement of the main characters (usually a leading man and lady), and the journey that their love takes through courtship or marriage. Romance films make the love story the main plot focus."
-msgstr ""
+msgstr "Kao podžanr uglavnom, ova kategorija dijeli neke karakteristike s romantičnim dramama, romantičnim komedijama i seksualnim/erotskim filmovima. To su ljubavne priče ili afere srca koje se fokusiraju na strast, emocije i romantičnu, privrženu povezanost glavnih likova (obično glavnog muškarca i žene), te putovanje koje njihova ljubav prolazi kroz udvaranje ili brak. Romantični filmovi stavljaju ljubavnu priču u glavni fokus radnje."
 
 msgctxt "#31382"
 msgid "Sci-fi films are often quasi-scientific, visionary and imaginative - complete with heroes, aliens, distant planets, impossible quests, improbable settings, fantastic places, great dark and shadowy villains, futuristic technology, unknown and unknowable forces, and extraordinary monsters, either created by mad scientists or by nuclear havoc. Science fiction often expresses the potential of technology to destroy humankind and easily overlaps with horror films."
-msgstr ""
+msgstr "Naučnofantastični filmovi su često kvazi-naučni, vizionarski i maštoviti - sa herojima, vanzemaljcima, udaljenim planetama, nemogućim misijama, nevjerovatnim okruženjima, fantastičnim mjestima, velikim mračnim i sjenovitim zlikovcima, futurističkom tehnologijom, nepoznatim i nespoznatljivim silama i izvanrednim čudovištima, koje su stvorili ludi naučnici ili nuklearna katastrofa. Naučna fantastika često izražava potencijal tehnologije da uništi čovječanstvo i lako se preklapa sa horor filmovima."
 
 msgctxt "#31383"
 msgid "A short film is any film not long enough to be considered a feature film. No consensus exists as to where that boundary is drawn: the Academy of Motion Picture Arts and Sciences defines a short film as \"an original motion picture that has a running time of 40 minutes or less, including all credits\". The Internet Movie Database draws the line at 45 minutes."
-msgstr ""
+msgstr "Kratki film je svaki film koji nije dovoljno dug da bi se smatrao dugometražnim filmom. Ne postoji konsenzus o tome gdje se povlači ta granica: Akademija filmskih umjetnosti i nauka definira kratki film kao \"originalni film koji traje 40 minuta ili manje, uključujući svu odjavnu špicu\". Internet Movie Database povlači granicu na 45 minuta."
 
 msgctxt "#31384"
 msgid "A soap opera, sometimes called 'soap' for short, is an ongoing, episodic work of dramatic fiction presented in serial format on television or radio. The name soap opera stems from the original dramatic serials broadcast on radio that had soap manufacturers such as Procter and Gamble, Colgate-Palmolive and Lever Brothers as sponsors and producers. These early radio series were broadcast in weekday daytime slots when most listeners would be housewives; thus the shows were aimed at and consumed by a predominantly female audience."
-msgstr ""
+msgstr "Sapunica, ponekad skraćeno nazvana \"sapun\", je kontinuirano, epizodno djelo dramske fikcije predstavljeno u serijskom formatu na televiziji ili radiju. Naziv sapunica potiče od originalnih dramskih serija emitiranih na radiju, a čiji su sponzori i producenti bili proizvođači sapuna poput Procter and Gamblea, Colgate-Palmolivea i Lever Brothersa. Ove rane radio serije emitirane su u dnevnim terminima radnim danima kada je većina slušalaca bila domaćice; stoga su emisije bile namijenjene pretežno ženskoj publici i od nje su ih i gledale."
 
 # empty string with id 31385
 msgctxt "#31386"
 msgid "Films that have a sports setting (football or baseball stadium, arena, or the Olympics, etc.), event (the 'big game,' 'fight,' 'race,' or 'competition'), and/or athlete (boxer, racer, surfer, etc.) that are central and predominant in the story. Sports films may be fictional or non-fictional; and they are a hybrid sub-genre category, although they are often dramas or comedy films, and occasionally documentaries or biopics."
-msgstr ""
+msgstr "Filmovi koji imaju sportsko okruženje (nogometni ili bejzbol stadion, arena ili Olimpijske igre itd.), događaj ('velika utakmica', 'borba', 'trka' ili 'takmičenje') i/ili sportistu (bokser, trkač, surfer itd.) koji su centralni i dominantni u priči. Sportski filmovi mogu biti fiktivni ili nefiktivni; i hibridna su podžanrovska kategorija, iako su često drame ili komedije, a povremeno i dokumentarni ili biografski filmovi."
 
 msgctxt "#31387"
 msgid "The spy film genre deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John Le Carré) or as a basis for fantasy (such as James Bond). Many novels in the spy fiction genre have been adapted as films, including works by John Buchan, John Le Carré, Ian Fleming and Len Deighton. It is a significant aspect of British cinema, with leading British directors such as Alfred Hitchcock and Carol Reed making notable contributions and many films set in the British Secret Service."
-msgstr ""
+msgstr "Žanr špijunskih filmova bavi se temom fiktivne špijunaže, bilo na realističan način (kao što su adaptacije Johna Le Carréa) ili kao osnova za fantaziju (kao što je James Bond). Mnogi romani u žanru špijunske fikcije adaptirani su u filmove, uključujući djela Johna Buchana, Johna Le Carréa, Iana Fleminga i Lena Deightona. To je značajan aspekt britanske kinematografije, s vodećim britanskim rediteljima poput Alfreda Hitchcocka i Carol Reed koji su dali značajne doprinose i mnogim filmovima smještenim u britansku tajnu službu."
 
 msgctxt "#31388"
 msgid "A play is a form of literature written by a playwright, usually consisting of scripted dialogue between characters, intended for theatrical performance rather than just reading. There are rare dramatists, notably George Bernard Shaw, who have had little preference whether their plays were performed or read. The term \"play\" can refer to both the written works of playwrights and to their complete theatrical performance."
-msgstr ""
+msgstr "Drama je oblik književnosti koji je napisao dramski pisac, obično se sastoji od napisanog dijaloga između likova, namijenjenog za pozorišno izvođenje, a ne samo za čitanje. Rijetki su dramski pisci, posebno George Bernard Shaw, koji su imali malo preferencija u vezi s tim da li se njihove drame izvode ili čitaju. Termin \"drama\" može se odnositi i na pisana djela dramskih pisaca i na njihovo cjelokupno pozorišno izvođenje."
 
 msgctxt "#31389"
 msgid "Stand-up comedy is a comedic art form. Usually, a comedian performs in front of a live audience, speaking directly to them. Their performances are sometimes filmed for later release via DVD, the internet, and television. The performer is commonly known as a comic, stand-up comic, stand-up comedian or simply a stand-up."
-msgstr ""
+msgstr "Stand-up komedija je komična umjetnička forma. Obično komičar nastupa pred publikom uživo, obraćajući im se direktno. Njihovi nastupi se ponekad snimaju za kasnije objavljivanje putem DVD-a, interneta i televizije. Izvođač je obično poznat kao komičar, stand-up komičar, stand-up komičar ili jednostavno stand-up komičar."
 
 msgctxt "#31390"
 msgid "A superhero film, or Comic Book film, is an action, fantasy or science fiction film that is focused on the actions of one or more superheroes, individuals who usually possess superhuman abilities relative to a normal person and are dedicated to protecting the public. These films are almost always action-oriented, and the first film of a particular character often includes a focus on the origin of the special powers including the first fight against the character's most famous archenemy or supervillain."
-msgstr ""
+msgstr "Film o superherojima, ili film zasnovan na stripu, je akcioni, fantastični ili naučnofantastični film koji se fokusira na postupke jednog ili više superheroja, pojedinaca koji obično posjeduju nadljudske sposobnosti u odnosu na normalnu osobu i posvećeni su zaštiti javnosti. Ovi filmovi su gotovo uvijek orijentisani na akciju, a prvi film određenog lika često uključuje fokus na porijeklo posebnih moći, uključujući i prvu borbu protiv najpoznatijeg arheološkog neprijatelja ili superzlikovca lika."
 
 msgctxt "#31391"
 msgid "Supernatural films, a sub-genre category, may be combined with other genres, including comedy, sci-fi, fantasy or horror. They have themes including gods or goddesses, ghosts, apparitions, spirits, miracles, and other similar ideas or depictions of extraordinary phenomena."
-msgstr ""
+msgstr "Natprirodni filmovi, podžanrovska kategorija, mogu se kombinirati s drugim žanrovima, uključujući komediju, naučnu fantastiku, fantaziju ili horor. Njihove teme uključuju bogove ili boginje, duhove, ukazanja, čuda i druge slične ideje ili prikaze izvanrednih pojava."
 
 msgctxt "#31392"
 msgid "A talk show (American and Australian English) or chat show (British) is a television or radio program where one person (or group of people) discuss various topics put forth by a talk show host. Sometimes, talk shows feature a panel of guests, usually consisting of a group of people who are learned or who have great experience in relation to whatever issue is being discussed on the show for that episode. Other times, a single guest discusses their work or area of expertise with a host or co-hosts."
-msgstr ""
+msgstr "Talk show (američki i australijski engleski) ili chat show (britanski) je televizijski ili radio program u kojem jedna osoba (ili grupa ljudi) raspravlja o različitim temama koje iznese voditelj tok-šoua. Ponekad, tok-šou ima panel gostiju, obično sastavljen od grupe ljudi koji su obrazovani ili imaju veliko iskustvo u vezi s bilo kojim pitanjem o kojem se raspravlja u emisiji za tu epizodu. Drugi put, jedan gost razgovara o svom radu ili području stručnosti s voditeljem ili suvoditeljima."
 
 msgctxt "#31393"
 msgid "Thrillers (or Suspense films) are often hybrids with other genres - there are action-thrillers, crime-caper thrillers, western-thrillers, film-noir thrillers, even romantic comedy-thrillers. Another closely-related genre is the horror film genre. They are types of films known to promote intense excitement, suspense, a high level of anticipation, ultra-heightened expectation, uncertainty, anxiety, and nerve-wracking tension. Spy films may be considered a type of thriller/suspense film."
-msgstr ""
+msgstr "Trileri (ili trileri s napetošću) često su hibridi s drugim žanrovima - postoje akcioni trileri, kriminalistički trileri, vestern trileri, film noir trileri, pa čak i romantične komedije-trileri. Još jedan blisko povezan žanr je žanr horor filmova. To su vrste filmova poznate po tome što izazivaju intenzivno uzbuđenje, napetost, visok nivo iščekivanja, ultra-povišena očekivanja, neizvjesnost, anksioznost i nervozu. Špijunski filmovi mogu se smatrati vrstom trilera/trilera."
 
 msgctxt "#31394"
 msgid "War films are a film genre concerned with warfare, usually about naval, air or land battles, sometimes focusing instead on prisoners of war, covert operations, military training or other related subjects. At times war films focus on daily military or civilian life in wartime without depicting battles. Their stories may be fiction, based on history, docudrama, biographical, or even alternate history fiction."
-msgstr ""
+msgstr "Ratni filmovi su filmski žanr koji se bavi ratovanjem, obično o pomorskim, zračnim ili kopnenim bitkama, ponekad se fokusirajući na ratne zarobljenike, tajne operacije, vojnu obuku ili druge srodne teme. Ponekad se ratni filmovi fokusiraju na svakodnevni vojni ili civilni život u ratno vrijeme bez prikazivanja bitaka. Njihove priče mogu biti fikcija, zasnovana na historiji, dokumentarnoj drami, biografiji ili čak alternativnoj historiji."
 
 msgctxt "#31395"
 msgid "Westerns are the major defining genre of the American film industry - a eulogy to the early days of the expansive American frontier. They are one of the oldest, most enduring genres with very recognizable plots, elements, and characters (six-guns, horses, dusty towns and trails, cowboys, Indians, etc.). Over time, westerns have been re-defined, re-invented and expanded, dismissed, re-discovered, and spoofed."
-msgstr ""
+msgstr "Vesterni su glavni žanr koji definira američku filmsku industriju - hvalospjev ranim danima ekspanzivne američke granice. Oni su jedan od najstarijih i najtrajnijih žanrova s vrlo prepoznatljivim zapletima, elementima i likovima (šest pušaka, konji, prašnjavi gradovi i staze, kauboji, Indijanci itd.). Vremenom su vesterni redefinirani, iznova izmišljeni i prošireni, odbačeni, ponovo otkriveni i parodirani."
 
 msgctxt "#31396"
 msgid "Wrestling is a martial art that uses grappling type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds. A wrestling bout is a physical competition, between two (occasionally more) competitors or sparring partners, who attempt to gain and maintain a superior position. There are a wide range of styles with varying rules with both traditional historic and modern styles."
-msgstr ""
+msgstr "Hrvanje je borilačka vještina koja koristi tehnike poput klinča, bacanja i obaranja, hvatanja zglobova, pričvršćivanja i drugih hvatišta. Hrvačka borba je fizičko takmičenje između dva (povremeno više) takmičara ili sparing partnera, koji pokušavaju steći i održati superiorni položaj. Postoji širok raspon stilova s različitim pravilima, kako tradicionalnih historijskih, tako i modernih stilova."
 
 msgctxt "#31397"
 msgid "Epics include costume dramas, historical dramas, war films, medieval romps, or 'period pictures' that often cover a large expanse of time set against a vast, panoramic backdrop. Epics often share elements of the elaborate adventure films genre. Epics take an historical or imagined event, mythic, legendary, or heroic figure, and add an extravagant setting and lavish costumes, accompanied by grandeur and spectacle, dramatic scope, high production values, and a sweeping musical score."
-msgstr ""
+msgstr "Epovi uključuju kostimirane drame, historijske drame, ratne filmove, srednjovjekovne ludorije ili 'periodne slike' koje često pokrivaju veliki vremenski period smješten uz ogromnu, panoramsku pozadinu. Epovi često dijele elemente žanra razrađenih avanturističkih filmova. Epovi uzimaju historijski ili izmišljeni događaj, mitsku, legendarnu ili herojsku figuru, i dodaju ekstravagantno okruženje i raskošne kostime, uz veličinu i spektakl, dramski opseg, visoke produkcijske vrijednosti i impresivnu muzičku partituru."
 
 msgctxt "#31398"
 msgid "Films that have no synchronized soundtrack and no spoken dialogue, until the dawn of the talkies in the late 1920s. Films without dialogue featured titles for dialogue segments, and often were accompanied by live music."
-msgstr ""
+msgstr "Filmovi bez sinhronizovane muzike i bez govornog dijaloga, sve do zore zvučnih filmova krajem 1920-ih. Filmovi bez dijaloga sadržavali su naslove za dijaloške segmente i često su bili praćeni živom muzikom."
 
 msgctxt "#31399"
 msgid "Lighter Background Fanart diffuse overlay"
-msgstr ""
+msgstr "Svjetlija pozadina Fanartova difuzna preklapajuća slika"
 
 msgctxt "#31400"
 msgid "Hide Current Temperature and Weather Conditions"
-msgstr ""
+msgstr "Sakrij trenutnu temperaturu i vremenske uvjete"
 
 msgctxt "#31401"
 msgid "Hide Clock"
-msgstr ""
+msgstr "Sakrij sat"
 
 msgctxt "#31402"
 msgid "Use Plot Summary in other views"
-msgstr ""
+msgstr "Korištenje sažetka grafikona u drugim prikazima"
 
 msgctxt "#31403"
 msgid "Hide Media Flags"
-msgstr ""
+msgstr "Sakrij medijske zastavice"
 
 msgctxt "#31404"
 msgid "Hide Rating and Studio Flags"
-msgstr ""
+msgstr "Sakrij ocjenu i zastavice u studiju"
 
 msgctxt "#31405"
 msgid "Hide Movie Taglines"
-msgstr ""
+msgstr "Sakrij filmske slogane"
 
 msgctxt "#31406"
 msgid "Fanart Views: Classic Frame"
-msgstr ""
+msgstr "Pregledi fanarta: Klasični okvir"
 
 msgctxt "#31407"
 msgid "*Press UP for full cast and photos*"
-msgstr ""
+msgstr "*Pritisnite GORE za kompletnu glumačku postavu i fotografije*"
 
 msgctxt "#31408"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "Kino iskustvo"
 
 msgctxt "#31409"
 msgid "Finish"
-msgstr ""
+msgstr "Završi"
 
 msgctxt "#31410"
 msgid "Prefer Landscape to Fanart (except background)"
-msgstr ""
+msgstr "Preferiram pejzaž u odnosu na fanart (osim pozadine)"
 
 msgctxt "#31411"
 msgid "*Press DOWN to exit*"
-msgstr ""
+msgstr "*Pritisnite DOWN za izlaz*"
 
 msgctxt "#31412"
 msgid "*Press UP to select a profile*"
-msgstr ""
+msgstr "*Pritisnite GORE da biste odabrali profil*"
 
 msgctxt "#31413"
 msgid "Local subtitle available"
-msgstr ""
+msgstr "Dostupni su lokalni titlovi"
 
 msgctxt "#31414"
 msgid "Gallery"
-msgstr ""
+msgstr "Galerija"
 
 msgctxt "#31415"
 msgid "Square"
-msgstr ""
+msgstr "Kvadrat"
 
 msgctxt "#31416"
 msgid "Tall Genre"
-msgstr ""
+msgstr "Visoki žanr"
 
 msgctxt "#31417"
 msgid "*help text*"
-msgstr ""
+msgstr "*pomoćni tekst*"
 
 msgctxt "#31418"
 msgid "Hide all"
-msgstr ""
+msgstr "Sakrij sve"
 
 msgctxt "#31419"
 msgid "Music Settings"
-msgstr ""
+msgstr "Postavke muzike"
 
 msgctxt "#31420"
 msgid "Video Settings"
-msgstr ""
+msgstr "Postavke videa"
 
 msgctxt "#31421"
 msgid "Video OSD: Show ClearArt/Logo"
-msgstr ""
+msgstr "Video OSD: Prikaži ClearArt/Logo"
 
 msgctxt "#31422"
 msgid "Logo View: Show only one item at a time"
-msgstr ""
+msgstr "Prikaz logotipa: Prikaži samo jednu stavku istovremeno"
 
 msgctxt "#31423"
 msgid "Author"
@@ -799,135 +799,135 @@ msgstr "Autor"
 
 msgctxt "#31424"
 msgid "Poster & Fanart"
-msgstr ""
+msgstr "Poster i fanart"
 
 msgctxt "#31425"
 msgid "Video OSD: Show Thumbnail"
-msgstr ""
+msgstr "Video OSD: Prikaži sličicu"
 
 msgctxt "#31426"
 msgid "TV Show Next Aired Date display"
-msgstr ""
+msgstr "Prikaz datuma sljedećeg emitiranja TV emisije"
 
 msgctxt "#31427"
 msgid "Next Episode"
-msgstr ""
+msgstr "Sljedeća epizoda"
 
 msgctxt "#31428"
 msgid "TV Guide"
-msgstr ""
+msgstr "TV vodič"
 
 msgctxt "#31429"
 msgid "Display Path in Info Dialog instead of Rating"
-msgstr ""
+msgstr "Prikaži putanju u dijalogu s informacijama umjesto ocjene"
 
 msgctxt "#31430"
 msgid "Poster Wrap Large"
-msgstr ""
+msgstr "Veliki omot za postere"
 
 msgctxt "#31431"
 msgid "Click to reset Metropolis to defaults"
-msgstr ""
+msgstr "Kliknite da biste resetovali Metropolis na zadane postavke"
 
 msgctxt "#31432"
 msgid "Visualization Background: Ken Burns effect"
-msgstr ""
+msgstr "Pozadina vizualizacije: Efekat Kena Burnsa"
 
 msgctxt "#31433"
 msgid "Visualization Background: Fanart"
-msgstr ""
+msgstr "Pozadina vizualizacije: Fanart"
 
 msgctxt "#31434"
 msgid "Visualization Background: Extra Fanart"
-msgstr ""
+msgstr "Pozadina vizualizacije: Dodatni fanart"
 
 msgctxt "#31435"
 msgid "Visualization Background: Artist Slideshow"
-msgstr ""
+msgstr "Pozadina vizualizacije: Slajdšou umjetnika"
 
 msgctxt "#31436"
 msgid "Use Slim Seekbar"
-msgstr ""
+msgstr "Koristite tanku traku za pretraživanje"
 
 msgctxt "#31437"
 msgid "Enable TV Tunes script"
-msgstr ""
+msgstr "Omogući skriptu TV Tunes"
 
 msgctxt "#31438"
 msgid "Recent"
-msgstr ""
+msgstr "Nedavno"
 
 msgctxt "#31439"
 msgid "Banner & Poster"
-msgstr ""
+msgstr "Baner i poster"
 
 msgctxt "#31440"
 msgid "View Types"
-msgstr ""
+msgstr "Vrste prikaza"
 
 msgctxt "#31441"
 msgid "Hide"
-msgstr ""
+msgstr "Sakrij"
 
 msgctxt "#31442"
 msgid "Banner & Fanart"
-msgstr ""
+msgstr "Baner i fanart"
 
 msgctxt "#31443"
 msgid "Pseudo TV"
-msgstr ""
+msgstr "Pseudo TV"
 
 msgctxt "#31444"
 msgid "Auto Login"
-msgstr ""
+msgstr "Auto-prijavljivanje"
 
 msgctxt "#31445"
 msgid "Picture Settings"
-msgstr ""
+msgstr "Postavke slike"
 
 msgctxt "#31446"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Cijeli Ekran"
 
 msgctxt "#31447"
 msgid "Use Realistic Weather Icons"
-msgstr ""
+msgstr "Koristite realistične ikone vremena"
 
 msgctxt "#31448"
 msgid "Show Plot only in Info dialog"
-msgstr ""
+msgstr "Prikaži samo grafikon u dijalogu s informacijama"
 
 msgctxt "#31449"
 msgid "Show Recommended Items"
-msgstr ""
+msgstr "Prikaži preporučene stavke"
 
 msgctxt "#31450"
 msgid " - changing the options below requires a restart -"
-msgstr ""
+msgstr " - promjena opcija ispod zahtijeva ponovno pokretanje -"
 
 msgctxt "#31451"
 msgid "Recommended"
-msgstr ""
+msgstr "Preporučeno"
 
 msgctxt "#31452"
 msgid "Visualization: Use Slim Info Overlay"
-msgstr ""
+msgstr "Vizualizacija: Koristite tanki info prekrivač"
 
 msgctxt "#31453"
 msgid "Show Date instead of Day of Week"
-msgstr ""
+msgstr "Prikaži datum umjesto dana u sedmici"
 
 msgctxt "#31454"
 msgid "Visualization: Show player position and time in Info Overlay"
-msgstr ""
+msgstr "Vizualizacija: Prikažite poziciju i vrijeme igrača u Info Overlayu"
 
 msgctxt "#31455"
 msgid "Visualization: Hide Clock and Temp in Info Overlay"
-msgstr ""
+msgstr "Vizualizacija: Sakrij sat i temperaturu u info prekrivanju"
 
 msgctxt "#31456"
 msgid "- Override default link"
-msgstr ""
+msgstr "- Prebriši zadanu vezu"
 
 msgctxt "#31457"
 msgid "Shortcuts"
@@ -935,11 +935,11 @@ msgstr "Prečice"
 
 msgctxt "#31458"
 msgid "Set Timer"
-msgstr ""
+msgstr "Postavi tajmer"
 
 msgctxt "#31459"
 msgid "Cancel Timer"
-msgstr ""
+msgstr "Otkaži tajmer"
 
 msgctxt "#31460"
 msgid "Games"
@@ -947,31 +947,31 @@ msgstr "Igre"
 
 msgctxt "#31461"
 msgid "Games Tall"
-msgstr ""
+msgstr "Visoke igre"
 
 msgctxt "#31462"
 msgid "Games Square"
-msgstr ""
+msgstr "Trg igara"
 
 msgctxt "#31463"
 msgid "Games Wide"
-msgstr ""
+msgstr "Široko u igrama"
 
 msgctxt "#31464"
 msgid "Show Plot in Fullscreen Info"
-msgstr ""
+msgstr "Prikaži informacije o grafikonu preko cijelog ekrana"
 
 msgctxt "#31465"
 msgid "Clean Library"
-msgstr ""
+msgstr "Čista biblioteka"
 
 msgctxt "#31466"
 msgid "Foreign is not technically a genre, but likely includes films with dialog in a tongue not native to the viewer."
-msgstr ""
+msgstr "Strani film tehnički nije žanr, ali vjerovatno uključuje filmove s dijalozima na jeziku koji nije maternji za gledaoca."
 
 msgctxt "#31467"
 msgid "Holiday is a very broad genre, encompassing films that center around a certain holiday, such as Christmas, Halloween, Easter, etc."
-msgstr ""
+msgstr "Praznici su vrlo širok žanr koji obuhvata filmove koji se fokusiraju na određeni praznik, kao što su Božić, Noć vještica, Uskrs itd."
 
 msgctxt "#31468"
 msgid "Services"
@@ -983,69 +983,69 @@ msgstr "Prikazivanje"
 
 msgctxt "#31470"
 msgid "Prefer ClearLogo to ClearArt"
-msgstr ""
+msgstr "Preferiraj ClearLogo u odnosu na ClearArt"
 
 msgctxt "#31471"
 msgid "Show Status"
-msgstr ""
+msgstr "Prikaži status"
 
 msgctxt "#31472"
 msgid "Ended"
-msgstr ""
+msgstr "Završeno"
 
 msgctxt "#31473"
 msgid "unmixed"
-msgstr ""
+msgstr "nepomiješano"
 
 msgctxt "#31474"
 msgid "Use one button to toggle subtitles"
-msgstr ""
+msgstr "Koristite jedno dugme za prebacivanje titlova"
 
 msgctxt "#31475"
 msgid "Default OSD button"
-msgstr ""
+msgstr "Zadano dugme na ekranu (OSD)"
 
 msgctxt "#31476"
 msgid "OSD: Fade away when paused"
-msgstr ""
+msgstr "OSD: Nestaje prilikom pauze"
 
 msgctxt "#31477"
 msgid "- Fade delay"
-msgstr ""
+msgstr "- Kašnjenje blijeđenja"
 
 msgctxt "#31478"
 msgid "Hide default submenu items"
-msgstr ""
+msgstr "Sakrij stavke zadanog podmenija"
 
 msgctxt "#31479"
 msgid "Poster Fixed Large"
-msgstr ""
+msgstr "Fiksni veliki poster"
 
 msgctxt "#31480"
 msgid "Show IMDb Ranking Media Flag"
-msgstr ""
+msgstr "Prikaži medijsku zastavicu rangiranja na IMDb-u"
 
 msgctxt "#31481"
 msgid "Show Votes instead of Top250 always"
-msgstr ""
+msgstr "Uvijek prikaži glasove umjesto Top 250"
 
 msgctxt "#31482"
 msgid "Install"
-msgstr ""
+msgstr "Instaliraj"
 
 msgctxt "#31483"
 msgid "Banner View: Number of rows"
-msgstr ""
+msgstr "Prikaz banera: Broj redova"
 
 msgctxt "#31484"
 msgid "Order"
-msgstr ""
+msgstr "Redoslijed"
 
 # empty strings from id 31485 to 31599
 # PVR Resources
 msgctxt "#31600"
 msgid "Enable Live TV (PVR) support"
-msgstr ""
+msgstr "Omogući podršku za TV uživo (PVR)"
 
 msgctxt "#31601"
 msgid "Live TV"
@@ -1053,70 +1053,70 @@ msgstr "TV"
 
 msgctxt "#31602"
 msgid "Live Radio"
-msgstr ""
+msgstr "Radio uživo"
 
 # empty strings from id 31603 to 31604
 msgctxt "#31605"
 msgid "Add Group"
-msgstr ""
+msgstr "Dodaj grupu"
 
 msgctxt "#31606"
 msgid "Rename Group"
-msgstr ""
+msgstr "Preimenuj grupu"
 
 msgctxt "#31607"
 msgid "Delete Group"
-msgstr ""
+msgstr "Obriši Grupu"
 
 msgctxt "#31608"
 msgid "Hidden Channels"
-msgstr ""
+msgstr "Skriveni kanali"
 
 # empty string with id 31609
 msgctxt "#31610"
 msgid "Scheduled Time"
-msgstr ""
+msgstr "Planirano vrijeme"
 
 msgctxt "#31611"
 msgid "PVR Status"
-msgstr ""
+msgstr "Status PVR-a"
 
 # empty strings from id 31612 to 31699
 msgctxt "#31700"
 msgid "7 Day Forecast"
-msgstr ""
+msgstr "7-dnevna prognoza"
 
 msgctxt "#31701"
 msgid "12 Hour Forecast"
-msgstr ""
+msgstr "12-satna prognoza"
 
 msgctxt "#31702"
 msgid "36 Hour Forecast"
-msgstr ""
+msgstr "36-satna prognoza"
 
 msgctxt "#31703"
 msgid "Pressure"
-msgstr ""
+msgstr "Pritisak"
 
 msgctxt "#31704"
 msgid "Clouds"
-msgstr "oblačno"
+msgstr "Oblaci"
 
 msgctxt "#31705"
 msgid "Average"
-msgstr ""
+msgstr "Prosječno"
 
 msgctxt "#31706"
 msgid "Maximum"
-msgstr ""
+msgstr "Maksimalno"
 
 msgctxt "#31707"
 msgid "Minimum"
-msgstr ""
+msgstr "Minimalno"
 
 msgctxt "#31708"
 msgid "Moon Phase"
-msgstr ""
+msgstr "Mjesečeva faza"
 
 msgctxt "#31709"
 msgid "Precipitation"
@@ -1124,96 +1124,96 @@ msgstr "Obilne padavine"
 
 msgctxt "#31710"
 msgid "Use extended weather"
-msgstr ""
+msgstr "Koristite produženo vremensko razdoblje"
 
 msgctxt "#31711"
 msgid "Show weather forecast on home screen"
-msgstr ""
+msgstr "Prikaži vremensku prognozu na početnom ekranu"
 
 msgctxt "#31712"
 msgid "Crop Thumbnails in Music Video Gallery View"
-msgstr ""
+msgstr "Izrezivanje minijatura u prikazu galerije muzičkih spotova"
 
 msgctxt "#31713"
 msgid "Custom Home Shortcut"
-msgstr ""
+msgstr "Prilagođena prečica za početnu stranicu"
 
 msgctxt "#31714"
 msgid "Label and Shortcut"
-msgstr ""
+msgstr "Oznaka i prečica"
 
 msgctxt "#31715"
 msgid "Icon"
-msgstr ""
+msgstr "Ikona"
 
 msgctxt "#31716"
 msgid "Wallpaper"
-msgstr ""
+msgstr "Tapete"
 
 msgctxt "#31717"
 msgid "Precip"
-msgstr ""
+msgstr "Padavine"
 
 msgctxt "#31718"
 msgid "Home Furniture"
-msgstr ""
+msgstr "Kućni namještaj"
 
 msgctxt "#31719"
 msgid "Reset Home Furniture to defaults"
-msgstr ""
+msgstr "Vratite kućni namještaj na zadane postavke"
 
 msgctxt "#31720"
 msgid "Remove the shortcut.  This cannot be undone."
-msgstr ""
+msgstr "Uklonite prečicu. Ovo se ne može poništiti."
 
 msgctxt "#31721"
 msgid "Move the shortcut up in vertical views or left in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Pomaknite prečicu gore u vertikalnim prikazima ili lijevo u horizontalnim prikazima. U horizontalnim prikazima treća stavka menija je u sredini."
 
 msgctxt "#31722"
 msgid "Move the shortcut down in vertical views or right in horizontal views.  In horizontal views the third menu item is in the center."
-msgstr ""
+msgstr "Pomaknite prečicu prema dolje u vertikalnim prikazima ili desno u horizontalnim prikazima. U horizontalnim prikazima treća stavka menija je u sredini."
 
 msgctxt "#31723"
 msgid "Set action for the shortcut.  Choose from various preset selections.  For more control, you may manually enter a Custom action below."
-msgstr ""
+msgstr "Postavite radnju za prečicu. Birajte između različitih unaprijed postavljenih opcija. Za veću kontrolu, možete ručno unijeti prilagođenu radnju ispod."
 
 msgctxt "#31724"
 msgid "Set background image for the shortcut."
-msgstr ""
+msgstr "Postavite pozadinsku sliku za prečicu."
 
 msgctxt "#31725"
 msgid "Set label for the shortcut.  This is usually set automatically when selecting the shortcut, but it can be manually modified if you wish."
-msgstr ""
+msgstr "Postavite oznaku za prečicu. Ovo se obično postavlja automatski pri odabiru prečice, ali se može ručno izmijeniti ako želite."
 
 msgctxt "#31726"
 msgid "Select widget for the shortcut.  Widgets are built-in info scripts that perform various tasks or display useful menus. Some widgets have been set by default but can be changed or removed."
-msgstr ""
+msgstr "Odaberite widget za prečicu. Widgeti su ugrađene info skripte koje obavljaju različite zadatke ili prikazuju korisne menije. Neki widgeti su postavljeni prema zadanim postavkama, ali se mogu promijeniti ili ukloniti."
 
 msgctxt "#31727"
 msgid "Set a custom action for the shortcut.  This is used to override or edit the action taken by the shortcut."
-msgstr ""
+msgstr "Postavite prilagođenu radnju za prečicu. Ovo se koristi za poništavanje ili uređivanje radnje koju preduzima prečica."
 
 msgctxt "#31728"
 msgid "Customize submenu for the shortcut.  Submenus can be populated with custom commands, shortcuts, and/or favorites.  The submenu editor will look and operate almost exactly like the main menu editor."
-msgstr ""
+msgstr "Prilagodite podmeni za prečicu. Podmeniji se mogu popuniti prilagođenim naredbama, prečicama i/ili favoritima. Uređivač podmenija će izgledati i raditi gotovo identično kao uređivač glavnog menija."
 
 msgctxt "#31729"
 msgid "Close this window.  All changes made in the shortcut editor take effect instantly."
-msgstr ""
+msgstr "Zatvori ovaj prozor. Sve promjene napravljene u editoru prečica stupaju na snagu odmah."
 
 msgctxt "#31730"
 msgid "Create a new shortcut at the bottom of the list."
-msgstr ""
+msgstr "Kreirajte novu prečicu na dnu liste."
 
 msgctxt "#31731"
 msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
-msgstr ""
+msgstr "Vrati SVE prečice na zadane vrijednosti. Ovo će vratiti sve promjene u glavnom meniju ili podmenijima i ne može se poništiti."
 
 msgctxt "#31732"
 msgid "Are you sure you really want to remove the Settings shortcut?"
-msgstr ""
+msgstr "Jeste li sigurni da zaista želite ukloniti prečicu Postavke?"
 
 msgctxt "#31733"
 msgid "Enable or Disable the shortcut.  This will leave the menu item in this settings menu but hide it on the real main menu if disabled."
-msgstr ""
+msgstr "Omogući ili onemogući prečicu. Ovo će ostaviti stavku menija u ovom meniju postavki, ali će je sakriti u glavnom meniju ako je onemogućena."

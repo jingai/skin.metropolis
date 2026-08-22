@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-06-01 18:29+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2025-01-25 20:27+0000\n"
+"Last-Translator: Heiko Berner <berner.h@gmail.com>\n"
 "Language-Team: Afrikaans (South Africa) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-metropolis/af_za/>\n"
 "Language: af_za\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 msgctxt "Addon Summary"
 msgid "A Mix of Retro and Modern."
@@ -282,7 +282,7 @@ msgstr "Stel aksies op wat gedurende terugspeel gebruik kan word · Stel op hoe 
 
 msgctxt "#31212"
 msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
-msgstr "Bestuur jou geïnstalleerde byvoegsels · Blaai vir en installeer byvoegsels vanaf kodi.tv · Verander byvoegsel verstellings"
+msgstr "Bestuur jou geïnstalleerde byvoegsels · Blaai vir en installeer byvoegsels vanaf kodi.tv · Verander byvoegsel instellings"
 
 msgctxt "#31213"
 msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
@@ -305,7 +305,7 @@ msgstr ""
 # empty string with id 31219
 msgctxt "#31220"
 msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
-msgstr "Stel TV verstellings op · Verander vol skerm info · Bestuur EPG data verstellings"
+msgstr "Stel TV instellings op · Verander vol skerm info · Bestuur EPG data instellings"
 
 msgctxt "#31221"
 msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
@@ -454,7 +454,7 @@ msgstr ""
 
 msgctxt "#31334"
 msgid "Trailers"
-msgstr "Voorskoue"
+msgstr "Lokprente"
 
 # empty string with id 31335
 msgctxt "#31336"
@@ -772,11 +772,11 @@ msgstr ""
 
 msgctxt "#31419"
 msgid "Music Settings"
-msgstr ""
+msgstr "Musiek Instellings"
 
 msgctxt "#31420"
 msgid "Video Settings"
-msgstr "Video verstellings"
+msgstr "Video Instellings"
 
 msgctxt "#31421"
 msgid "Video OSD: Show ClearArt/Logo"
@@ -876,7 +876,7 @@ msgstr "Outo inteken"
 
 msgctxt "#31445"
 msgid "Picture Settings"
-msgstr ""
+msgstr "Beeld Instellings"
 
 msgctxt "#31446"
 msgid "Fullscreen"
