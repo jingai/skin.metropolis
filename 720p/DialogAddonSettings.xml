@@ -40,6 +40,17 @@
 				<onup>28</onup>
 				<ondown>28</ondown>
 			</control>
+			<control type="textbox" id="6">
+				<posx>300</posx>
+				<posy>665</posy>
+				<width>750</width>
+				<height>64</height>
+				<font>METF_PlotTextSmall</font>
+				<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
+				<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
+				<textcolor>LowerText</textcolor>
+				<align>justify</align>
+			</control>
 			<control type="button" id="7">
 				<description>Default Button</description>
 				<include>SettingsLabel</include>
